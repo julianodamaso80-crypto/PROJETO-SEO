@@ -1,6 +1,7 @@
 import { configure } from "@trigger.dev/sdk";
 
-// Configure Trigger.dev v3
-configure({
-  secretKey: process.env.TRIGGER_API_KEY,
-});
+export function initTrigger() {
+  configure({
+    secretKey: process.env.TRIGGER_API_KEY,
+  });
+}
