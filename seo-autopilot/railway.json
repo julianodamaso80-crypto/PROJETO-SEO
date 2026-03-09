@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "cp -r .next/static .next/standalone/.next/static 2>/dev/null; cp -r public .next/standalone/public 2>/dev/null; HOSTNAME=0.0.0.0 PORT=3000 node .next/standalone/server.js",
+    "startCommand": "cp -r .next/static .next/standalone/.next/static 2>/dev/null; cp -r public .next/standalone/public 2>/dev/null; node .next/standalone/server.js",
     "restartPolicyType": "ON_FAILURE"
   }
 }
