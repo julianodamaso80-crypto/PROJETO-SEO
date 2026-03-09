@@ -1,32 +1,21 @@
-import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import { generateText, MODELS } from "@/lib/ai";
+import { generateArticle } from "@/lib/pipeline";
 
-export async function POST(req: NextRequest) {
+export async function POST(req: Request) {
   const { userId } = await auth();
-  if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (!userId) return Response.json({ error: "Unauthorized" }, { status: 401 });
+
+  const { keyword, siteUrl, tone } = await req.json();
+
+  if (!keyword) {
+    return Response.json({ error: "keyword é obrigatório" }, { status: 400 });
   }
 
-  const body = await req.json();
-  const { keywordId, siteId } = body;
-
-  if (!keywordId || !siteId) {
-    return NextResponse.json(
-      { error: "keywordId and siteId are required" },
-      { status: 400 }
-    );
+  try {
+    const result = await generateArticle(keyword, siteUrl ?? "", tone ?? "profissional");
+    return Response.json({ success: true, article: result });
+  } catch (error: any) {
+    console.error("[generate] Erro:", error);
+    return Response.json({ error: error.message }, { status: 500 });
   }
-
-  // TODO: Criar job no Trigger.dev para gerar artigo
-  // TODO: Criar registro na tabela articles com status 'generating'
-  // TODO: Criar registro na tabela generation_jobs
-  // Exemplo de uso:
-  // const content = await generateText("Escreva um artigo sobre...", MODELS.smart);
-
-  return NextResponse.json({
-    message: "Article generation queued",
-    keywordId,
-    siteId,
-  });
 }

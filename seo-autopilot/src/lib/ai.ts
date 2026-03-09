@@ -22,6 +22,8 @@ export const MODELS = {
   cheap: "google/gemini-flash-1.5-8b",
 };
 
+export { getClient as openrouter };
+
 export async function generateText(prompt: string, model = MODELS.smart) {
   const client = getClient();
   const response = await client.chat.completions.create({
