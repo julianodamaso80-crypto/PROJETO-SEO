@@ -24,13 +24,8 @@ export function Sidebar() {
   return (
     <aside className="flex h-screen w-64 flex-col border-r border-neutral-800 bg-[#0f0f0f]">
       {/* Logo */}
-      <div className="flex h-14 items-center gap-2 border-b border-neutral-800 px-6">
-        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-500 text-sm font-bold text-white">
-          S
-        </div>
-        <span className="text-lg font-semibold text-white">
-          SEO Autopilot
-        </span>
+      <div className="flex h-14 items-center border-b border-neutral-800 px-6">
+        <img src="/logo.svg" alt="SEO Inteligente" className="h-8 w-auto" />
       </div>
 
       {/* Nav */}

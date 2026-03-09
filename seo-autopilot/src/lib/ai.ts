@@ -9,7 +9,7 @@ function getClient() {
       apiKey: process.env.OPENROUTER_API_KEY,
       defaultHeaders: {
         "HTTP-Referer": "https://projeto-seo-production.up.railway.app",
-        "X-Title": "SEO Autopilot",
+        "X-Title": "SEO Inteligente",
       },
     });
   }

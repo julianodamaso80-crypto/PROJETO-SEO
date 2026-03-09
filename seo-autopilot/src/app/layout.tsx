@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SEO Autopilot",
-  description: "Automacao de SEO com IA - Descubra, gere e publique conteudo otimizado",
+  title: "SEO Inteligente",
+  description: "Gere artigos SEO com IA e publique automaticamente",
+  icons: {
+    icon: { url: "/favicon.svg", type: "image/svg+xml" },
+  },
 };
 
 export default function RootLayout({

@@ -14,9 +14,9 @@ export default async function Home() {
         <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-600 text-2xl font-bold text-white">
           S
         </div>
-        <h1 className="mt-6 text-4xl font-bold text-gray-900">SEO Autopilot</h1>
+        <h1 className="mt-6 text-4xl font-bold text-gray-900">SEO Inteligente</h1>
         <p className="mt-3 text-lg text-gray-500">
-          Descubra, gere e publique conteudo SEO com IA
+          Gere artigos SEO com IA e publique automaticamente
         </p>
         <div className="mt-8 flex gap-3 justify-center">
           <a
