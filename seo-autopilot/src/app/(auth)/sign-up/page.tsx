@@ -56,92 +56,195 @@ export default function SignUpPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#0f0f0f]">
-      <div className="w-full max-w-md rounded-2xl border border-neutral-800 bg-[#1a1a1a] p-8">
-        <div className="mb-6 text-center">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-xl font-bold text-white">
-            S
-          </div>
-          <h1 className="mt-4 text-2xl font-bold text-white">Criar Conta</h1>
-          <p className="mt-1 text-sm text-neutral-400">
-            Comece a gerar artigos SEO com IA
+    <div style={{ display: "flex", minHeight: "100vh" }}>
+      {/* Left side — Marketing */}
+      <div
+        style={{
+          flex: 1,
+          background: "var(--bg-void)",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          position: "relative",
+          overflow: "hidden",
+          padding: "40px",
+        }}
+      >
+        {/* Orbs */}
+        <div
+          style={{
+            position: "absolute",
+            top: "20%",
+            right: "10%",
+            width: "400px",
+            height: "400px",
+            borderRadius: "50%",
+            background: "#00ff88",
+            opacity: 0.04,
+            filter: "blur(100px)",
+            animation: "float 6s ease-in-out infinite",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            bottom: "15%",
+            left: "5%",
+            width: "300px",
+            height: "300px",
+            borderRadius: "50%",
+            background: "#7c3aed",
+            opacity: 0.03,
+            filter: "blur(80px)",
+            animation: "float 7s ease-in-out infinite",
+            animationDelay: "3s",
+          }}
+        />
+
+        {/* Dot grid */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage: "radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px)",
+            backgroundSize: "40px 40px",
+          }}
+        />
+
+        <div style={{ position: "relative", zIndex: 1, textAlign: "center", maxWidth: "400px" }}>
+          <h2
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "36px",
+              fontWeight: 800,
+              color: "var(--text-primary)",
+              lineHeight: 1.1,
+            }}
+          >
+            Comece a ranquear
+            <br />
+            <span className="text-gradient">hoje mesmo</span>
+          </h2>
+          <p style={{ fontSize: "16px", color: "var(--text-secondary)", marginTop: "16px", lineHeight: 1.6 }}>
+            Crie sua conta e gere seu primeiro artigo SEO otimizado por IA em minutos.
           </p>
         </div>
+      </div>
 
-        {error && (
-          <div className="mb-4 rounded-lg bg-red-500/10 p-3 text-sm text-red-400">
-            {error}
-          </div>
-        )}
-
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label className="mb-1 block text-sm font-medium text-neutral-300">
-              Nome completo
-            </label>
-            <input
-              name="name"
-              type="text"
-              required
-              className="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-blue-500 focus:outline-none"
-              placeholder="Seu nome"
-            />
-          </div>
-
-          <div>
-            <label className="mb-1 block text-sm font-medium text-neutral-300">
-              Email
-            </label>
-            <input
-              name="email"
-              type="email"
-              required
-              className="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-blue-500 focus:outline-none"
-              placeholder="seu@email.com"
-            />
-          </div>
-
-          <div>
-            <label className="mb-1 block text-sm font-medium text-neutral-300">
-              WhatsApp
-            </label>
-            <input
-              name="whatsapp"
-              type="tel"
-              className="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-blue-500 focus:outline-none"
-              placeholder="(11) 99999-9999"
-            />
-          </div>
-
-          <div>
-            <label className="mb-1 block text-sm font-medium text-neutral-300">
-              Senha
-            </label>
-            <input
-              name="password"
-              type="password"
-              required
-              minLength={6}
-              className="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-blue-500 focus:outline-none"
-              placeholder="Minimo 6 caracteres"
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full rounded-lg bg-blue-600 py-2.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50 transition-colors"
+      {/* Right side — Form */}
+      <div
+        style={{
+          width: "50%",
+          maxWidth: "560px",
+          background: "var(--bg-deep)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "40px",
+        }}
+      >
+        <div className="animate-fade-up" style={{ width: "100%", maxWidth: "400px" }}>
+          {/* Logo */}
+          <div
+            style={{
+              width: "40px",
+              height: "40px",
+              borderRadius: "10px",
+              background: "var(--accent)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontFamily: "var(--font-display)",
+              fontWeight: 800,
+              fontSize: "18px",
+              color: "#000",
+              marginBottom: "24px",
+              boxShadow: "0 0 30px var(--accent-glow)",
+            }}
           >
-            {loading ? "Criando conta..." : "Criar Conta"}
-          </button>
-        </form>
+            S
+          </div>
 
-        <p className="mt-6 text-center text-sm text-neutral-400">
-          Ja tem conta?{" "}
-          <Link href="/sign-in" className="text-blue-400 hover:text-blue-300">
-            Entrar
-          </Link>
-        </p>
+          <h1
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "26px",
+              fontWeight: 700,
+              color: "var(--text-primary)",
+            }}
+          >
+            Criar Conta
+          </h1>
+          <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginTop: "4px", marginBottom: "32px" }}>
+            Comece a gerar artigos SEO com IA
+          </p>
+
+          {error && (
+            <div
+              style={{
+                background: "rgba(239,68,68,0.1)",
+                border: "1px solid rgba(239,68,68,0.2)",
+                borderRadius: "var(--radius)",
+                padding: "12px 16px",
+                fontSize: "13px",
+                color: "#ef4444",
+                marginBottom: "20px",
+              }}
+            >
+              {error}
+            </div>
+          )}
+
+          <form onSubmit={handleSubmit}>
+            <div style={{ marginBottom: "20px" }}>
+              <label style={{ display: "block", fontSize: "13px", color: "var(--text-secondary)", marginBottom: "6px" }}>
+                Nome completo
+              </label>
+              <input name="name" type="text" required className="input-dark" placeholder="Seu nome" />
+            </div>
+
+            <div style={{ marginBottom: "20px" }}>
+              <label style={{ display: "block", fontSize: "13px", color: "var(--text-secondary)", marginBottom: "6px" }}>
+                Email
+              </label>
+              <input name="email" type="email" required className="input-dark" placeholder="seu@email.com" />
+            </div>
+
+            <div style={{ marginBottom: "20px" }}>
+              <label style={{ display: "block", fontSize: "13px", color: "var(--text-secondary)", marginBottom: "6px" }}>
+                WhatsApp
+              </label>
+              <input name="whatsapp" type="tel" className="input-dark" placeholder="(11) 99999-9999" />
+            </div>
+
+            <div style={{ marginBottom: "28px" }}>
+              <label style={{ display: "block", fontSize: "13px", color: "var(--text-secondary)", marginBottom: "6px" }}>
+                Senha
+              </label>
+              <input name="password" type="password" required minLength={6} className="input-dark" placeholder="Mínimo 6 caracteres" />
+            </div>
+
+            <button
+              type="submit"
+              disabled={loading}
+              className="btn-accent"
+              style={{ width: "100%", justifyContent: "center" }}
+            >
+              {loading ? "Criando conta..." : "Criar Conta"}
+            </button>
+          </form>
+
+          <p style={{ textAlign: "center", fontSize: "14px", color: "var(--text-secondary)", marginTop: "28px" }}>
+            Já tem conta?{" "}
+            <Link
+              href="/sign-in"
+              style={{ color: "var(--accent)", textDecoration: "none", fontWeight: 500 }}
+            >
+              Entrar
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );

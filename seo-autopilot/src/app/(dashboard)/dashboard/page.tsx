@@ -1,71 +1,234 @@
-import { FileText, Zap, Globe, Send } from "lucide-react";
+"use client";
+
+import { useSession } from "next-auth/react";
+import { FileText, Users, TrendingUp } from "lucide-react";
 
 const stats = [
   {
-    label: "Total de Artigos",
-    value: "0",
+    label: "Artigos gerados",
+    value: "24",
     icon: FileText,
-    color: "bg-blue-500/10 text-blue-400",
+    trend: "+12%",
   },
   {
-    label: "Creditos Restantes",
-    value: "0",
-    icon: Zap,
-    color: "bg-emerald-500/10 text-emerald-400",
+    label: "Clientes ativos",
+    value: "8",
+    icon: Users,
+    trend: "+3",
   },
   {
-    label: "Sites Conectados",
-    value: "0",
-    icon: Globe,
-    color: "bg-purple-500/10 text-purple-400",
-  },
-  {
-    label: "Artigos Publicados",
-    value: "0",
-    icon: Send,
-    color: "bg-amber-500/10 text-amber-400",
+    label: "Keywords ranqueando",
+    value: "142",
+    icon: TrendingUp,
+    trend: "+28%",
   },
 ];
 
+const recentActivity = [
+  { text: "Artigo publicado: \"Como escolher o melhor CRM\"", time: "Há 2h" },
+  { text: "Novo cliente completou onboarding: Acme Corp", time: "Há 5h" },
+  { text: "12 keywords subiram de posição", time: "Há 8h" },
+  { text: "Artigo publicado: \"Guia de Marketing Digital 2026\"", time: "Há 1d" },
+];
+
 export default function DashboardPage() {
+  const { data: session } = useSession();
+  const firstName = session?.user?.name?.split(" ")[0] || "Usuário";
+
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-white">Dashboard</h1>
-        <p className="mt-1 text-sm text-neutral-400">
-          Visao geral da sua performance de SEO
+    <div style={{ position: "relative" }}>
+      {/* Background orb */}
+      <div
+        style={{
+          position: "absolute",
+          top: "-100px",
+          right: "-100px",
+          width: "400px",
+          height: "400px",
+          borderRadius: "50%",
+          background: "#00ff88",
+          opacity: 0.03,
+          filter: "blur(100px)",
+          pointerEvents: "none",
+        }}
+      />
+
+      {/* Header */}
+      <div className="animate-fade-up" style={{ marginBottom: "32px" }}>
+        <h1
+          style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "28px",
+            fontWeight: 700,
+            color: "var(--text-primary)",
+          }}
+        >
+          Bom dia, {firstName} 👋
+        </h1>
+        <p
+          style={{
+            fontSize: "14px",
+            color: "var(--text-secondary)",
+            marginTop: "4px",
+          }}
+        >
+          Aqui está o resumo da sua performance de SEO
         </p>
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {stats.map((stat) => (
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gap: "20px",
+          marginBottom: "32px",
+        }}
+      >
+        {stats.map((stat, i) => (
           <div
             key={stat.label}
-            className="rounded-xl border border-neutral-800 bg-[#1a1a1a] p-5"
+            className={`glass animate-fade-up delay-${i + 1}`}
+            style={{ padding: "24px", cursor: "default" }}
           >
-            <div className="flex items-center gap-3">
-              <div className={`rounded-lg p-2 ${stat.color}`}>
-                <stat.icon className="h-5 w-5" />
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                marginBottom: "16px",
+              }}
+            >
+              <div
+                style={{
+                  width: "40px",
+                  height: "40px",
+                  borderRadius: "10px",
+                  background: "var(--accent-dim)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: "var(--accent)",
+                }}
+              >
+                <stat.icon size={20} />
               </div>
-              <div>
-                <p className="text-2xl font-bold text-white">{stat.value}</p>
-                <p className="text-sm text-neutral-400">{stat.label}</p>
-              </div>
+              <span
+                style={{
+                  fontSize: "12px",
+                  fontWeight: 600,
+                  color: "var(--accent)",
+                  background: "var(--accent-dim)",
+                  padding: "4px 10px",
+                  borderRadius: "99px",
+                }}
+              >
+                {stat.trend}
+              </span>
             </div>
+            <div
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "36px",
+                fontWeight: 800,
+                color: "var(--text-primary)",
+                lineHeight: 1,
+              }}
+            >
+              {stat.value}
+            </div>
+            <div
+              style={{
+                fontSize: "13px",
+                color: "var(--text-secondary)",
+                marginTop: "6px",
+              }}
+            >
+              {stat.label}
+            </div>
+            {/* Fake trend line */}
+            <svg
+              viewBox="0 0 200 40"
+              style={{ width: "100%", height: "32px", marginTop: "16px" }}
+            >
+              <polyline
+                points="0,35 30,28 60,30 90,18 120,22 150,10 180,14 200,5"
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                opacity="0.5"
+              />
+              <polyline
+                points="0,35 30,28 60,30 90,18 120,22 150,10 180,14 200,5"
+                fill="url(#greenGradient)"
+                stroke="none"
+                opacity="0.1"
+              />
+              <defs>
+                <linearGradient id="greenGradient" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="var(--accent)" />
+                  <stop offset="100%" stopColor="transparent" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
         ))}
       </div>
 
-      {/* Recent Articles */}
-      <div className="rounded-xl border border-neutral-800 bg-[#1a1a1a]">
-        <div className="flex items-center justify-between border-b border-neutral-800 p-5">
-          <h2 className="text-lg font-semibold text-white">
-            Artigos Recentes
-          </h2>
-        </div>
-        <div className="p-8 text-center text-sm text-neutral-500">
-          Nenhum artigo ainda. Descubra keywords e gere seu primeiro artigo.
+      {/* Recent Activity */}
+      <div className="animate-fade-up delay-4">
+        <h2
+          style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "18px",
+            fontWeight: 700,
+            color: "var(--text-primary)",
+            marginBottom: "16px",
+          }}
+        >
+          Atividade recente
+        </h2>
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          {recentActivity.map((item, i) => (
+            <div
+              key={i}
+              className={`glass animate-fade-up delay-${Math.min(i + 3, 5)}`}
+              style={{
+                padding: "16px 20px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                cursor: "default",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                <div
+                  style={{
+                    width: "8px",
+                    height: "8px",
+                    borderRadius: "50%",
+                    background: "var(--accent)",
+                    flexShrink: 0,
+                  }}
+                />
+                <span style={{ fontSize: "14px", color: "var(--text-primary)" }}>
+                  {item.text}
+                </span>
+              </div>
+              <span
+                style={{
+                  fontSize: "12px",
+                  color: "var(--text-muted)",
+                  whiteSpace: "nowrap",
+                  marginLeft: "16px",
+                }}
+              >
+                {item.time}
+              </span>
+            </div>
+          ))}
         </div>
       </div>
     </div>

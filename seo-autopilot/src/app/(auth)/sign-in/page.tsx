@@ -35,66 +35,207 @@ export default function SignInPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#0f0f0f]">
-      <div className="w-full max-w-md rounded-2xl border border-neutral-800 bg-[#1a1a1a] p-8">
-        <div className="mb-6 text-center">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-xl font-bold text-white">
-            S
-          </div>
-          <h1 className="mt-4 text-2xl font-bold text-white">Entrar</h1>
-          <p className="mt-1 text-sm text-neutral-400">
-            Acesse sua conta SEO Inteligente
+    <div style={{ display: "flex", minHeight: "100vh" }}>
+      {/* Left side — Marketing */}
+      <div
+        style={{
+          flex: 1,
+          background: "var(--bg-void)",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          position: "relative",
+          overflow: "hidden",
+          padding: "40px",
+        }}
+      >
+        {/* Orbs */}
+        <div
+          style={{
+            position: "absolute",
+            top: "10%",
+            left: "10%",
+            width: "400px",
+            height: "400px",
+            borderRadius: "50%",
+            background: "#00ff88",
+            opacity: 0.04,
+            filter: "blur(100px)",
+            animation: "float 6s ease-in-out infinite",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            bottom: "10%",
+            right: "10%",
+            width: "300px",
+            height: "300px",
+            borderRadius: "50%",
+            background: "#0ea5e9",
+            opacity: 0.03,
+            filter: "blur(80px)",
+            animation: "float 8s ease-in-out infinite",
+            animationDelay: "2s",
+          }}
+        />
+
+        {/* Dot grid */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage: "radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px)",
+            backgroundSize: "40px 40px",
+          }}
+        />
+
+        <div style={{ position: "relative", zIndex: 1, textAlign: "center", maxWidth: "400px" }}>
+          <h2
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "36px",
+              fontWeight: 800,
+              color: "var(--text-primary)",
+              lineHeight: 1.1,
+            }}
+          >
+            SEO que trabalha
+            <br />
+            <span className="text-gradient">enquanto você dorme</span>
+          </h2>
+          <p style={{ fontSize: "16px", color: "var(--text-secondary)", marginTop: "16px", lineHeight: 1.6 }}>
+            Artigos otimizados por IA, publicados automaticamente. Ranqueie no Google sem esforço.
           </p>
         </div>
+      </div>
 
-        {error && (
-          <div className="mb-4 rounded-lg bg-red-500/10 p-3 text-sm text-red-400">
-            {error}
-          </div>
-        )}
-
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label className="mb-1 block text-sm font-medium text-neutral-300">
-              Email
-            </label>
-            <input
-              name="email"
-              type="email"
-              required
-              className="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-blue-500 focus:outline-none"
-              placeholder="seu@email.com"
-            />
-          </div>
-
-          <div>
-            <label className="mb-1 block text-sm font-medium text-neutral-300">
-              Senha
-            </label>
-            <input
-              name="password"
-              type="password"
-              required
-              className="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-blue-500 focus:outline-none"
-              placeholder="Sua senha"
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full rounded-lg bg-blue-600 py-2.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50 transition-colors"
+      {/* Right side — Form */}
+      <div
+        style={{
+          width: "50%",
+          maxWidth: "560px",
+          background: "var(--bg-deep)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "40px",
+        }}
+      >
+        <div className="animate-fade-up" style={{ width: "100%", maxWidth: "400px" }}>
+          {/* Logo */}
+          <div
+            style={{
+              width: "40px",
+              height: "40px",
+              borderRadius: "10px",
+              background: "var(--accent)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontFamily: "var(--font-display)",
+              fontWeight: 800,
+              fontSize: "18px",
+              color: "#000",
+              marginBottom: "24px",
+              boxShadow: "0 0 30px var(--accent-glow)",
+            }}
           >
-            {loading ? "Entrando..." : "Entrar"}
-          </button>
-        </form>
+            S
+          </div>
 
-        <p className="mt-6 text-center text-sm text-neutral-400">
-          Nao tem conta?{" "}
-          <Link href="/sign-up" className="text-blue-400 hover:text-blue-300">
-            Criar Conta
-          </Link>
-        </p>
+          <h1
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "26px",
+              fontWeight: 700,
+              color: "var(--text-primary)",
+            }}
+          >
+            Entrar
+          </h1>
+          <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginTop: "4px", marginBottom: "32px" }}>
+            Acesse sua conta SEO Inteligente
+          </p>
+
+          {error && (
+            <div
+              style={{
+                background: "rgba(239,68,68,0.1)",
+                border: "1px solid rgba(239,68,68,0.2)",
+                borderRadius: "var(--radius)",
+                padding: "12px 16px",
+                fontSize: "13px",
+                color: "#ef4444",
+                marginBottom: "20px",
+              }}
+            >
+              {error}
+            </div>
+          )}
+
+          <form onSubmit={handleSubmit}>
+            <div style={{ marginBottom: "20px" }}>
+              <label
+                style={{
+                  display: "block",
+                  fontSize: "13px",
+                  color: "var(--text-secondary)",
+                  marginBottom: "6px",
+                }}
+              >
+                Email
+              </label>
+              <input
+                name="email"
+                type="email"
+                required
+                className="input-dark"
+                placeholder="seu@email.com"
+              />
+            </div>
+
+            <div style={{ marginBottom: "28px" }}>
+              <label
+                style={{
+                  display: "block",
+                  fontSize: "13px",
+                  color: "var(--text-secondary)",
+                  marginBottom: "6px",
+                }}
+              >
+                Senha
+              </label>
+              <input
+                name="password"
+                type="password"
+                required
+                className="input-dark"
+                placeholder="Sua senha"
+              />
+            </div>
+
+            <button
+              type="submit"
+              disabled={loading}
+              className="btn-accent"
+              style={{ width: "100%", justifyContent: "center" }}
+            >
+              {loading ? "Entrando..." : "Entrar"}
+            </button>
+          </form>
+
+          <p style={{ textAlign: "center", fontSize: "14px", color: "var(--text-secondary)", marginTop: "28px" }}>
+            Não tem conta?{" "}
+            <Link
+              href="/sign-up"
+              style={{ color: "var(--accent)", textDecoration: "none", fontWeight: 500 }}
+            >
+              Criar Conta
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );

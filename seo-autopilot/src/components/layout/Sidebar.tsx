@@ -2,65 +2,213 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useSession, signOut } from "next-auth/react";
 import {
   LayoutDashboard,
   Users,
   FileText,
   Settings,
+  LogOut,
 } from "lucide-react";
 
 const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/clients", label: "Clientes", icon: Users },
+  { href: "/clients", label: "Clientes", icon: Users, badge: "Novo" },
   { href: "/articles", label: "Articles", icon: FileText },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
 export function Sidebar() {
   const pathname = usePathname();
+  const { data: session } = useSession();
 
   return (
-    <aside className="flex h-screen w-64 flex-col border-r border-neutral-800 bg-[#0f0f0f]">
+    <aside
+      style={{
+        width: "240px",
+        height: "100vh",
+        background: "var(--bg-deep)",
+        borderRight: "1px solid var(--border)",
+        display: "flex",
+        flexDirection: "column",
+        flexShrink: 0,
+      }}
+    >
       {/* Logo */}
-      <div className="flex h-14 items-center border-b border-neutral-800 px-6">
-        <img src="/logo.svg" alt="SEO Inteligente" className="h-8 w-auto" />
+      <div
+        style={{
+          padding: "20px 20px 16px",
+          display: "flex",
+          alignItems: "center",
+          gap: "12px",
+        }}
+      >
+        <div
+          style={{
+            width: "32px",
+            height: "32px",
+            borderRadius: "8px",
+            background: "var(--accent)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontFamily: "var(--font-display)",
+            fontWeight: 800,
+            fontSize: "16px",
+            color: "#000",
+            flexShrink: 0,
+          }}
+        >
+          S
+        </div>
+        <span
+          style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 700,
+            fontSize: "15px",
+            color: "var(--text-primary)",
+          }}
+        >
+          SEO Inteligente
+        </span>
       </div>
 
       {/* Nav */}
-      <nav className="flex-1 space-y-1 px-3 py-4">
+      <nav style={{ flex: 1, padding: "8px 12px" }}>
         {navItems.map((item) => {
           const isActive = pathname.startsWith(item.href);
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
-                isActive
-                  ? "bg-neutral-800 text-white"
-                  : "text-neutral-400 hover:bg-neutral-800/50 hover:text-white"
-              }`}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "12px",
+                padding: "10px 12px",
+                borderRadius: "10px",
+                fontSize: "14px",
+                fontWeight: 500,
+                color: isActive ? "var(--accent)" : "var(--text-secondary)",
+                background: isActive ? "var(--accent-dim)" : "transparent",
+                borderLeft: isActive ? "2px solid var(--accent)" : "2px solid transparent",
+                textDecoration: "none",
+                transition: "all 0.2s cubic-bezier(0.23, 1, 0.32, 1)",
+                marginBottom: "4px",
+                position: "relative",
+              }}
+              onMouseEnter={(e) => {
+                if (!isActive) {
+                  e.currentTarget.style.background = "var(--bg-glass)";
+                  e.currentTarget.style.color = "var(--text-primary)";
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!isActive) {
+                  e.currentTarget.style.background = "transparent";
+                  e.currentTarget.style.color = "var(--text-secondary)";
+                }
+              }}
             >
-              <item.icon className="h-5 w-5" />
-              {item.label}
+              <item.icon size={18} />
+              <span>{item.label}</span>
+              {item.badge && (
+                <span
+                  style={{
+                    marginLeft: "auto",
+                    fontSize: "10px",
+                    fontWeight: 700,
+                    fontFamily: "var(--font-display)",
+                    color: "#000",
+                    background: "var(--accent)",
+                    padding: "2px 8px",
+                    borderRadius: "99px",
+                    animation: "pulse-glow 2s ease-in-out infinite",
+                  }}
+                >
+                  {item.badge}
+                </span>
+              )}
             </Link>
           );
         })}
       </nav>
 
-      {/* Credits footer */}
-      <div className="border-t border-neutral-800 p-4">
-        <div className="rounded-lg bg-neutral-800/50 p-3">
-          <p className="text-xs font-medium text-neutral-500">Creditos</p>
-          <div className="mt-1 flex items-baseline gap-1">
-            <span className="text-lg font-semibold text-white">0</span>
-            <span className="text-sm text-neutral-500">/ 0</span>
+      {/* User info */}
+      <div style={{ padding: "12px" }}>
+        <div
+          className="glass"
+          style={{
+            padding: "14px",
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+            cursor: "default",
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.transform = "none"; }}
+        >
+          <div
+            style={{
+              width: "32px",
+              height: "32px",
+              borderRadius: "50%",
+              background: "var(--accent-dim)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "var(--accent)",
+              fontFamily: "var(--font-display)",
+              fontWeight: 700,
+              fontSize: "13px",
+              flexShrink: 0,
+            }}
+          >
+            {session?.user?.name?.[0]?.toUpperCase() || "U"}
           </div>
-          <div className="mt-2 h-1.5 w-full rounded-full bg-neutral-700">
+          <div style={{ flex: 1, minWidth: 0 }}>
             <div
-              className="h-1.5 rounded-full bg-emerald-500"
-              style={{ width: "0%" }}
-            />
+              style={{
+                fontSize: "13px",
+                fontWeight: 500,
+                color: "var(--text-primary)",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {session?.user?.name || "Usuário"}
+            </div>
+            <div
+              style={{
+                fontSize: "11px",
+                color: "var(--text-muted)",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {session?.user?.email || ""}
+            </div>
           </div>
+          <button
+            onClick={() => signOut({ callbackUrl: "/" })}
+            title="Sair"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              color: "var(--text-muted)",
+              padding: "4px",
+              borderRadius: "6px",
+              transition: "color 0.2s ease",
+              display: "flex",
+              alignItems: "center",
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-muted)"; }}
+          >
+            <LogOut size={15} />
+          </button>
         </div>
       </div>
     </aside>
