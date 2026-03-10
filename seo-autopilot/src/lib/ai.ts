@@ -17,9 +17,9 @@ function getClient() {
 }
 
 export const MODELS = {
-  fast: "google/gemini-flash-1.5",
-  smart: "anthropic/claude-sonnet-4-5",
-  cheap: "google/gemini-flash-1.5-8b",
+  fast: "google/gemini-2.0-flash-001",
+  smart: "anthropic/claude-sonnet-4",
+  cheap: "google/gemini-2.0-flash-lite-001",
 };
 
 export { getClient as openrouter };

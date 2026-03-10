@@ -2,12 +2,25 @@ import {
   pgTable,
   uuid,
   text,
+  serial,
+  varchar,
   integer,
   boolean,
   timestamp,
   decimal,
   jsonb,
 } from "drizzle-orm/pg-core";
+
+// ─── Users ────────────────────────────────────────────────────
+export const users = pgTable("users", {
+  id: serial("id").primaryKey(),
+  name: varchar("name", { length: 255 }).notNull(),
+  email: varchar("email", { length: 255 }).notNull().unique(),
+  whatsapp: varchar("whatsapp", { length: 20 }),
+  password: varchar("password", { length: 255 }).notNull(),
+  role: varchar("role", { length: 20 }).default("user"),
+  createdAt: timestamp("created_at").defaultNow(),
+});
 
 // ─── Workspaces ────────────────────────────────────────────────
 export const workspaces = pgTable("workspaces", {

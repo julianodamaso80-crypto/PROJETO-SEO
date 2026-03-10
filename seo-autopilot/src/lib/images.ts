@@ -7,7 +7,7 @@ async function generatePollinations(keyword: string): Promise<string> {
 
   // Testa se a URL responde em até 10 segundos
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 10000);
+  const timeout = setTimeout(() => controller.abort(), 20000);
 
   const res = await fetch(url, { signal: controller.signal });
   clearTimeout(timeout);

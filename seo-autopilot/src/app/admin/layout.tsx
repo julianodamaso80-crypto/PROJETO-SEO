@@ -1,4 +1,4 @@
-import { currentUser } from "@clerk/nextjs/server";
+import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { isAdmin } from "@/lib/admin";
 import Link from "next/link";
@@ -8,9 +8,9 @@ export default async function AdminLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const user = await currentUser();
+  const session = await auth();
 
-  if (!user || !isAdmin(user.emailAddresses[0]?.emailAddress)) {
+  if (!session?.user || !isAdmin(session.user.email)) {
     redirect("/dashboard");
   }
 
