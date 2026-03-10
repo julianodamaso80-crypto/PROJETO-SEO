@@ -55,13 +55,21 @@ export default function ClientsPage() {
     setGenerating(true);
     try {
       const res = await fetch("/api/onboarding/create", { method: "POST" });
-      if (res.ok) {
-        const data = await res.json();
+      const data = await res.json();
+      if (!res.ok) {
+        alert(`Erro ao gerar link: ${data.error || res.statusText}`);
+        return;
+      }
+      try {
         await navigator.clipboard.writeText(data.url);
         setCopied(true);
         setTimeout(() => setCopied(false), 3000);
-        fetchEntries();
+      } catch {
+        prompt("Copie o link abaixo:", data.url);
       }
+      fetchEntries();
+    } catch (err) {
+      alert(`Erro de rede: ${err}`);
     } finally {
       setGenerating(false);
     }
