@@ -4,18 +4,16 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
-  Search,
+  Users,
   FileText,
   Settings,
-  CreditCard,
 } from "lucide-react";
 
 const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/discover", label: "Discover", icon: Search },
+  { href: "/clients", label: "Clientes", icon: Users },
   { href: "/articles", label: "Articles", icon: FileText },
   { href: "/settings", label: "Settings", icon: Settings },
-  { href: "/billing", label: "Billing", icon: CreditCard },
 ];
 
 export function Sidebar() {

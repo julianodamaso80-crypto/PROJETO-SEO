@@ -8,10 +8,9 @@ export default auth;
 export const config = {
   matcher: [
     "/dashboard(.*)",
-    "/discover(.*)",
+    "/clients(.*)",
     "/articles(.*)",
     "/settings(.*)",
-    "/billing(.*)",
     "/admin(.*)",
   ],
 };

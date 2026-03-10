@@ -137,6 +137,33 @@ export const articles = pgTable("articles", {
   updatedAt: timestamp("updated_at", { withTimezone: true }).defaultNow().notNull(),
 });
 
+// ─── Client Onboarding ────────────────────────────────────────
+export const clientOnboarding = pgTable("client_onboarding", {
+  id: serial("id").primaryKey(),
+  token: varchar("token", { length: 64 }).notNull().unique(),
+  createdBy: integer("created_by").references(() => users.id),
+  clientName: varchar("client_name", { length: 255 }),
+  clientEmail: varchar("client_email", { length: 255 }),
+  siteUrl: varchar("site_url", { length: 500 }),
+  hasSite: boolean("has_site").default(false),
+  businessName: varchar("business_name", { length: 255 }),
+  businessDescription: text("business_description"),
+  mainProduct: text("main_product"),
+  targetAudience: text("target_audience"),
+  location: varchar("location", { length: 255 }),
+  competitors: text("competitors"),
+  competitorUrls: text("competitor_urls"),
+  keywords: text("keywords"),
+  contentGoal: varchar("content_goal", { length: 100 }),
+  tone: varchar("tone", { length: 100 }),
+  differentials: text("differentials"),
+  monthlyBudget: varchar("monthly_budget", { length: 100 }),
+  extraInfo: text("extra_info"),
+  status: varchar("status", { length: 20 }).default("pending"),
+  completedAt: timestamp("completed_at"),
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
 // ─── Jobs (generation pipeline tracking) ───────────────────────
 export const jobs = pgTable("jobs", {
   id: uuid("id").primaryKey().defaultRandom(),
