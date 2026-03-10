@@ -5,10 +5,11 @@ import { useParams } from "next/navigation";
 import { CheckCircle } from "lucide-react";
 
 const steps = [
-  "Sobre o Negócio",
-  "Presença Online",
-  "SEO e Conteúdo",
-  "Finalização",
+  "Negócio",
+  "Serviços",
+  "Online",
+  "SEO",
+  "Entrega",
 ];
 
 interface FormData {
@@ -16,17 +17,24 @@ interface FormData {
   clientEmail: string;
   businessName: string;
   businessDescription: string;
+  b2bOrB2c: string;
+  yearsInBusiness: string;
+  clientsServed: string;
   mainProduct: string;
   targetAudience: string;
   location: string;
   hasSite: boolean;
   siteUrl: string;
+  hasBlog: boolean;
   competitors: string;
-  competitorUrls: string;
-  keywords: string;
+  differentials: string;
+  clientQuestions: string;
+  clientProblem: string;
+  certifications: string;
   contentGoal: string;
   tone: string;
-  differentials: string;
+  contactMethod: string;
+  seasonality: string;
   monthlyBudget: string;
   extraInfo: string;
 }
@@ -36,17 +44,24 @@ const initialData: FormData = {
   clientEmail: "",
   businessName: "",
   businessDescription: "",
+  b2bOrB2c: "",
+  yearsInBusiness: "",
+  clientsServed: "",
   mainProduct: "",
   targetAudience: "",
   location: "",
   hasSite: false,
   siteUrl: "",
+  hasBlog: false,
   competitors: "",
-  competitorUrls: "",
-  keywords: "",
+  differentials: "",
+  clientQuestions: "",
+  clientProblem: "",
+  certifications: "",
   contentGoal: "",
   tone: "",
-  differentials: "",
+  contactMethod: "",
+  seasonality: "",
   monthlyBudget: "",
   extraInfo: "",
 };
@@ -133,7 +148,7 @@ export default function OnboardingPage() {
       <div className="mb-8">
         <div className="flex items-center justify-between mb-2">
           {steps.map((label, i) => (
-            <div key={label} className="flex items-center gap-2">
+            <div key={label} className="flex items-center gap-1.5">
               <div
                 className={`flex h-8 w-8 items-center justify-center rounded-full text-sm font-semibold ${
                   i <= step
@@ -143,7 +158,7 @@ export default function OnboardingPage() {
               >
                 {i + 1}
               </div>
-              <span className={`hidden sm:block text-sm ${i <= step ? "text-gray-800 font-medium" : "text-gray-400"}`}>
+              <span className={`hidden sm:block text-xs ${i <= step ? "text-gray-800 font-medium" : "text-gray-400"}`}>
                 {label}
               </span>
             </div>
@@ -157,71 +172,137 @@ export default function OnboardingPage() {
         </div>
       </div>
 
-      {/* Step 1 */}
+      {/* Step 1 — Sobre o Negócio */}
       {step === 0 && (
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-gray-800">Sobre o Negócio</h2>
-          <Input label="Seu nome completo" value={form.clientName} onChange={(v) => update("clientName", v)} />
-          <Input label="Seu email" type="email" value={form.clientEmail} onChange={(v) => update("clientEmail", v)} />
-          <Input label="Nome da empresa/negócio" value={form.businessName} onChange={(v) => update("businessName", v)} />
-          <Textarea label="Descreva seu negócio em poucas palavras" value={form.businessDescription} onChange={(v) => update("businessDescription", v)} />
-          <Textarea label="Qual seu principal produto ou serviço?" value={form.mainProduct} onChange={(v) => update("mainProduct", v)} />
-          <Textarea label="Quem é seu público-alvo?" value={form.targetAudience} onChange={(v) => update("targetAudience", v)} />
-          <Input label="Cidade/região de atuação" value={form.location} onChange={(v) => update("location", v)} />
+          <Input label="Seu nome completo *" value={form.clientName} onChange={(v) => update("clientName", v)} />
+          <Input label="Seu email *" type="email" value={form.clientEmail} onChange={(v) => update("clientEmail", v)} />
+          <Input label="Nome da empresa ou negócio *" value={form.businessName} onChange={(v) => update("businessName", v)} />
+          <Textarea label="Descreva seu negócio em 2 linhas *" value={form.businessDescription} onChange={(v) => update("businessDescription", v)} />
+          <Select
+            label="Você atende empresas ou pessoas físicas?"
+            value={form.b2bOrB2c}
+            onChange={(v) => update("b2bOrB2c", v)}
+            options={[
+              { value: "", label: "Selecione..." },
+              { value: "B2C", label: "Pessoas físicas (B2C)" },
+              { value: "B2B", label: "Empresas (B2B)" },
+              { value: "Ambos", label: "Os dois" },
+            ]}
+          />
+          <Select
+            label="Há quantos anos está no mercado?"
+            value={form.yearsInBusiness}
+            onChange={(v) => update("yearsInBusiness", v)}
+            options={[
+              { value: "", label: "Selecione..." },
+              { value: "Menos de 1 ano", label: "Menos de 1 ano" },
+              { value: "1 a 3 anos", label: "1 a 3 anos" },
+              { value: "3 a 5 anos", label: "3 a 5 anos" },
+              { value: "Mais de 5 anos", label: "Mais de 5 anos" },
+            ]}
+          />
+          <Select
+            label="Quantos clientes já atendeu aproximadamente?"
+            value={form.clientsServed}
+            onChange={(v) => update("clientsServed", v)}
+            options={[
+              { value: "", label: "Selecione..." },
+              { value: "Menos de 50", label: "Menos de 50" },
+              { value: "50 a 200", label: "50 a 200" },
+              { value: "200 a 500", label: "200 a 500" },
+              { value: "Mais de 500", label: "Mais de 500" },
+            ]}
+          />
         </div>
       )}
 
-      {/* Step 2 */}
+      {/* Step 2 — Serviços e Público */}
       {step === 1 && (
         <div className="space-y-4">
+          <h2 className="text-xl font-bold text-gray-800">Serviços e Público</h2>
+          <Textarea
+            label="Liste seus principais serviços ou produtos, um por linha *"
+            value={form.mainProduct}
+            onChange={(v) => update("mainProduct", v)}
+            placeholder={"Ex:\nConsultoria de marketing\nGestão de redes sociais\nCriação de sites"}
+            rows={5}
+          />
+          <Textarea
+            label="Quem é seu cliente ideal? Descreva: cargo, faixa etária, problema principal *"
+            value={form.targetAudience}
+            onChange={(v) => update("targetAudience", v)}
+          />
+          <Select
+            label="Onde você atende?"
+            value={form.location}
+            onChange={(v) => update("location", v)}
+            options={[
+              { value: "", label: "Selecione..." },
+              { value: "Só minha cidade", label: "Só minha cidade" },
+              { value: "Meu estado", label: "Meu estado" },
+              { value: "Brasil todo", label: "Brasil todo" },
+              { value: "Internacional", label: "Internacional" },
+            ]}
+          />
+        </div>
+      )}
+
+      {/* Step 3 — Presença Online */}
+      {step === 2 && (
+        <div className="space-y-4">
           <h2 className="text-xl font-bold text-gray-800">Presença Online</h2>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Você já tem um site?</label>
-            <div className="flex gap-4">
-              <button
-                onClick={() => update("hasSite", true)}
-                className={`rounded-lg px-6 py-2 text-sm font-medium border transition-colors ${
-                  form.hasSite
-                    ? "bg-emerald-500 text-white border-emerald-500"
-                    : "bg-white text-gray-600 border-gray-300 hover:border-emerald-400"
-                }`}
-              >
-                Sim
-              </button>
-              <button
-                onClick={() => { update("hasSite", false); update("siteUrl", ""); }}
-                className={`rounded-lg px-6 py-2 text-sm font-medium border transition-colors ${
-                  !form.hasSite
-                    ? "bg-emerald-500 text-white border-emerald-500"
-                    : "bg-white text-gray-600 border-gray-300 hover:border-emerald-400"
-                }`}
-              >
-                Não
-              </button>
-            </div>
-          </div>
+          <Toggle label="Você já tem um site?" value={form.hasSite} onChange={(v) => { update("hasSite", v); if (!v) update("siteUrl", ""); }} />
           {form.hasSite && (
             <Input label="Qual a URL do seu site?" value={form.siteUrl} onChange={(v) => update("siteUrl", v)} placeholder="https://..." />
           )}
-          <Textarea label="Você conhece concorrentes? Liste os nomes" value={form.competitors} onChange={(v) => update("competitors", v)} />
-          <Textarea label="URLs dos concorrentes (se souber)" value={form.competitorUrls} onChange={(v) => update("competitorUrls", v)} placeholder="https://concorrente1.com, https://concorrente2.com" />
+          <Toggle label="Você já tem blog ou artigos publicados?" value={form.hasBlog} onChange={(v) => update("hasBlog", v)} />
+          <Textarea
+            label="Cite até 3 concorrentes que você admira ou perde clientes para"
+            value={form.competitors}
+            onChange={(v) => update("competitors", v)}
+            placeholder="Um por linha"
+          />
+          <Textarea
+            label="O que você faz MELHOR que esses concorrentes? Seja específico *"
+            value={form.differentials}
+            onChange={(v) => update("differentials", v)}
+          />
         </div>
       )}
 
-      {/* Step 3 */}
-      {step === 2 && (
+      {/* Step 4 — SEO e Conteúdo */}
+      {step === 3 && (
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-gray-800">SEO e Conteúdo</h2>
-          <Textarea label="Quais palavras-chave você acha que seus clientes pesquisam?" value={form.keywords} onChange={(v) => update("keywords", v)} />
+          <Textarea
+            label="Quais as 5 perguntas que seus clientes fazem ANTES de te contratar? *"
+            value={form.clientQuestions}
+            onChange={(v) => update("clientQuestions", v)}
+            placeholder={"Uma pergunta por linha. Ex:\nQual o prazo de entrega?\nVocê atende fora do estado?\nQuanto custa?"}
+            rows={5}
+          />
+          <Textarea
+            label="Qual o problema principal que seu cliente quer resolver quando te procura? *"
+            value={form.clientProblem}
+            onChange={(v) => update("clientProblem", v)}
+          />
+          <Textarea
+            label="Você tem certificações, prêmios ou reconhecimentos? Liste"
+            value={form.certifications}
+            onChange={(v) => update("certifications", v)}
+            placeholder="Ex: Certificado Google Ads, Prêmio Top 10 do setor, 500 avaliações 5 estrelas"
+          />
           <Select
-            label="Qual o objetivo do conteúdo?"
+            label="Objetivo do conteúdo"
             value={form.contentGoal}
             onChange={(v) => update("contentGoal", v)}
             options={[
               { value: "", label: "Selecione..." },
               { value: "Gerar leads", label: "Gerar leads" },
-              { value: "Vender produtos", label: "Vender produtos" },
-              { value: "Informar/educar", label: "Informar/educar" },
+              { value: "Vender produtos direto", label: "Vender produtos direto" },
+              { value: "Educar e informar", label: "Educar e informar" },
               { value: "Fortalecer marca", label: "Fortalecer marca" },
             ]}
           />
@@ -231,20 +312,38 @@ export default function OnboardingPage() {
             onChange={(v) => update("tone", v)}
             options={[
               { value: "", label: "Selecione..." },
-              { value: "Profissional", label: "Profissional" },
-              { value: "Descontraído", label: "Descontraído" },
-              { value: "Técnico", label: "Técnico" },
-              { value: "Inspiracional", label: "Inspiracional" },
+              { value: "Profissional e formal", label: "Profissional e formal" },
+              { value: "Descontraído e próximo", label: "Descontraído e próximo" },
+              { value: "Técnico e especialista", label: "Técnico e especialista" },
+              { value: "Inspiracional e motivador", label: "Inspiracional e motivador" },
             ]}
           />
-          <Textarea label="Quais são seus diferenciais?" value={form.differentials} onChange={(v) => update("differentials", v)} />
         </div>
       )}
 
-      {/* Step 4 */}
-      {step === 3 && (
+      {/* Step 5 — Conversão e Entrega */}
+      {step === 4 && (
         <div className="space-y-4">
-          <h2 className="text-xl font-bold text-gray-800">Finalização</h2>
+          <h2 className="text-xl font-bold text-gray-800">Conversão e Entrega</h2>
+          <Select
+            label="Como seu cliente entra em contato com você?"
+            value={form.contactMethod}
+            onChange={(v) => update("contactMethod", v)}
+            options={[
+              { value: "", label: "Selecione..." },
+              { value: "WhatsApp", label: "WhatsApp" },
+              { value: "Formulário no site", label: "Formulário no site" },
+              { value: "Telefone", label: "Telefone" },
+              { value: "E-commerce", label: "Compra online (e-commerce)" },
+              { value: "Email", label: "Email" },
+            ]}
+          />
+          <Textarea
+            label="Tem época do ano com mais ou menos demanda? Qual?"
+            value={form.seasonality}
+            onChange={(v) => update("seasonality", v)}
+            placeholder="Ex: Dezembro é nosso mês mais forte / Janeiro é o mais fraco"
+          />
           <Select
             label="Investimento mensal disponível para conteúdo"
             value={form.monthlyBudget}
@@ -252,12 +351,16 @@ export default function OnboardingPage() {
             options={[
               { value: "", label: "Selecione..." },
               { value: "Até R$500", label: "Até R$500" },
-              { value: "R$500-R$1.500", label: "R$500 - R$1.500" },
-              { value: "R$1.500-R$3.000", label: "R$1.500 - R$3.000" },
+              { value: "R$500-R$1.500", label: "R$500 a R$1.500" },
+              { value: "R$1.500-R$3.000", label: "R$1.500 a R$3.000" },
               { value: "Acima de R$3.000", label: "Acima de R$3.000" },
             ]}
           />
-          <Textarea label="Informações adicionais" value={form.extraInfo} onChange={(v) => update("extraInfo", v)} placeholder="Algo mais que gostaria de compartilhar?" />
+          <Textarea
+            label="Algo importante que não perguntamos?"
+            value={form.extraInfo}
+            onChange={(v) => update("extraInfo", v)}
+          />
         </div>
       )}
 
@@ -299,7 +402,6 @@ function Shell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="mx-auto max-w-2xl px-4 py-8">
-        {/* Logo */}
         <div className="mb-8 flex justify-center">
           <img src="/logo.svg" alt="SEO Inteligente" className="h-10" />
         </div>
@@ -346,11 +448,13 @@ function Textarea({
   value,
   onChange,
   placeholder,
+  rows = 3,
 }: {
   label: string;
   value: string;
   onChange: (v: string) => void;
   placeholder?: string;
+  rows?: number;
 }) {
   return (
     <div>
@@ -359,7 +463,7 @@ function Textarea({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        rows={3}
+        rows={rows}
         className="w-full rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-800 placeholder-gray-400 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 resize-none"
       />
     </div>
@@ -391,6 +495,46 @@ function Select({
           </option>
         ))}
       </select>
+    </div>
+  );
+}
+
+function Toggle({
+  label,
+  value,
+  onChange,
+}: {
+  label: string;
+  value: boolean;
+  onChange: (v: boolean) => void;
+}) {
+  return (
+    <div>
+      <label className="block text-sm font-medium text-gray-700 mb-1">{label}</label>
+      <div className="flex gap-4">
+        <button
+          type="button"
+          onClick={() => onChange(true)}
+          className={`rounded-lg px-6 py-2 text-sm font-medium border transition-colors ${
+            value
+              ? "bg-emerald-500 text-white border-emerald-500"
+              : "bg-white text-gray-600 border-gray-300 hover:border-emerald-400"
+          }`}
+        >
+          Sim
+        </button>
+        <button
+          type="button"
+          onClick={() => onChange(false)}
+          className={`rounded-lg px-6 py-2 text-sm font-medium border transition-colors ${
+            !value
+              ? "bg-emerald-500 text-white border-emerald-500"
+              : "bg-white text-gray-600 border-gray-300 hover:border-emerald-400"
+          }`}
+        >
+          Não
+        </button>
+      </div>
     </div>
   );
 }

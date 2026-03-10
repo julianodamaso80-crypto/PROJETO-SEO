@@ -18,6 +18,7 @@ interface OnboardingEntry {
   location: string | null;
   siteUrl: string | null;
   hasSite: boolean;
+  hasBlog: boolean;
   competitors: string | null;
   competitorUrls: string | null;
   keywords: string | null;
@@ -26,6 +27,14 @@ interface OnboardingEntry {
   differentials: string | null;
   monthlyBudget: string | null;
   extraInfo: string | null;
+  b2bOrB2c: string | null;
+  yearsInBusiness: string | null;
+  clientsServed: string | null;
+  clientProblem: string | null;
+  certifications: string | null;
+  contactMethod: string | null;
+  seasonality: string | null;
+  clientQuestions: string | null;
 }
 
 export default function ClientsPage() {
@@ -307,26 +316,36 @@ export default function ClientsPage() {
               <Section title="Sobre o Negócio">
                 <Field label="Empresa" value={selectedEntry.businessName} />
                 <Field label="Descrição" value={selectedEntry.businessDescription} />
-                <Field label="Principal Produto/Serviço" value={selectedEntry.mainProduct} />
-                <Field label="Público-alvo" value={selectedEntry.targetAudience} />
-                <Field label="Localização" value={selectedEntry.location} />
+                <Field label="B2B ou B2C" value={selectedEntry.b2bOrB2c} />
+                <Field label="Anos no mercado" value={selectedEntry.yearsInBusiness} />
+                <Field label="Clientes atendidos" value={selectedEntry.clientsServed} />
+              </Section>
+
+              <Section title="Serviços e Público">
+                <Field label="Produtos/Serviços" value={selectedEntry.mainProduct} />
+                <Field label="Cliente ideal" value={selectedEntry.targetAudience} />
+                <Field label="Abrangência" value={selectedEntry.location} />
               </Section>
 
               <Section title="Presença Online">
                 <Field label="Tem site?" value={selectedEntry.hasSite ? "Sim" : "Não"} />
                 {selectedEntry.hasSite && <Field label="URL do site" value={selectedEntry.siteUrl} />}
+                <Field label="Tem blog?" value={selectedEntry.hasBlog ? "Sim" : "Não"} />
                 <Field label="Concorrentes" value={selectedEntry.competitors} />
-                <Field label="URLs dos concorrentes" value={selectedEntry.competitorUrls} />
-              </Section>
-
-              <Section title="SEO e Conteúdo">
-                <Field label="Palavras-chave" value={selectedEntry.keywords} />
-                <Field label="Objetivo do conteúdo" value={selectedEntry.contentGoal} />
-                <Field label="Tom de voz" value={selectedEntry.tone} />
                 <Field label="Diferenciais" value={selectedEntry.differentials} />
               </Section>
 
-              <Section title="Finalização">
+              <Section title="SEO e Conteúdo">
+                <Field label="Perguntas dos clientes" value={selectedEntry.clientQuestions} />
+                <Field label="Problema principal do cliente" value={selectedEntry.clientProblem} />
+                <Field label="Certificações/Prêmios" value={selectedEntry.certifications} />
+                <Field label="Objetivo do conteúdo" value={selectedEntry.contentGoal} />
+                <Field label="Tom de voz" value={selectedEntry.tone} />
+              </Section>
+
+              <Section title="Conversão e Entrega">
+                <Field label="Método de contato" value={selectedEntry.contactMethod} />
+                <Field label="Sazonalidade" value={selectedEntry.seasonality} />
                 <Field label="Orçamento mensal" value={selectedEntry.monthlyBudget} />
                 <Field label="Informações adicionais" value={selectedEntry.extraInfo} />
               </Section>
