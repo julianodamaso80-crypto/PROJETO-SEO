@@ -7,21 +7,8 @@ export const authConfig = {
     signIn: "/sign-in",
   },
   callbacks: {
-    authorized({ auth, request: { nextUrl } }) {
-      const isLoggedIn = !!auth?.user;
-      const isProtected =
-        nextUrl.pathname.startsWith("/dashboard") ||
-        nextUrl.pathname.startsWith("/discover") ||
-        nextUrl.pathname.startsWith("/articles") ||
-        nextUrl.pathname.startsWith("/settings") ||
-        nextUrl.pathname.startsWith("/billing") ||
-        nextUrl.pathname.startsWith("/admin");
-
-      if (isProtected && !isLoggedIn) {
-        return Response.redirect(new URL("/sign-in", nextUrl));
-      }
-
-      return true;
+    authorized({ auth }) {
+      return !!auth?.user;
     },
     async jwt({ token, user }) {
       if (user) {
