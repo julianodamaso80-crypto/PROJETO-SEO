@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Plus, Copy, Eye, X, ExternalLink } from "lucide-react";
+import { Plus, Eye, X, ExternalLink, Copy, Check } from "lucide-react";
 
 interface OnboardingEntry {
   id: number;
@@ -31,8 +31,11 @@ interface OnboardingEntry {
 export default function ClientsPage() {
   const [entries, setEntries] = useState<OnboardingEntry[]>([]);
   const [loading, setLoading] = useState(true);
-  const [generating, setGenerating] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [newClientName, setNewClientName] = useState("");
+  const [creating, setCreating] = useState(false);
+  const [createdUrl, setCreatedUrl] = useState<string | null>(null);
+  const [copiedId, setCopiedId] = useState<number | null>(null);
   const [selectedEntry, setSelectedEntry] = useState<OnboardingEntry | null>(null);
 
   async function fetchEntries() {
@@ -51,28 +54,48 @@ export default function ClientsPage() {
     fetchEntries();
   }, []);
 
-  async function handleGenerateLink() {
-    setGenerating(true);
+  async function handleCreate() {
+    if (!newClientName.trim()) return;
+    setCreating(true);
     try {
-      const res = await fetch("/api/onboarding/create", { method: "POST" });
+      const res = await fetch("/api/onboarding/create", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ clientName: newClientName.trim() }),
+      });
       const data = await res.json();
       if (!res.ok) {
-        alert(`Erro ao gerar link: ${data.error || res.statusText}`);
+        alert(`Erro: ${data.error || res.statusText}`);
         return;
       }
-      try {
-        await navigator.clipboard.writeText(data.url);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 3000);
-      } catch {
-        prompt("Copie o link abaixo:", data.url);
-      }
+      setCreatedUrl(data.url);
       fetchEntries();
     } catch (err) {
       alert(`Erro de rede: ${err}`);
     } finally {
-      setGenerating(false);
+      setCreating(false);
     }
+  }
+
+  function closeCreateModal() {
+    setShowCreateModal(false);
+    setNewClientName("");
+    setCreatedUrl(null);
+  }
+
+  async function copyLink(entry: OnboardingEntry) {
+    const url = `${window.location.origin}/onboarding/${entry.token}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopiedId(entry.id);
+      setTimeout(() => setCopiedId(null), 2000);
+    } catch {
+      prompt("Copie o link:", url);
+    }
+  }
+
+  function openLink(entry: OnboardingEntry) {
+    window.open(`/onboarding/${entry.token}`, "_blank");
   }
 
   return (
@@ -85,21 +108,11 @@ export default function ClientsPage() {
           </p>
         </div>
         <button
-          onClick={handleGenerateLink}
-          disabled={generating}
-          className="flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-emerald-700 transition-colors disabled:opacity-50"
+          onClick={() => setShowCreateModal(true)}
+          className="flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-emerald-700 transition-colors"
         >
-          {copied ? (
-            <>
-              <Copy className="h-4 w-4" />
-              Link copiado!
-            </>
-          ) : (
-            <>
-              <Plus className="h-4 w-4" />
-              {generating ? "Gerando..." : "Gerar Link de Onboarding"}
-            </>
-          )}
+          <Plus className="h-4 w-4" />
+          Gerar Link de Onboarding
         </button>
       </div>
 
@@ -125,13 +138,13 @@ export default function ClientsPage() {
             ) : entries.length === 0 ? (
               <tr>
                 <td colSpan={5} className="p-8 text-center text-sm text-neutral-500">
-                  Nenhum link de onboarding gerado ainda. Clique em &quot;Gerar Link de Onboarding&quot; para começar.
+                  Nenhum cliente ainda. Clique em &quot;Gerar Link de Onboarding&quot; para começar.
                 </td>
               </tr>
             ) : (
               entries.map((entry) => (
                 <tr key={entry.id} className="border-b border-neutral-800/50 hover:bg-neutral-800/30 transition-colors">
-                  <td className="p-4 text-sm text-white">
+                  <td className="p-4 text-sm text-white font-medium">
                     {entry.clientName || "—"}
                   </td>
                   <td className="p-4 text-sm text-neutral-300">
@@ -152,14 +165,21 @@ export default function ClientsPage() {
                     {new Date(entry.createdAt).toLocaleDateString("pt-BR")}
                   </td>
                   <td className="p-4 text-right">
-                    <div className="flex items-center justify-end gap-2">
+                    <div className="flex items-center justify-end gap-1">
                       <button
-                        onClick={() => {
-                          navigator.clipboard.writeText(
-                            `${window.location.origin}/onboarding/${entry.token}`
-                          );
-                        }}
+                        onClick={() => copyLink(entry)}
                         title="Copiar link"
+                        className="rounded-lg p-2 text-neutral-400 hover:bg-neutral-800 hover:text-white transition-colors"
+                      >
+                        {copiedId === entry.id ? (
+                          <Check className="h-4 w-4 text-emerald-400" />
+                        ) : (
+                          <Copy className="h-4 w-4" />
+                        )}
+                      </button>
+                      <button
+                        onClick={() => openLink(entry)}
+                        title="Abrir formulário"
                         className="rounded-lg p-2 text-neutral-400 hover:bg-neutral-800 hover:text-white transition-colors"
                       >
                         <ExternalLink className="h-4 w-4" />
@@ -181,6 +201,91 @@ export default function ClientsPage() {
           </tbody>
         </table>
       </div>
+
+      {/* Modal Criar Link */}
+      {showCreateModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+          <div className="relative w-full max-w-md rounded-2xl border border-neutral-800 bg-[#1a1a1a] p-6">
+            <button
+              onClick={closeCreateModal}
+              className="absolute right-4 top-4 rounded-lg p-1 text-neutral-400 hover:text-white transition-colors"
+            >
+              <X className="h-5 w-5" />
+            </button>
+
+            {!createdUrl ? (
+              <>
+                <h2 className="text-lg font-bold text-white mb-1">Novo Cliente</h2>
+                <p className="text-sm text-neutral-400 mb-5">
+                  Digite o nome do cliente para gerar o link de onboarding.
+                </p>
+
+                <label className="block text-sm font-medium text-neutral-300 mb-1.5">
+                  Nome do cliente
+                </label>
+                <input
+                  type="text"
+                  value={newClientName}
+                  onChange={(e) => setNewClientName(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && handleCreate()}
+                  placeholder="Ex: Americanas"
+                  autoFocus
+                  className="w-full rounded-xl border border-neutral-700 bg-[#0f0f0f] px-4 py-2.5 text-sm text-white placeholder-neutral-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                />
+
+                <div className="mt-5 flex justify-end gap-3">
+                  <button
+                    onClick={closeCreateModal}
+                    className="rounded-xl border border-neutral-700 px-4 py-2 text-sm text-neutral-300 hover:bg-neutral-800 transition-colors"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    onClick={handleCreate}
+                    disabled={creating || !newClientName.trim()}
+                    className="rounded-xl bg-emerald-600 px-5 py-2 text-sm font-medium text-white hover:bg-emerald-700 transition-colors disabled:opacity-50"
+                  >
+                    {creating ? "Gerando..." : "Gerar Link"}
+                  </button>
+                </div>
+              </>
+            ) : (
+              <>
+                <h2 className="text-lg font-bold text-white mb-1">Link Gerado!</h2>
+                <p className="text-sm text-neutral-400 mb-4">
+                  Envie este link para <span className="text-white font-medium">{newClientName}</span> preencher o questionário.
+                </p>
+
+                <div className="flex items-center gap-2 rounded-xl border border-neutral-700 bg-[#0f0f0f] px-4 py-2.5">
+                  <span className="flex-1 truncate text-sm text-emerald-400">{createdUrl}</span>
+                  <button
+                    onClick={async () => {
+                      try {
+                        await navigator.clipboard.writeText(createdUrl);
+                      } catch {
+                        prompt("Copie o link:", createdUrl);
+                      }
+                    }}
+                    className="shrink-0 rounded-lg p-1.5 text-neutral-400 hover:text-white transition-colors"
+                    title="Copiar"
+                  >
+                    <Copy className="h-4 w-4" />
+                  </button>
+                </div>
+
+                <div className="mt-5 flex justify-end">
+                  <button
+                    onClick={closeCreateModal}
+                    className="rounded-xl bg-emerald-600 px-5 py-2 text-sm font-medium text-white hover:bg-emerald-700 transition-colors"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Modal Ver Respostas */}
       {selectedEntry && (
