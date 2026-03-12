@@ -87,7 +87,7 @@ interface FormData {
   logoUrl: string; teamPhotos: { url: string; filename: string }[];
   // Step 5
   contentGoal: string; priorityRegions: string; priorityServices: string;
-  timeline: string; monthlyBudget: string;
+  timeline: string;
   // Step 6
   competitorSitesAdmired: string; referenceSites: string; contentConsumption: string;
   desiredKeywords: string; additionalNotes: string;
@@ -118,7 +118,7 @@ const initialData: FormData = {
   sensitiveTopics: "", certifications: "",
   colorPaletteId: "", colorPrimary: "", colorSecondary: "", colorAccent: "",
   logoUrl: "", teamPhotos: [], referenceImages: [],
-  contentGoal: "", priorityRegions: "", priorityServices: "", timeline: "", monthlyBudget: "",
+  contentGoal: "", priorityRegions: "", priorityServices: "", timeline: "",
   competitorSitesAdmired: "", referenceSites: "", contentConsumption: "",
   desiredKeywords: "", additionalNotes: "",
   wpAdminUrl: "", wpUsername: "", wpAppPassword: "",
@@ -372,11 +372,6 @@ export default function OnboardingPage() {
             <Select label="Expectativa de timeline *" value={form.timeline} onChange={(v) => update("timeline", v)} options={[
               { value: "", label: "Selecione..." }, { value: "Curto prazo (3 meses)", label: "Curto prazo (3 meses)" },
               { value: "Médio prazo (6 meses)", label: "Médio prazo (6 meses)" }, { value: "Longo prazo (12+ meses)", label: "Longo prazo (12+ meses)" },
-            ]} />
-            <Select label="Investimento mensal disponível" value={form.monthlyBudget} onChange={(v) => update("monthlyBudget", v)} options={[
-              { value: "", label: "Selecione..." }, { value: "Até R$500", label: "Até R$500" },
-              { value: "R$500-R$1.500", label: "R$500 a R$1.500" }, { value: "R$1.500-R$3.000", label: "R$1.500 a R$3.000" },
-              { value: "Acima de R$3.000", label: "Acima de R$3.000" },
             ]} />
           </div>
         )}

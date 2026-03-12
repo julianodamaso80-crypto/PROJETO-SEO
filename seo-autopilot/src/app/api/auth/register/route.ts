@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import { db } from "@/lib/db";
 import { users } from "@/lib/schema";
 import { eq } from "drizzle-orm";
+import { sendWelcomeEmail } from "@/server/services/emailService";
 
 export async function POST(req: Request) {
   try {
@@ -39,6 +40,9 @@ export async function POST(req: Request) {
         password: hashedPassword,
       })
       .returning({ id: users.id, email: users.email });
+
+    // Send welcome email (non-blocking)
+    sendWelcomeEmail(email, name).catch(() => {});
 
     return NextResponse.json({ success: true, user }, { status: 201 });
   } catch (error: any) {
