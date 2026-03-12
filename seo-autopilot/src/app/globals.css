@@ -55,6 +55,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   transform: translateY(-2px);
   box-shadow: var(--shadow-card);
 }
+.glass-hover-accent:hover {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 30px var(--accent-dim), var(--shadow-card) !important;
+}
 
 /* Accent button */
 .btn-accent {

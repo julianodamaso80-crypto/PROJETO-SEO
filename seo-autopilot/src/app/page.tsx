@@ -2,10 +2,14 @@ import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 
 export default async function Home() {
-  const session = await auth();
-
-  if (session?.user) {
-    redirect("/dashboard");
+  try {
+    const session = await auth();
+    if (session?.user) {
+      redirect("/dashboard");
+    }
+  } catch (e) {
+    // Auth/DB error — continue rendering landing page
+    console.error("Auth check failed:", e);
   }
 
   return (
@@ -177,19 +181,11 @@ export default async function Home() {
           ].map((card, i) => (
             <div
               key={card.title}
-              className={`glass animate-fade-up delay-${i + 3}`}
+              className={`glass glass-hover-accent animate-fade-up delay-${i + 3}`}
               style={{
                 padding: "32px 24px",
                 textAlign: "center",
                 cursor: "default",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = "var(--accent)";
-                e.currentTarget.style.boxShadow = "0 0 30px var(--accent-dim), var(--shadow-card)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = "";
-                e.currentTarget.style.boxShadow = "";
               }}
             >
               <div
