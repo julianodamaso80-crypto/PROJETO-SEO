@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { SessionProvider } from "next-auth/react";
 import { TRPCProvider } from "@/lib/trpc/provider";
+import { PostHogProvider } from "@/components/PostHogProvider";
+import { ToastProvider } from "@/components/ui/Toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,7 +22,11 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body>
         <SessionProvider>
-          <TRPCProvider>{children}</TRPCProvider>
+          <TRPCProvider>
+            <PostHogProvider>
+              <ToastProvider>{children}</ToastProvider>
+            </PostHogProvider>
+          </TRPCProvider>
         </SessionProvider>
       </body>
     </html>

@@ -1,7 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Eye, X, ExternalLink, Copy, Check, Users } from "lucide-react";
+import { Eye, X, ExternalLink, Copy, Check, Users, ClipboardList } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { StatusBadge } from "@/components/ui/StatusBadge";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { timeAgo } from "@/lib/utils";
 
 interface OnboardingEntry {
   id: number;
@@ -47,6 +51,7 @@ export default function ClientsPage() {
   const [copiedId, setCopiedId] = useState<number | null>(null);
   const [copiedModal, setCopiedModal] = useState(false);
   const [selectedEntry, setSelectedEntry] = useState<OnboardingEntry | null>(null);
+  const router = useRouter();
 
   async function fetchEntries() {
     try {
@@ -123,24 +128,9 @@ export default function ClientsPage() {
   return (
     <div>
       {/* Header */}
-      <div
-        className="animate-fade-up"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          marginBottom: "32px",
-        }}
-      >
+      <div className="animate-fade-up" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "32px", flexWrap: "wrap", gap: "12px" }}>
         <div>
-          <h1
-            style={{
-              fontFamily: "var(--font-display)",
-              fontSize: "28px",
-              fontWeight: 700,
-              color: "var(--text-primary)",
-            }}
-          >
+          <h1 style={{ fontFamily: "var(--font-display)", fontSize: "28px", fontWeight: 700, color: "var(--text-primary)" }}>
             Clientes
           </h1>
           <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginTop: "4px" }}>
@@ -148,7 +138,7 @@ export default function ClientsPage() {
           </p>
         </div>
         <button className="btn-accent" onClick={() => setShowCreateModal(true)}>
-          ✦ Gerar Link
+          Gerar Link
         </button>
       </div>
 
@@ -160,37 +150,14 @@ export default function ClientsPage() {
           ))}
         </div>
       ) : entries.length === 0 ? (
-        /* Empty state */
-        <div
-          className="glass animate-fade-up delay-1"
-          style={{
-            padding: "80px 40px",
-            textAlign: "center",
-            cursor: "default",
-          }}
-          onMouseEnter={(e) => { e.currentTarget.style.transform = "none"; }}
-        >
-          <Users
-            size={48}
-            style={{ color: "var(--text-muted)", margin: "0 auto 16px" }}
+        <div className="glass animate-fade-up delay-1" style={{ cursor: "default" }} onMouseEnter={(e) => { e.currentTarget.style.transform = "none"; }}>
+          <EmptyState
+            icon={<Users size={32} />}
+            title="Nenhum cliente ainda"
+            description='Clique em "Gerar Link" para criar seu primeiro onboarding'
+            actionLabel="Gerar Link"
+            onAction={() => setShowCreateModal(true)}
           />
-          <h3
-            style={{
-              fontFamily: "var(--font-display)",
-              fontSize: "18px",
-              fontWeight: 600,
-              color: "var(--text-secondary)",
-              marginBottom: "8px",
-            }}
-          >
-            Nenhum cliente ainda
-          </h3>
-          <p style={{ fontSize: "14px", color: "var(--text-muted)", marginBottom: "24px" }}>
-            Clique em &quot;Gerar Link&quot; para criar seu primeiro onboarding
-          </p>
-          <button className="btn-accent" onClick={() => setShowCreateModal(true)}>
-            ✦ Gerar Link
-          </button>
         </div>
       ) : (
         <div
@@ -202,129 +169,79 @@ export default function ClientsPage() {
             overflow: "hidden",
           }}
         >
-          <table style={{ width: "100%", borderCollapse: "collapse" }}>
-            <thead>
-              <tr
-                style={{
-                  borderBottom: "1px solid var(--border)",
-                  textAlign: "left",
-                }}
-              >
-                {["Cliente", "Email", "Status", "Data", ""].map((h) => (
-                  <th
-                    key={h}
-                    style={{
-                      padding: "14px 20px",
-                      fontSize: "12px",
-                      fontWeight: 500,
-                      color: "var(--text-muted)",
-                      fontFamily: "var(--font-body)",
-                      textTransform: "uppercase",
-                      letterSpacing: "0.05em",
-                      textAlign: h === "" ? "right" : "left",
-                    }}
-                  >
-                    {h}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {entries.map((entry) => (
-                <tr
-                  key={entry.id}
-                  style={{
-                    borderBottom: "1px solid var(--border)",
-                    transition: "background 0.2s ease",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "var(--bg-glass)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "transparent";
-                  }}
-                >
-                  <td
-                    style={{
-                      padding: "14px 20px",
-                      fontSize: "14px",
-                      fontWeight: 500,
-                      color: "var(--text-primary)",
-                    }}
-                  >
-                    {entry.clientName || "—"}
-                  </td>
-                  <td
-                    style={{
-                      padding: "14px 20px",
-                      fontSize: "14px",
-                      color: "var(--text-secondary)",
-                    }}
-                  >
-                    {entry.clientEmail || "—"}
-                  </td>
-                  <td style={{ padding: "14px 20px" }}>
-                    <span
+          <div style={{ overflowX: "auto" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "600px" }}>
+              <thead>
+                <tr style={{ borderBottom: "1px solid var(--border)", textAlign: "left" }}>
+                  {["Cliente", "Email", "Status", "Data", ""].map((h) => (
+                    <th
+                      key={h}
                       style={{
-                        display: "inline-flex",
-                        padding: "4px 12px",
-                        borderRadius: "99px",
-                        fontSize: "12px",
-                        fontWeight: 600,
-                        ...(entry.status === "completed"
-                          ? {
-                              background: "rgba(0,255,136,0.1)",
-                              color: "#00ff88",
-                              border: "1px solid rgba(0,255,136,0.2)",
-                            }
-                          : {
-                              background: "rgba(250,204,21,0.1)",
-                              color: "#facc15",
-                              border: "1px solid rgba(250,204,21,0.2)",
-                            }),
+                        padding: "14px 20px", fontSize: "12px", fontWeight: 500, color: "var(--text-muted)",
+                        fontFamily: "var(--font-body)", textTransform: "uppercase", letterSpacing: "0.05em",
+                        textAlign: h === "" ? "right" : "left",
                       }}
                     >
-                      {entry.status === "completed" ? "Completo" : "Pendente"}
-                    </span>
-                  </td>
-                  <td
-                    style={{
-                      padding: "14px 20px",
-                      fontSize: "13px",
-                      color: "var(--text-muted)",
-                    }}
-                  >
-                    {new Date(entry.createdAt).toLocaleDateString("pt-BR")}
-                  </td>
-                  <td style={{ padding: "14px 20px", textAlign: "right" }}>
-                    <div style={{ display: "flex", justifyContent: "flex-end", gap: "4px" }}>
-                      <IconBtn
-                        title="Copiar link"
-                        onClick={() => copyLink(entry)}
-                      >
-                        {copiedId === entry.id ? (
-                          <Check size={15} style={{ color: "var(--accent)" }} />
-                        ) : (
-                          <Copy size={15} />
-                        )}
-                      </IconBtn>
-                      <IconBtn title="Abrir formulário" onClick={() => openLink(entry)}>
-                        <ExternalLink size={15} />
-                      </IconBtn>
-                      {entry.status === "completed" && (
-                        <IconBtn
-                          title="Ver respostas"
-                          onClick={() => setSelectedEntry(entry)}
-                        >
-                          <Eye size={15} />
-                        </IconBtn>
-                      )}
-                    </div>
-                  </td>
+                      {h}
+                    </th>
+                  ))}
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {entries.map((entry) => (
+                  <tr
+                    key={entry.id}
+                    style={{ borderBottom: "1px solid var(--border)", transition: "background 0.2s ease" }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = "var(--bg-glass)"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+                  >
+                    <td style={{ padding: "14px 20px", fontSize: "14px", fontWeight: 500, color: "var(--text-primary)" }}>
+                      {entry.clientName || "\u2014"}
+                    </td>
+                    <td style={{ padding: "14px 20px", fontSize: "14px", color: "var(--text-secondary)" }}>
+                      {entry.clientEmail || "\u2014"}
+                    </td>
+                    <td style={{ padding: "14px 20px" }}>
+                      <StatusBadge status={entry.status} />
+                    </td>
+                    <td style={{ padding: "14px 20px", fontSize: "13px", color: "var(--text-muted)" }}>
+                      {timeAgo(entry.createdAt)}
+                    </td>
+                    <td style={{ padding: "14px 20px", textAlign: "right" }}>
+                      <div style={{ display: "flex", justifyContent: "flex-end", gap: "4px" }}>
+                        <IconBtn title="Copiar link" onClick={() => copyLink(entry)}>
+                          {copiedId === entry.id ? <Check size={15} style={{ color: "var(--accent)" }} /> : <Copy size={15} />}
+                        </IconBtn>
+                        <IconBtn title="Abrir formulário" onClick={() => openLink(entry)}>
+                          <ExternalLink size={15} />
+                        </IconBtn>
+                        {entry.status === "completed" && (
+                          <IconBtn title="Ver respostas" onClick={() => setSelectedEntry(entry)}>
+                            <Eye size={15} />
+                          </IconBtn>
+                        )}
+                        {entry.status === "completed" && (
+                          <button
+                            title="Revisar & Produzir"
+                            onClick={() => router.push(`/clients/${entry.id}/review`)}
+                            style={{
+                              background: "rgba(0,255,136,0.1)", border: "1px solid rgba(0,255,136,0.2)",
+                              cursor: "pointer", color: "var(--accent)", padding: "6px 12px", borderRadius: "8px",
+                              display: "flex", alignItems: "center", gap: "6px", fontSize: "12px", fontWeight: 600,
+                              fontFamily: "var(--font-body)", transition: "all 0.2s ease",
+                            }}
+                          >
+                            <ClipboardList size={13} />
+                            Revisar
+                          </button>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       )}
 
@@ -332,46 +249,26 @@ export default function ClientsPage() {
       {showCreateModal && (
         <div
           style={{
-            position: "fixed",
-            inset: 0,
-            zIndex: 50,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            background: "rgba(0,0,0,0.7)",
-            backdropFilter: "blur(8px)",
+            position: "fixed", inset: 0, zIndex: 50, display: "flex", alignItems: "center", justifyContent: "center",
+            background: "rgba(0,0,0,0.7)", backdropFilter: "blur(8px)",
           }}
-          onClick={(e) => {
-            if (e.target === e.currentTarget) closeCreateModal();
-          }}
+          onClick={(e) => { if (e.target === e.currentTarget) closeCreateModal(); }}
         >
           <div
             className="animate-scale-in"
             style={{
-              position: "relative",
-              width: "100%",
-              maxWidth: "440px",
-              background: "var(--bg-elevated)",
-              border: "1px solid var(--border)",
-              borderRadius: "var(--radius-lg)",
-              padding: "32px",
+              position: "relative", width: "100%", maxWidth: "440px", margin: "0 16px",
+              background: "var(--bg-elevated)", border: "1px solid var(--border)",
+              borderRadius: "var(--radius-lg)", padding: "32px",
               boxShadow: "0 24px 80px rgba(0,0,0,0.5)",
             }}
           >
             <button
               onClick={closeCreateModal}
               style={{
-                position: "absolute",
-                right: "16px",
-                top: "16px",
-                background: "none",
-                border: "none",
-                cursor: "pointer",
-                color: "var(--text-muted)",
-                padding: "4px",
-                borderRadius: "6px",
-                transition: "color 0.2s",
-                display: "flex",
+                position: "absolute", right: "16px", top: "16px", background: "none", border: "none",
+                cursor: "pointer", color: "var(--text-muted)", padding: "4px", borderRadius: "6px",
+                transition: "color 0.2s", display: "flex",
               }}
               onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; }}
               onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-muted)"; }}
@@ -381,66 +278,30 @@ export default function ClientsPage() {
 
             {!createdUrl ? (
               <>
-                <h2
-                  style={{
-                    fontFamily: "var(--font-display)",
-                    fontSize: "20px",
-                    fontWeight: 700,
-                    color: "var(--text-primary)",
-                    marginBottom: "4px",
-                  }}
-                >
+                <h2 style={{ fontFamily: "var(--font-display)", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "4px" }}>
                   Novo Cliente
                 </h2>
                 <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginBottom: "24px" }}>
                   Digite o nome do cliente para gerar o link de onboarding.
                 </p>
-
-                <label
-                  style={{
-                    display: "block",
-                    fontSize: "13px",
-                    fontFamily: "var(--font-body)",
-                    color: "var(--text-secondary)",
-                    marginBottom: "6px",
-                  }}
-                >
+                <label style={{ display: "block", fontSize: "13px", fontFamily: "var(--font-body)", color: "var(--text-secondary)", marginBottom: "6px" }}>
                   Nome do cliente
                 </label>
                 <input
-                  type="text"
-                  value={newClientName}
-                  onChange={(e) => setNewClientName(e.target.value)}
+                  type="text" value={newClientName} onChange={(e) => setNewClientName(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handleCreate()}
-                  placeholder="Ex: Americanas"
-                  autoFocus
-                  className="input-dark"
+                  placeholder="Ex: Americanas" autoFocus className="input-dark"
                 />
-
                 <div style={{ marginTop: "24px", display: "flex", justifyContent: "flex-end", gap: "12px" }}>
-                  <button className="btn-ghost" onClick={closeCreateModal}>
-                    Cancelar
-                  </button>
-                  <button
-                    className="btn-accent"
-                    onClick={handleCreate}
-                    disabled={creating || !newClientName.trim()}
-                  >
+                  <button className="btn-ghost" onClick={closeCreateModal}>Cancelar</button>
+                  <button className="btn-accent" onClick={handleCreate} disabled={creating || !newClientName.trim()}>
                     {creating ? "Gerando..." : "Gerar Link"}
                   </button>
                 </div>
               </>
             ) : (
               <>
-                <h2
-                  style={{
-                    fontFamily: "var(--font-display)",
-                    fontSize: "20px",
-                    fontWeight: 700,
-                    color: "var(--text-primary)",
-                    marginBottom: "4px",
-                  }}
-                >
+                <h2 style={{ fontFamily: "var(--font-display)", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "4px" }}>
                   Link Gerado!
                 </h2>
                 <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginBottom: "20px" }}>
@@ -448,55 +309,20 @@ export default function ClientsPage() {
                   <span style={{ color: "var(--accent)", fontWeight: 500 }}>{newClientName}</span>{" "}
                   preencher o questionário.
                 </p>
-
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    background: "var(--bg-surface)",
-                    border: "1px solid var(--border)",
-                    borderRadius: "var(--radius)",
-                    padding: "10px 16px",
-                  }}
-                >
-                  <span
-                    style={{
-                      flex: 1,
-                      fontSize: "13px",
-                      color: "var(--accent)",
-                      overflow: "hidden",
-                      textOverflow: "ellipsis",
-                      whiteSpace: "nowrap",
-                    }}
-                  >
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", background: "var(--bg-surface)", border: "1px solid var(--border)", borderRadius: "var(--radius)", padding: "10px 16px" }}>
+                  <span style={{ flex: 1, fontSize: "13px", color: "var(--accent)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                     {createdUrl}
                   </span>
                   <button
                     onClick={copyModalLink}
-                    style={{
-                      background: "none",
-                      border: "none",
-                      cursor: "pointer",
-                      color: copiedModal ? "var(--accent)" : "var(--text-muted)",
-                      display: "flex",
-                      padding: "4px",
-                      transition: "color 0.2s",
-                    }}
+                    style={{ background: "none", border: "none", cursor: "pointer", color: copiedModal ? "var(--accent)" : "var(--text-muted)", display: "flex", padding: "4px", transition: "color 0.2s" }}
                   >
                     {copiedModal ? <Check size={16} /> : <Copy size={16} />}
                   </button>
                 </div>
-                {copiedModal && (
-                  <p style={{ fontSize: "12px", color: "var(--accent)", marginTop: "8px" }}>
-                    ✓ Copiado!
-                  </p>
-                )}
-
+                {copiedModal && <p style={{ fontSize: "12px", color: "var(--accent)", marginTop: "8px" }}>Copiado!</p>}
                 <div style={{ marginTop: "24px", display: "flex", justifyContent: "flex-end" }}>
-                  <button className="btn-accent" onClick={closeCreateModal}>
-                    Fechar
-                  </button>
+                  <button className="btn-accent" onClick={closeCreateModal}>Fechar</button>
                 </div>
               </>
             )}
@@ -504,60 +330,26 @@ export default function ClientsPage() {
         </div>
       )}
 
-      {/* Modal Ver Respostas — Slide-in lateral */}
+      {/* Modal Ver Respostas */}
       {selectedEntry && (
         <div
-          style={{
-            position: "fixed",
-            inset: 0,
-            zIndex: 50,
-            display: "flex",
-            justifyContent: "flex-end",
-            background: "rgba(0,0,0,0.6)",
-            backdropFilter: "blur(4px)",
-          }}
-          onClick={(e) => {
-            if (e.target === e.currentTarget) setSelectedEntry(null);
-          }}
+          style={{ position: "fixed", inset: 0, zIndex: 50, display: "flex", justifyContent: "flex-end", background: "rgba(0,0,0,0.6)", backdropFilter: "blur(4px)" }}
+          onClick={(e) => { if (e.target === e.currentTarget) setSelectedEntry(null); }}
         >
           <div
             className="animate-slide-in-right"
-            style={{
-              width: "100%",
-              maxWidth: "560px",
-              height: "100vh",
-              overflowY: "auto",
-              background: "var(--bg-elevated)",
-              borderLeft: "1px solid var(--border)",
-              padding: "32px",
-            }}
+            style={{ width: "100%", maxWidth: "560px", height: "100vh", overflowY: "auto", background: "var(--bg-elevated)", borderLeft: "1px solid var(--border)", padding: "32px" }}
           >
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "24px" }}>
               <div>
-                <h2
-                  style={{
-                    fontFamily: "var(--font-display)",
-                    fontSize: "22px",
-                    fontWeight: 700,
-                    color: "var(--text-primary)",
-                  }}
-                >
+                <h2 style={{ fontFamily: "var(--font-display)", fontSize: "22px", fontWeight: 700, color: "var(--text-primary)" }}>
                   {selectedEntry.clientName}
                 </h2>
-                <p style={{ fontSize: "13px", color: "var(--text-muted)", marginTop: "4px" }}>
-                  {selectedEntry.clientEmail}
-                </p>
+                <p style={{ fontSize: "13px", color: "var(--text-muted)", marginTop: "4px" }}>{selectedEntry.clientEmail}</p>
               </div>
               <button
                 onClick={() => setSelectedEntry(null)}
-                style={{
-                  background: "none",
-                  border: "none",
-                  cursor: "pointer",
-                  color: "var(--text-muted)",
-                  padding: "4px",
-                  display: "flex",
-                }}
+                style={{ background: "none", border: "none", cursor: "pointer", color: "var(--text-muted)", padding: "4px", display: "flex" }}
                 onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; }}
                 onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-muted)"; }}
               >
@@ -573,13 +365,11 @@ export default function ClientsPage() {
                 <Field label="Anos no mercado" value={selectedEntry.yearsInBusiness} />
                 <Field label="Clientes atendidos" value={selectedEntry.clientsServed} />
               </ResponseSection>
-
               <ResponseSection title="Serviços e Público">
                 <Field label="Produtos/Serviços" value={selectedEntry.mainProduct} />
                 <Field label="Cliente ideal" value={selectedEntry.targetAudience} />
                 <Field label="Abrangência" value={selectedEntry.location} />
               </ResponseSection>
-
               <ResponseSection title="Presença Online">
                 <Field label="Tem site?" value={selectedEntry.hasSite ? "Sim" : "Não"} />
                 {selectedEntry.hasSite && <Field label="URL do site" value={selectedEntry.siteUrl} />}
@@ -587,7 +377,6 @@ export default function ClientsPage() {
                 <Field label="Concorrentes" value={selectedEntry.competitors} />
                 <Field label="Diferenciais" value={selectedEntry.differentials} />
               </ResponseSection>
-
               <ResponseSection title="SEO e Conteúdo">
                 <Field label="Perguntas dos clientes" value={selectedEntry.clientQuestions} />
                 <Field label="Problema principal" value={selectedEntry.clientProblem} />
@@ -595,7 +384,6 @@ export default function ClientsPage() {
                 <Field label="Objetivo do conteúdo" value={selectedEntry.contentGoal} />
                 <Field label="Tom de voz" value={selectedEntry.tone} />
               </ResponseSection>
-
               <ResponseSection title="Conversão e Entrega">
                 <Field label="Método de contato" value={selectedEntry.contactMethod} />
                 <Field label="Sazonalidade" value={selectedEntry.seasonality} />
@@ -610,37 +398,16 @@ export default function ClientsPage() {
   );
 }
 
-function IconBtn({
-  children,
-  onClick,
-  title,
-}: {
-  children: React.ReactNode;
-  onClick: () => void;
-  title: string;
-}) {
+function IconBtn({ children, onClick, title }: { children: React.ReactNode; onClick: () => void; title: string }) {
   return (
     <button
-      onClick={onClick}
-      title={title}
+      onClick={onClick} title={title}
       style={{
-        background: "none",
-        border: "none",
-        cursor: "pointer",
-        color: "var(--text-muted)",
-        padding: "8px",
-        borderRadius: "8px",
-        display: "flex",
-        transition: "all 0.2s ease",
+        background: "none", border: "none", cursor: "pointer", color: "var(--text-muted)",
+        padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s ease",
       }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.color = "var(--text-primary)";
-        e.currentTarget.style.background = "var(--bg-glass)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.color = "var(--text-muted)";
-        e.currentTarget.style.background = "none";
-      }}
+      onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; e.currentTarget.style.background = "var(--bg-glass)"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-muted)"; e.currentTarget.style.background = "none"; }}
     >
       {children}
     </button>
@@ -649,30 +416,11 @@ function IconBtn({
 
 function ResponseSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div
-      style={{
-        background: "var(--bg-glass)",
-        border: "1px solid var(--border)",
-        borderRadius: "var(--radius)",
-        padding: "20px",
-      }}
-    >
-      <h3
-        style={{
-          fontFamily: "var(--font-display)",
-          fontSize: "13px",
-          fontWeight: 600,
-          color: "var(--accent)",
-          marginBottom: "14px",
-          textTransform: "uppercase",
-          letterSpacing: "0.05em",
-        }}
-      >
+    <div style={{ background: "var(--bg-glass)", border: "1px solid var(--border)", borderRadius: "var(--radius)", padding: "20px" }}>
+      <h3 style={{ fontFamily: "var(--font-display)", fontSize: "13px", fontWeight: 600, color: "var(--accent)", marginBottom: "14px", textTransform: "uppercase", letterSpacing: "0.05em" }}>
         {title}
       </h3>
-      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-        {children}
-      </div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>{children}</div>
     </div>
   );
 }
@@ -680,12 +428,8 @@ function ResponseSection({ title, children }: { title: string; children: React.R
 function Field({ label, value }: { label: string; value: string | null | undefined }) {
   return (
     <div>
-      <span style={{ fontSize: "11px", color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.04em" }}>
-        {label}
-      </span>
-      <p style={{ fontSize: "14px", color: "var(--text-primary)", marginTop: "2px" }}>
-        {value || "—"}
-      </p>
+      <span style={{ fontSize: "11px", color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.04em" }}>{label}</span>
+      <p style={{ fontSize: "14px", color: "var(--text-primary)", marginTop: "2px" }}>{value || "\u2014"}</p>
     </div>
   );
 }

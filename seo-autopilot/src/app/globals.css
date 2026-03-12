@@ -26,6 +26,8 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+::selection { background: rgba(0,255,136,0.3); }
 
 body {
   font-family: var(--font-body);
@@ -156,6 +158,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
 }
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
 @keyframes slideInRight {
   from { opacity: 0; transform: translateX(100%); }
   to { opacity: 1; transform: translateX(0); }
@@ -178,14 +184,18 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .animate-float { animation: float 4s ease-in-out infinite; }
 .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
 .animate-scale-in { animation: scaleIn 0.3s cubic-bezier(0.23, 1, 0.32, 1) forwards; }
+.animate-slide-in { animation: slideIn 0.3s ease-out forwards; }
 .animate-slide-in-right { animation: slideInRight 0.4s cubic-bezier(0.23, 1, 0.32, 1) forwards; }
 
 /* Stagger delays */
-.delay-1 { animation-delay: 0.1s; opacity: 0; }
-.delay-2 { animation-delay: 0.2s; opacity: 0; }
-.delay-3 { animation-delay: 0.3s; opacity: 0; }
-.delay-4 { animation-delay: 0.4s; opacity: 0; }
-.delay-5 { animation-delay: 0.5s; opacity: 0; }
+.delay-1 { animation-delay: 0.075s; opacity: 0; }
+.delay-2 { animation-delay: 0.15s; opacity: 0; }
+.delay-3 { animation-delay: 0.225s; opacity: 0; }
+.delay-4 { animation-delay: 0.3s; opacity: 0; }
+.delay-5 { animation-delay: 0.375s; opacity: 0; }
+.delay-6 { animation-delay: 0.45s; opacity: 0; }
+.delay-7 { animation-delay: 0.525s; opacity: 0; }
+.delay-8 { animation-delay: 0.6s; opacity: 0; }
 
 /* Gradient text */
 .text-gradient {
