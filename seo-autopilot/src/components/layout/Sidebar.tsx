@@ -7,7 +7,6 @@ import { useSession, signOut } from "next-auth/react";
 import {
   LayoutDashboard,
   Users,
-  FileStack,
   FileText,
   Settings,
   LogOut,
@@ -18,7 +17,6 @@ import {
 const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/clients", label: "Clientes", icon: Users },
-  { href: "/plans", label: "Planos", icon: FileStack },
   { href: "/articles", label: "Artigos", icon: FileText },
   { href: "/settings", label: "Configurações", icon: Settings },
 ];

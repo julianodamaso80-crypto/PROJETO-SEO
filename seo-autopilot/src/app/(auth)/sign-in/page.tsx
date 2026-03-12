@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
 
+const ADMIN_EMAIL = "damasojuliano@gmail.com";
+
 export default function SignInPage() {
   const router = useRouter();
   const [error, setError] = useState("");
@@ -16,8 +18,14 @@ export default function SignInPage() {
     setLoading(true);
 
     const formData = new FormData(e.currentTarget);
-    const email = formData.get("email") as string;
+    const email = (formData.get("email") as string).toLowerCase().trim();
     const password = formData.get("password") as string;
+
+    if (email !== ADMIN_EMAIL) {
+      setError("Plataforma em construção. Em breve você receberá acesso.");
+      setLoading(false);
+      return;
+    }
 
     const result = await signIn("credentials", {
       email,
