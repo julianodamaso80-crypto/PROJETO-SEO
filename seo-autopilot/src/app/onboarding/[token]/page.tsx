@@ -152,14 +152,24 @@ export default function OnboardingPage() {
   function goNext() { setStep((s) => Math.min(s + 1, steps.length - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }
   function goPrev() { setStep((s) => Math.max(s - 1, 0)); window.scrollTo({ top: 0, behavior: "smooth" }); }
 
+  const [submitError, setSubmitError] = useState("");
+
   async function handleSubmit() {
     setSubmitting(true);
+    setSubmitError("");
     try {
       const res = await fetch(`/api/onboarding/${token}`, {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-      if (res.ok) setStatus("completed");
+      if (res.ok) {
+        setStatus("completed");
+      } else {
+        const data = await res.json().catch(() => ({}));
+        setSubmitError(data.error || `Erro ao enviar (${res.status}). Tente novamente.`);
+      }
+    } catch {
+      setSubmitError("Erro de conexão. Verifique sua internet e tente novamente.");
     } finally { setSubmitting(false); }
   }
 
@@ -419,6 +429,13 @@ export default function OnboardingPage() {
           </div>
         )}
       </div>
+
+      {/* Error message */}
+      {submitError && (
+        <div style={{ marginTop: "16px", padding: "12px 16px", background: "#fef2f2", border: "1px solid #fecaca", borderRadius: "8px", color: "#dc2626", fontSize: "14px" }}>
+          {submitError}
+        </div>
+      )}
 
       {/* Navigation */}
       <div style={{ marginTop: "36px", display: "flex", justifyContent: "space-between" }}>

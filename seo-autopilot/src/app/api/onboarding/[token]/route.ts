@@ -27,6 +27,7 @@ export async function POST(
   req: NextRequest,
   { params }: { params: Promise<{ token: string }> }
 ) {
+  try {
   const { token } = await params;
   const body = await req.json();
 
@@ -37,11 +38,11 @@ export async function POST(
     .limit(1);
 
   if (!entry) {
-    return NextResponse.json({ error: "Not found" }, { status: 404 });
+    return NextResponse.json({ error: "Link não encontrado" }, { status: 404 });
   }
 
   if (entry.status === "completed") {
-    return NextResponse.json({ error: "Already completed" }, { status: 400 });
+    return NextResponse.json({ error: "Questionário já foi respondido" }, { status: 400 });
   }
 
   await db
@@ -167,4 +168,9 @@ export async function POST(
   }
 
   return NextResponse.json({ success: true });
+  } catch (error: unknown) {
+    console.error("[onboarding POST] Error:", error);
+    const message = error instanceof Error ? error.message : "Erro desconhecido";
+    return NextResponse.json({ error: `Erro ao salvar: ${message}` }, { status: 500 });
+  }
 }
