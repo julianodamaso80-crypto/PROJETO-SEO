@@ -225,7 +225,7 @@ export default function ClientsPage() {
                             title="Revisar & Produzir"
                             onClick={() => router.push(`/clients/${entry.id}/review`)}
                             style={{
-                              background: "rgba(0,255,136,0.1)", border: "1px solid rgba(0,255,136,0.2)",
+                              background: "var(--accent-dim)", border: "1px solid rgba(117,68,55,0.2)",
                               cursor: "pointer", color: "var(--accent)", padding: "6px 12px", borderRadius: "8px",
                               display: "flex", alignItems: "center", gap: "6px", fontSize: "12px", fontWeight: 600,
                               fontFamily: "var(--font-body)", transition: "all 0.2s ease",

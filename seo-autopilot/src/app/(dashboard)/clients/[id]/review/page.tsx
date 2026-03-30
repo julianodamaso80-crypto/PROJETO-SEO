@@ -319,9 +319,9 @@ export default function ReviewPage() {
         </div>
         <span style={{
           padding: "6px 14px", borderRadius: "99px", fontSize: "12px", fontWeight: 600,
-          background: data.status === "completed" ? "rgba(0,255,136,0.1)" : "rgba(250,204,21,0.1)",
-          color: data.status === "completed" ? "#00ff88" : "#facc15",
-          border: `1px solid ${data.status === "completed" ? "rgba(0,255,136,0.2)" : "rgba(250,204,21,0.2)"}`,
+          background: data.status === "completed" ? "var(--accent-glow)" : "rgba(250,204,21,0.1)",
+          color: data.status === "completed" ? "var(--accent)" : "#facc15",
+          border: `1px solid ${data.status === "completed" ? "var(--accent-glow)" : "rgba(250,204,21,0.2)"}`,
         }}>
           {data.status === "completed" ? "Completo" : "Pendente"}
         </span>
@@ -351,7 +351,7 @@ export default function ReviewPage() {
                 <span style={{ flex: 1 }}>{s.label}</span>
                 <span style={{
                   width: "8px", height: "8px", borderRadius: "50%",
-                  background: status === "complete" ? "#00ff88" : status === "partial" ? "#facc15" : "#ef4444",
+                  background: status === "complete" ? "var(--accent)" : status === "partial" ? "#facc15" : "#ef4444",
                 }} />
               </button>
             );
@@ -410,7 +410,7 @@ export default function ReviewPage() {
 
                       {/* Existing notes */}
                       {fieldNotes.map(note => (
-                        <div key={note.id} style={{ marginTop: "8px", padding: "10px 12px", background: "rgba(0,255,136,0.05)", border: "1px solid rgba(0,255,136,0.1)", borderRadius: "8px", display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "8px" }}>
+                        <div key={note.id} style={{ marginTop: "8px", padding: "10px 12px", background: "var(--accent-dim)", border: "1px solid var(--accent-glow)", borderRadius: "8px", display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "8px" }}>
                           <p style={{ fontSize: "13px", color: "var(--accent)", lineHeight: 1.5, flex: 1 }}>{note.content}</p>
                           <button onClick={() => deleteNote(note.id)} style={{ background: "none", border: "none", cursor: "pointer", color: "var(--text-muted)", padding: "2px", display: "flex" }}>
                             <Trash2 size={12} />
@@ -531,7 +531,7 @@ export default function ReviewPage() {
                   </button>
                 </div>
                 {isGenerating && generateProgress && (
-                  <div style={{ marginTop: "12px", padding: "12px 16px", background: "rgba(0,255,136,0.05)", border: "1px solid rgba(0,255,136,0.15)", borderRadius: "10px" }}>
+                  <div style={{ marginTop: "12px", padding: "12px 16px", background: "var(--accent-dim)", border: "1px solid var(--accent-glow)", borderRadius: "10px" }}>
                     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                       <Loader2 size={14} style={{ color: "var(--accent)", animation: "spin 1s linear infinite" }} />
                       <span style={{ fontSize: "13px", color: "var(--accent)" }}>{generateProgress}</span>

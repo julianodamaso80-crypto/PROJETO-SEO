@@ -7,7 +7,7 @@ export default function SignUpPage() {
     <div
       style={{
         minHeight: "100vh",
-        background: "var(--bg-void)",
+        background: "var(--bg-body)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -25,7 +25,7 @@ export default function SignUpPage() {
           width: "400px",
           height: "400px",
           borderRadius: "50%",
-          background: "#00ff88",
+          background: "var(--accent)",
           opacity: 0.04,
           filter: "blur(100px)",
           animation: "float 6s ease-in-out infinite",
@@ -39,7 +39,7 @@ export default function SignUpPage() {
           width: "300px",
           height: "300px",
           borderRadius: "50%",
-          background: "#7c3aed",
+          background: "var(--accent-2)",
           opacity: 0.03,
           filter: "blur(80px)",
           animation: "float 7s ease-in-out infinite",
@@ -53,7 +53,7 @@ export default function SignUpPage() {
           position: "absolute",
           inset: 0,
           backgroundImage:
-            "radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px)",
+            "radial-gradient(rgba(40,55,74,0.06) 1px, transparent 1px)",
           backgroundSize: "40px 40px",
         }}
       />
@@ -80,7 +80,7 @@ export default function SignUpPage() {
             fontFamily: "var(--font-display)",
             fontWeight: 800,
             fontSize: "24px",
-            color: "#000",
+            color: "var(--text-on-dark)",
             marginBottom: "32px",
             boxShadow: "0 0 40px var(--accent-glow)",
           }}

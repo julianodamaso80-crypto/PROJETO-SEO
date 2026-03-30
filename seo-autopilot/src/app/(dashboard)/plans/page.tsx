@@ -8,9 +8,9 @@ const statusConfig: Record<string, { label: string; color: string; bg: string }>
   draft: { label: "Rascunho", color: "#94a3b8", bg: "rgba(148,163,184,0.1)" },
   generating: { label: "Gerando...", color: "#facc15", bg: "rgba(250,204,21,0.1)" },
   review: { label: "Em Revisão", color: "#3b82f6", bg: "rgba(59,130,246,0.1)" },
-  approved: { label: "Aprovado", color: "#00ff88", bg: "rgba(0,255,136,0.1)" },
+  approved: { label: "Aprovado", color: "var(--accent)", bg: "var(--accent-dim)" },
   in_production: { label: "Em Produção", color: "#a78bfa", bg: "rgba(167,139,250,0.1)" },
-  completed: { label: "Concluído", color: "#00ff88", bg: "rgba(0,255,136,0.1)" },
+  completed: { label: "Concluído", color: "var(--accent)", bg: "var(--accent-dim)" },
 };
 
 export default function PlansListPage() {

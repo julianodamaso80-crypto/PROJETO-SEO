@@ -11,6 +11,7 @@ export interface KeywordSuggestion {
   isEstimated: boolean;
   category?: string;
   suggestedPageType?: string;
+  awarenessLevel?: "unaware" | "problem_aware" | "solution_aware" | "product_aware" | "most_aware";
 }
 
 interface KeywordInput {
@@ -29,6 +30,7 @@ interface AIKeywordResponse {
     estimatedVolume: number;
     estimatedDifficulty: number;
     intent: "informational" | "navigational" | "commercial" | "transactional";
+    awarenessLevel: "unaware" | "problem_aware" | "solution_aware" | "product_aware" | "most_aware";
     category: string;
     suggestedPageType: string;
   }[];
@@ -100,6 +102,20 @@ REGRAS:
 5. Inclua keywords informacionais para conteúdo de blog
 6. Para cada keyword, estime: volume de busca mensal, dificuldade (0-100), e intenção
 
+CLASSIFICAÇÃO POR NÍVEL DE CONSCIÊNCIA DO PÚBLICO:
+Para cada keyword, além do intent, classifique o "awarenessLevel":
+- "unaware": pessoa não sabe que tem o problema (ex: "dores nas costas ao acordar" — não sabe que precisa de quiropraxia)
+- "problem_aware": sabe que tem o problema, não conhece soluções (ex: "o que fazer quando tem dor nas costas")
+- "solution_aware": sabe que soluções existem, não escolheu uma (ex: "quiropraxia vs fisioterapia")
+- "product_aware": conhece o tipo de solução, precisa de prova (ex: "quiropraxia funciona mesmo")
+- "most_aware": pronto para agir, precisa da oferta (ex: "quiropraxia zona sul SP agendar")
+
+Isso afeta COMO o conteúdo será escrito:
+- unaware/problem_aware → conteúdo educacional longo, storytelling, dados
+- solution_aware → conteúdo comparativo, diferenciação
+- product_aware → cases, depoimentos, prova social
+- most_aware → landing page com CTA direto, benefícios, garantias
+
 FORMATO DE RESPOSTA (JSON puro, sem markdown):
 {
   "keywords": [
@@ -108,6 +124,7 @@ FORMATO DE RESPOSTA (JSON puro, sem markdown):
       "estimatedVolume": 720,
       "estimatedDifficulty": 45,
       "intent": "commercial",
+      "awarenessLevel": "most_aware",
       "category": "service_location",
       "suggestedPageType": "service_area"
     }
@@ -128,6 +145,7 @@ Gere APENAS o JSON, sem explicações.`;
     isEstimated: true,
     category: kw.category,
     suggestedPageType: kw.suggestedPageType,
+    awarenessLevel: kw.awarenessLevel,
   }));
 }
 

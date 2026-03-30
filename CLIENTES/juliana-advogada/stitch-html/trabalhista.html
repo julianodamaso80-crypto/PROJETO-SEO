@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Direito Trabalhista | Dra. Juliana Darin Advocacia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "outline-variant": "#45474c",
+              "secondary-fixed-dim": "#bbc6e4",
+              "on-primary-container": "#9a7c24",
+              "on-error": "#690005",
+              "surface-container-high": "#1f2a3d",
+              "inverse-surface": "#d7e3fc",
+              "surface-tint": "#e6c364",
+              "error": "#ffb4ab",
+              "outline": "#8f9097",
+              "on-background": "#d7e3fc",
+              "on-primary-fixed": "#241a00",
+              "background": "#071325",
+              "surface-container-low": "#101c2e",
+              "tertiary-fixed": "#ffe08c",
+              "on-tertiary-container": "#4f3d00",
+              "on-secondary": "#253047",
+              "error-container": "#93000a",
+              "on-secondary-fixed": "#0f1b31",
+              "on-secondary-fixed-variant": "#3b475f",
+              "secondary-fixed": "#d7e2ff",
+              "tertiary-container": "#c6a855",
+              "inverse-primary": "#755b00",
+              "on-tertiary": "#3d2f00",
+              "on-error-container": "#ffdad6",
+              "primary-fixed-dim": "#e6c364",
+              "on-tertiary-fixed": "#241a00",
+              "tertiary": "#e3c46d",
+              "secondary-container": "#3b475f",
+              "secondary": "#bbc6e4",
+              "on-surface-variant": "#c5c6cd",
+              "surface-variant": "#2a3548",
+              "primary-container": "#1d1500",
+              "surface-container": "#142032",
+              "surface": "#071325",
+              "surface-bright": "#2e394d",
+              "tertiary-fixed-dim": "#e3c46d",
+              "on-secondary-container": "#a9b5d2",
+              "on-tertiary-fixed-variant": "#584400",
+              "inverse-on-surface": "#253144",
+              "surface-dim": "#071325",
+              "on-primary": "#3d2e00",
+              "primary": "#e6c364",
+              "surface-container-lowest": "#030e20",
+              "on-primary-fixed-variant": "#584400",
+              "on-surface": "#d7e3fc",
+              "surface-container-highest": "#2a3548",
+              "primary-fixed": "#ffe08f"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(230, 195, 100, 0.15);
+      }
+      .gold-gradient-btn {
+        background: linear-gradient(to right, #e6c364, #c6a855);
+      }
+      .light-orb {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background: #e6c364;
+        filter: blur(100px);
+        opacity: 0.05;
+        border-radius: 50%;
+        z-index: 0;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary/30">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/10 backdrop-blur-xl dark:bg-surface/10 shadow-2xl shadow-blue-900/20">
+<div class="flex justify-between items-center px-8 py-4 max-w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-amber-200" data-icon="gavel">gavel</span>
+<span class="text-xl font-serif font-bold text-amber-200 tracking-tighter">DRA. JULIANA DARIN ADVOCACIA</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-300 hover:text-amber-100 transition-colors Inter font-medium uppercase tracking-widest text-xs" href="index.html">Home</a>
+<a class="text-amber-200 border-b-2 border-amber-200 pb-1 Inter font-medium uppercase tracking-widest text-xs" href="trabalhista.html">Trabalhista</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors Inter font-medium uppercase tracking-widest text-xs" href="previdenciario.html">Previdência</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors Inter font-medium uppercase tracking-widest text-xs" href="blog.html">Blog</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors Inter font-medium uppercase tracking-widest text-xs" href="sobre.html">Sobre</a>
+</nav>
+<a href="https://wa.me/550000000000" class="gold-gradient-btn text-on-primary-fixed font-bold py-2.5 px-6 rounded-lg hover:scale-105 active:scale-95 transition-all duration-200 text-sm uppercase tracking-wider">
+                Consulta Gratuita
+            </a>
+</div>
+</header>
+<main class="relative overflow-hidden pt-24">
+<!-- Background Orbs -->
+<div class="light-orb -top-20 -left-20"></div>
+<div class="light-orb top-1/2 -right-20"></div>
+<!-- Hero Section -->
+<section class="relative px-8 md:px-20 pt-20 pb-32 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+<div class="md:w-3/5">
+<h1 class="font-headline text-5xl md:text-7xl leading-tight text-white mb-8">
+                    Seus Direitos Trabalhistas Foram Violados? <span class="text-primary">Descubra</span> Como Reagir
+                </h1>
+<p class="text-slate-400 text-xl leading-relaxed mb-10 max-w-2xl">
+                    Milhares de trabalhadores brasileiros deixam de cobrar direitos por medo ou desinformação. Não permita que isso aconteça com você.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="https://wa.me/550000000000" class="gold-gradient-btn text-on-primary-fixed font-bold py-5 px-10 rounded-lg text-lg hover:shadow-lg hover:shadow-primary/20 transition-all flex items-center justify-center gap-3">
+                        Reivindicar Meus Direitos
+                        <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="md:w-2/5 relative">
+<div class="absolute -inset-4 bg-primary/10 blur-3xl rounded-full"></div>
+<img alt="Legal Gavel" class="relative rounded-xl shadow-2xl border border-white/5 grayscale-[0.3] hover:grayscale-0 transition-all duration-700" data-alt="close-up of a wooden gavel on a desk with blurred law books in the background, warm atmospheric lighting and professional aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDruskAx6oB_aV3l0LYXe2cGZPR4uKU4wkd7s6KIBldEYqmm7jbIC5UWGL20BsZZV0h2wS0rn0Zqmk6UKbEXvn2RzV0VwK7QqY_b650G2HbmnUFxT1ITCxrKgTmqHBHWmA0dWZpFHK6M_mdXRo3YMP20EXfic71SofXZXVFWJE1XONYy4Amaq4HkzX2lgYyzKZX0XbWUbnlXvVsk_mvsq5Pq0Vu8vhB57m4lEXK8a-Qu-xDVm6C4Ng2CmIWL_eLDQ-BgQWjLeiBH2g"/>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="bg-surface-container-low py-32 px-8 md:px-20">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-2xl">
+<span class="text-primary font-label uppercase tracking-[0.3em] text-xs font-bold mb-4 block">Especialidades</span>
+<h2 class="font-headline text-4xl md:text-5xl text-white">Proteção Integral ao Trabalhador</h2>
+</div>
+<p class="text-slate-400 max-w-xs text-sm leading-relaxed">
+                        Atuação estratégica em todas as instâncias da Justiça do Trabalho, focada em resultados rápidos e sólidos.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1: Acidente -->
+<div class="glass-card p-8 rounded-xl relative group hover:bg-white/5 transition-all duration-500 overflow-hidden">
+<div class="absolute left-0 top-8 bottom-8 w-1 bg-primary transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+<div class="mb-6 inline-flex items-center justify-center w-14 height-14 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl p-3" data-icon="medical_services">medical_services</span>
+</div>
+<h3 class="font-headline text-2xl text-white mb-4">Acidente de Trabalho</h3>
+<p class="text-slate-400 leading-relaxed mb-6">Indenizações por danos morais, materiais e estéticos, além de estabilidade provisória garantida por lei.</p>
+<a class="text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="https://wa.me/550000000000">
+                            Saiba Mais <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<!-- Card 2: Vínculo -->
+<div class="glass-card p-8 rounded-xl relative group hover:bg-white/5 transition-all duration-500 overflow-hidden">
+<div class="absolute left-0 top-8 bottom-8 w-1 bg-primary transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+<div class="mb-6 inline-flex items-center justify-center w-14 height-14 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl p-3" data-icon="badge">badge</span>
+</div>
+<h3 class="font-headline text-2xl text-white mb-4">Reconhecimento de Vínculo</h3>
+<p class="text-slate-400 leading-relaxed mb-6">Trabalhou sem carteira assinada? Buscamos o reconhecimento retroativo do vínculo e o pagamento de todos os benefícios devidos.</p>
+<a class="text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="https://wa.me/550000000000">
+                            Saiba Mais <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<!-- Card 3: Horas Extras -->
+<div class="glass-card p-8 rounded-xl relative group hover:bg-white/5 transition-all duration-500 overflow-hidden">
+<div class="absolute left-0 top-8 bottom-8 w-1 bg-primary transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+<div class="mb-6 inline-flex items-center justify-center w-14 height-14 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl p-3" data-icon="schedule">schedule</span>
+</div>
+<h3 class="font-headline text-2xl text-white mb-4">Horas Extras e Intervalos</h3>
+<p class="text-slate-400 leading-relaxed mb-6">Recuperação de horas não pagas, supressão de intervalo intrajornada e descaracterização de cargo de confiança.</p>
+<a class="text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="https://wa.me/550000000000">
+                            Saiba Mais <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<!-- Card 4: Rescisão Indireta -->
+<div class="glass-card p-8 rounded-xl relative group hover:bg-white/5 transition-all duration-500 overflow-hidden">
+<div class="absolute left-0 top-8 bottom-8 w-1 bg-primary transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+<div class="mb-6 inline-flex items-center justify-center w-14 height-14 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl p-3" data-icon="contract_delete">contract_delete</span>
+</div>
+<h3 class="font-headline text-2xl text-white mb-4">Rescisão Indireta</h3>
+<p class="text-slate-400 leading-relaxed mb-6">O "pedido de demissão com culpa do patrão" quando a empresa descumpre o contrato ou as leis trabalhistas.</p>
+<a class="text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="trabalhista.html">
+                            Saiba Mais <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<!-- Card 5: Periculosidade -->
+<div class="glass-card p-8 rounded-xl relative group hover:bg-white/5 transition-all duration-500 overflow-hidden">
+<div class="absolute left-0 top-8 bottom-8 w-1 bg-primary transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+<div class="mb-6 inline-flex items-center justify-center w-14 height-14 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl p-3" data-icon="warning">warning</span>
+</div>
+<h3 class="font-headline text-2xl text-white mb-4">Periculosidade</h3>
+<p class="text-slate-400 leading-relaxed mb-6">Adicional de 30% sobre o salário para quem trabalha exposto a riscos de vida, como eletricidade ou inflamáveis.</p>
+<a class="text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="trabalhista.html">
+                            Saiba Mais <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<!-- Card 6: Insalubridade -->
+<div class="glass-card p-8 rounded-xl relative group hover:bg-white/5 transition-all duration-500 overflow-hidden">
+<div class="absolute left-0 top-8 bottom-8 w-1 bg-primary transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+<div class="mb-6 inline-flex items-center justify-center w-14 height-14 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl p-3" data-icon="mask">masks</span>
+</div>
+<h3 class="font-headline text-2xl text-white mb-4">Insalubridade</h3>
+<p class="text-slate-400 leading-relaxed mb-6">Adicionais de 10%, 20% ou 40% para exposição a agentes químicos, biológicos ou ruído excessivo no trabalho.</p>
+<a class="text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="trabalhista.html">
+                            Saiba Mais <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Urgency Section -->
+<section class="py-32 px-8 md:px-20 relative">
+<div class="max-w-5xl mx-auto bg-surface-container-high rounded-3xl p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
+<div class="absolute top-0 right-0 p-8 opacity-10">
+<span class="material-symbols-outlined text-[12rem]" data-icon="history">history</span>
+</div>
+<h2 class="font-headline text-4xl md:text-5xl text-white mb-8 relative z-10">O Tempo está Contra Você</h2>
+<p class="text-slate-300 text-xl leading-relaxed mb-12 max-w-3xl mx-auto relative z-10">
+                    Você tem <span class="text-primary font-bold">2 anos</span> após sair da empresa para entrar com um processo. No entanto, a ação cobre apenas os direitos dos <span class="text-primary font-bold">últimos 5 anos</span>. Quanto mais você espera, mais direitos você perde para sempre.
+                </p>
+<a href="https://wa.me/550000000000" class="gold-gradient-btn text-on-primary-fixed font-bold py-6 px-12 rounded-lg text-xl hover:scale-105 transition-all relative z-10 uppercase tracking-widest shadow-xl shadow-primary/10">
+                    Falar com Advogado Especialista Agora
+                </a>
+</div>
+</section>
+<!-- Related Articles -->
+<section class="py-32 px-8 md:px-20 max-w-7xl mx-auto">
+<div class="flex items-center gap-4 mb-16">
+<div class="h-px bg-primary/30 flex-grow"></div>
+<h2 class="font-headline text-3xl text-white px-4">Artigos Jurídicos</h2>
+<div class="h-px bg-primary/30 flex-grow"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<article class="group cursor-pointer">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] relative">
+<img alt="Legal Document" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100" data-alt="top view of a professional signing legal documents with a golden fountain pen, moody office lighting and elegant setup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgLX0tCJkdnoybYG5FPQihxpUeoX58ymCjeWJM1xI-3ou6WvvGQVZahPd2YvbIUxOfFN12_lI3sFwiD4MVKIjI-31geDTLerfMAus0F1QFBWC-Lf9gU5G6tHTl-6ImKskVPT_Ou7X975kht5RwDAFzCabqSBM4EH6h8LAZi53VYIWIBljfuzqRYOxBqWCDuqSGJqKniwQ2ac7Awdk0HGFNXSS40eB6HTLZkg9BUu1gLBSV3IIElMmERoWeh1_xY1wtR02-dbdzvVA"/>
+<div class="absolute top-4 left-4 bg-primary text-on-primary-fixed px-3 py-1 text-[10px] font-bold uppercase tracking-widest rounded">Trabalhista</div>
+</div>
+<h3 class="font-headline text-xl text-white mb-3 group-hover:text-primary transition-colors">Como funciona a rescisão indireta na prática?</h3>
+<p class="text-slate-400 text-sm leading-relaxed mb-4">Entenda os passos para sair de uma empresa que não te valoriza sem perder seus direitos integrais...</p>
+<a href="blog-rescisao-indireta.html" class="text-primary text-xs font-bold uppercase tracking-widest">Ler Artigo Completo</a>
+</article>
+<article class="group cursor-pointer">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] relative">
+<img alt="Office Desk" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100" data-alt="sturdy office desk with a classic lawyer theme, vintage aesthetics and warm wooden textures under dim luxury lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5oTGteWlHXcFKFpR-6kph0pJ5nYGQE3y_OzgxYxpVKtkjZC2c-Usfn2N16ma6LEeKcrBfmeowyMdLh4m3MsLAB9Plpk_qDLfR10tyeCwdD5quq5SdYO4WjT7fRyz4-hPwSw3d_5mH4gDbAzhFaFjZ1R2-dZCZ2zQJbccAhjHLAQDSqOF5-U5AfXmOYYfFUf1JRwnrdL21MDpJnElbGSjgXAlG_1af_Fc_J2wo8UT_n6FFvspEmYaBOgT2-3UrqG53Yk_CBcTBOBs"/>
+<div class="absolute top-4 left-4 bg-primary text-on-primary-fixed px-3 py-1 text-[10px] font-bold uppercase tracking-widest rounded">Trabalhista</div>
+</div>
+<h3 class="font-headline text-xl text-white mb-3 group-hover:text-primary transition-colors">Vínculo Empregatício: 5 Provas Que o Juiz Aceita</h3>
+<p class="text-slate-400 text-sm leading-relaxed mb-4">Trabalhou sem carteira assinada? Conversas de WhatsApp, fotos e testemunhas podem provar seu vínculo...</p>
+<a href="blog-vinculo-empregaticio.html" class="text-primary text-xs font-bold uppercase tracking-widest">Ler Artigo Completo</a>
+</article>
+<article class="group cursor-pointer">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] relative">
+<img alt="Calculations" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100" data-alt="abstract business concept with hands working on calculations and legal papers, professional navy and gold color grading" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwfwTcVCNHeCkwQUQ5YjQjxYWxkYl_X4AdqXcg_8Cwgqv15HKfWWI_GjVQMFvnLnzcGC798oOz9rjH6w8BuDM2rXWhsWlxVvhFZ4ilWnEG8Rzi_1_GJPVqBlvL640A7fDR6_DXG2P6jbfTQgzrAG-hrUEShVklLAuiNS37Dbzi3_bDh8TgV9rYvUmG5cAae2U4gI0iyXZSO-YKLkLHjWIM_XB3DyUeQhjKWpj_D8uD3iAd4urL4YStv2I4cwrR2G3zDZx1BBoNzjE"/>
+<div class="absolute top-4 left-4 bg-primary text-on-primary-fixed px-3 py-1 text-[10px] font-bold uppercase tracking-widest rounded">Trabalhista</div>
+</div>
+<h3 class="font-headline text-xl text-white mb-3 group-hover:text-primary transition-colors">Periculosidade e Insalubridade: O Adicional Que Pode Estar Faltando</h3>
+<p class="text-slate-400 text-sm leading-relaxed mb-4">Até 40% a mais no salário por exposição a riscos. Saiba se você tem direito e como cobrar...</p>
+<a href="blog-periculosidade-insalubridade.html" class="text-primary text-xs font-bold uppercase tracking-widest">Ler Artigo Completo</a>
+</article>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full pt-20 pb-10 bg-surface-container-low border-t border-amber-200/20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 md:px-20 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-2xl font-serif text-amber-200 mb-4">DRA. JULIANA DARIN</div>
+<p class="text-slate-400 text-sm leading-relaxed mb-6">Advocacia especializada com foco em dignidade humana e justiça social. Experiência e rigor técnico a serviço do trabalhador.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-amber-200 hover:bg-primary hover:text-on-primary-fixed transition-all" href="https://wa.me/550000000000">
+<span class="material-symbols-outlined text-xl" data-icon="share">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-amber-200 hover:bg-primary hover:text-on-primary-fixed transition-all" href="https://wa.me/550000000000">
+<span class="material-symbols-outlined text-xl" data-icon="mail">mail</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-headline text-white title-md mb-6 uppercase tracking-widest text-xs">Serviços</h4>
+<ul class="space-y-3">
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform duration-200 inline-block Inter text-sm leading-relaxed" href="trabalhista.html">Trabalhista</a></li>
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform duration-200 inline-block Inter text-sm leading-relaxed" href="previdenciario.html">Previdenciário</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline text-white title-md mb-6 uppercase tracking-widest text-xs">Explorar</h4>
+<ul class="space-y-3">
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform duration-200 inline-block Inter text-sm leading-relaxed" href="blog.html">Blog</a></li>
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform duration-200 inline-block Inter text-sm leading-relaxed" href="sobre.html">Sobre Nós</a></li>
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform duration-200 inline-block Inter text-sm leading-relaxed" href="index.html#contato">Contato</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline text-white title-md mb-6 uppercase tracking-widest text-xs">Endereço</h4>
+<p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Av. Paulista, 1000 - Bela Vista<br/>
+                    São Paulo - SP<br/>
+                    CEP: 01310-100
+                </p>
+<p class="text-amber-200 font-bold text-sm">(11) 99999-9999</p>
+</div>
+</div>
+<div class="mt-20 pt-8 border-t border-white/5 text-center px-8">
+<p class="text-slate-500 text-xs">© 2026 Dra. Juliana Darin da Cunha. Todos os direitos reservados.</p>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 md:hidden bg-surface-container-low/80 backdrop-blur-lg shadow-[0_-10px_30px_rgba(7,19,37,0.5)] z-50 rounded-t-2xl">
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100" href="index.html">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-amber-200 bg-amber-200/10 rounded-xl px-3 py-1 scale-90 transition-transform" href="index.html">
+<span class="material-symbols-outlined" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Trabalhista</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100" href="trabalhista.html">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Previdência</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100" href="previdenciario.html">
+<span class="material-symbols-outlined" data-icon="article">article</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Blog</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100" href="blog.html">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Sobre</span>
+</a>
+</nav>
+<!-- Floating WhatsApp Button -->
+<a class="fixed bottom-24 right-6 md:bottom-10 md:right-10 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform z-40 group" href="https://wa.me/5511999999999">
+<svg class="w-8 h-8 text-white fill-current" viewbox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+</svg>
+<span class="absolute right-full mr-4 bg-surface-container-high text-white text-xs px-4 py-2 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity border border-primary/20 pointer-events-none">Fale com a Dra. Juliana</span>
+</a>
+</body></html>

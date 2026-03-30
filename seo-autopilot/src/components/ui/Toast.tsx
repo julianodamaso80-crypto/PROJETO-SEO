@@ -39,9 +39,9 @@ export function ToastProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const borderColor: Record<ToastType, string> = {
-    success: "#00ff88",
+    success: "var(--accent)",
     error: "#ef4444",
-    info: "#3b82f6",
+    info: "var(--accent-2)",
   };
 
   return (
@@ -65,27 +65,27 @@ export function ToastProvider({ children }: { children: ReactNode }) {
             className="animate-slide-in-right"
             style={{
               pointerEvents: "auto",
-              background: "rgba(24,24,27,0.95)",
+              background: "var(--bg-surface)",
               backdropFilter: "blur(12px)",
               borderRadius: "12px",
-              border: "1px solid rgba(255,255,255,0.1)",
+              border: "1px solid var(--border)",
               borderLeft: `3px solid ${borderColor[t.type]}`,
               padding: "12px 16px",
               display: "flex",
               alignItems: "center",
               gap: "10px",
               maxWidth: "380px",
-              boxShadow: "0 8px 32px rgba(0,0,0,0.4)",
+              boxShadow: "0 8px 32px rgba(0,0,0,0.08)",
             }}
           >
-            <span style={{ fontSize: "14px", color: "#f0f0f8", flex: 1 }}>{t.message}</span>
+            <span style={{ fontSize: "14px", color: "var(--text-primary)", flex: 1 }}>{t.message}</span>
             <button
               onClick={() => dismiss(t.id)}
               style={{
                 background: "none",
                 border: "none",
                 cursor: "pointer",
-                color: "rgba(240,240,248,0.4)",
+                color: "var(--text-muted)",
                 padding: "2px",
                 display: "flex",
                 flexShrink: 0,

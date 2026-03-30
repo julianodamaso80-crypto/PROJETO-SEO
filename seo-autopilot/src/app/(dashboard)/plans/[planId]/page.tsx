@@ -53,8 +53,8 @@ interface CrossClusterLink {
 // ─── Config ─────────────────────────────────────────────────────
 
 const typeConfig: Record<string, { label: string; color: string; emoji: string }> = {
-  pillar: { label: "Pillar", color: "#00ff88", emoji: "🏛️" },
-  cluster: { label: "Cluster", color: "#3b82f6", emoji: "🔗" },
+  pillar: { label: "Pillar", color: "#754437", emoji: "🏛️" },
+  cluster: { label: "Cluster", color: "#28374A", emoji: "🔗" },
   service_area: { label: "Local", color: "#f59e0b", emoji: "📍" },
   blog: { label: "Blog", color: "#8b5cf6", emoji: "📝" },
   faq: { label: "FAQ", color: "#ec4899", emoji: "❓" },
@@ -62,8 +62,8 @@ const typeConfig: Record<string, { label: string; color: string; emoji: string }
 };
 
 const intentColors: Record<string, { label: string; color: string }> = {
-  commercial: { label: "Comercial", color: "#00ff88" },
-  transactional: { label: "Transacional", color: "#3b82f6" },
+  commercial: { label: "Comercial", color: "#754437" },
+  transactional: { label: "Transacional", color: "#28374A" },
   informational: { label: "Informacional", color: "#facc15" },
   navigational: { label: "Navegacional", color: "#94a3b8" },
 };
@@ -72,19 +72,19 @@ const statusConfig: Record<string, { label: string; color: string; emoji: string
   pending: { label: "Pendente", color: "#94a3b8", emoji: "⏸️" },
   generating: { label: "Gerando...", color: "#facc15", emoji: "⏳" },
   review: { label: "Em revisão", color: "#3b82f6", emoji: "📝" },
-  approved: { label: "Aprovada", color: "#00ff88", emoji: "✅" },
+  approved: { label: "Aprovada", color: "#754437", emoji: "✅" },
   publishing: { label: "Publicando...", color: "#a78bfa", emoji: "⏳" },
-  published: { label: "Publicada", color: "#00ff88", emoji: "🌐" },
+  published: { label: "Publicada", color: "#754437", emoji: "🌐" },
   failed: { label: "Falha", color: "#ef4444", emoji: "❌" },
   draft: { label: "Rascunho", color: "#94a3b8", emoji: "📄" },
-  ready: { label: "Pronta", color: "#00ff88", emoji: "✅" },
+  ready: { label: "Pronta", color: "#754437", emoji: "✅" },
 };
 
 const wpStatusConfig: Record<string, { label: string; color: string; emoji: string }> = {
   none: { label: "—", color: "#94a3b8", emoji: "⏸️" },
   publishing: { label: "Publicando", color: "#a78bfa", emoji: "⏳" },
   draft: { label: "Rascunho WP", color: "#facc15", emoji: "📝" },
-  live: { label: "Publicada", color: "#00ff88", emoji: "✅" },
+  live: { label: "Publicada", color: "#754437", emoji: "✅" },
   error: { label: "Erro", color: "#ef4444", emoji: "❌" },
 };
 
@@ -323,7 +323,7 @@ export default function PlanDetailPage() {
             Status: {planStatusLabel[plan.status] || plan.status} · {allPages.length} páginas · {clusters.length} clusters
           </p>
         </div>
-        <span style={{ padding: "6px 14px", borderRadius: "99px", fontSize: "12px", fontWeight: 600, background: plan.status === "approved" || plan.status === "in_production" || plan.status === "completed" ? "rgba(0,255,136,0.1)" : "rgba(59,130,246,0.1)", color: plan.status === "approved" || plan.status === "in_production" || plan.status === "completed" ? "#00ff88" : "#3b82f6", border: `1px solid ${plan.status === "approved" || plan.status === "in_production" || plan.status === "completed" ? "rgba(0,255,136,0.2)" : "rgba(59,130,246,0.2)"}` }}>
+        <span style={{ padding: "6px 14px", borderRadius: "99px", fontSize: "12px", fontWeight: 600, background: plan.status === "approved" || plan.status === "in_production" || plan.status === "completed" ? "var(--accent-dim)" : "var(--accent-2-dim)", color: plan.status === "approved" || plan.status === "in_production" || plan.status === "completed" ? "var(--accent)" : "var(--accent-2)", border: `1px solid ${plan.status === "approved" || plan.status === "in_production" || plan.status === "completed" ? "var(--accent-glow)" : "var(--accent-2-dim)"}` }}>
           {planStatusLabel[plan.status] || plan.status}
         </span>
       </div>
@@ -353,7 +353,7 @@ export default function PlanDetailPage() {
             <span style={{ color: "var(--accent)" }}>✅ Concluídas: {stats.done}</span>
             {stats.generating > 0 && <span style={{ color: "#facc15" }}>⏳ Gerando: {stats.generating}</span>}
             <span style={{ color: "var(--text-muted)" }}>⏸️ Pendentes: {stats.pending}</span>
-            {stats.published > 0 && <span style={{ color: "#00ff88" }}>🌐 Publicadas: {stats.published}</span>}
+            {stats.published > 0 && <span style={{ color: "var(--accent)" }}>🌐 Publicadas: {stats.published}</span>}
             {stats.failed > 0 && <span style={{ color: "#ef4444" }}>❌ Falhas: {stats.failed}</span>}
           </div>
 
@@ -402,7 +402,7 @@ export default function PlanDetailPage() {
               {/* Connection info */}
               <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px", fontSize: "13px" }}>
                 <span style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                  <Plug size={14} style={{ color: "#00ff88" }} />
+                  <Plug size={14} style={{ color: "var(--accent)" }} />
                   <span style={{ color: "var(--text-secondary)" }}>Conectado a</span>
                   <strong style={{ color: "var(--text-primary)" }}>{wpConnection?.wpUrl?.replace(/https?:\/\//, "")}</strong>
                 </span>
@@ -445,10 +445,10 @@ export default function PlanDetailPage() {
               {publishedCount > 0 && (
                 <div style={{ marginBottom: "14px" }}>
                   <div style={{ height: "4px", background: "var(--border)", borderRadius: "99px", overflow: "hidden", marginBottom: "8px" }}>
-                    <div style={{ height: "100%", background: "linear-gradient(90deg, #a78bfa, #00ff88)", borderRadius: "99px", width: `${allPages.length > 0 ? Math.round((publishedCount / allPages.length) * 100) : 0}%`, transition: "width 0.5s ease" }} />
+                    <div style={{ height: "100%", background: "linear-gradient(90deg, var(--accent-2), var(--accent))", borderRadius: "99px", width: `${allPages.length > 0 ? Math.round((publishedCount / allPages.length) * 100) : 0}%`, transition: "width 0.5s ease" }} />
                   </div>
                   <div style={{ display: "flex", gap: "16px", fontSize: "12px" }}>
-                    <span style={{ color: "#00ff88" }}>🌐 Publicadas: {publishedCount}</span>
+                    <span style={{ color: "var(--accent)" }}>🌐 Publicadas: {publishedCount}</span>
                     {stats?.publishing && stats.publishing > 0 ? <span style={{ color: "#a78bfa" }}>⏳ Publicando: {stats.publishing}</span> : null}
                     <span style={{ color: "var(--text-muted)" }}>⏸️ Aguardando: {approvedCount}</span>
                   </div>
@@ -738,7 +738,7 @@ function PagesListTab({
           }
 
           return (
-            <div key={page.id} style={{ display: "grid", gridTemplateColumns: gridCols, padding: "10px 16px", borderBottom: "1px solid var(--border)", alignItems: "center", fontSize: "13px", transition: "background 0.15s" }} onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.03)"; }} onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}>
+            <div key={page.id} style={{ display: "grid", gridTemplateColumns: gridCols, padding: "10px 16px", borderBottom: "1px solid var(--border)", alignItems: "center", fontSize: "13px", transition: "background 0.15s" }} onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(40,55,74,0.04)"; }} onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}>
               <span style={{ color: "var(--text-muted)" }}>{idx + 1}</span>
               <span title={tc.label}>{tc.emoji}</span>
               <span style={{ color: "var(--text-primary)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{page.title}</span>
@@ -759,7 +759,7 @@ function PagesListTab({
                 {(page.status === "review" || page.status === "ready") && (
                   <>
                     <IconBtn title="Preview" onClick={() => onPreview(page.id)}><Eye size={13} /></IconBtn>
-                    <IconBtn title="Aprovar" onClick={() => onApprove(page.id)} color="#00ff88"><Check size={13} /></IconBtn>
+                    <IconBtn title="Aprovar" onClick={() => onApprove(page.id)} color="var(--accent)"><Check size={13} /></IconBtn>
                     <IconBtn title="Rejeitar" onClick={() => onReject(page.id)} color="#ef4444"><RotateCcw size={13} /></IconBtn>
                   </>
                 )}
@@ -805,7 +805,7 @@ function PagesListTab({
 function IconBtn({ title, onClick, color, children }: { title: string; onClick: () => void; color?: string; children: React.ReactNode }) {
   return (
     <button title={title} onClick={onClick} style={{ background: "none", border: "none", cursor: "pointer", color: color || "var(--text-muted)", padding: "3px", display: "flex", borderRadius: "4px", transition: "background 0.15s" }}
-      onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.06)"; }}
+      onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(40,55,74,0.06)"; }}
       onMouseLeave={(e) => { e.currentTarget.style.background = "none"; }}
     >
       {children}
@@ -830,7 +830,7 @@ function EditPageRow({ page, onCancel, onSave }: { page: any; onCancel: () => vo
   const inp: React.CSSProperties = { width: "100%", background: "var(--bg-surface)", border: "1px solid var(--border)", borderRadius: "8px", padding: "8px 12px", fontSize: "13px", color: "var(--text-primary)", fontFamily: "var(--font-body)", outline: "none" };
 
   return (
-    <div style={{ padding: "20px 16px", borderBottom: "1px solid var(--border)", background: "rgba(0,255,136,0.02)" }}>
+    <div style={{ padding: "20px 16px", borderBottom: "1px solid var(--border)", background: "var(--accent-dim)" }}>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", marginBottom: "12px" }}>
         <div>
           <label style={{ fontSize: "11px", color: "var(--text-muted)", display: "block", marginBottom: "4px" }}>Título</label>
@@ -884,7 +884,7 @@ function KeywordsTab({ keywords }: { keywords: any[] }) {
         <span style={{ color: "var(--text-secondary)" }}><strong style={{ color: "var(--text-primary)" }}>{keywords.length}</strong> keywords</span>
         <span style={{ color: "var(--text-secondary)" }}><strong style={{ color: "var(--accent)" }}>{selected.length}</strong> selecionadas</span>
         <span style={{ color: "var(--text-secondary)" }}>Vol. total: <strong style={{ color: "var(--text-primary)" }}>{totalVolume.toLocaleString()}/mês</strong></span>
-        <span style={{ marginLeft: "auto", padding: "2px 10px", borderRadius: "99px", fontSize: "11px", background: isEstimated ? "rgba(250,204,21,0.1)" : "rgba(0,255,136,0.1)", color: isEstimated ? "#facc15" : "#00ff88", border: `1px solid ${isEstimated ? "rgba(250,204,21,0.2)" : "rgba(0,255,136,0.2)"}` }}>
+        <span style={{ marginLeft: "auto", padding: "2px 10px", borderRadius: "99px", fontSize: "11px", background: isEstimated ? "rgba(250,204,21,0.1)" : "var(--accent-dim)", color: isEstimated ? "#facc15" : "var(--accent)", border: `1px solid ${isEstimated ? "rgba(250,204,21,0.2)" : "var(--accent-glow)"}` }}>
           Fonte: {isEstimated ? "IA Estimado" : "DataForSEO"}
         </span>
       </div>
@@ -940,7 +940,7 @@ function LinksTab({ linkingPlan, pages, clusters }: {
             <div key={i} style={{ display: "flex", alignItems: "center", gap: "12px", padding: "10px 0", borderBottom: i < linkingPlan.crossClusterLinks!.length - 1 ? "1px solid var(--border)" : "none", fontSize: "13px" }}>
               <span style={{ color: "var(--accent)", fontWeight: 600 }}>{clusterMap[link.from] || link.from}</span>
               <span style={{ color: "var(--text-muted)" }}>↔</span>
-              <span style={{ color: "#3b82f6", fontWeight: 600 }}>{clusterMap[link.to] || link.to}</span>
+              <span style={{ color: "var(--accent-2)", fontWeight: 600 }}>{clusterMap[link.to] || link.to}</span>
               <span style={{ color: "var(--text-muted)", marginLeft: "auto" }}>{link.reason}</span>
             </div>
           ))}
@@ -1019,7 +1019,7 @@ function PreviewModal({ page, allPages, onClose, onApprove, onReject }: {
         </div>
 
         {/* Meta Tags */}
-        <div style={{ padding: "16px 24px", borderBottom: "1px solid var(--border)", background: "rgba(0,255,136,0.02)" }}>
+        <div style={{ padding: "16px 24px", borderBottom: "1px solid var(--border)", background: "var(--accent-dim)" }}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", fontSize: "13px" }}>
             <div>
               <span style={{ fontSize: "11px", color: "var(--text-muted)", textTransform: "uppercase" }}>Meta Title</span>
@@ -1098,7 +1098,7 @@ function PreviewModal({ page, allPages, onClose, onApprove, onReject }: {
               Schema JSON-LD ({schemas.length} tipos)
             </button>
             {showSchema && (
-              <pre style={{ background: "var(--bg-deep)", padding: "16px", borderRadius: "8px", fontSize: "11px", color: "var(--text-secondary)", overflow: "auto", maxHeight: "200px", border: "1px solid var(--border)" }}>
+              <pre style={{ background: "var(--bg-elevated)", padding: "16px", borderRadius: "8px", fontSize: "11px", color: "var(--text-secondary)", overflow: "auto", maxHeight: "200px", border: "1px solid var(--border)" }}>
                 {JSON.stringify(schemas, null, 2)}
               </pre>
             )}

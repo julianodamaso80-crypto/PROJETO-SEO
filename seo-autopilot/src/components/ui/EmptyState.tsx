@@ -27,7 +27,7 @@ export function EmptyState({ icon, title, description, actionLabel, onAction }: 
           width: "64px",
           height: "64px",
           borderRadius: "50%",
-          background: "rgba(255,255,255,0.05)",
+          background: "var(--bg-sand-light)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",

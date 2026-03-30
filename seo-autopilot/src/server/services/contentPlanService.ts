@@ -322,6 +322,30 @@ CONFIGURAÇÃO DE PRODUÇÃO
 TAREFA
 ═══════════════════════════════════════
 
+ANÁLISE DE SOFISTICAÇÃO DO MERCADO:
+Antes de criar os clusters, analise o nível de sofisticação do mercado do cliente:
+
+NÍVEL 1 (Mercado novo): Poucos concorrentes, público ainda descobrindo.
+→ Conteúdo pode ser DIRETO. Diga o que faz e como resolve.
+
+NÍVEL 2 (Mercado crescente): Concorrentes surgindo, público já tem opções.
+→ Amplifique a promessa. Seja mais específico que a concorrência.
+
+NÍVEL 3 (Mercado maduro): Muitos concorrentes, promessas iguais.
+→ Use MECANISMO ÚNICO. Explique POR QUE funciona diferente.
+
+NÍVEL 4 (Mercado saturado): Público cético, já tentou outras soluções.
+→ Foque em PROVA e DIFERENCIAÇÃO. Cases, dados, garantias.
+
+NÍVEL 5 (Mercado cínico): Público não acredita em mais nada.
+→ Lidere com IDENTIFICAÇÃO. Storytelling, valores, comunidade.
+
+Coloque o campo "marketSophistication" (1-5) no topicalMap.
+Isso afeta a ESTRATÉGIA de conteúdo:
+- Nível 1-2: clusters focados em educação e benefícios diretos
+- Nível 3: clusters focados no mecanismo e processo único do cliente
+- Nível 4-5: clusters focados em cases, prova social, e diferenciação radical
+
 Crie um plano de conteúdo SEO completo seguindo estas regras:
 
 REGRAS DE ESTRUTURA:
@@ -352,6 +376,8 @@ FORMATO DE RESPOSTA (JSON puro, sem markdown)
 {
   "topicalMap": {
     "coreTopic": "tema central do site",
+    "marketSophistication": 3,
+    "sophisticationStrategy": "Descrição da estratégia baseada no nível de sofisticação",
     "clusters": [
       {
         "id": "cluster-1",

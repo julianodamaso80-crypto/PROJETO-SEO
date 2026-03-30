@@ -18,8 +18,8 @@ export default function GlobalError({
     <html lang="pt-BR">
       <body
         style={{
-          background: "#09090b",
-          color: "#fff",
+          background: "#FAF8F5",
+          color: "#28374A",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -34,13 +34,13 @@ export default function GlobalError({
               width: "48px",
               height: "48px",
               borderRadius: "12px",
-              background: "#00ff88",
+              background: "#754437",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               fontWeight: 800,
               fontSize: "20px",
-              color: "#000",
+              color: "#FAF8F5",
               margin: "0 auto 24px",
               lineHeight: "48px",
             }}
@@ -58,7 +58,7 @@ export default function GlobalError({
           </h2>
           <p
             style={{
-              color: "#a1a1aa",
+              color: "#6B6751",
               fontSize: "14px",
               lineHeight: 1.6,
               marginBottom: "24px",
@@ -69,8 +69,8 @@ export default function GlobalError({
           <button
             onClick={reset}
             style={{
-              background: "#00ff88",
-              color: "#000",
+              background: "#754437",
+              color: "#FAF8F5",
               border: "none",
               padding: "12px 28px",
               borderRadius: "10px",

@@ -106,7 +106,7 @@ function BillingContent() {
   }
 
   const statusLabels: Record<string, { label: string; color: string }> = {
-    active: { label: "Ativo", color: "#00ff88" },
+    active: { label: "Ativo", color: "var(--accent)" },
     past_due: { label: "Pagamento pendente", color: "#facc15" },
     canceled: { label: "Cancelado", color: "#ef4444" },
     none: { label: "", color: "#71717a" },
@@ -123,12 +123,12 @@ function BillingContent() {
             position: "fixed",
             top: "20px",
             right: "20px",
-            background: success ? "rgba(0,255,136,0.15)" : "rgba(239,68,68,0.15)",
-            border: `1px solid ${success ? "rgba(0,255,136,0.3)" : "rgba(239,68,68,0.3)"}`,
+            background: success ? "var(--accent-dim)" : "rgba(239,68,68,0.15)",
+            border: `1px solid ${success ? "var(--accent-glow)" : "rgba(239,68,68,0.3)"}`,
             borderRadius: "10px",
             padding: "14px 20px",
             fontSize: "13px",
-            color: success ? "#00ff88" : "#ef4444",
+            color: success ? "var(--accent)" : "#ef4444",
             zIndex: 100,
           }}
         >
@@ -264,9 +264,9 @@ function BillingContent() {
                   padding: "28px 24px",
                   position: "relative",
                   border: isPopular
-                    ? "1px solid rgba(0,255,136,0.3)"
+                    ? "1px solid var(--accent-glow)"
                     : isCurrentPlan
-                      ? "1px solid rgba(0,255,136,0.2)"
+                      ? "1px solid var(--accent-dim)"
                       : "1px solid var(--border)",
                   borderRadius: "var(--radius-lg)",
                 }}
@@ -278,8 +278,8 @@ function BillingContent() {
                       top: "-10px",
                       left: "50%",
                       transform: "translateX(-50%)",
-                      background: "#00ff88",
-                      color: "#000",
+                      background: "var(--accent)",
+                      color: "var(--text-on-dark)",
                       fontSize: "11px",
                       fontWeight: 700,
                       padding: "3px 14px",
@@ -333,7 +333,7 @@ function BillingContent() {
                         padding: "5px 0",
                       }}
                     >
-                      <Check size={14} style={{ color: "#00ff88", flexShrink: 0 }} />
+                      <Check size={14} style={{ color: "var(--accent)", flexShrink: 0 }} />
                       {feature}
                     </li>
                   ))}
@@ -359,12 +359,12 @@ function BillingContent() {
                     transition: "all 0.2s",
                     ...(isCurrentPlan
                       ? {
-                          background: "rgba(0,255,136,0.1)",
-                          color: "#00ff88",
+                          background: "var(--accent-dim)",
+                          color: "var(--accent)",
                         }
                       : {
-                          background: isPopular ? "#00ff88" : "var(--bg-glass)",
-                          color: isPopular ? "#000" : "var(--text-primary)",
+                          background: isPopular ? "var(--accent)" : "var(--bg-glass)",
+                          color: isPopular ? "var(--text-on-dark)" : "var(--text-primary)",
                           border: isPopular ? "none" : "1px solid var(--border)",
                           opacity:
                             !stripeConfigured || checkoutMutation.isPending

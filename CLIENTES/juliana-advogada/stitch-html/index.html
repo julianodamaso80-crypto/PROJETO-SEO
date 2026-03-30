@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dra. Juliana Darin Advocacia | Especialista Trabalhista e Previdenciário</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "outline-variant": "#45474c",
+                "secondary-fixed-dim": "#bbc6e4",
+                "on-primary-container": "#9a7c24",
+                "on-error": "#690005",
+                "surface-container-high": "#1f2a3d",
+                "inverse-surface": "#d7e3fc",
+                "surface-tint": "#e6c364",
+                "error": "#ffb4ab",
+                "outline": "#8f9097",
+                "on-background": "#d7e3fc",
+                "on-primary-fixed": "#241a00",
+                "background": "#071325",
+                "surface-container-low": "#101c2e",
+                "tertiary-fixed": "#ffe08c",
+                "on-tertiary-container": "#4f3d00",
+                "on-secondary": "#253047",
+                "error-container": "#93000a",
+                "on-secondary-fixed": "#0f1b31",
+                "on-secondary-fixed-variant": "#3b475f",
+                "secondary-fixed": "#d7e2ff",
+                "tertiary-container": "#c6a855",
+                "inverse-primary": "#755b00",
+                "on-tertiary": "#3d2f00",
+                "on-error-container": "#ffdad6",
+                "primary-fixed-dim": "#e6c364",
+                "on-tertiary-fixed": "#241a00",
+                "tertiary": "#e3c46d",
+                "secondary-container": "#3b475f",
+                "secondary": "#bbc6e4",
+                "on-surface-variant": "#c5c6cd",
+                "surface-variant": "#2a3548",
+                "primary-container": "#1d1500",
+                "surface-container": "#142032",
+                "surface": "#071325",
+                "surface-bright": "#2e394d",
+                "tertiary-fixed-dim": "#e3c46d",
+                "on-secondary-container": "#a9b5d2",
+                "on-tertiary-fixed-variant": "#584400",
+                "inverse-on-surface": "#253144",
+                "surface-dim": "#071325",
+                "on-primary": "#3d2e00",
+                "primary": "#e6c364",
+                "surface-container-lowest": "#030e20",
+                "on-primary-fixed-variant": "#584400",
+                "on-surface": "#d7e3fc",
+                "surface-container-highest": "#2a3548",
+                "primary-fixed": "#ffe08f"
+              },
+              fontFamily: {
+                "headline": ["Noto Serif"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(230, 195, 100, 0.1);
+        }
+        .light-orb-gold {
+            background: radial-gradient(circle, rgba(230, 195, 100, 0.15) 0%, transparent 70%);
+        }
+        .light-orb-blue {
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+        }
+        .point-grid {
+            background-image: radial-gradient(rgba(230, 195, 100, 0.15) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/10 backdrop-blur-xl dark:bg-surface/10 flex justify-between items-center px-8 py-4 max-w-full shadow-2xl shadow-blue-900/20">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-amber-200 text-2xl" data-icon="gavel">gavel</span>
+<span class="text-xl font-serif font-bold text-amber-200 tracking-tighter">DRA. JULIANA DARIN ADVOCACIA</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-slate-300 hover:text-amber-100 transition-colors font-medium uppercase tracking-widest text-xs" href="index.html" class="text-amber-200 border-b-2 border-amber-200 pb-1 font-medium uppercase tracking-widest text-xs">Home</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors font-medium uppercase tracking-widest text-xs" href="trabalhista.html">Trabalhista</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors font-medium uppercase tracking-widest text-xs" href="previdenciario.html">Previdência</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors font-medium uppercase tracking-widest text-xs" href="blog.html">Blog</a>
+<a class="text-slate-300 hover:text-amber-100 transition-colors font-medium uppercase tracking-widest text-xs" href="sobre.html">Sobre</a>
+</nav>
+<a class="hidden md:inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-gradient-to-r from-primary to-tertiary-container text-on-primary-fixed font-bold text-sm tracking-wide hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20" href="https://wa.me/550000000000">
+            Consulta Gratuita
+        </a>
+<!-- Mobile Toggle (Simplified for UI representation) -->
+<button class="md:hidden text-amber-200">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</a>
+</header>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center overflow-hidden pt-20">
+<!-- Background Image & Overlays -->
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-50 grayscale-[0.3]" data-alt="Luxurious and moody law office interior with a dark wood desk, leather chair, antique law books on shelves, and warm ambient desk lighting in a high-end setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLi4f6lMwQ28v7xlgaCJRnqbUPqOyrJPPFec1PD0LPAKU80fsl_tff0RZOP3eJQSThc1w6SLnxsiwr72CByd8iF8AkNKw3JgYMZu350jxbUVIOCzkYbkgaSpPx-zKO-VvGioZKKQHRb3s9smo9kdTQXKE-Y9ghRo4ZWArhLCsACiEX_kdSoRGvm5EoJrLXm_71LnYoK5tjLcc3VWKH4DM75vIfn4cfiKB3jH_DbS6Avci366vEYoBfioG_8_-vRdXonedtCmMFCig"/>
+<div class="absolute inset-0 bg-gradient-to-b from-surface/60 via-surface/50 to-surface"></div>
+<div class="absolute top-1/4 left-1/4 w-[500px] h-[500px] light-orb-gold blur-[100px] rounded-full"></div>
+<div class="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] light-orb-blue blur-[100px] rounded-full"></div>
+<div class="absolute inset-0 point-grid opacity-20"></div>
+</div>
+<div class="container mx-auto px-8 md:px-20 relative z-10">
+<div class="max-w-4xl">
+<div class="inline-block px-4 py-1.5 mb-8 rounded-full border border-primary/40 bg-primary/5">
+<span class="text-primary text-xs font-bold tracking-[0.3em] uppercase">DIREITO TRABALHISTA &amp; PREVIDENCIÁRIO</span>
+</div>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-8">
+                    Seus direitos não esperam. <br/>
+<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-tertiary-container italic">Sua defesa também não.</span>
+</h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-2xl mb-12 leading-relaxed">
+                    Empresa violou seus direitos? INSS negou seu benefício? Cada dia sem ação é um dia de prejuízo. Consulta inicial gratuita com advogada especialista.
+                </p>
+<div class="flex flex-col sm:flex-row gap-6 mb-20">
+<a class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-primary to-tertiary-container text-on-primary-fixed font-bold text-lg shadow-[0_0_20px_rgba(230,195,100,0.3)] hover:shadow-[0_0_30px_rgba(230,195,100,0.5)] transition-all" href="https://wa.me/550000000000">
+                        Consulta Gratuita <span class="ml-2 material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center px-8 py-4 rounded-full border border-outline-variant/30 text-primary font-bold text-lg hover:bg-white/5 transition-all" href="https://wa.me/550000000000">
+                        Conheça meus serviços
+                    </a>
+</div>
+<!-- Stats Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-12 border-t border-amber-200/10 pt-12">
+<div>
+<div class="font-headline text-4xl text-primary font-bold mb-1">500+</div>
+<div class="text-slate-400 text-sm uppercase tracking-widest font-medium">Clientes atendidos</div>
+</div>
+<div>
+<div class="font-headline text-4xl text-primary font-bold mb-1">93%</div>
+<div class="text-slate-400 text-sm uppercase tracking-widest font-medium">Taxa de êxito</div>
+</div>
+<div>
+<div class="font-headline text-4xl text-primary font-bold mb-1">R$0</div>
+<div class="text-slate-400 text-sm uppercase tracking-widest font-medium">Custo inicial</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Diferenciais Section -->
+<section class="py-32 bg-surface relative overflow-hidden">
+<div class="container mx-auto px-8 md:px-20">
+<div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-20">
+<div class="max-w-xl">
+<h2 class="font-headline text-4xl md:text-5xl mb-6">Por que escolher <br/><span class="text-primary italic">nosso escritório?</span></h2>
+<p class="text-on-surface-variant">Unimos a tradição da advocacia com a agilidade do atendimento digital especializado.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Diferencial 1 -->
+<div class="glass-card p-8 rounded-xl group hover:border-primary/40 transition-all duration-500">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="verified">verified</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-amber-100">Especialista</h3>
+<p class="text-slate-400 leading-relaxed">Atuação focada exclusivamente em causas trabalhistas e previdenciárias.</p>
+</div>
+<!-- Diferencial 2 -->
+<div class="glass-card p-8 rounded-xl group hover:border-primary/40 transition-all duration-500">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="payments">payments</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-amber-100">Honorários de Êxito</h3>
+<p class="text-slate-400 leading-relaxed">Recebemos apenas quando você ganha. Sem taxas de manutenção ou custos iniciais abusivos.</p>
+</div>
+<!-- Diferencial 3 -->
+<div class="glass-card p-8 rounded-xl group hover:border-primary/40 transition-all duration-500">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="translate">translate</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-amber-100">Sem Juridiquês</h3>
+<p class="text-slate-400 leading-relaxed">Comunicação clara e objetiva. Você entende cada passo do seu processo sem termos técnicos.</p>
+</div>
+<!-- Diferencial 4 -->
+<div class="glass-card p-8 rounded-xl group hover:border-primary/40 transition-all duration-500">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="devices">devices</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-amber-100">Atendimento Online</h3>
+<p class="text-slate-400 leading-relaxed">Atendemos em todo o Brasil de forma 100% digital, com agilidade e segurança jurídica.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Serviços Trabalhistas -->
+<section class="py-32 bg-surface-container-low">
+<div class="container mx-auto px-8 md:px-20">
+<div class="max-w-2xl mb-20">
+<span class="text-primary text-xs font-bold tracking-widest uppercase mb-4 block">Justiça do Trabalho</span>
+<h2 class="font-headline text-4xl md:text-5xl mb-6">Protegendo sua <br/>Dignidade Profissional</h2>
+<div class="h-1 w-20 bg-primary"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Item 1 -->
+<div class="glass-card p-8 rounded-xl flex items-start gap-6 relative overflow-hidden group hover:bg-surface-bright transition-colors">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<span class="material-symbols-outlined text-primary text-4xl opacity-50" data-icon="personal_injury">personal_injury</span>
+<div>
+<h3 class="text-xl font-bold mb-3 text-amber-100">Acidente de Trabalho</h3>
+<p class="text-slate-400">Indenizações por danos morais, estéticos e estabilidade garantida após o retorno.</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="glass-card p-8 rounded-xl flex items-start gap-6 relative overflow-hidden group hover:bg-surface-bright transition-colors">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<span class="material-symbols-outlined text-primary text-4xl opacity-50" data-icon="link">link</span>
+<div>
+<h3 class="text-xl font-bold mb-3 text-amber-100">Reconhecimento de Vínculo</h3>
+<p class="text-slate-400">Garantia de registro em carteira e todos os direitos retroativos para trabalhadores sem contrato.</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="glass-card p-8 rounded-xl flex items-start gap-6 relative overflow-hidden group hover:bg-surface-bright transition-colors">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<span class="material-symbols-outlined text-primary text-4xl opacity-50" data-icon="schedule">schedule</span>
+<div>
+<h3 class="text-xl font-bold mb-3 text-amber-100">Horas Extras e Intervalos</h3>
+<p class="text-slate-400">Recuperação de valores não pagos por jornadas estendidas ou intervalos não concedidos.</p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="glass-card p-8 rounded-xl flex items-start gap-6 relative overflow-hidden group hover:bg-surface-bright transition-colors">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<span class="material-symbols-outlined text-primary text-4xl opacity-50" data-icon="cancel">cancel</span>
+<div>
+<h3 class="text-xl font-bold mb-3 text-amber-100">Rescisão Indireta</h3>
+<p class="text-slate-400">"Demissão do patrão" por descumprimento de deveres, garantindo todas as verbas rescisórias.</p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="glass-card p-8 rounded-xl flex items-start gap-6 relative overflow-hidden group hover:bg-surface-bright transition-colors">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<span class="material-symbols-outlined text-primary text-4xl opacity-50" data-icon="warning">warning</span>
+<div>
+<h3 class="text-xl font-bold mb-3 text-amber-100">Periculosidade</h3>
+<p class="text-slate-400">Adicional de 30% para funções que envolvem risco de morte ou contato com inflamáveis.</p>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="glass-card p-8 rounded-xl flex items-start gap-6 relative overflow-hidden group hover:bg-surface-bright transition-colors">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<span class="material-symbols-outlined text-primary text-4xl opacity-50" data-icon="medical_mask">medical_mask</span>
+<div>
+<h3 class="text-xl font-bold mb-3 text-amber-100">Insalubridade</h3>
+<p class="text-slate-400">Pagamento de percentuais adicionais por exposição a agentes nocivos à saúde.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Serviços Previdenciários (Bento Grid Style) -->
+<section class="py-32 bg-surface">
+<div class="container mx-auto px-8 md:px-20">
+<div class="text-center max-w-3xl mx-auto mb-20">
+<span class="text-primary text-xs font-bold tracking-widest uppercase mb-4 block">Seguridade Social</span>
+<h2 class="font-headline text-4xl md:text-5xl mb-6">Especialista em <br/>Causas contra o INSS</h2>
+<p class="text-on-surface-variant">Atuamos administrativamente e judicialmente para garantir que sua contribuição retorne quando você mais precisa.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Case Card 1 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Benefício por Incapacidade</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="account_balance">account_balance</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Auxílio-Acidente</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Benefício indenizatório para quem ficou com sequelas que reduzem a capacidade de trabalho.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="https://wa.me/550000000000">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+<!-- Case Card 2 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Vitalício</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="elderly">elderly</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Aposentadoria Invalidez</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Para segurados permanentemente incapazes de exercer qualquer atividade laboral.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="https://wa.me/550000000000">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+<!-- Case Card 3 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Contencioso</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="gavel">gavel</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Negativa INSS</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Reversão judicial de benefícios negados indevidamente pela perícia ou análise do INSS.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="https://wa.me/550000000000">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+<!-- Case Card 4 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Família</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="family_restroom">family_restroom</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Pensão por Morte</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Assistência jurídica para dependentes garantirem o amparo financeiro necessário.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="https://wa.me/550000000000">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+<!-- Case Card 5 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Assistencial</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="volunteer_activism">volunteer_activism</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">BPC / LOAS</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Garantia do benefício para idosos ou pessoas com deficiência em situação de vulnerabilidade.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="https://wa.me/550000000000">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+<!-- Case Card 6 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Estratégia</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="query_stats">query_stats</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Planejamento</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Análise completa do CNIS para identificar o melhor momento e valor de aposentadoria.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="https://wa.me/550000000000">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+<!-- Case Card 7 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 hover:border-primary/20 transition-all flex flex-col h-full">
+<div class="mb-6 flex justify-between items-start">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md">Benefício por Incapacidade</span>
+<span class="material-symbols-outlined text-primary/40" data-icon="healing">healing</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Auxílio-Doença Negado</h3>
+<p class="text-slate-400 text-sm mb-8 flex-grow">Perícia de 15 minutos e resultado negativo? Recorra com perícia judicial independente e documentação médica completa.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center group" href="blog-auxilio-doenca-negado.html">Ver Detalhes <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- Blog Recentes -->
+<section class="py-32 bg-surface-container-low relative">
+<div class="container mx-auto px-8 md:px-20">
+<div class="flex flex-col md:flex-row justify-between items-center mb-16 gap-6 text-center md:text-left">
+<h2 class="font-headline text-4xl md:text-5xl">Conteúdo <span class="text-primary italic">Informativo</span></h2>
+<a class="text-primary font-bold uppercase tracking-widest text-xs flex items-center border-b border-primary/20 pb-1" href="blog.html">Ver todos os artigos</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Blog 1 -->
+<div class="glass-card rounded-2xl overflow-hidden group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Close-up of a wooden judge's gavel on a table in a dimly lit courtroom, representing legal authority and decisions" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCio7jqCJXJ7YbOjccz696B0i1kZwkxu2TAU_-Rh2rT-Hk0UNytYA12CGuoy5VT-5R4XHT01bsnA9lJhqz_NVqh7bgTWs8K0OfTvBSRG3jPQzp1jif8E-zMoiF3IFxSkScRmbYeHxIgFJJMHsyx3mUk6HPN91fAujkgJoIdtlaop2JLdeQnJ1N-B62jyhE5fY_qWBd7GGIGWh7cPi7LlRpqmpoOygX2e3bae6hwSumX_RUSdw_4TIVKFsrwr7-DeM2nPXR5saj5Eg"/>
+</div>
+<div class="p-8">
+<span class="px-3 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase rounded-md mb-4 inline-block">Trabalhista</span>
+<h3 class="text-lg font-bold text-amber-100 mb-4">Acidente de Trabalho: 5 Direitos Que Você Precisa Conhecer</h3>
+<p class="text-slate-400 text-sm mb-6">Estabilidade de 12 meses, indenização e pensão vitalícia. Saiba o que a empresa deve a você...</p>
+<a class="text-on-surface text-xs font-bold uppercase tracking-tighter hover:text-primary transition-colors" href="blog-post.html">Ler Artigo</a>
+</div>
+</div>
+<!-- Blog 2 -->
+<div class="glass-card rounded-2xl overflow-hidden group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A person signing official legal documents with a premium fountain pen, soft focus background, professional legal setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALkehcpA-QGBPo_YSxm806SBSPLnI77olRu5FPqKzoZvxD45hp5768cTsNuYVkQEvPnjSNSVq05WUG-LPOA94UB5BDUjUZe-H34O5pHjCsHSXkl-hns8WLIL3PhQqabcY3khdzzOAsdjxg3OjkH1wQw3mmrWnHRK3YEmJkIC1VDThp9b_6z8bnhT0yJvmz-KUVjqgySm7GrJnPoHnOIoYlQ3HHD4P3sjXIdF5_p9kNnQJFL9DNK0R-ORVzwrMWmnEk_giLrD5txhw"/>
+</div>
+<div class="p-8">
+<span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase rounded-md mb-4 inline-block">Previdenciário</span>
+<h3 class="text-lg font-bold text-amber-100 mb-4">Aposentadoria Negada Pelo INSS? O Que Fazer Nos Próximos 30 Dias</h3>
+<p class="text-slate-400 text-sm mb-6">O INSS negou sua aposentadoria? Milhares de decisões são revertidas judicialmente. Veja como agir...</p>
+<a class="text-on-surface text-xs font-bold uppercase tracking-tighter hover:text-primary transition-colors" href="blog-aposentadoria-negada.html">Ler Artigo</a>
+</div>
+</div>
+<!-- Blog 3 -->
+<div class="glass-card rounded-2xl overflow-hidden group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Professional consultation in a modern office, hands typing on a laptop with legal papers and a cup of coffee nearby" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSvK3AK_XrGgV7A52s0LAmuM-PYFXCLKAWCG11kLXXUa_jDMhLzDZTpR4R9d7g9yaDTD0ZTIWCCU3SISfDvDP_Coq3xciO9UgQQFOoyPCJWWVhGQ_EfRhFWXzy-WtmGI9_ynvTPAq9aPHyOlbyGZqr97bjBZgZ_p4kQsnzyheif_Ndb8PHA_9OXVGDKq3Jypm3nxBQBhnn3KCcs4icVSStMHBxvWVNGxXX7K9Wxz_2MaPJeXcjQmY-Cx8e9TlN-osKSnfmHOf_f00"/>
+</div>
+<div class="p-8">
+<span class="px-3 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase rounded-md mb-4 inline-block">Trabalhista</span>
+<h3 class="text-lg font-bold text-amber-100 mb-4">Insalubridade: Como Garantir o Adicional no Seu Salário</h3>
+<p class="text-slate-400 text-sm mb-6">Exposição a ruído, calor ou produtos químicos? Você pode ter direito a até 40% a mais no salário...</p>
+<a class="text-on-surface text-xs font-bold uppercase tracking-tighter hover:text-primary transition-colors" href="blog-periculosidade-insalubridade.html">Ler Artigo</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Final -->
+<section class="py-32 bg-surface">
+<div class="container mx-auto px-8 md:px-20">
+<div class="relative p-12 md:p-20 rounded-[2rem] border border-primary/30 bg-gradient-to-br from-primary/10 via-surface-container-low to-surface-container-low overflow-hidden text-center">
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 light-orb-gold blur-[100px] rounded-full opacity-30"></div>
+<h2 class="font-headline text-4xl md:text-6xl mb-8 leading-tight">Não deixe seus direitos <br/><span class="text-primary italic">prescreverem</span></h2>
+<p class="text-on-surface-variant text-lg max-w-2xl mx-auto mb-12">O tempo é o pior inimigo de quem busca justiça. Clique no botão abaixo e fale agora mesmo com nossa equipe especializada para uma avaliação sem compromisso.</p>
+<a class="inline-flex items-center justify-center px-10 py-5 rounded-full bg-gradient-to-r from-primary to-tertiary-container text-on-primary-fixed font-bold text-xl shadow-[0_0_30px_rgba(230,195,100,0.4)] hover:scale-105 active:scale-95 transition-all" href="https://wa.me/550000000000">
+                    Iniciar Consulta Gratuita <span class="ml-3 material-symbols-outlined" data-icon="send">send</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full pt-20 pb-10 bg-surface-container-low border-t border-amber-200/20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 md:px-20 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-2xl font-serif text-amber-200 mb-4 font-bold tracking-tighter">DRA. JULIANA DARIN</div>
+<p class="text-slate-400 text-sm leading-relaxed mb-6">Advocacia especializada com foco em resultados reais e atendimento humano de excelência.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-amber-200/20 flex items-center justify-center text-amber-200 hover:bg-primary hover:text-on-primary-fixed transition-all" href="https://wa.me/550000000000">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-amber-200/20 flex items-center justify-center text-amber-200 hover:bg-primary hover:text-on-primary-fixed transition-all" href="https://wa.me/550000000000">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-headline title-md text-amber-200 mb-6 font-bold">Serviços</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform inline-block" href="trabalhista.html">Trabalhista</a></li>
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform inline-block" href="previdenciario.html">Previdenciário</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline title-md text-amber-200 mb-6 font-bold">Escritório</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform inline-block" href="blog.html">Blog</a></li>
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform inline-block" href="sobre.html">Sobre Nós</a></li>
+<li><a class="text-slate-400 hover:text-amber-100 hover:translate-x-1 transition-transform inline-block" href="index.html#contato">Contato</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline title-md text-amber-200 mb-6 font-bold">Contato</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1" data-icon="mail">mail</span>
+<span class="text-slate-400 text-sm">contato@julianadarin.com.br</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1" data-icon="call">call</span>
+<span class="text-slate-400 text-sm">(00) 00000-0000</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1" data-icon="location_on">location_on</span>
+<span class="text-slate-400 text-sm">Atendimento Digital em todo o Brasil</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-20 px-8 text-center">
+<p class="text-slate-500 text-xs">© 2026 Dra. Juliana Darin da Cunha. Todos os direitos reservados.</p>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 md:hidden bg-surface-container-low/80 backdrop-blur-lg rounded-t-2xl z-50 shadow-[0_-10px_30px_rgba(7,19,37,0.5)]">
+<a class="flex flex-col items-center justify-center text-amber-200 bg-amber-200/10 rounded-xl px-3 py-1 scale-90 transition-transform" href="index.html">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100 transition-colors" href="index.html">
+<span class="material-symbols-outlined" data-icon="work">work</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Trabalhista</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100 transition-colors" href="trabalhista.html">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Previdência</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100 transition-colors" href="previdenciario.html">
+<span class="material-symbols-outlined" data-icon="article">article</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Blog</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 hover:text-amber-100 transition-colors" href="blog.html">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-sans text-[10px] font-bold uppercase tracking-tighter">Sobre</span>
+</a>
+</nav>
+</body></html>

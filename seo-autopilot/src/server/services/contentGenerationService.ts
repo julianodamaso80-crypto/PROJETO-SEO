@@ -164,6 +164,10 @@ Páginas similares já criadas: ${context.existingServiceAreaPages.map((p) => p.
 Use um ângulo ÚNICO para esta cidade/região.`
       : "";
 
+  const hookSuggestion = serpAnalysis.hookAnalysis
+    ? `- Hooks sugeridos: ${serpAnalysis.hookAnalysis.suggestedHookTypes.join(", ")} (oportunidade: ${serpAnalysis.hookAnalysis.hookOpportunity})`
+    : "";
+
   const prompt = `Crie a estrutura (outline) para um artigo SEO.
 
 TIPO: ${page.type} (${wordRange})
@@ -177,11 +181,34 @@ ANÁLISE DA CONCORRÊNCIA:
 - Word count recomendado: ${serpAnalysis.recommendedWordCount}
 - Headings dos concorrentes: ${serpAnalysis.recommendedHeadings.join(", ")}
 - Gaps de conteúdo: ${serpAnalysis.contentGaps.join(", ")}
+${hookSuggestion}
 ${existingPagesInfo}
+
+═══ ESTRUTURA BASEADA NO TIPO DE PÁGINA ═══
+
+Se o tipo é "pillar" ou "blog" com intent informacional:
+→ Estrutura EDUCACIONAL: Começar pelo problema, educar, apresentar soluções, aprofundar
+→ H2s devem seguir progressão: "O que é → Por que importa → Como funciona → Como escolher → Próximos passos"
+
+Se o tipo é "service_area" ou "landing":
+→ Estrutura AIDA: Attention (H1 com hook) → Interest (benefícios) → Desire (prova/cases) → Action (CTA)
+→ Primeiro H2 deve ser um benefício, NÃO uma definição
+
+Se o tipo é "cluster" com intent comparativo:
+→ Estrutura COMPARATIVA: Apresentar opções → Critérios de decisão → Comparação honesta → Recomendação fundamentada
+
+═══ REGRA DO GANCHO (Hook) ═══
+O H1 NUNCA deve ser "[Keyword]: Guia Completo" ou "[Keyword] — Tudo Que Você Precisa Saber".
+Use uma destas fórmulas:
+- Result: "Como [resultado desejado] [sem objeção comum]"
+- Question: "[Pergunta que o público faz]? [Promessa de resposta]"
+- Pain: "Se Você [situação dolorosa], [solução inesperada]"
+- Number: "[N] [coisas] Que [resultado] (E [N] Que [erro comum])"
+- Contrarian: "Por Que [crença comum] [está errado/não funciona]"
 
 FORMATO (JSON puro):
 {
-  "h1": "Heading 1 principal",
+  "h1": "Heading 1 com hook (NUNCA genérico)",
   "sections": [
     {
       "h2": "Heading 2",
@@ -282,6 +309,58 @@ ${notesBlock}
 9. NÃO invente estatísticas — use informações plausíveis do nicho
 10. O H1 já será o título da página — NÃO repita como # no markdown
 
+═══ REGRAS DE ESCRITA AVANÇADAS (OBRIGATÓRIAS) ═══
+
+REGRA 1 — TOBOGÃ DE LEITURA (Slippery Slide):
+Cada parágrafo DEVE criar curiosidade para o próximo. O leitor não pode ter "pontos de saída".
+- Primeiro parágrafo: MÁXIMO 2 frases. Curto, impactante, impossível de não ler.
+- Abrir "loops" de curiosidade: "Mas o que poucos sabem é que..." / "Isso muda tudo quando você descobre que..." / "Antes de explicar como, preciso te contar..."
+- Fechar loops DEPOIS — não na mesma seção onde abriu.
+- NUNCA comece uma seção com definição de dicionário ("X é definido como..."). Comece com impacto.
+- Transições entre H2s devem criar ponte: "Agora que você sabe [anterior], o próximo passo é crucial..."
+
+REGRA 2 — HOOK NO PRIMEIRO PARÁGRAFO:
+O parágrafo de abertura (logo após o H1) deve usar UMA destas estruturas:
+a) Dor + Promessa: "Se você [situação dolorosa], este artigo vai [promessa concreta]."
+b) Estatística chocante: "[Número impactante] de [grupo] [consequência]. E a maioria nem sabe."
+c) Contra-intuitivo: "Tudo que você ouviu sobre [tema] está errado. E isso está custando [consequência]."
+d) História: "Na semana passada, um cliente ligou desesperado porque [situação]. O que fizemos mudou tudo."
+NÃO USE: "Neste artigo, vamos abordar..." / "Bem-vindo ao nosso guia sobre..." / "Você sabia que..."
+
+REGRA 3 — DADOS CONCRETOS, NÃO GENÉRICOS:
+- Substituir "muitas pessoas" por números: "67% dos brasileiros"
+- Substituir "pode economizar dinheiro" por "economia média de R$2.400/ano"
+- Substituir "é importante" por "reduz o risco em 43%"
+- Se não tiver dados reais, use estimativas plausíveis com qualificadores: "Estudos indicam que cerca de..."
+
+REGRA 4 — SEM LINGUAGEM DE IA:
+NUNCA use estas expressões:
+- "No mundo atual/moderno/de hoje"
+- "É fundamental/crucial/essencial notar que"
+- "Neste artigo/guia, vamos explorar"
+- "Em conclusão/Para concluir"
+- "Com isso em mente"
+- "Vale ressaltar/destacar que"
+- "Não é de surpreender que"
+- "É importante mencionar que"
+- "Diante disso/Diante desse cenário"
+Escreva como um especialista conversando com um colega, não como um robô.
+
+REGRA 5 — CTA CONTEXTUAL:
+Insira CTAs naturais ao longo do texto (1 a cada 300-400 palavras), não só na conclusão.
+Formato: dentro do fluxo, como recomendação natural do especialista.
+
+═══ GEO — OTIMIZAÇÃO PARA IAs (Google AI Overview, ChatGPT, Perplexity) ═══
+
+Em 2026, 60%+ das buscas não geram clique. Para que o conteúdo seja CITADO por IAs:
+
+1. RESPOSTA DIRETA: O primeiro parágrafo após cada H2 deve responder a pergunta do H2 em 1-2 frases diretas e objetivas. IAs extraem essa resposta.
+2. LISTAS E TABELAS: Incluir pelo menos 1 lista ou tabela por seção. IAs preferem dados estruturados.
+3. LINGUAGEM PRECISA: Usar "67% dos casos" ao invés de "a maioria". IAs priorizam precisão.
+4. DEFINIÇÕES CLARAS: Na primeira menção de um termo técnico, definir entre parênteses ou em frase curta.
+5. DADOS CITÁVEIS: Incluir pelo menos 3 dados numéricos no artigo que IAs possam extrair e citar.
+6. FORMATO "PERGUNTA-RESPOSTA" NATURAL: Escrever H2s como perguntas reais e respondê-las diretamente.
+
 Retorne APENAS o conteúdo em Markdown. Sem JSON, sem explicações, sem backticks.`;
 
   const maxTokens = page.type === "pillar" ? 8000 : 4000;
@@ -306,12 +385,22 @@ NICHO: ${niche}
 CONTEÚDO RESUMIDO: ${contentMarkdown.slice(0, 800)}...
 
 REGRAS:
-1. Perguntas devem ser REAIS — o que alguém digitaria no Google
-2. Respostas diretas e úteis (2-4 frases cada)
-3. Inclua pelo menos 1 pergunta com "quanto custa" ou "qual o valor" (se aplicável)
-4. Inclua pelo menos 1 pergunta com "como funciona" ou "como fazer"
-5. Use a keyword alvo em pelo menos 2 perguntas
-6. As respostas devem agregar valor, não ser genéricas
+1. Perguntas devem ser EXATAMENTE como o público pesquisa no Google
+   ❌ "Quais são os benefícios da proteção veicular?"
+   ✅ "Proteção veicular vale a pena?" (é assim que a pessoa digita)
+2. Cada resposta deve começar com a RESPOSTA DIRETA em 1 frase, depois expandir
+   ❌ "A proteção veicular é um serviço que oferece diversos benefícios..."
+   ✅ "Sim, vale a pena para quem quer proteger o carro gastando 40-60% menos que seguro tradicional."
+3. Inclua pelo menos 2 perguntas de "objeção" (dúvidas que impedem a compra):
+   - "É seguro?" / "Funciona mesmo?" / "Qual a pegadinha?" / "E se [medo]?"
+4. Inclua pelo menos 1 pergunta de "comparação":
+   - "[Solução A] ou [Solução B], qual melhor?"
+5. As respostas devem ter 40-80 palavras (ideal para featured snippets e AI overviews)
+6. NÃO gere perguntas que ninguém pesquisa:
+   ❌ "Qual é a importância de contratar um profissional qualificado?"
+   ❌ "Como a empresa se diferencia no mercado?"
+7. Use a keyword alvo em pelo menos 2 perguntas
+8. Inclua pelo menos 1 pergunta com "quanto custa" ou "qual o valor" (se aplicável)
 
 FORMATO (JSON puro):
 {
@@ -516,10 +605,35 @@ META TITLE ATUAL: ${existingTitle || "vazio"}
 META DESCRIPTION ATUAL: ${existingDesc || "vazio"}
 RESUMO DO CONTEÚDO: ${contentMarkdown.slice(0, 300)}...
 
-REGRAS:
-- Meta Title: max 60 caracteres, keyword no início
-- Meta Description: max 155 caracteres, com CTA natural
-- Não use "Guia Completo" em todo título
+═══ META TITLE (máx 60 caracteres, keyword na primeira metade) ═══
+
+NÃO gere títulos genéricos como "[Keyword] | Guia Completo" ou "[Keyword] — Tudo Sobre".
+O meta title é o HOOK do Google — é o que faz alguém clicar no resultado ao invés dos outros 9.
+
+Use UMA destas fórmulas de gancho:
+1. RESULTADO: "Como [Resultado Desejado] em [Tempo/Sem Obstáculo]"
+2. PERGUNTA + PROMESSA: "[Pergunta]? [Resposta Curta]"
+3. NÚMERO + BENEFÍCIO: "[N] [Coisas] Para [Resultado]"
+4. DOR + SOLUÇÃO: "Se [Dor], [Solução]"
+5. CONTRA-INTUITIVO: "Por Que [Crença] [Está Errado]"
+
+A keyword alvo DEVE aparecer na primeira metade do título.
+Cada título deve ser único — nunca repetir a fórmula entre páginas do mesmo site.
+
+═══ META DESCRIPTION (máx 155 caracteres, framework PAS) ═══
+
+Use o framework PAS (Problem-Agitate-Solve) em 155 caracteres:
+- Problem (20-30 chars): Identificar a dor em poucas palavras
+- Agitate (40-60 chars): Intensificar — consequência de não agir
+- Solve + CTA (40-60 chars): Solução + chamada para ação
+
+Fórmula: [Dor]? [Consequência/Agitação]. [Solução/Benefício]. [CTA]
+
+❌ "Saiba tudo sobre advogado criminal em São Paulo. Neste guia completo, abordamos os principais aspectos."
+✅ "Preso em flagrante em SP? Cada hora sem advogado reduz suas chances de defesa. Fale agora com um criminalista."
+
+NUNCA comece com "Saiba tudo sobre", "Confira nosso", "Neste artigo", "Descubra como".
+DEVE conter um CTA (verbo de ação no final).
 
 FORMATO (JSON puro):
 { "title": "Meta title aqui", "description": "Meta description aqui" }`;

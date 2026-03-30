@@ -140,7 +140,7 @@ function ProfileTab() {
         </div>
 
         {updateMutation.isSuccess && (
-          <p style={{ fontSize: "12px", color: "#00ff88", marginTop: "12px" }}>Perfil atualizado!</p>
+          <p style={{ fontSize: "12px", color: "var(--accent)", marginTop: "12px" }}>Perfil atualizado!</p>
         )}
 
         <button
@@ -201,7 +201,7 @@ function WorkspaceTab() {
         </div>
 
         {updateMutation.isSuccess && (
-          <p style={{ fontSize: "12px", color: "#00ff88", marginTop: "12px" }}>Nome atualizado!</p>
+          <p style={{ fontSize: "12px", color: "var(--accent)", marginTop: "12px" }}>Nome atualizado!</p>
         )}
 
         <button
@@ -288,7 +288,7 @@ function WordPressTab() {
         </button>
         {showHelp && (
           <div style={{ padding: "0 20px 20px", fontSize: "13px", color: "var(--text-secondary)", lineHeight: 1.7 }}>
-            <div style={{ background: "rgba(0,255,136,0.04)", border: "1px solid rgba(0,255,136,0.1)", borderRadius: "10px", padding: "16px 20px" }}>
+            <div style={{ background: "var(--accent-dim)", border: "1px solid var(--accent-glow)", borderRadius: "10px", padding: "16px 20px" }}>
               <ol style={{ margin: 0, paddingLeft: "20px" }}>
                 <li style={{ marginBottom: "8px" }}>No WordPress admin, vá em <strong style={{ color: "var(--text-primary)" }}>Usuários &rarr; Seu Perfil</strong></li>
                 <li style={{ marginBottom: "8px" }}>Role até a seção <strong style={{ color: "var(--text-primary)" }}>&quot;Application Passwords&quot;</strong></li>
@@ -326,13 +326,13 @@ function ConnectionCard({ connection }: { connection: { id: string; siteId: stri
   }
 
   const statusIcon = connection.connectionStatus === "connected"
-    ? <CheckCircle size={16} style={{ color: "#00ff88" }} />
+    ? <CheckCircle size={16} style={{ color: "var(--accent)" }} />
     : connection.connectionStatus === "failed"
       ? <XCircle size={16} style={{ color: "#ef4444" }} />
       : <AlertCircle size={16} style={{ color: "#facc15" }} />;
 
   const statusLabel = connection.connectionStatus === "connected" ? "Conectado" : connection.connectionStatus === "failed" ? "Falha" : "Não testado";
-  const statusColor = connection.connectionStatus === "connected" ? "#00ff88" : connection.connectionStatus === "failed" ? "#ef4444" : "#facc15";
+  const statusColor = connection.connectionStatus === "connected" ? "var(--accent)" : connection.connectionStatus === "failed" ? "#ef4444" : "#facc15";
 
   return (
     <div style={{ background: "var(--bg-glass)", border: "1px solid var(--border)", borderRadius: "var(--radius-lg)", padding: "18px 22px" }}>
@@ -359,8 +359,8 @@ function ConnectionCard({ connection }: { connection: { id: string; siteId: stri
         )}
         {seoPlugin && (
           <>
-            {seoPlugin.hasYoast && <span style={{ color: "#00ff88" }}>Yoast SEO detectado</span>}
-            {seoPlugin.hasRankMath && <span style={{ color: "#00ff88" }}>RankMath detectado</span>}
+            {seoPlugin.hasYoast && <span style={{ color: "var(--accent)" }}>Yoast SEO detectado</span>}
+            {seoPlugin.hasRankMath && <span style={{ color: "var(--accent)" }}>RankMath detectado</span>}
             {!seoPlugin.hasYoast && !seoPlugin.hasRankMath && <span>Nenhum plugin SEO detectado</span>}
           </>
         )}
@@ -543,14 +543,14 @@ function NotificationsTab() {
                   disabled={updateMutation.isPending}
                   style={{
                     width: "44px", height: "24px", borderRadius: "12px", border: "none",
-                    background: isOn ? "#00ff88" : "var(--bg-surface)",
+                    background: isOn ? "var(--accent)" : "var(--bg-surface)",
                     position: "relative", cursor: "pointer", transition: "background 0.2s", flexShrink: 0,
                     boxShadow: isOn ? "none" : "inset 0 0 0 1px var(--border)",
                   }}
                 >
                   <div style={{
                     width: "18px", height: "18px", borderRadius: "50%",
-                    background: isOn ? "#000" : "var(--text-muted)",
+                    background: isOn ? "var(--text-on-dark)" : "var(--text-muted)",
                     position: "absolute", top: "3px",
                     left: isOn ? "23px" : "3px",
                     transition: "left 0.2s",
