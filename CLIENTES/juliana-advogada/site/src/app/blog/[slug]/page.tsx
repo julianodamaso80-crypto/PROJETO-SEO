@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+const WA_LINK = "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20uma%20consulta%20gratuita";
+
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }
@@ -27,21 +29,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   return (
     <div style={{ paddingTop: "72px", minHeight: "100vh" }}>
       {/* Article Header */}
-      <section style={{ padding: "64px 24px 40px", background: "var(--color-navy-light)", borderBottom: "1px solid var(--color-border)" }}>
+      <section style={{ padding: "64px 24px 40px", background: "var(--bg-cream)", borderBottom: "1px solid rgba(107,103,81,0.1)" }}>
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
-            <Link href="/blog" style={{ fontSize: "13px", color: "var(--color-text-muted)", textDecoration: "none" }}>Blog</Link>
-            <span style={{ color: "var(--color-text-muted)" }}>›</span>
+            <Link href="/blog" style={{ fontSize: "13px", color: "var(--text-secondary)", textDecoration: "none" }}>Blog</Link>
+            <span style={{ color: "var(--text-secondary)" }}>›</span>
             <span
               style={{
                 fontSize: "11px",
                 fontWeight: 600,
-                color: post.category === "Trabalhista" ? "var(--color-gold)" : "#60a5fa",
+                color: post.category === "Trabalhista" ? "var(--bg-terra)" : "var(--bg-blue)",
                 letterSpacing: "1px",
                 textTransform: "uppercase",
                 padding: "4px 10px",
                 borderRadius: "4px",
-                background: post.category === "Trabalhista" ? "var(--color-gold-dim)" : "rgba(96,165,250,0.1)",
+                background: post.category === "Trabalhista" ? "rgba(117,68,55,0.1)" : "rgba(40,55,74,0.1)",
               }}
             >
               {post.category}
@@ -54,11 +56,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             fontWeight: 800,
             lineHeight: 1.2,
             marginBottom: "20px",
+            color: "var(--bg-blue)",
           }}>
             {post.title}
           </h1>
 
-          <div style={{ display: "flex", alignItems: "center", gap: "20px", fontSize: "13px", color: "var(--color-text-muted)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "20px", fontSize: "13px", color: "var(--text-secondary)", flexWrap: "wrap" }}>
             <span>Dra. Juliana Darin da Cunha</span>
             <span>•</span>
             <span>{new Date(post.date).toLocaleDateString("pt-BR", { day: "numeric", month: "long", year: "numeric" })}</span>
@@ -68,45 +71,104 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
-      {/* Article Body (placeholder - content would be loaded from MD files in production) */}
-      <section style={{ padding: "48px 24px 80px" }}>
+      {/* Article Body */}
+      <section style={{ padding: "48px 24px 40px" }}>
         <div className="blog-content" style={{ maxWidth: "780px", margin: "0 auto" }}>
-          <p style={{ fontSize: "1.1rem", lineHeight: 1.8, color: "var(--color-text-secondary)" }}>
-            {post.excerpt}
-          </p>
+          <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        </div>
+      </section>
 
-          <div className="glass-gold" style={{ padding: "24px 28px", margin: "32px 0" }}>
-            <p style={{ fontSize: "15px", color: "var(--color-gold-light)", fontWeight: 500, margin: 0 }}>
-              📞 Precisa de orientação sobre este tema? A Dra. Juliana oferece consulta inicial gratuita.{" "}
-              <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-gold)", textDecoration: "underline" }}>
-                Fale agora pelo WhatsApp.
-              </a>
-            </p>
-          </div>
-
-          <p style={{ color: "var(--color-text-muted)", fontStyle: "italic", fontSize: "14px" }}>
-            O conteúdo completo deste artigo será carregado dos arquivos markdown em produção. Este é o layout de visualização.
+      {/* CTA Box */}
+      <section style={{ padding: "0 24px 64px" }}>
+        <div style={{
+          maxWidth: "780px",
+          margin: "0 auto",
+          background: "var(--bg-terra)",
+          borderRadius: "16px",
+          padding: "40px 32px",
+          textAlign: "center",
+        }}>
+          <h2 style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "24px",
+            fontWeight: 700,
+            color: "#fff",
+            marginBottom: "12px",
+          }}>
+            Precisa de orientação sobre {post.category === "Trabalhista" ? "direitos trabalhistas" : "benefícios do INSS"}?
+          </h2>
+          <p style={{ color: "rgba(255,255,255,0.85)", fontSize: "16px", marginBottom: "24px", lineHeight: 1.6 }}>
+            A Dra. Juliana oferece consulta inicial gratuita. Tire suas dúvidas sem compromisso.
           </p>
+          <a
+            href={WA_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              background: "#25D366",
+              color: "#fff",
+              fontWeight: 700,
+              fontSize: "16px",
+              padding: "16px 40px",
+              borderRadius: "50px",
+              textDecoration: "none",
+              transition: "transform 0.2s, box-shadow 0.2s",
+              boxShadow: "0 4px 16px rgba(37,211,102,0.3)",
+            }}
+          >
+            Falar Agora pelo WhatsApp — É Gratuito
+          </a>
         </div>
       </section>
 
       {/* Related Posts */}
       {related.length > 0 && (
-        <section style={{ padding: "64px 24px", background: "var(--color-navy-light)", borderTop: "1px solid var(--color-border)" }}>
+        <section style={{ padding: "64px 24px", background: "var(--bg-cream)", borderTop: "1px solid rgba(107,103,81,0.1)" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: 700, marginBottom: "32px" }}>
+            <h2 style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "24px",
+              fontWeight: 700,
+              marginBottom: "32px",
+              color: "var(--bg-blue)",
+            }}>
               Artigos relacionados
             </h2>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }}>
               {related.map((r) => (
                 <Link key={r.slug} href={`/blog/${r.slug}`} style={{ textDecoration: "none" }}>
-                  <div className="glass" style={{ padding: "24px" }}>
-                    <div style={{ fontSize: "11px", color: "var(--color-gold)", fontWeight: 600, letterSpacing: "1px", textTransform: "uppercase", marginBottom: "10px" }}>
+                  <div style={{
+                    background: "#fff",
+                    borderRadius: "12px",
+                    padding: "24px",
+                    border: "1px solid rgba(107,103,81,0.1)",
+                    transition: "transform 0.2s, box-shadow 0.2s",
+                    height: "100%",
+                  }}>
+                    <div style={{
+                      fontSize: "11px",
+                      color: r.category === "Trabalhista" ? "var(--bg-terra)" : "var(--bg-blue)",
+                      fontWeight: 600,
+                      letterSpacing: "1px",
+                      textTransform: "uppercase",
+                      marginBottom: "10px",
+                    }}>
                       {r.category}
                     </div>
-                    <h3 style={{ fontFamily: "var(--font-display)", fontSize: "16px", fontWeight: 600, color: "var(--color-text-primary)", lineHeight: 1.4 }}>
+                    <h3 style={{
+                      fontFamily: "var(--font-display)",
+                      fontSize: "16px",
+                      fontWeight: 600,
+                      color: "var(--bg-blue)",
+                      lineHeight: 1.4,
+                      marginBottom: "8px",
+                    }}>
                       {r.title}
                     </h3>
+                    <p style={{ fontSize: "13px", color: "var(--text-secondary)", lineHeight: 1.5 }}>
+                      {r.excerpt.substring(0, 100)}...
+                    </p>
                   </div>
                 </Link>
               ))}
