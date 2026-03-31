@@ -23,6 +23,119 @@ export async function GET(
   return NextResponse.json(entry);
 }
 
+export async function PATCH(
+  req: NextRequest,
+  { params }: { params: Promise<{ token: string }> }
+) {
+  try {
+    const { token } = await params;
+    const body = await req.json();
+
+    const [entry] = await db
+      .select()
+      .from(clientOnboarding)
+      .where(eq(clientOnboarding.token, token))
+      .limit(1);
+
+    if (!entry) {
+      return NextResponse.json({ ok: false, error: "Not found" }, { status: 404 });
+    }
+
+    // Already completed — don't overwrite
+    if (entry.status === "completed") {
+      return NextResponse.json({ ok: true });
+    }
+
+    await db
+      .update(clientOnboarding)
+      .set({
+        clientName: body.clientName ?? entry.clientName,
+        clientEmail: body.clientEmail ?? entry.clientEmail,
+        businessName: body.businessName ?? entry.businessName,
+        businessDescription: body.businessDescription ?? entry.businessDescription,
+        mainProduct: body.mainProduct ?? entry.mainProduct,
+        targetAudience: body.targetAudience ?? entry.targetAudience,
+        location: body.location ?? entry.location,
+        hasSite: body.hasSite ?? entry.hasSite,
+        siteUrl: body.siteUrl ?? entry.siteUrl,
+        competitors: body.competitors ?? entry.competitors,
+        competitorUrls: body.competitorUrls ?? entry.competitorUrls,
+        keywords: body.keywords ?? entry.keywords,
+        contentGoal: body.contentGoal ?? entry.contentGoal,
+        tone: body.tone ?? entry.tone,
+        differentials: body.differentials ?? entry.differentials,
+        monthlyBudget: body.monthlyBudget ?? entry.monthlyBudget,
+        extraInfo: body.extraInfo ?? entry.extraInfo,
+        b2bOrB2c: body.b2bOrB2c ?? entry.b2bOrB2c,
+        yearsInBusiness: body.yearsInBusiness ?? entry.yearsInBusiness,
+        clientsServed: body.clientsServed ?? entry.clientsServed,
+        hasBlog: body.hasBlog ?? entry.hasBlog,
+        clientProblem: body.clientProblem ?? entry.clientProblem,
+        certifications: body.certifications ?? entry.certifications,
+        contactMethod: body.contactMethod ?? entry.contactMethod,
+        seasonality: body.seasonality ?? entry.seasonality,
+        clientQuestions: body.clientQuestions ?? entry.clientQuestions,
+        segment: body.segment ?? entry.segment,
+        subNiche: body.subNiche ?? entry.subNiche,
+        mainCity: body.mainCity ?? entry.mainCity,
+        state: body.state ?? entry.state,
+        serviceAreas: body.serviceAreas ?? entry.serviceAreas,
+        hasPhysicalLocation: body.hasPhysicalLocation ?? entry.hasPhysicalLocation,
+        fullAddress: body.fullAddress ?? entry.fullAddress,
+        businessHours: body.businessHours ?? entry.businessHours,
+        highestRevenueService: body.highestRevenueService ?? entry.highestRevenueService,
+        averageTicket: body.averageTicket ?? entry.averageTicket,
+        hasGoogleBusinessProfile: body.hasGoogleBusinessProfile ?? entry.hasGoogleBusinessProfile,
+        googleBusinessUrl: body.googleBusinessUrl ?? entry.googleBusinessUrl,
+        socialMediaUrls: body.socialMediaUrls ?? entry.socialMediaUrls,
+        currentSeoInvestment: body.currentSeoInvestment ?? entry.currentSeoInvestment,
+        blogPostCount: body.blogPostCount ?? entry.blogPostCount,
+        usesWordPress: body.usesWordPress ?? entry.usesWordPress,
+        wordPressVersion: body.wordPressVersion ?? entry.wordPressVersion,
+        hasWpAdminAccess: body.hasWpAdminAccess ?? entry.hasWpAdminAccess,
+        hasSearchConsole: body.hasSearchConsole ?? entry.hasSearchConsole,
+        hasGoogleAnalytics: body.hasGoogleAnalytics ?? entry.hasGoogleAnalytics,
+        styleReference: body.styleReference ?? entry.styleReference,
+        hasCaseStudies: body.hasCaseStudies ?? entry.hasCaseStudies,
+        caseStudiesDetails: body.caseStudiesDetails ?? entry.caseStudiesDetails,
+        hasTestimonials: body.hasTestimonials ?? entry.hasTestimonials,
+        hasTeamPhotos: body.hasTeamPhotos ?? entry.hasTeamPhotos,
+        hasOwnData: body.hasOwnData ?? entry.hasOwnData,
+        ownDataDetails: body.ownDataDetails ?? entry.ownDataDetails,
+        sensitiveTopics: body.sensitiveTopics ?? entry.sensitiveTopics,
+        priorityRegions: body.priorityRegions ?? entry.priorityRegions,
+        priorityServices: body.priorityServices ?? entry.priorityServices,
+        timeline: body.timeline ?? entry.timeline,
+        competitorSitesAdmired: body.competitorSitesAdmired ?? entry.competitorSitesAdmired,
+        referenceSites: body.referenceSites ?? entry.referenceSites,
+        contentConsumption: body.contentConsumption ?? entry.contentConsumption,
+        desiredKeywords: body.desiredKeywords ?? entry.desiredKeywords,
+        additionalNotes: body.additionalNotes ?? entry.additionalNotes,
+        colorPaletteId: body.colorPaletteId ?? entry.colorPaletteId,
+        colorPrimary: body.colorPrimary ?? entry.colorPrimary,
+        colorSecondary: body.colorSecondary ?? entry.colorSecondary,
+        colorAccent: body.colorAccent ?? entry.colorAccent,
+        logoUrl: body.logoUrl ?? entry.logoUrl,
+        teamPhotos: body.teamPhotos ?? entry.teamPhotos,
+        referenceImages: body.referenceImages ?? entry.referenceImages,
+        nicheSpecificData: body.nicheSpecificData ?? entry.nicheSpecificData,
+        wpAdminUrl: body.wpAdminUrl ?? entry.wpAdminUrl,
+        wpUsername: body.wpUsername ?? entry.wpUsername,
+        wpAppPassword: body.wpAppPassword ?? entry.wpAppPassword,
+        gscAuthorizedEmail: body.gscAuthorizedEmail ?? entry.gscAuthorizedEmail,
+        gaAuthorizedEmail: body.gaAuthorizedEmail ?? entry.gaAuthorizedEmail,
+        domainRegistrar: body.domainRegistrar ?? entry.domainRegistrar,
+        hostingProvider: body.hostingProvider ?? entry.hostingProvider,
+      })
+      .where(eq(clientOnboarding.token, token));
+
+    return NextResponse.json({ ok: true });
+  } catch (error: unknown) {
+    console.error("[onboarding PATCH] Error:", error);
+    return NextResponse.json({ ok: false }, { status: 500 });
+  }
+}
+
 export async function POST(
   req: NextRequest,
   { params }: { params: Promise<{ token: string }> }

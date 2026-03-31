@@ -139,9 +139,27 @@ export default function OnboardingPage() {
   useEffect(() => {
     fetch(`/api/onboarding/${token}`)
       .then((res) => { if (!res.ok) throw new Error("not_found"); return res.json(); })
-      .then((data) => { setStatus(data.status === "completed" ? "already_completed" : "form"); })
+      .then((data) => {
+        if (data.status === "completed") { setStatus("already_completed"); return; }
+        // Restore progress from localStorage if available
+        try {
+          const saved = localStorage.getItem(`ob-${token}`);
+          if (saved) {
+            const parsed = JSON.parse(saved);
+            if (parsed.form) setForm((prev) => ({ ...prev, ...parsed.form }));
+            if (typeof parsed.step === "number") setStep(parsed.step);
+          }
+        } catch { /* ignore */ }
+        setStatus("form");
+      })
       .catch(() => setStatus("not_found"));
   }, [token]);
+
+  // Save progress to localStorage on every form/step change
+  useEffect(() => {
+    if (status !== "form") return;
+    try { localStorage.setItem(`ob-${token}`, JSON.stringify({ form, step })); } catch { /* ignore */ }
+  }, [form, step, status, token]);
 
   function update(field: keyof FormData, value: string | boolean | { url: string; filename: string }[] | Record<string, string | boolean>) {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -149,7 +167,16 @@ export default function OnboardingPage() {
   function updateNiche(field: string, value: string | boolean) {
     setForm((prev) => ({ ...prev, nicheSpecificData: { ...prev.nicheSpecificData, [field]: value } }));
   }
-  function goNext() { setStep((s) => Math.min(s + 1, steps.length - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }
+  function goNext() {
+    setStep((s) => Math.min(s + 1, steps.length - 1));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    // Background save to server — never blocks navigation
+    fetch(`/api/onboarding/${token}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    }).catch(() => {});
+  }
   function goPrev() { setStep((s) => Math.max(s - 1, 0)); window.scrollTo({ top: 0, behavior: "smooth" }); }
 
   const [submitError, setSubmitError] = useState("");
@@ -163,6 +190,7 @@ export default function OnboardingPage() {
         body: JSON.stringify(form),
       });
       if (res.ok) {
+        try { localStorage.removeItem(`ob-${token}`); } catch { /* ignore */ }
         setStatus("completed");
       } else {
         const data = await res.json().catch(() => ({}));
@@ -450,6 +478,7 @@ export default function OnboardingPage() {
       </div>
 
       <style>{`
+        @keyframes slideStep { from { opacity:0;transform:translateX(18px) } to { opacity:1;transform:translateX(0) } }
         .ob-btn-primary { background:#00c96b;color:#fff;font-family:'Syne',sans-serif;font-weight:600;font-size:14px;padding:12px 28px;border-radius:99px;border:none;cursor:pointer;transition:all .2s ease }
         .ob-btn-primary:hover { background:#00b35e;transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,201,107,.3) }
         .ob-btn-primary:disabled { cursor:not-allowed;transform:none }
