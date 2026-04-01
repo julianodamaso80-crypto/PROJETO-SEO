@@ -7,37 +7,37 @@ const SERVICES_TRABALHISTA = [
   {
     title: "Acidente de Trabalho",
     desc: "Indenização, estabilidade e benefícios para quem sofreu acidente ou doença no trabalho.",
-    img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=600&q=80",
     cta: "Tive um acidente — quero meus direitos",
   },
   {
     title: "Vínculo Empregatício",
     desc: "Trabalhou sem carteira assinada? A Justiça pode reconhecer e você recebe tudo retroativo.",
-    img: "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80",
     cta: "Trabalhei sem carteira — quero regularizar",
   },
   {
     title: "Horas Extras",
     desc: "Horas extras não pagas podem ser cobradas judicialmente, com retroativo de até 5 anos.",
-    img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1611095790691-893e36ec0bae?w=600&q=80",
     cta: "Calculei — quero cobrar as horas",
   },
   {
     title: "Rescisão Indireta",
     desc: "Empresa descumpriu o contrato? Você pode 'demitir' a empresa e receber todos os direitos.",
-    img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&q=80",
     cta: "É meu caso — quero entender",
   },
   {
     title: "Periculosidade",
     desc: "Adicional de 30% para quem trabalha com risco. Você pode estar recebendo a menos sem saber.",
-    img: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
     cta: "Quero saber se tenho direito",
   },
   {
     title: "Insalubridade",
     desc: "Adicional de 10% a 40% para quem trabalha exposto a agentes nocivos à saúde.",
-    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
     cta: "Verificar meu direito ao adicional",
   },
 ];
@@ -46,7 +46,7 @@ const SERVICES_PREVIDENCIARIO = [
   {
     title: "Auxílio-Acidente",
     desc: "Ficou com sequela de acidente? Tem direito a benefício mensal mesmo trabalhando.",
-    img: "https://images.unsplash.com/photo-1576765608622-067973a79f53?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80",
     cta: "Tenho sequela — quero o benefício",
   },
   {
@@ -58,19 +58,19 @@ const SERVICES_PREVIDENCIARIO = [
   {
     title: "Aposentadoria Negada",
     desc: "INSS negou? Não é definitivo. Recursos e ações judiciais revertem a maioria dos casos.",
-    img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80",
     cta: "Meu INSS foi negado — quero recorrer",
   },
   {
     title: "Pensão por Morte",
     desc: "Proteja financeiramente sua família. Dependentes têm direito — independente de judicialização.",
-    img: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&q=80",
     cta: "Meu familiar faleceu — quero a pensão",
   },
   {
     title: "BPC/LOAS",
     desc: "1 salário mínimo para idosos e deficientes em vulnerabilidade. Muitos têm direito e não sabem.",
-    img: "https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1577412647305-991150c7d163?w=600&q=80",
     cta: "Verificar se tenho direito ao BPC",
   },
   {
@@ -602,9 +602,9 @@ export default function HomePage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "24px" }}>
             {recentPosts.map((post, idx) => {
               const blogImages = [
-                "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&q=80",
-                "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80",
-                "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=600&q=80",
+                "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&q=80",
+                "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80",
+                "https://images.unsplash.com/photo-1507679799987-c73b1a8e8b8d?w=600&q=80",
               ];
               return (
               <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
