@@ -1,57 +1,42 @@
 @import "tailwindcss";
 
 /* ═══════════════════════════════════════════════════
-   DD CLAW — DESIGN SYSTEM
-   Inspiração: Bouhan Falligant + Tremain Artaza
-   Serif editorial · Whitespace generoso · Fotográfico
+   DD CLAW — DESIGN SYSTEM v3
+   Editorial · Premium · Humano · Zero stock
    ═══════════════════════════════════════════════════ */
 
 :root {
-  /* Backgrounds */
   --bg-body:       #FDFCFA;
-  --bg-cream:      #F7F5F0;
-  --bg-sand:       #EDE8DD;
-  --bg-dark:       #1C2A3A;
-  --bg-dark-soft:  #243346;
+  --bg-cream:      #F5F2EC;
+  --bg-sand:       #E8E2D6;
+  --bg-dark:       #1B2838;
+  --bg-dark-warm:  #232F3E;
   --bg-card:       #FFFFFF;
 
-  /* Textos */
-  --text-primary:  #1C2A3A;
-  --text-body:     #4A4A4A;
-  --text-muted:    #8C8C8C;
-  --text-on-dark:  #F7F5F0;
-  --text-on-dark-muted: rgba(247,245,240,0.6);
+  --text-primary:  #1B2838;
+  --text-body:     #4D4D4D;
+  --text-muted:    #999;
+  --text-on-dark:  #F5F2EC;
+  --text-on-dark-muted: rgba(245,242,236,0.55);
 
-  /* Acento */
   --accent:        #8B6254;
   --accent-hover:  #A07566;
-  --accent-soft:   rgba(139,98,84,0.08);
 
-  /* Borders */
-  --border:        #E5E0D8;
-  --border-light:  #F0EDE7;
+  --border:        #DDD8CE;
+  --border-light:  #EDEAE4;
 
-  /* Tipografia */
-  --font-serif:    'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-sans:     'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif:    'Playfair Display', Georgia, serif;
+  --font-sans:     'DM Sans', system-ui, sans-serif;
 
-  /* Shadows */
   --shadow-sm:     0 1px 3px rgba(0,0,0,0.04);
   --shadow-md:     0 4px 20px rgba(0,0,0,0.06);
-  --shadow-lg:     0 8px 40px rgba(0,0,0,0.08);
 
-  /* Radius */
-  --radius:        8px;
-  --radius-lg:     16px;
+  --radius:        6px;
+  --radius-lg:     12px;
 
-  /* Spacing */
-  --section-y:     140px;
-  --section-y-sm:  80px;
+  --section-py:    140px;
 }
 
-/* ───────────────────────────
-   Reset & Base
-─────────────────────────── */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
@@ -62,60 +47,25 @@ body {
   background: var(--bg-body);
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-serif);
   color: var(--text-primary);
-  line-height: 1.15;
+  line-height: 1.12;
   font-weight: 700;
-  letter-spacing: -0.01em;
 }
-
-h1 { font-size: clamp(36px, 5vw, 56px); }
-h2 { font-size: clamp(28px, 3.5vw, 42px); }
-h3 { font-size: clamp(20px, 2vw, 24px); }
-
-p { max-width: 65ch; }
 
 a { color: inherit; }
+img { max-width: 100%; display: block; }
+::selection { background: rgba(139,98,84,0.15); }
 
-img { max-width: 100%; height: auto; display: block; }
-
-::selection { background: var(--accent-soft); color: var(--text-primary); }
-
-/* Scrollbar sutil */
-::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
-::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
 /* ───────────────────────────
-   Layout
-─────────────────────────── */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-.container--narrow {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-.section {
-  padding: var(--section-y) 24px;
-}
-
-.section--sm {
-  padding: var(--section-y-sm) 24px;
-}
-
-/* ───────────────────────────
-   Tipografia utilitária
+   Tipografia
 ─────────────────────────── */
 .eyebrow {
   font-family: var(--font-sans);
@@ -124,106 +74,62 @@ img { max-width: 100%; height: auto; display: block; }
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--accent);
-}
-
-.eyebrow--light {
-  color: var(--text-on-dark-muted);
-}
-
-.text-serif {
-  font-family: var(--font-serif);
-}
-
-.text-italic {
-  font-style: italic;
-}
-
-.text-accent {
-  color: var(--accent);
-}
-
-.text-muted {
-  color: var(--text-muted);
-}
-
-/* Linha decorativa fina */
-.rule {
-  width: 48px;
-  height: 1px;
-  background: var(--accent);
-  border: none;
-  margin-bottom: 24px;
-}
-
-.rule--center {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
 }
 
 /* ───────────────────────────
-   Botões — inspiração Bouhan/Tremain
-   Pill, discreto, sem glow
+   Botões — charcoal pill, discreto
 ─────────────────────────── */
-.btn {
+.btn-primary {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-sans);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-.btn-primary {
-  composes: btn;
-  padding: 16px 36px;
+  padding: 15px 34px;
   background: var(--text-primary);
   color: var(--text-on-dark);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
   border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.2s ease;
 }
 .btn-primary:hover {
   background: var(--accent);
+  transform: scale(1.02);
 }
 
 .btn-outline {
-  composes: btn;
-  padding: 15px 32px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 30px;
   background: transparent;
   color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  border-radius: 99px;
   border: 1.5px solid var(--border);
-  border-radius: 99px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.25s ease;
 }
-.btn-outline:hover {
-  border-color: var(--text-primary);
-}
-
-.btn-outline-light {
-  composes: btn;
-  padding: 15px 32px;
-  background: transparent;
-  color: var(--text-on-dark);
-  border: 1.5px solid rgba(247,245,240,0.3);
-  border-radius: 99px;
-}
-.btn-outline-light:hover {
-  border-color: rgba(247,245,240,0.7);
-  background: rgba(247,245,240,0.05);
-}
+.btn-outline:hover { border-color: var(--text-primary); }
 
 .btn-text {
-  composes: btn;
-  padding: 0;
-  background: none;
-  color: var(--accent);
+  font-family: var(--font-sans);
   font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
 }
-.btn-text:hover {
-  color: var(--text-primary);
-}
+.btn-text:hover { color: var(--text-primary); }
 
 /* ───────────────────────────
    Cards
@@ -240,47 +146,67 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* ───────────────────────────
-   Hero com foto de fundo
+   Photo placeholder — elegante
 ─────────────────────────── */
-.hero-bg {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-}
-
-.hero-bg::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(28,42,58,0.55) 0%,
-    rgba(28,42,58,0.75) 100%
-  );
-}
-
-.hero-bg > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* ───────────────────────────
-   Photo placeholder
-─────────────────────────── */
-.photo-placeholder {
+.photo-frame {
   background: var(--bg-sand);
+  border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-muted);
-  font-size: 13px;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo-frame::after {
+  content: attr(data-label);
+  position: absolute;
   font-family: var(--font-sans);
-  letter-spacing: 0.05em;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  border: 2px dashed var(--border);
+  color: var(--text-muted);
+  text-align: center;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* ───────────────────────────
+   Trust bar
+─────────────────────────── */
+.trust-bar {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.trust-bar span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trust-bar span::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ───────────────────────────
+   Rule (decorative line)
+─────────────────────────── */
+.rule {
+  width: 40px;
+  height: 1px;
+  background: var(--accent);
+  border: none;
+  margin-bottom: 20px;
 }
 
 /* ───────────────────────────
@@ -288,32 +214,26 @@ img { max-width: 100%; height: auto; display: block; }
 ─────────────────────────── */
 .blog-content h2 {
   font-family: var(--font-serif);
-  font-size: 1.65rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
+  margin: 2.5rem 0 0.75rem;
 }
 
 .blog-content h3 {
-  font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin: 2rem 0 0.5rem;
 }
 
 .blog-content p {
   color: var(--text-body);
-  line-height: 1.8;
+  line-height: 1.85;
   margin-bottom: 1.25rem;
 }
 
-.blog-content strong {
-  color: var(--text-primary);
-  font-weight: 600;
-}
+.blog-content strong { color: var(--text-primary); font-weight: 600; }
 
 .blog-content ul, .blog-content ol {
   margin-bottom: 1.25rem;
@@ -322,8 +242,8 @@ img { max-width: 100%; height: auto; display: block; }
 
 .blog-content li {
   color: var(--text-body);
-  line-height: 1.8;
-  margin-bottom: 0.4rem;
+  line-height: 1.85;
+  margin-bottom: 0.35rem;
 }
 
 .blog-content table {
@@ -349,30 +269,23 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* ───────────────────────────
-   Animations — sutis apenas
-─────────────────────────── */
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.animate-in {
-  animation: fadeUp 0.6s ease forwards;
-}
-
-.delay-1 { animation-delay: 0.1s; opacity: 0; }
-.delay-2 { animation-delay: 0.2s; opacity: 0; }
-.delay-3 { animation-delay: 0.3s; opacity: 0; }
-
-/* ───────────────────────────
    Responsive
 ─────────────────────────── */
 @media (max-width: 768px) {
-  :root {
-    --section-y: 80px;
-    --section-y-sm: 48px;
-  }
+  :root { --section-py: 80px; }
 
-  h1 { font-size: clamp(30px, 8vw, 42px); }
-  h2 { font-size: clamp(24px, 6vw, 32px); }
+  .hero-split { grid-template-columns: 1fr !important; }
+  .hero-split .photo-frame { min-height: 360px !important; order: -1; }
+
+  .grid-about { grid-template-columns: 1fr !important; }
+  .grid-about .photo-frame { min-height: 320px !important; aspect-ratio: 4/3 !important; }
+
+  .trust-bar { gap: 16px; }
+
+  .desktop-nav { display: none !important; }
+  .mobile-toggle { display: flex !important; }
+}
+
+@media (min-width: 769px) {
+  .mobile-toggle { display: none !important; }
 }
