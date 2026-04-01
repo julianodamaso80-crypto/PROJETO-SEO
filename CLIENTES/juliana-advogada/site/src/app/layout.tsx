@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "DD Claw | Advogada Trabalhista e Previdenciária",
     template: "%s | DD Claw",
   },
-  description: "Advogada especialista em Direito do Trabalho e Previdenciário. Defesa dos seus direitos com atendimento humanizado.",
+  description: "Advogada especialista em Direito do Trabalho e Previdenciário. Orientação jurídica com clareza e dedicação.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

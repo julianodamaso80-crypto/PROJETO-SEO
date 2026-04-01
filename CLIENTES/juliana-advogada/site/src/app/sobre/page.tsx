@@ -2,106 +2,107 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sobre a DD Claw",
-  description: "Conheça a DD Claw — advogada especialista em direito trabalhista e previdenciário. Atendimento humanizado para quem precisa de justiça.",
+  description: "Conheça a DD Claw — advogada especialista em direito trabalhista e previdenciário.",
 };
+
+const WA = "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";
 
 export default function SobrePage() {
   return (
     <div style={{ paddingTop: "72px" }}>
-      {/* Hero */}
-      <section style={{ padding: "80px 24px 64px", position: "relative" }}>
+
+      {/* Header */}
+      <section style={{ padding: "80px 24px 0" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <div className="section-divider" style={{ marginBottom: "16px" }} />
-          <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 800, lineHeight: 1.1, marginBottom: "24px" }}>
-            Advogada Que Luta{" "}
-            <span className="text-gold-gradient">Por Quem Trabalha</span>
+          <hr className="rule" />
+          <p className="eyebrow" style={{ marginBottom: "16px" }}>Sobre</p>
+          <h1 style={{ marginBottom: "24px", lineHeight: 1.15 }}>
+            Advocacia com propósito,{" "}
+            <em style={{ color: "var(--accent)" }}>clareza e dedicação.</em>
           </h1>
         </div>
       </section>
 
-      {/* Bio */}
-      <section style={{ padding: "0 24px 80px" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <div className="glass" style={{ padding: "48px", marginBottom: "40px" }}>
-            {/* Photo placeholder */}
-            <div style={{
-              width: "120px", height: "120px", borderRadius: "50%",
-              background: "linear-gradient(135deg, var(--color-gold-dim), var(--color-navy-lighter))",
-              border: "2px solid var(--color-gold)",
-              display: "flex", alignItems: "center", justifyContent: "center",
-              fontFamily: "var(--font-display)", fontSize: "36px", fontWeight: 700, color: "var(--color-gold)",
-              marginBottom: "32px",
-            }}>
-              DD
+      {/* Bio com foto */}
+      <section className="section" style={{ background: "var(--bg-body)" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto", padding: "0 24px" }}>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "200px 1fr",
+            gap: "48px",
+            alignItems: "start",
+            marginBottom: "48px",
+          }}>
+            {/* FOTO: substituir por retrato real */}
+            <div
+              className="photo-placeholder"
+              style={{
+                aspectRatio: "1",
+                borderRadius: "var(--radius-lg)",
+                minHeight: "200px",
+              }}
+            >
+              Foto
             </div>
 
-            <h2 style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: 700, marginBottom: "8px" }}>
-              DD Claw
-            </h2>
-            <p style={{ fontSize: "14px", color: "var(--color-gold)", letterSpacing: "1px", textTransform: "uppercase", fontWeight: 500, marginBottom: "24px" }}>
-              Advogada Trabalhista e Previdenciária
-            </p>
-
-            <div style={{ fontSize: "16px", color: "var(--color-text-secondary)", lineHeight: 1.8 }}>
-              <p style={{ marginBottom: "16px" }}>
-                Sou advogada especialista em Direito do Trabalho e Direito Previdenciário. Escolhi essas áreas por um motivo
-                simples: são as que mais impactam a vida de quem vive do próprio trabalho.
+            <div>
+              <h2 style={{ fontSize: "28px", marginBottom: "8px" }}>DD Claw</h2>
+              <p className="eyebrow" style={{ marginBottom: "24px" }}>
+                Advogada Trabalhista e Previdenciária · OAB [número]
               </p>
-              <p style={{ marginBottom: "16px" }}>
-                Quando um trabalhador perde o emprego injustamente, quando o INSS nega um benefício a quem mais precisa,
-                quando uma família fica desamparada — é nesses momentos que o Direito precisa funcionar. E é exatamente aí que eu atuo.
+              <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.8, marginBottom: "16px" }}>
+                Sou advogada especialista em Direito do Trabalho e Direito Previdenciário.
+                Escolhi essas áreas por um motivo simples: são as que mais impactam a vida
+                de quem vive do próprio trabalho.
               </p>
-              <p>
-                Acredito que o acesso à Justiça não pode ser privilégio. Por isso, busco oferecer condições acessíveis
-                para que todos possam exercer seus direitos.
+              <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.8, marginBottom: "16px" }}>
+                Quando um trabalhador perde o emprego injustamente, quando o INSS nega
+                um benefício a quem mais precisa — é nesses momentos que o Direito precisa
+                funcionar. E é exatamente aí que eu atuo.
+              </p>
+              <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.8 }}>
+                Acredito que o acesso à Justiça não pode ser privilégio. Por isso, busco
+                oferecer condições acessíveis para que todos possam exercer seus direitos.
               </p>
             </div>
           </div>
 
           {/* Valores */}
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: 700, marginBottom: "24px" }}>
-            Como eu <span className="text-gold-gradient">trabalho</span>
+          <h2 style={{ fontSize: "24px", marginBottom: "24px", marginTop: "48px" }}>
+            Como eu trabalho
           </h2>
 
-          <div style={{ display: "grid", gap: "16px", marginBottom: "48px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginBottom: "48px" }}>
             {[
               { title: "Sem juridiquês", desc: "Você entende cada passo do processo, cada documento e cada decisão." },
               { title: "Sem promessas vazias", desc: "Se você não tem direito, eu digo. Se tem, mostro exatamente o caminho." },
               { title: "Sem você ser um número", desc: "Cada processo tem nome, história e atenção dedicada." },
             ].map((item) => (
-              <div key={item.title} className="glass" style={{ padding: "24px", display: "flex", gap: "16px", alignItems: "flex-start" }}>
-                <div style={{ width: "4px", height: "40px", background: "var(--color-gold)", borderRadius: "2px", flexShrink: 0, marginTop: "4px" }} />
+              <div key={item.title} className="card" style={{ padding: "24px", display: "flex", gap: "16px", alignItems: "flex-start" }}>
+                <div style={{ width: "3px", height: "40px", background: "var(--accent)", borderRadius: "2px", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h3 style={{ fontFamily: "var(--font-display)", fontSize: "16px", fontWeight: 600, marginBottom: "4px" }}>{item.title}</h3>
-                  <p style={{ fontSize: "14px", color: "var(--color-text-secondary)", lineHeight: 1.6 }}>{item.desc}</p>
+                  <h3 style={{ fontSize: "16px", marginBottom: "4px" }}>{item.title}</h3>
+                  <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.65 }}>{item.desc}</p>
                 </div>
               </div>
             ))}
           </div>
 
           {/* CTA */}
-          <div
-            className="glass-gold"
-            style={{ padding: "40px", textAlign: "center", borderRadius: "16px" }}
-          >
-            <h2 style={{ fontFamily: "var(--font-display)", fontSize: "22px", fontWeight: 700, marginBottom: "12px" }}>
-              Primeiro passo: uma conversa
+          <div style={{
+            background: "var(--bg-dark)",
+            borderRadius: "var(--radius-lg)",
+            padding: "48px 40px",
+            textAlign: "center",
+          }}>
+            <h2 style={{ fontSize: "22px", color: "var(--text-on-dark)", marginBottom: "12px" }}>
+              Primeiro passo: uma conversa.
             </h2>
-            <p style={{ fontSize: "15px", color: "var(--color-text-secondary)", marginBottom: "24px" }}>
-              Me conte sua situação e eu digo quais são seus direitos reais. Sem compromisso.
+            <p style={{ fontSize: "15px", color: "var(--text-on-dark-muted)", marginBottom: "28px", maxWidth: "400px", margin: "0 auto 28px" }}>
+              Conte sua situação e receba uma orientação clara sobre seus direitos.
             </p>
-            <a
-              href="https://wa.me/5500000000000"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: "inline-flex", alignItems: "center", gap: "10px",
-                padding: "16px 36px", background: "var(--color-gold)", color: "var(--color-navy)",
-                borderRadius: "10px", fontSize: "15px", fontWeight: 700, textDecoration: "none",
-                boxShadow: "0 0 30px var(--color-gold-glow)",
-              }}
-            >
-              Consulta Gratuita pelo WhatsApp
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Agendar Consulta
             </a>
           </div>
         </div>
