@@ -18,7 +18,7 @@ const SERVICES_TRABALHISTA = [
   },
   {
     title: "Horas Extras",
-    desc: "Horas extras não pagas são dívida da empresa. Cobramos retroativo até 5 anos.",
+    desc: "Horas extras não pagas podem ser cobradas judicialmente, com retroativo de até 5 anos.",
     img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80",
     cta: "Calculei — quero cobrar as horas",
   },
@@ -36,7 +36,7 @@ const SERVICES_TRABALHISTA = [
   },
   {
     title: "Insalubridade",
-    desc: "Adicional de 10% a 40% para exposição a agentes nocivos. Empresa deve pagar — ponto.",
+    desc: "Adicional de 10% a 40% para quem trabalha exposto a agentes nocivos à saúde.",
     img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
     cta: "Verificar meu direito ao adicional",
   },
@@ -85,22 +85,22 @@ const DIFERENCIAIS = [
   {
     icon: "⚖️",
     title: "Especialista de Verdade",
-    desc: "Foco exclusivo em Trabalhista e Previdenciário. Cada detalhe do seu caso recebe atenção máxima.",
+    desc: "Foco exclusivo em Trabalhista e Previdenciário. Cada detalhe do seu caso recebe atenção dedicada.",
   },
   {
     icon: "🤝",
-    title: "Você Só Paga se Ganhar",
-    desc: "Honorários de êxito. Zero custo inicial. Sem desembolso, sem risco.",
+    title: "Atendimento Humanizado",
+    desc: "Você é tratado como pessoa, não como número de processo. Acompanhamento próximo em cada etapa.",
   },
   {
     icon: "💬",
-    title: "Zero Juridiquês",
-    desc: "Cada etapa do processo explicada em linguagem que você entende de verdade.",
+    title: "Linguagem Clara",
+    desc: "Cada etapa do processo explicada de forma simples, sem juridiquês. Você entende tudo.",
   },
   {
     icon: "📱",
-    title: "Atendimento 100% Online",
-    desc: "Consulta por videochamada de onde você estiver. Sem perder dia de trabalho.",
+    title: "Atendimento Online",
+    desc: "Consulta por videochamada de onde você estiver. Praticidade para quem tem rotina corrida.",
   },
 ];
 
@@ -186,8 +186,8 @@ export default function HomePage() {
               }}
             >
               Empresa violou seus direitos? INSS negou seu benefício?{" "}
-              <strong style={{ color: "#fff" }}>Cada dia sem ação é um dia de prejuízo.</strong>{" "}
-              Consulta inicial gratuita — sem custo, sem compromisso.
+              <strong style={{ color: "#fff" }}>Entenda sua situação com quem entende do assunto.</strong>{" "}
+              Consulta inicial gratuita — sem compromisso.
             </p>
 
             {/* CTAs */}
@@ -196,14 +196,14 @@ export default function HomePage() {
                 href={WA_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary animate-pulse-glow"
+                className="btn-primary"
                 style={{ fontSize: "17px", padding: "18px 40px" }}
               >
-                Quero Minha Consulta Gratuita Agora
+                Fale com a Advogada
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
               </a>
               <a href="#servicos" className="btn-outline-white" style={{ fontSize: "15px" }}>
-                Ver meus direitos
+                Conheça as áreas de atuação
               </a>
             </div>
 
@@ -220,9 +220,9 @@ export default function HomePage() {
               }}
             >
               {[
-                { number: "500+", label: "Clientes atendidos" },
-                { number: "93%", label: "Taxa de êxito" },
-                { number: "R$0", label: "Custo inicial" },
+                { number: "2 Áreas", label: "Trabalhista e Previdenciário" },
+                { number: "Online", label: "Atendimento em todo o Brasil" },
+                { number: "Consulta", label: "Inicial sem custo" },
               ].map((s) => (
                 <div key={s.label}>
                   <div style={{
@@ -264,7 +264,7 @@ export default function HomePage() {
               é diferente
             </h2>
             <p style={{ fontSize: "17px", color: "var(--text-secondary)", maxWidth: "520px", margin: "0 auto", lineHeight: 1.7 }}>
-              Especialização, resultado e transparência — sem letras miúdas, sem promessas vazias.
+              Especialização, transparência e atenção ao seu caso — do início ao fim.
             </p>
           </div>
 
@@ -295,10 +295,10 @@ export default function HomePage() {
           {/* CTA */}
           <div style={{ textAlign: "center", marginTop: "56px" }}>
             <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Quero Esse Atendimento — É Gratuito
+              Agende Sua Consulta Inicial
             </a>
             <p style={{ marginTop: "12px", fontSize: "13px", color: "var(--text-muted)" }}>
-              Sem cartão, sem taxa, sem compromisso. Só você e a especialista.
+              Consulta inicial gratuita. Atendimento presencial ou online.
             </p>
           </div>
         </div>
@@ -329,11 +329,11 @@ export default function HomePage() {
               marginBottom: "16px",
               lineHeight: 1.15,
             }}>
-              Empresa te deve.{" "}
-              <span style={{ fontStyle: "italic", color: "var(--bg-sand)" }}>A Justiça pode cobrar.</span>
+              Seus direitos trabalhistas{" "}
+              <span style={{ fontStyle: "italic", color: "var(--bg-sand)" }}>merecem atenção.</span>
             </h2>
             <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.75)", maxWidth: "560px", margin: "0 auto", lineHeight: 1.7 }}>
-              Cada uma dessas situações tem prazo. Se você identificou alguma, não espere mais.
+              Conheça as principais situações em que um advogado trabalhista pode ajudar.
             </p>
           </div>
 
@@ -405,11 +405,11 @@ export default function HomePage() {
 
           {/* CTA da seção */}
           <div style={{ textAlign: "center", marginTop: "64px" }}>
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary animate-pulse-glow" style={{ fontSize: "17px", padding: "18px 44px" }}>
-              Identifiquei Meu Caso — Quero Consulta Grátis
+            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontSize: "17px", padding: "18px 44px" }}>
+              Fale com a Especialista
             </a>
             <p style={{ marginTop: "14px", fontSize: "13px", color: "rgba(255,255,255,0.55)" }}>
-              ⚠️ Direitos trabalhistas prescrevem em 2 anos. Não espere.
+              Importante: direitos trabalhistas têm prazo prescricional de 2 anos.
             </p>
           </div>
         </div>
@@ -503,7 +503,7 @@ export default function HomePage() {
           {/* CTA */}
           <div style={{ textAlign: "center", marginTop: "64px" }}>
             <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Meu Benefício Foi Negado — Quero Recorrer
+              Tire Suas Dúvidas com a Advogada
             </a>
             <p style={{ marginTop: "12px", fontSize: "13px", color: "var(--text-muted)" }}>
               Análise gratuita do seu caso. Sem custo inicial.
@@ -531,14 +531,14 @@ export default function HomePage() {
             lineHeight: 1.1,
             marginBottom: "24px",
           }}>
-            Cada dia sem agir é um dia que{" "}
+            Conhecer seus direitos é o{" "}
             <span style={{ fontStyle: "italic", color: "var(--bg-sand)" }}>
-              seus direitos se perdem.
+              primeiro passo.
             </span>
           </h2>
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.78)", lineHeight: 1.7, marginBottom: "48px", maxWidth: "600px", margin: "0 auto 48px" }}>
-            A prescrição trabalhista é de <strong style={{ color: "#fff" }}>2 anos</strong>. A previdenciária pode significar{" "}
-            <strong style={{ color: "#fff" }}>meses de benefício perdido</strong>. Enquanto você espera, o prazo corre.
+            Direitos trabalhistas têm prazo prescricional de <strong style={{ color: "#fff" }}>2 anos</strong>. Benefícios previdenciários também possuem prazos importantes.{" "}
+            <strong style={{ color: "#fff" }}>Informação é proteção.</strong>
           </p>
 
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
@@ -546,14 +546,14 @@ export default function HomePage() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary animate-pulse-glow"
+              className="btn-primary"
               style={{ fontSize: "18px", padding: "20px 48px" }}
             >
-              Não Vou Perder Meus Direitos — Falar Agora
+              Converse com a Dra. Juliana
             </a>
           </div>
           <p style={{ marginTop: "16px", fontSize: "13px", color: "rgba(255,255,255,0.45)" }}>
-            Consulta 100% gratuita. Atendimento online ou presencial.
+            Consulta inicial gratuita. Atendimento online ou presencial.
           </p>
         </div>
       </section>
@@ -707,18 +707,18 @@ export default function HomePage() {
             maxWidth: "560px",
             margin: "0 auto 44px",
           }}>
-            Quem age rápido, recebe mais. Quem espera, perde prazo. Fale com a Dra. Juliana agora —{" "}
-            <strong style={{ color: "var(--text-primary)" }}>a consulta não custa nada.</strong>
+            Tire suas dúvidas com uma advogada especialista. A consulta inicial é gratuita e{" "}
+            <strong style={{ color: "var(--text-primary)" }}>sem compromisso.</strong>
           </p>
 
           <a
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary animate-pulse-glow"
+            className="btn-primary"
             style={{ fontSize: "18px", padding: "20px 52px" }}
           >
-            Falar Agora com a Dra. Juliana — Grátis
+            Agende Sua Consulta
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
@@ -732,8 +732,8 @@ export default function HomePage() {
             flexWrap: "wrap",
           }}>
             {[
-              { icon: "✓", text: "Sem custo inicial" },
-              { icon: "✓", text: "Honorários só no êxito" },
+              { icon: "✓", text: "Consulta inicial gratuita" },
+              { icon: "✓", text: "Especialista dedicada" },
               { icon: "✓", text: "Atendimento online" },
             ].map((item) => (
               <div key={item.text} style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", color: "var(--text-secondary)" }}>

@@ -13,10 +13,10 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "acidente-de-trabalho-direitos",
-    title: "Sofreu Acidente de Trabalho? Os 5 Direitos Que Sua Empresa Vai Tentar Esconder",
-    metaTitle: "Acidente de Trabalho? 5 Direitos Que a Empresa Não Vai Te Contar",
-    metaDescription: "Sofreu acidente no trabalho? A empresa tenta minimizar, mas você pode ter direito a até R$80 mil em indenização. Saiba como agir nas primeiras 48h.",
-    excerpt: "A empresa é obrigada a emitir a CAT em 24h, você tem estabilidade de 12 meses, e a indenização pode passar de R$80 mil. Saiba exatamente o que fazer.",
+    title: "Acidente de Trabalho: 5 Direitos Que Todo Trabalhador Precisa Conhecer",
+    metaTitle: "Acidente de Trabalho: 5 Direitos Garantidos Por Lei",
+    metaDescription: "Sofreu acidente no trabalho? Conheça seus direitos: estabilidade, indenização, CAT e benefícios do INSS. Saiba como agir nas primeiras 48h.",
+    excerpt: "A empresa é obrigada a emitir a CAT em 24h, você tem estabilidade de 12 meses e pode ter direito a indenização. Saiba exatamente o que fazer.",
     category: "Trabalhista",
     date: "2026-03-20",
     readTime: "8 min",
@@ -70,9 +70,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "trabalhou-sem-carteira-vinculo",
-    title: "Trabalhou Sem Carteira Assinada? A Empresa Deve Cada Centavo",
-    metaTitle: "Trabalhou Sem Carteira? Como Provar Vínculo e Receber Tudo",
-    metaDescription: "Sem registro na carteira? A empresa deve FGTS, INSS, férias e 13º retroativos. Saiba como provar o vínculo e cobrar cada centavo.",
+    title: "Trabalhou Sem Carteira Assinada? Entenda Seus Direitos Retroativos",
+    metaTitle: "Trabalhou Sem Carteira? Como Provar Vínculo e Garantir Seus Direitos",
+    metaDescription: "Sem registro na carteira? Você pode ter direito a FGTS, INSS, férias e 13º retroativos. Saiba como comprovar o vínculo empregatício.",
     excerpt: "3 em cada 10 trabalhadores brasileiros estão na informalidade. Se você é um deles, pode ter direito a milhares de reais em verbas retroativas.",
     category: "Trabalhista",
     date: "2026-03-18",
@@ -136,9 +136,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "horas-extras-como-calcular",
-    title: "Horas Extras Não Pagas? Veja Quanto a Empresa Deve",
+    title: "Horas Extras Não Pagas: Como Calcular e Quais São Seus Direitos",
     metaTitle: "Horas Extras: Como Calcular e Cobrar Até 5 Anos Retroativos",
-    metaDescription: "Faz hora extra e não recebe? 2h por dia podem valer R$51 mil em 5 anos. Aprenda a calcular e saiba como cobrar da empresa.",
+    metaDescription: "Faz hora extra e não recebe corretamente? Entenda como calcular o valor devido e quais são os prazos para cobrar judicialmente.",
     excerpt: "2 horas extras por dia com salário de R$2.500 podem valer mais de R$51 mil em 5 anos. Aprenda a calcular e conheça os truques que as empresas usam.",
     category: "Trabalhista",
     date: "2026-03-15",
@@ -265,8 +265,8 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "auxilio-acidente-inss",
     title: "Auxílio-Acidente: O Benefício do INSS Que Você Pode Receber Junto Com o Salário",
-    metaTitle: "Auxílio-Acidente: O Benefício do INSS Que 90% Não Conhece",
-    metaDescription: "Teve acidente e ficou com sequela? O auxílio-acidente paga 50% do benefício JUNTO com seu salário. A maioria não pede — e perde dinheiro todo mês.",
+    metaTitle: "Auxílio-Acidente: Benefício do INSS Acumulável Com Salário",
+    metaDescription: "Teve acidente e ficou com sequela? O auxílio-acidente paga 50% do salário de benefício e pode ser recebido junto com o salário do trabalho.",
     excerpt: "9 em cada 10 trabalhadores que teriam direito ao auxílio-acidente simplesmente não pedem. Valor de 50% do salário de benefício, pago junto com o salário.",
     category: "Previdenciário",
     date: "2026-03-10",
@@ -405,9 +405,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "aposentadoria-negada-inss",
-    title: "Aposentadoria Negada Pelo INSS? O Que Fazer Nos Próximos 30 Dias",
-    metaTitle: "Aposentadoria Negada? 3 Passos Para Reverter a Decisão do INSS",
-    metaDescription: "INSS negou sua aposentadoria? 41% das negativas são revertidas na Justiça. Descubra os 3 passos para conseguir seu benefício.",
+    title: "Aposentadoria Negada Pelo INSS: Quais São as Opções de Recurso",
+    metaTitle: "Aposentadoria Negada? Como Recorrer da Decisão do INSS",
+    metaDescription: "INSS negou sua aposentadoria? Conheça as opções de recurso administrativo e judicial e os prazos que você precisa observar.",
     excerpt: "41% das negativas do INSS são revertidas quando o segurado recorre. Conheça os 3 caminhos para reverter e quanto pode receber de retroativo.",
     category: "Previdenciário",
     date: "2026-03-05",
@@ -447,7 +447,7 @@ export const blogPosts: BlogPost[] = [
 <p>No recurso, apresente documentos novos que comprovem o tempo ou condição não reconhecida: CTPS antiga, PPP (Perfil Profissiográfico Previdenciário), contracheques, laudos médicos, declarações de empregadores, etc.</p>
 
 <h2>Passo 3: Ação judicial (se o recurso for negado)</h2>
-<p>Se o recurso administrativo não resolver, a via judicial é o próximo passo — e tem <strong>alta taxa de sucesso</strong>.</p>
+<p>Se o recurso administrativo não resolver, a via judicial é o próximo passo — e tem <strong>bons resultados para os segurados</strong>.</p>
 <ul>
 <li><strong>Valores até 60 salários mínimos</strong> — Juizado Especial Federal (mais rápido, sem custas)</li>
 <li><strong>Valores acima de 60 salários mínimos</strong> — Vara Federal (mais complexo, mas sem limite de valor)</li>
@@ -476,9 +476,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "pensao-por-morte",
-    title: "Pensão por Morte: O Prazo de 180 Dias Pode Custar Milhares de Reais",
+    title: "Pensão por Morte: Quem Tem Direito, Prazos e Como Solicitar",
     metaTitle: "Pensão por Morte: Quem Tem Direito, Valor e Como Pedir",
-    metaDescription: "Perdeu um familiar segurado do INSS? O prazo de 180 dias afeta o valor que você recebe. Saiba quem tem direito e como pedir sem perder dinheiro.",
+    metaDescription: "Perdeu um familiar segurado do INSS? Conheça os requisitos, prazos legais e como solicitar a pensão por morte corretamente.",
     excerpt: "Se requerer após 180 dias do óbito, você perde o retroativo. Com benefício de R$2.000/mês, 6 meses são R$12 mil perdidos.",
     category: "Previdenciário",
     date: "2026-03-02",
@@ -556,9 +556,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "periculosidade-insalubridade",
-    title: "Adicional de Periculosidade e Insalubridade: O Dinheiro Que Pode Estar Faltando",
-    metaTitle: "Periculosidade e Insalubridade: 30% a Mais no Salário",
-    metaDescription: "Trabalha com risco ou agentes nocivos? O adicional de periculosidade paga 30% a mais. Descubra se você tem direito e como cobrar.",
+    title: "Adicional de Periculosidade e Insalubridade: Entenda Seus Direitos",
+    metaTitle: "Periculosidade e Insalubridade: Quem Tem Direito ao Adicional",
+    metaDescription: "Trabalha com risco ou agentes nocivos? Entenda quem tem direito ao adicional de periculosidade e insalubridade e como funciona.",
     excerpt: "23 milhões de brasileiros trabalham expostos a riscos. Menos da metade recebe o adicional correto. Periculosidade paga 30% sobre o salário base.",
     category: "Trabalhista",
     date: "2026-02-28",

@@ -52,8 +52,8 @@ export default function SobrePage() {
                 quando uma família fica desamparada — é nesses momentos que o Direito precisa funcionar. E é exatamente aí que eu atuo.
               </p>
               <p>
-                Acredito que o acesso à Justiça não pode ser privilégio. Por isso, trabalho com honorários de êxito na maioria
-                dos casos — você só paga se ganhar.
+                Acredito que o acesso à Justiça não pode ser privilégio. Por isso, busco oferecer condições acessíveis
+                para que todos possam exercer seus direitos.
               </p>
             </div>
           </div>

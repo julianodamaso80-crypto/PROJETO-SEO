@@ -61,7 +61,7 @@ const SERVICES = [
       "Cônjuge 45+ anos = pensão vitalícia",
       "Filhos até 21 anos (ou inválidos = vitalícia)",
       "Pode acumular com aposentadoria própria",
-      "6 meses de atraso = R$12 mil perdidos (base R$2.000)",
+      "Prazo de 180 dias é essencial para garantir o retroativo",
     ],
   },
   {
@@ -83,7 +83,7 @@ const SERVICES = [
     img: "https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&q=80",
     cta: "Verificar se tenho direito ao BPC",
     details: [
-      "R$1.518/mês sem nunca ter contribuído",
+      "1 salário mínimo mensal sem necessidade de contribuição prévia",
       "Idosos 65+ ou pessoas com deficiência",
       "Renda per capita até 1/4 do salário mínimo",
       "Gastos médicos podem ser descontados da renda",
@@ -97,7 +97,7 @@ const SERVICES = [
     cta: "Quero me aposentar no melhor momento",
     details: [
       "7 regras de transição ativas — qual é a melhor?",
-      "Escolha errada pode custar R$100 mil+",
+      "A regra de transição escolhida impacta diretamente o valor do benefício",
       "Simulação com todas as regras disponíveis",
       "Análise do CNIS para corrigir erros",
       "Tempo especial pode antecipar sua aposentadoria",
@@ -206,10 +206,9 @@ export default function PrevidenciarioPage() {
                 maxWidth: "580px",
               }}
             >
-              41% das negativas do INSS são revertidas quando o segurado
-              recorre.{" "}
+              Estudos mostram que parte significativa das negativas do INSS &eacute; revertida quando contestada.{" "}
               <strong style={{ color: "#fff" }}>
-                Cada mês sem agir é um mês de benefício perdido.
+                Entenda seus direitos com quem atua na &aacute;rea.
               </strong>
             </p>
 
@@ -222,10 +221,10 @@ export default function PrevidenciarioPage() {
                 href={WA_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary animate-pulse-glow"
+                className="btn-primary"
                 style={{ fontSize: "17px", padding: "18px 40px" }}
               >
-                Analisar Meu Caso Gratuitamente
+                Fale com a Advogada Previdenci&aacute;ria
                 <svg
                   width="18"
                   height="18"
@@ -310,9 +309,8 @@ export default function PrevidenciarioPage() {
                 color: "var(--text-primary)",
               }}
             >
-              Benefícios Que a{" "}
-              <span className="text-accent">Dra. Juliana</span> Pode Conquistar
-              Para Você
+              &Aacute;reas de Atua&ccedil;&atilde;o em{" "}
+              <span className="text-accent">Direito Previdenci&aacute;rio</span>
             </h2>
             <p
               style={{
@@ -323,8 +321,7 @@ export default function PrevidenciarioPage() {
                 lineHeight: 1.7,
               }}
             >
-              Cada caso tem prazo. Se o INSS negou ou você não sabe se tem
-              direito, a análise gratuita resolve.
+              Conhe&ccedil;a as principais situa&ccedil;&otilde;es em que um advogado previdenci&aacute;rio pode ajudar.
             </p>
           </div>
 
@@ -451,10 +448,10 @@ export default function PrevidenciarioPage() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary animate-pulse-glow"
+              className="btn-primary"
               style={{ fontSize: "17px", padding: "18px 44px" }}
             >
-              Meu Benefício Foi Negado — Quero Recorrer
+              Fale com a Especialista
             </a>
             <p
               style={{
@@ -463,7 +460,7 @@ export default function PrevidenciarioPage() {
                 color: "var(--text-muted)",
               }}
             >
-              Análise gratuita do seu caso. Sem custo inicial.
+              Consulta inicial gratuita. Atendimento online ou presencial.
             </p>
           </div>
         </div>
@@ -546,8 +543,8 @@ export default function PrevidenciarioPage() {
               },
               {
                 step: "04",
-                title: "Benefício Conquistado",
-                desc: "Você recebe o que é seu por direito — com retroativo quando aplicável.",
+                title: "Acompanhamento",
+                desc: "Voc&ecirc; &eacute; informado de cada movimenta&ccedil;&atilde;o at&eacute; a conclus&atilde;o do caso.",
               },
             ].map((item) => (
               <div
@@ -604,10 +601,10 @@ export default function PrevidenciarioPage() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary animate-pulse-glow"
+              className="btn-primary"
               style={{ fontSize: "17px", padding: "18px 44px" }}
             >
-              Começar Minha Análise Gratuita
+              Agende Sua Consulta
               <svg
                 width="18"
                 height="18"
@@ -648,8 +645,8 @@ export default function PrevidenciarioPage() {
                 color: "var(--text-primary)",
               }}
             >
-              O INSS Conta Com Você{" "}
-              <span className="text-accent">Não Recorrer</span>
+              Informa&ccedil;&otilde;es Importantes Sobre{" "}
+              <span className="text-accent">Benef&iacute;cios do INSS</span>
             </h2>
             <p
               style={{
@@ -660,8 +657,7 @@ export default function PrevidenciarioPage() {
                 lineHeight: 1.7,
               }}
             >
-              Os números mostram a realidade: quem recorre, conquista. Quem
-              aceita a negativa, perde dinheiro todo mês.
+              Dados p&uacute;blicos sobre o sistema previdenci&aacute;rio que todo segurado deveria conhecer.
             </p>
           </div>
 
@@ -677,20 +673,20 @@ export default function PrevidenciarioPage() {
             {[
               {
                 number: "41%",
-                label: "das negativas revertidas na Justiça",
-                desc: "Quase metade dos segurados que recorrem conseguem o benefício. O INSS erra — e muito.",
+                label: "das negativas s&atilde;o revertidas judicialmente",
+                desc: "Dados do Conselho Nacional de Justi&ccedil;a mostram que parte significativa dos benef&iacute;cios negados &eacute; concedida via Justi&ccedil;a.",
               },
               {
                 number: "180",
                 suffix: " DIAS",
-                label: "prazo da pensão por morte que custa milhares",
-                desc: "Cada dia de atraso no pedido da pensão pode significar meses de retroativo perdido para sempre.",
+                label: "prazo para pens&atilde;o por morte com retroativo",
+                desc: "A legisla&ccedil;&atilde;o prev&ecirc; prazo de 180 dias para requerimento com direito ao retroativo integral.",
               },
               {
-                number: "R$100 mil",
-                suffix: "+",
-                label: "diferença que a regra errada pode custar",
-                desc: "Com 7 regras de transição ativas, escolher a errada pode custar uma fortuna ao longo dos anos.",
+                number: "7",
+                suffix: " REGRAS",
+                label: "de transi&ccedil;&atilde;o ativas na aposentadoria",
+                desc: "Cada regra gera valores e datas diferentes. A an&aacute;lise t&eacute;cnica &eacute; essencial para a melhor escolha.",
               },
             ].map((item) => (
               <div
@@ -753,13 +749,12 @@ export default function PrevidenciarioPage() {
                 marginBottom: "40px",
               }}
             >
-              O INSS tem metas de contenção de gastos. Perícias duram em média
-              15 minutos. Laudos são ignorados. O sistema{" "}
+              A per&iacute;cia administrativa do INSS &eacute; frequentemente r&aacute;pida e pode n&atilde;o considerar todos os laudos.
+              A per&iacute;cia judicial, por outro lado,{" "}
               <strong style={{ color: "var(--text-primary)" }}>
-                foi feito para negar
+                analisa o caso com mais profundidade
               </strong>
-              . Mas a Justiça analisa com profundidade — e reverte a maioria dos
-              casos contestados.
+              , considerando exames, laudos m&eacute;dicos e o hist&oacute;rico completo do segurado.
             </p>
             <a
               href={WA_LINK}
@@ -768,7 +763,7 @@ export default function PrevidenciarioPage() {
               className="btn-primary"
               style={{ fontSize: "17px", padding: "18px 44px" }}
             >
-              Não Vou Aceitar a Negativa — Quero Recorrer
+              Consulte uma Especialista
             </a>
             <p
               style={{
@@ -777,7 +772,7 @@ export default function PrevidenciarioPage() {
                 color: "var(--text-muted)",
               }}
             >
-              Sem custo inicial. Você só paga se ganhar.
+              Consulta inicial gratuita. Atendimento online ou presencial.
             </p>
           </div>
         </div>
@@ -976,8 +971,8 @@ export default function PrevidenciarioPage() {
               marginBottom: "24px",
             }}
           >
-            O INSS Disse Não.{" "}
-            <span className="text-accent">A Justiça Pode Dizer Sim.</span>
+            Tire Suas D&uacute;vidas com{" "}
+            <span className="text-accent">Uma Especialista</span>
           </h2>
 
           <p
@@ -990,10 +985,9 @@ export default function PrevidenciarioPage() {
               margin: "0 auto 44px",
             }}
           >
-            Cada mês sem recorrer é um mês de benefício perdido. O retroativo
-            pode significar dezenas de milhares de reais.{" "}
+            Converse com a Dra. Juliana e entenda quais benef&iacute;cios se aplicam &agrave; sua situa&ccedil;&atilde;o.{" "}
             <strong style={{ color: "var(--text-primary)" }}>
-              Fale com a Dra. Juliana agora.
+              Consulta inicial gratuita e sem compromisso.
             </strong>
           </p>
 
@@ -1001,10 +995,10 @@ export default function PrevidenciarioPage() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary animate-pulse-glow"
+            className="btn-primary"
             style={{ fontSize: "18px", padding: "20px 52px" }}
           >
-            Falar Agora com a Dra. Juliana — Grátis
+            Agende Sua Consulta
             <svg
               width="20"
               height="20"
@@ -1027,9 +1021,9 @@ export default function PrevidenciarioPage() {
             }}
           >
             {[
-              { icon: "✓", text: "Sem custo inicial" },
-              { icon: "✓", text: "Honorários só no êxito" },
-              { icon: "✓", text: "Atendimento 100% online" },
+              { icon: "✓", text: "Consulta inicial gratuita" },
+              { icon: "✓", text: "Especialista dedicada" },
+              { icon: "✓", text: "Atendimento online" },
             ].map((item) => (
               <div
                 key={item.text}

@@ -19,10 +19,10 @@ const SERVICES = [
     cta: "Tive um acidente — quero meus direitos",
     details: [
       "Estabilidade de 12 meses após alta do INSS",
-      "Indenização de R$5 mil a R$300 mil dependendo da gravidade",
+      "Possibilidade de indenização por danos morais e materiais",
       "Empresa obrigada a emitir CAT em 24 horas",
       "FGTS continua sendo depositado durante afastamento",
-      "Pensão vitalícia se houver redução da capacidade",
+      "Possibilidade de pensão se houver redução da capacidade",
     ],
   },
   {
@@ -40,11 +40,11 @@ const SERVICES = [
   },
   {
     title: "Horas Extras",
-    desc: "Horas extras não pagas são dívida da empresa. Cobramos retroativo até 5 anos.",
+    desc: "Horas extras não pagas podem ser cobradas judicialmente, com retroativo de até 5 anos.",
     img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80",
     cta: "Calculei — quero cobrar as horas",
     details: [
-      "2h extras/dia = R$51 mil em 5 anos (salário R$2.500)",
+      "Valores podem ser significativos com reflexos em férias, 13º e FGTS",
       "Reflexos em férias, 13º e FGTS",
       "Banco de horas informal é nulo",
       "E-mails fora do horário contam como prova",
@@ -79,7 +79,7 @@ const SERVICES = [
   },
   {
     title: "Insalubridade",
-    desc: "Adicional de 10% a 40% para exposição a agentes nocivos. Empresa deve pagar — ponto.",
+    desc: "Adicional de 10% a 40% para quem trabalha exposto a agentes nocivos à saúde.",
     img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
     cta: "Verificar meu direito ao adicional",
     details: [
@@ -192,10 +192,9 @@ export default function TrabalhistaPage() {
                 maxWidth: "600px",
               }}
             >
-              Um trabalhador brasileiro perde, em m&eacute;dia,{" "}
-              <strong style={{ color: "#fff" }}>R$47 mil</strong> em direitos
-              n&atilde;o cobrados ao longo da carreira. A maioria nem desconfia.
-              Voc&ecirc; n&atilde;o precisa ser um deles.
+              Muitos trabalhadores desconhecem direitos garantidos por lei.{" "}
+              <strong style={{ color: "#fff" }}>Entenda sua situa&ccedil;&atilde;o</strong> com
+              orienta&ccedil;&atilde;o de quem atua exclusivamente nessa &aacute;rea.
             </p>
 
             {/* CTAs */}
@@ -207,10 +206,10 @@ export default function TrabalhistaPage() {
                 href={WA_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary animate-pulse-glow"
+                className="btn-primary"
                 style={{ fontSize: "17px", padding: "18px 40px" }}
               >
-                Analisar Meu Caso Gratuitamente
+                Fale com a Advogada Trabalhista
                 <svg
                   width="18"
                   height="18"
@@ -244,9 +243,9 @@ export default function TrabalhistaPage() {
               }}
             >
               {[
-                { number: "500+", label: "Clientes atendidos" },
-                { number: "93%", label: "Taxa de êxito" },
-                { number: "R$0", label: "Custo inicial" },
+                { number: "6 Áreas", label: "de atuação trabalhista" },
+                { number: "Online", label: "Atendimento em todo o Brasil" },
+                { number: "Consulta", label: "Inicial sem custo" },
               ].map((s) => (
                 <div key={s.label}>
                   <div
@@ -307,8 +306,7 @@ export default function TrabalhistaPage() {
                 lineHeight: 1.7,
               }}
             >
-              Cada uma dessas situações tem prazo. Se você identificou alguma,
-              não espere mais.
+              Conhe&ccedil;a as principais situa&ccedil;&otilde;es em que a legisla&ccedil;&atilde;o trabalhista protege o empregado.
             </p>
           </div>
 
@@ -435,10 +433,10 @@ export default function TrabalhistaPage() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary animate-pulse-glow"
+              className="btn-primary"
               style={{ fontSize: "17px", padding: "18px 44px" }}
             >
-              Identifiquei Meu Caso — Quero Consulta Gr&aacute;tis
+              Fale com a Especialista
             </a>
             <p
               style={{
@@ -447,7 +445,7 @@ export default function TrabalhistaPage() {
                 color: "var(--text-muted)",
               }}
             >
-              Direitos trabalhistas prescrevem em 2 anos. N&atilde;o espere.
+              Consulta inicial gratuita. Atendimento online ou presencial.
             </p>
           </div>
         </div>
@@ -487,7 +485,7 @@ export default function TrabalhistaPage() {
                 lineHeight: 1.15,
               }}
             >
-              Do Primeiro Contato &agrave; Vit&oacute;ria:{" "}
+              Do Primeiro Contato ao Resultado:{" "}
               <span style={{ fontStyle: "italic", color: "var(--bg-sand)" }}>
                 Como Funciona
               </span>
@@ -501,8 +499,7 @@ export default function TrabalhistaPage() {
                 lineHeight: 1.7,
               }}
             >
-              Processo simples, transparente e sem custo inicial. Voc&ecirc;
-              s&oacute; paga quando ganha.
+              Processo simples e transparente. Entenda cada etapa do atendimento.
             </p>
           </div>
 
@@ -516,23 +513,23 @@ export default function TrabalhistaPage() {
             {[
               {
                 step: "01",
-                title: "Consulta Gratuita",
-                desc: "Analisamos seu caso sem custo. Você entende seus direitos e as chances reais de sucesso.",
+                title: "Consulta Inicial",
+                desc: "Analisamos sua situação e explicamos quais direitos podem se aplicar ao seu caso.",
               },
               {
                 step: "02",
                 title: "Documentação",
-                desc: "Reunimos todas as provas necessárias. Orientamos exatamente o que você precisa.",
+                desc: "Reunimos as provas necessárias e orientamos sobre cada documento.",
               },
               {
                 step: "03",
                 title: "Ação Judicial",
-                desc: "Entramos com o processo na Justiça do Trabalho com toda a estratégia montada.",
+                desc: "Entramos com o processo na Justiça do Trabalho com a estratégia adequada ao caso.",
               },
               {
                 step: "04",
-                title: "Você Recebe",
-                desc: "Honorários só quando você ganha. Sem risco, sem custo antecipado.",
+                title: "Acompanhamento",
+                desc: "Você é informado de cada movimentação. Transparência do início ao fim.",
               },
             ].map((item) => (
               <div
@@ -589,10 +586,10 @@ export default function TrabalhistaPage() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary animate-pulse-glow"
+              className="btn-primary"
               style={{ fontSize: "17px", padding: "18px 44px" }}
             >
-              Come&ccedil;ar Minha Consulta Gratuita
+              Agende Sua Consulta
               <svg
                 width="18"
                 height="18"
@@ -634,8 +631,8 @@ export default function TrabalhistaPage() {
                 marginBottom: "16px",
               }}
             >
-              O Rel&oacute;gio Est&aacute;{" "}
-              <span className="text-accent">Correndo Contra Voc&ecirc;</span>
+              Prazos Importantes{" "}
+              <span className="text-accent">Que Voc&ecirc; Deve Conhecer</span>
             </h2>
             <p
               style={{
@@ -646,9 +643,8 @@ export default function TrabalhistaPage() {
                 lineHeight: 1.7,
               }}
             >
-              Direitos trabalhistas t&ecirc;m prazo. Cada m&ecirc;s que passa
-              &eacute; um m&ecirc;s que prescreve e que voc&ecirc; nunca mais
-              vai recuperar.
+              A legisla&ccedil;&atilde;o trabalhista estabelece prazos para o exerc&iacute;cio de direitos.
+              Conhec&ecirc;-los &eacute; fundamental.
             </p>
           </div>
 
@@ -664,21 +660,21 @@ export default function TrabalhistaPage() {
             {[
               {
                 number: "2 ANOS",
-                label: "Prazo após sair da empresa para entrar com ação",
+                label: "Prazo prescricional após o desligamento",
                 detail:
-                  "Depois de 2 anos da demissão, você perde o direito de processar. É irrecuperável.",
+                  "A CLT estabelece o prazo de 2 anos após o fim do contrato para ajuizar a reclamação trabalhista.",
               },
               {
                 number: "5 ANOS",
-                label: "Período retroativo que pode cobrar",
+                label: "Período retroativo que pode ser pleiteado",
                 detail:
-                  "A ação cobre os últimos 5 anos de direitos não pagos. Quanto mais espera, menos recebe.",
+                  "A ação pode abranger os últimos 5 anos anteriores à data do ajuizamento.",
               },
               {
-                number: "R$47 mil",
-                label: "Média que o brasileiro perde por não cobrar",
+                number: "Art. 7º",
+                label: "Constituição Federal garante seus direitos",
                 detail:
-                  "Horas extras, adicionais, FGTS — dinheiro que é seu e fica no bolso da empresa.",
+                  "FGTS, férias, 13º, horas extras e adicionais são direitos constitucionais do trabalhador.",
               },
             ].map((item) => (
               <div
@@ -742,11 +738,10 @@ export default function TrabalhistaPage() {
                 margin: "0 auto",
               }}
             >
-              A <strong style={{ color: "var(--text-primary)" }}>prescri&ccedil;&atilde;o trabalhista</strong> funciona assim: voc&ecirc; tem{" "}
-              <strong style={{ color: "var(--accent)" }}>2 anos</strong> ap&oacute;s o desligamento para ajuizar a a&ccedil;&atilde;o, e pode cobrar os{" "}
+              A <strong style={{ color: "var(--text-primary)" }}>prescri&ccedil;&atilde;o trabalhista</strong> funciona assim: o trabalhador tem{" "}
+              <strong style={{ color: "var(--accent)" }}>2 anos</strong> ap&oacute;s o desligamento para ajuizar a a&ccedil;&atilde;o, podendo pleitear os{" "}
               <strong style={{ color: "var(--accent)" }}>5 anos anteriores</strong> ao ajuizamento.
-              Isso significa que cada dia sem agir &eacute; literalmente dinheiro que voc&ecirc; perde.
-              N&atilde;o espere o prazo acabar para descobrir quanto valia.
+              Por isso, &eacute; importante buscar orienta&ccedil;&atilde;o jur&iacute;dica para entender seus direitos dentro do prazo legal.
             </p>
           </div>
 
@@ -756,10 +751,10 @@ export default function TrabalhistaPage() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary animate-pulse-glow"
+              className="btn-primary"
               style={{ fontSize: "17px", padding: "18px 44px" }}
             >
-              N&atilde;o Vou Perder Meus Direitos — Falar Agora
+              Consulte uma Especialista
             </a>
             <p
               style={{
@@ -768,7 +763,7 @@ export default function TrabalhistaPage() {
                 color: "var(--text-muted)",
               }}
             >
-              Consulta 100% gratuita. Atendimento online ou presencial.
+              Consulta inicial gratuita. Atendimento online ou presencial.
             </p>
           </div>
         </div>
@@ -966,8 +961,8 @@ export default function TrabalhistaPage() {
               marginBottom: "24px",
             }}
           >
-            N&atilde;o Deixe a Empresa{" "}
-            <span className="text-accent">Sair Impune</span>
+            Tire Suas D&uacute;vidas com{" "}
+            <span className="text-accent">Uma Especialista</span>
           </h2>
 
           <p
@@ -980,10 +975,9 @@ export default function TrabalhistaPage() {
               margin: "0 auto 44px",
             }}
           >
-            Quem age r&aacute;pido, recebe mais. Quem espera, perde prazo.
-            Fale com a Dra. Juliana agora —{" "}
+            Converse com a Dra. Juliana e entenda quais direitos se aplicam &agrave; sua situa&ccedil;&atilde;o.{" "}
             <strong style={{ color: "var(--text-primary)" }}>
-              a consulta n&atilde;o custa nada.
+              Consulta inicial gratuita e sem compromisso.
             </strong>
           </p>
 
@@ -991,10 +985,10 @@ export default function TrabalhistaPage() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary animate-pulse-glow"
+            className="btn-primary"
             style={{ fontSize: "18px", padding: "20px 52px" }}
           >
-            Falar Agora com a Dra. Juliana — Gr&aacute;tis
+            Agende Sua Consulta
             <svg
               width="20"
               height="20"
@@ -1017,8 +1011,8 @@ export default function TrabalhistaPage() {
             }}
           >
             {[
-              { icon: "\u2713", text: "Sem custo inicial" },
-              { icon: "\u2713", text: "Honorários só no êxito" },
+              { icon: "\u2713", text: "Consulta inicial gratuita" },
+              { icon: "\u2713", text: "Especialista dedicada" },
               { icon: "\u2713", text: "Atendimento online" },
             ].map((item) => (
               <div

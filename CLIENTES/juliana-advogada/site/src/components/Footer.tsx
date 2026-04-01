@@ -56,7 +56,7 @@ export function Footer() {
               </div>
             </div>
             <p style={{ fontSize: "14px", color: "var(--text-on-dark-dim)", lineHeight: 1.75 }}>
-              Defendendo os direitos de quem trabalha. Atendimento humanizado, transparente e sem custo inicial.
+              Advocacia especializada em Direito do Trabalho e Previdenciário. Atendimento humanizado e transparente.
             </p>
           </div>
 
