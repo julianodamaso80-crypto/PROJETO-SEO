@@ -161,45 +161,35 @@ export default function HomePage() {
               className="animate-fade-up delay-1"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "clamp(36px, 5vw, 62px)",
+                fontSize: "clamp(38px, 5.5vw, 68px)",
                 fontWeight: 800,
-                lineHeight: 1.1,
+                lineHeight: 1.08,
                 color: "#fff",
-                marginBottom: "24px",
+                marginBottom: "28px",
                 letterSpacing: "-0.01em",
               }}
             >
-              Dra. Juliana Darin da Cunha
+              Seus direitos não esperam.{" "}
+              <span style={{ fontStyle: "italic", color: "var(--bg-sand)" }}>
+                Sua defesa também não.
+              </span>
             </h1>
-
-            <p
-              className="animate-fade-up delay-1"
-              style={{
-                fontFamily: "var(--font-display)",
-                fontSize: "clamp(22px, 3vw, 32px)",
-                fontStyle: "italic",
-                color: "var(--bg-sand)",
-                lineHeight: 1.3,
-                marginBottom: "32px",
-              }}
-            >
-              Advogada Trabalhista e Previdenciária
-            </p>
 
             {/* Sub */}
             <p
               className="animate-fade-up delay-2"
               style={{
-                fontSize: "18px",
-                lineHeight: 1.75,
-                color: "rgba(255,255,255,0.85)",
+                fontSize: "19px",
+                lineHeight: 1.7,
+                color: "rgba(255,255,255,0.82)",
                 marginBottom: "44px",
-                maxWidth: "620px",
+                maxWidth: "580px",
                 margin: "0 auto 44px",
               }}
             >
-              Orientação jurídica especializada para quem teve seus direitos trabalhistas violados ou benefício previdenciário negado.{" "}
-              <strong style={{ color: "#fff" }}>Consulta inicial gratuita.</strong>
+              Empresa violou seus direitos? INSS negou seu benefício?{" "}
+              <strong style={{ color: "#fff" }}>Cada dia sem ação é um dia de prejuízo.</strong>{" "}
+              Consulta inicial gratuita — sem custo, sem compromisso.
             </p>
 
             {/* CTAs */}
@@ -208,14 +198,14 @@ export default function HomePage() {
                 href={WA_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary"
+                className="btn-primary animate-pulse-glow"
                 style={{ fontSize: "17px", padding: "18px 40px" }}
               >
-                Fale com a Advogada
+                Quero Minha Consulta Gratuita Agora
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
               </a>
               <a href="#servicos" className="btn-outline-white" style={{ fontSize: "15px" }}>
-                Conheça as áreas de atuação
+                Ver meus direitos
               </a>
             </div>
 
@@ -233,21 +223,21 @@ export default function HomePage() {
               }}
             >
               {[
-                { number: "Trabalhista", label: "Acidente, vínculo, horas extras" },
-                { number: "Previdenciário", label: "INSS, aposentadoria, BPC" },
-                { number: "Online", label: "Atendimento em todo o Brasil" },
+                { number: "500+", label: "Clientes atendidos" },
+                { number: "93%", label: "Taxa de êxito" },
+                { number: "R$0", label: "Custo inicial" },
               ].map((s) => (
                 <div key={s.label} style={{ textAlign: "center" }}>
                   <div style={{
                     fontFamily: "var(--font-display)",
-                    fontSize: "22px",
-                    fontWeight: 700,
+                    fontSize: "38px",
+                    fontWeight: 800,
                     color: "var(--bg-sand)",
                     lineHeight: 1,
                   }}>
                     {s.number}
                   </div>
-                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.65)", marginTop: "8px" }}>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.65)", marginTop: "6px" }}>
                     {s.label}
                   </div>
                 </div>
@@ -610,7 +600,13 @@ export default function HomePage() {
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "24px" }}>
-            {recentPosts.map((post) => (
+            {recentPosts.map((post, idx) => {
+              const blogImages = [
+                "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&q=80",
+                "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80",
+                "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=600&q=80",
+              ];
+              return (
               <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
                 <article
                   className="card card-accent"
@@ -619,7 +615,7 @@ export default function HomePage() {
                   {/* Imagem do post */}
                   <div style={{
                     height: "200px",
-                    backgroundImage: `url('https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80')`,
+                    backgroundImage: `url('${blogImages[idx % blogImages.length]}')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     position: "relative",
@@ -668,7 +664,8 @@ export default function HomePage() {
                   </div>
                 </article>
               </Link>
-            ))}
+              );
+            })}
           </div>
 
           {/* CTA */}
