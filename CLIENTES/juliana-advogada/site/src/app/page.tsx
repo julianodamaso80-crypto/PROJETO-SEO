@@ -134,12 +134,12 @@ export default function HomePage() {
         <div style={{
           position: "relative",
           zIndex: 1,
-          maxWidth: "1200px",
+          maxWidth: "900px",
           margin: "0 auto",
           padding: "80px 24px",
           width: "100%",
+          textAlign: "center",
         }}>
-          <div style={{ maxWidth: "760px" }}>
 
             {/* Badge */}
             <div
@@ -149,6 +149,7 @@ export default function HomePage() {
                 background: "rgba(211,199,173,0.18)",
                 color: "var(--bg-sand)",
                 border: "1px solid rgba(211,199,173,0.35)",
+                margin: "0 auto 28px",
               }}
             >
               <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "var(--bg-sand)", display: "inline-block" }} />
@@ -160,38 +161,49 @@ export default function HomePage() {
               className="animate-fade-up delay-1"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "clamp(38px, 5.5vw, 68px)",
+                fontSize: "clamp(36px, 5vw, 62px)",
                 fontWeight: 800,
-                lineHeight: 1.08,
+                lineHeight: 1.1,
                 color: "#fff",
-                marginBottom: "28px",
+                marginBottom: "24px",
                 letterSpacing: "-0.01em",
               }}
             >
-              Seus direitos não esperam.{" "}
-              <span style={{ fontStyle: "italic", color: "var(--bg-sand)" }}>
-                Sua defesa também não.
-              </span>
+              Dra. Juliana Darin da Cunha
             </h1>
+
+            <p
+              className="animate-fade-up delay-1"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "clamp(22px, 3vw, 32px)",
+                fontStyle: "italic",
+                color: "var(--bg-sand)",
+                lineHeight: 1.3,
+                marginBottom: "32px",
+              }}
+            >
+              Advogada Trabalhista e Previdenciária
+            </p>
 
             {/* Sub */}
             <p
               className="animate-fade-up delay-2"
               style={{
-                fontSize: "19px",
-                lineHeight: 1.7,
-                color: "rgba(255,255,255,0.82)",
+                fontSize: "18px",
+                lineHeight: 1.75,
+                color: "rgba(255,255,255,0.85)",
                 marginBottom: "44px",
-                maxWidth: "580px",
+                maxWidth: "620px",
+                margin: "0 auto 44px",
               }}
             >
-              Empresa violou seus direitos? INSS negou seu benefício?{" "}
-              <strong style={{ color: "#fff" }}>Entenda sua situação com quem entende do assunto.</strong>{" "}
-              Consulta inicial gratuita — sem compromisso.
+              Orientação jurídica especializada para quem teve seus direitos trabalhistas violados ou benefício previdenciário negado.{" "}
+              <strong style={{ color: "#fff" }}>Consulta inicial gratuita.</strong>
             </p>
 
             {/* CTAs */}
-            <div className="animate-fade-up delay-3" style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <div className="animate-fade-up delay-3" style={{ display: "flex", gap: "16px", flexWrap: "wrap", justifyContent: "center" }}>
               <a
                 href={WA_LINK}
                 target="_blank"
@@ -217,30 +229,30 @@ export default function HomePage() {
                 flexWrap: "wrap",
                 paddingTop: "48px",
                 borderTop: "1px solid rgba(211,199,173,0.2)",
+                justifyContent: "center",
               }}
             >
               {[
-                { number: "2 Áreas", label: "Trabalhista e Previdenciário" },
+                { number: "Trabalhista", label: "Acidente, vínculo, horas extras" },
+                { number: "Previdenciário", label: "INSS, aposentadoria, BPC" },
                 { number: "Online", label: "Atendimento em todo o Brasil" },
-                { number: "Consulta", label: "Inicial sem custo" },
               ].map((s) => (
-                <div key={s.label}>
+                <div key={s.label} style={{ textAlign: "center" }}>
                   <div style={{
                     fontFamily: "var(--font-display)",
-                    fontSize: "38px",
-                    fontWeight: 800,
+                    fontSize: "22px",
+                    fontWeight: 700,
                     color: "var(--bg-sand)",
                     lineHeight: 1,
                   }}>
                     {s.number}
                   </div>
-                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.65)", marginTop: "6px" }}>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.65)", marginTop: "8px" }}>
                     {s.label}
                   </div>
                 </div>
               ))}
             </div>
-          </div>
         </div>
       </section>
 
