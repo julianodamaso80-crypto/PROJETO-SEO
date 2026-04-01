@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre a Dra. Juliana Darin da Cunha",
-  description: "Conheça a Dra. Juliana Darin — advogada especialista em direito trabalhista e previdenciário. Atendimento humanizado para quem precisa de justiça.",
+  title: "Sobre a DD Claw",
+  description: "Conheça a DD Claw — advogada especialista em direito trabalhista e previdenciário. Atendimento humanizado para quem precisa de justiça.",
 };
 
 export default function SobrePage() {
@@ -32,11 +32,11 @@ export default function SobrePage() {
               fontFamily: "var(--font-display)", fontSize: "36px", fontWeight: 700, color: "var(--color-gold)",
               marginBottom: "32px",
             }}>
-              JD
+              DD
             </div>
 
             <h2 style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: 700, marginBottom: "8px" }}>
-              Dra. Juliana Darin da Cunha
+              DD Claw
             </h2>
             <p style={{ fontSize: "14px", color: "var(--color-gold)", letterSpacing: "1px", textTransform: "uppercase", fontWeight: 500, marginBottom: "24px" }}>
               Advogada Trabalhista e Previdenciária

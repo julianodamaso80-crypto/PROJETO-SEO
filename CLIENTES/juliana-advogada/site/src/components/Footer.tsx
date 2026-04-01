@@ -34,7 +34,7 @@ export function Footer() {
                 fontSize: "15px",
                 color: "#fff",
               }}>
-                JD
+                DD
               </div>
               <div>
                 <div style={{
@@ -43,7 +43,7 @@ export function Footer() {
                   fontWeight: 700,
                   color: "var(--text-on-dark)",
                 }}>
-                  Dra. Juliana Darin
+                  DD Claw
                 </div>
                 <div style={{
                   fontSize: "10px",
@@ -107,7 +107,7 @@ export function Footer() {
               Institucional
             </h4>
             {[
-              { href: "/sobre", label: "Sobre a Dra. Juliana" },
+              { href: "/sobre", label: "Sobre a DD Claw" },
               { href: "#contato", label: "Contato" },
               { href: "#", label: "Política de Privacidade" },
             ].map((item) => (
@@ -184,7 +184,7 @@ export function Footer() {
           }}
         >
           <p style={{ fontSize: "12px", color: "rgba(250,248,245,0.4)" }}>
-            © {new Date().getFullYear()} Dra. Juliana Darin da Cunha — OAB [número]. Todos os direitos reservados.
+            © {new Date().getFullYear()} DD Claw — OAB [número]. Todos os direitos reservados.
           </p>
           <p style={{ fontSize: "11px", color: "rgba(250,248,245,0.3)" }}>
             Este site não constitui consultoria jurídica. Cada caso requer análise individual.

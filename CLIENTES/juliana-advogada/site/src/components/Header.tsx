@@ -58,7 +58,7 @@ export function Header() {
               letterSpacing: "0.05em",
             }}
           >
-            JD
+            DD
           </div>
           <div>
             <div style={{
@@ -68,7 +68,7 @@ export function Header() {
               color: "var(--text-primary)",
               lineHeight: 1.2,
             }}>
-              Dra. Juliana Darin
+              DD Claw
             </div>
             <div style={{
               fontSize: "10px",

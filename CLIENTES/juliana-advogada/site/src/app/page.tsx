@@ -262,7 +262,7 @@ export default function HomePage() {
               color: "var(--text-primary)",
             }}>
               Por que a{" "}
-              <span className="text-accent">Dra. Juliana</span>{" "}
+              <span className="text-accent">DD Claw</span>{" "}
               é diferente
             </h2>
             <p style={{ fontSize: "17px", color: "var(--text-secondary)", maxWidth: "520px", margin: "0 auto", lineHeight: 1.7 }}>
@@ -551,7 +551,7 @@ export default function HomePage() {
               className="btn-primary"
               style={{ fontSize: "18px", padding: "20px 48px" }}
             >
-              Converse com a Dra. Juliana
+              Converse com a DD Claw
             </a>
           </div>
           <p style={{ marginTop: "16px", fontSize: "13px", color: "rgba(255,255,255,0.45)" }}>

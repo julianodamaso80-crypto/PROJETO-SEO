@@ -62,7 +62,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </h1>
 
           <div style={{ display: "flex", alignItems: "center", gap: "20px", fontSize: "13px", color: "var(--text-secondary)", flexWrap: "wrap" }}>
-            <span>Dra. Juliana Darin da Cunha</span>
+            <span>DD Claw</span>
             <span>•</span>
             <span>{new Date(post.date).toLocaleDateString("pt-BR", { day: "numeric", month: "long", year: "numeric" })}</span>
             <span>•</span>
@@ -98,7 +98,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             Precisa de orientação sobre {post.category === "Trabalhista" ? "direitos trabalhistas" : "benefícios do INSS"}?
           </h2>
           <p style={{ color: "rgba(255,255,255,0.85)", fontSize: "16px", marginBottom: "24px", lineHeight: 1.6 }}>
-            A Dra. Juliana oferece consulta inicial gratuita. Tire suas dúvidas sem compromisso.
+            A DD Claw oferece consulta inicial gratuita. Tire suas dúvidas sem compromisso.
           </p>
           <a
             href={WA_LINK}

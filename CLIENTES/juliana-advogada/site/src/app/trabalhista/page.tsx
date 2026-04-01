@@ -975,7 +975,7 @@ export default function TrabalhistaPage() {
               margin: "0 auto 44px",
             }}
           >
-            Converse com a Dra. Juliana e entenda quais direitos se aplicam &agrave; sua situa&ccedil;&atilde;o.{" "}
+            Converse com a DD Claw e entenda quais direitos se aplicam &agrave; sua situa&ccedil;&atilde;o.{" "}
             <strong style={{ color: "var(--text-primary)" }}>
               Consulta inicial gratuita e sem compromisso.
             </strong>

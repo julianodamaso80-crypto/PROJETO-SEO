@@ -985,7 +985,7 @@ export default function PrevidenciarioPage() {
               margin: "0 auto 44px",
             }}
           >
-            Converse com a Dra. Juliana e entenda quais benef&iacute;cios se aplicam &agrave; sua situa&ccedil;&atilde;o.{" "}
+            Converse com a DD Claw e entenda quais benef&iacute;cios se aplicam &agrave; sua situa&ccedil;&atilde;o.{" "}
             <strong style={{ color: "var(--text-primary)" }}>
               Consulta inicial gratuita e sem compromisso.
             </strong>

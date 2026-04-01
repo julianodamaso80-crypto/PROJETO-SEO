@@ -6,8 +6,8 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: {
-    default: "Dra. Juliana Darin da Cunha | Advogada Trabalhista e Previdenciária",
-    template: "%s | Dra. Juliana Darin",
+    default: "DD Claw | Advogada Trabalhista e Previdenciária",
+    template: "%s | DD Claw",
   },
   description: "Advogada especialista em Direito do Trabalho e Previdenciário. Defesa dos seus direitos com atendimento humanizado.",
 };
