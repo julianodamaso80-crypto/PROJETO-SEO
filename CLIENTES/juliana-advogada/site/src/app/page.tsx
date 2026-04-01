@@ -223,9 +223,9 @@ export default function HomePage() {
               }}
             >
               {[
-                { number: "500+", label: "Clientes atendidos" },
-                { number: "93%", label: "Taxa de êxito" },
-                { number: "R$0", label: "Custo inicial" },
+                { number: "Trabalhista", label: "Acidente, vínculo, horas extras" },
+                { number: "Previdenciário", label: "INSS, aposentadoria, BPC" },
+                { number: "Online", label: "Atendimento em todo o Brasil" },
               ].map((s) => (
                 <div key={s.label} style={{ textAlign: "center" }}>
                   <div style={{
@@ -439,7 +439,7 @@ export default function HomePage() {
               <span className="text-accent">A Justiça pode reverter.</span>
             </h2>
             <p style={{ fontSize: "17px", color: "var(--text-secondary)", maxWidth: "560px", margin: "0 auto", lineHeight: 1.7 }}>
-              Negativa do INSS não é definitiva. A maioria dos casos contestados judicialmente é ganha.
+              Negativa do INSS não é definitiva. É possível recorrer administrativa ou judicialmente.
             </p>
           </div>
 
