@@ -9,25 +9,22 @@ export function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);
   const bgRef = useRef<HTMLDivElement>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
-  const headlineRef = useRef<HTMLHeadingElement>(null);
-  const subRef = useRef<HTMLParagraphElement>(null);
-  const ctaRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
   const trustRef = useRef<HTMLDivElement>(null);
-  const eyebrowRef = useRef<HTMLSpanElement>(null);
-  const logoRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+    const content = contentRef.current;
+    if (!content) return;
 
-    tl.fromTo(bgRef.current, { scale: 1.12, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.8, ease: "power2.out" })
+    const children = content.children;
+
+    tl.fromTo(bgRef.current, { scale: 1.1, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.8, ease: "power2.out" })
       .fromTo(overlayRef.current, { opacity: 0 }, { opacity: 1, duration: 1.2 }, "-=1.4")
-      .fromTo(logoRef.current, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.6")
-      .fromTo(eyebrowRef.current, { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 }, "-=0.3")
-      .fromTo(headlineRef.current, { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.3")
-      .fromTo(subRef.current, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7 }, "-=0.5")
-      .fromTo(ctaRef.current, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.3")
+      .fromTo(children, { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, stagger: 0.15 }, "-=0.6")
       .fromTo(trustRef.current, { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 }, "-=0.2");
 
+    // Parallax
     const section = sectionRef.current;
     const bg = bgRef.current;
     if (!section || !bg) return;
@@ -43,7 +40,8 @@ export function HeroSection() {
   return (
     <section ref={sectionRef} style={{
       position: "relative", minHeight: "100vh", display: "flex",
-      alignItems: "center", paddingTop: "72px", overflow: "hidden",
+      alignItems: "center", justifyContent: "center",
+      paddingTop: "80px", overflow: "hidden",
     }}>
       {/* Foto de fundo */}
       <div ref={bgRef} style={{
@@ -53,55 +51,60 @@ export function HeroSection() {
         opacity: 0, willChange: "transform",
       }} />
 
-      {/* Overlay com cores da marca */}
+      {/* Overlay */}
       <div ref={overlayRef} style={{
         position: "absolute", inset: 0,
-        background: "linear-gradient(160deg, rgba(0,15,33,0.88) 0%, rgba(16,52,89,0.78) 100%)",
+        background: "linear-gradient(180deg, rgba(0,15,33,0.90) 0%, rgba(16,52,89,0.80) 50%, rgba(0,15,33,0.92) 100%)",
         opacity: 0,
       }} />
 
-      {/* Conteúdo */}
+      {/* Conteúdo — centralizado */}
       <div style={{
         position: "relative", zIndex: 1,
-        maxWidth: "1200px", margin: "0 auto", padding: "80px 24px",
-        width: "100%",
+        maxWidth: "860px", margin: "0 auto", padding: "60px 24px",
+        width: "100%", textAlign: "center",
       }}>
-        <div style={{ maxWidth: "640px" }}>
-          <img ref={logoRef} src="/brand/logo-light.png" alt="DDC LAW"
-            style={{ height: "28px", width: "auto", marginBottom: "36px", opacity: 0 }} />
+        <div ref={contentRef}>
+          {/* Logo */}
+          <div style={{ marginBottom: "40px" }}>
+            <img src="/brand/logo-light.png" alt="DDC LAW"
+              style={{ height: "40px", width: "auto", margin: "0 auto", opacity: 0.9 }} />
+          </div>
 
-          <span ref={eyebrowRef} className="eyebrow"
-            style={{ color: "var(--silver)", marginBottom: "20px", opacity: 0 }}>
-            Advocacia Trabalhista &amp; Previdenciária
-          </span>
+          {/* Eyebrow */}
+          <div className="eyebrow" style={{ color: "var(--silver)", marginBottom: "28px", fontSize: "12px" }}>
+            Advocacia Especializada em Direito Trabalhista e Previdenciário
+          </div>
 
-          <h1 ref={headlineRef} style={{
-            fontSize: "clamp(36px, 4.8vw, 56px)", fontWeight: 800, lineHeight: 1.08,
-            color: "var(--grey)", marginTop: "20px", marginBottom: "24px",
-            letterSpacing: "-0.03em", opacity: 0,
+          {/* Headline */}
+          <h1 style={{
+            fontSize: "clamp(32px, 4.5vw, 54px)", fontWeight: 800, lineHeight: 1.12,
+            color: "#fff", marginBottom: "28px", letterSpacing: "-0.02em",
           }}>
-            Empresa violou seus direitos?<br />
-            INSS negou seu benefício?
+            A empresa violou seus direitos trabalhistas?
+            <br />O INSS negou o benefício que você merece?
           </h1>
 
-          <p ref={subRef} style={{
-            fontSize: "18px", lineHeight: 1.7, fontWeight: 300,
-            color: "rgba(230,230,230,0.7)", maxWidth: "480px",
-            marginBottom: "40px", opacity: 0,
+          {/* Subtítulo — copy técnica e persuasiva */}
+          <p style={{
+            fontSize: "18px", lineHeight: 1.75, fontWeight: 400,
+            color: "rgba(230,230,230,0.75)", maxWidth: "640px", margin: "0 auto 40px",
           }}>
-            Acidente de trabalho, horas extras, vínculo empregatício, aposentadoria negada,
-            pensão por morte, BPC — atuamos exclusivamente nas áreas que mais impactam
-            a vida de quem trabalha.
+            Somos especialistas em acidente de trabalho, horas extras não pagas, vínculo empregatício,
+            rescisão indireta, aposentadoria negada, auxílio-doença, pensão por morte e BPC/LOAS.
+            Cada caso recebe análise técnica aprofundada e atendimento individualizado
+            para garantir que seus direitos sejam respeitados.
           </p>
 
-          <div ref={ctaRef} style={{ display: "flex", gap: "14px", flexWrap: "wrap", opacity: 0 }}>
+          {/* CTAs */}
+          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", justifyContent: "center" }}>
             <a href={WA} target="_blank" rel="noopener noreferrer"
-              className="btn-primary" style={{ background: "var(--blue)", color: "var(--grey)" }}>
+              className="btn-primary" style={{ background: "var(--blue)", color: "#fff", fontSize: "14px", padding: "16px 40px" }}>
               Agendar Consulta Gratuita
             </a>
             <a href="#areas" className="btn-outline"
-              style={{ color: "var(--grey)", borderColor: "rgba(230,230,230,0.2)" }}>
-              Áreas de Atuação
+              style={{ color: "#fff", borderColor: "rgba(230,230,230,0.25)", fontSize: "14px", padding: "15px 36px" }}>
+              Conheça Nossas Áreas
             </a>
           </div>
         </div>
@@ -113,8 +116,8 @@ export function HeroSection() {
         borderTop: "1px solid rgba(230,230,230,0.08)",
         padding: "20px 24px", opacity: 0,
       }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div className="trust-bar" style={{ color: "rgba(230,230,230,0.4)" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "center" }}>
+          <div className="trust-bar" style={{ color: "rgba(230,230,230,0.45)", justifyContent: "center" }}>
             {["Direito do Trabalho", "Direito Previdenciário", "Atendimento Online e Presencial", "Consulta Inicial Gratuita"].map((item) => (
               <div key={item} className="trust-bar-item">
                 <div className="trust-bar-dot" style={{ background: "var(--silver)" }} />
