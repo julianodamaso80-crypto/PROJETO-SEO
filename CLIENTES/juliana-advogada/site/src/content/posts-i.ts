@@ -10,6 +10,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-04-01",
     readTime: "14 min",
+    image: "https://images.unsplash.com/photo-1554224155-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você já se aposentou pelo INSS e desconfia que o valor do seu benefício está abaixo do que deveria, saiba que existem <strong>pelo menos 7 tipos de revisão</strong> que podem corrigir erros, atualizar cálculos e — em muitos casos — gerar o pagamento de <strong>dezenas ou centenas de milhares de reais em atrasados</strong>.</p>
 <p>Este artigo é um <strong>mapa completo</strong>. Para cada tipo de revisão, você vai entender: o que é, quem se enquadra, qual o potencial de ganho e se ainda há prazo para pedir.</p>
@@ -107,6 +108,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-24",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Entre todas as revisões de aposentadoria do INSS, a <strong>Revisão do Teto</strong> é a que costuma gerar os maiores valores em atrasados. Estamos falando de <strong>R$50.000 a R$200.000</strong> — em alguns casos, até mais. E o melhor: <strong>não tem prazo de prescrição</strong>. Mesmo que você tenha se aposentado há 25 ou 30 anos, ainda pode pedir.</p>
 
@@ -195,6 +197,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-14",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O período entre <strong>5 de outubro de 1988</strong> (promulgação da Constituição Federal) e <strong>5 de abril de 1991</strong> (entrada em vigor da Lei 8.213/91) é conhecido no Direito Previdenciário como <strong>"buraco negro"</strong>. Durante esses dois anos e meio, o INSS concedeu milhares de aposentadorias, pensões e auxílios usando <strong>critérios provisórios</strong> que, na maioria dos casos, resultaram em benefícios menores do que o correto.</p>
 <p>Se você ou um familiar se aposentou nesse período, a <strong>Revisão do Buraco Negro pode corrigir o valor</strong> — e não tem prazo para pedir.</p>
@@ -276,6 +279,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-06",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>Revisão da Vida Toda</strong> foi uma das teses previdenciárias mais aguardadas da história recente do Brasil. A promessa era simples e poderosa: incluir <strong>todas as contribuições feitas ao INSS ao longo de toda a vida</strong> — inclusive as anteriores a julho de 1994 — no cálculo da aposentadoria, em vez de considerar apenas as contribuições a partir do Plano Real.</p>
 <p>Mas a história não teve o desfecho que milhões de aposentados esperavam. Este artigo apresenta a <strong>linha do tempo completa</strong>, sem rodeios, e mostra o que ainda é possível fazer.</p>
@@ -354,6 +358,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-26",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você recebeu <strong>auxílio-doença</strong> (hoje chamado de auxílio por incapacidade temporária) em algum momento da sua vida e depois se aposentou? Se sim, existe uma chance real de que o INSS tenha <strong>errado o cálculo da sua aposentadoria</strong> — e de que você esteja recebendo <strong>15% a 30% menos</strong> do que deveria.</p>
 <p>A <strong>Revisão do Art. 29, inciso II</strong>, da Lei 8.213/91 corrige esse erro. E o mais importante: o próprio INSS já reconheceu que o erro existe.</p>
@@ -439,6 +444,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-16",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O INSS administra mais de 37 milhões de benefícios. Com um volume dessa magnitude, <strong>erros de cálculo são mais comuns do que se imagina</strong>. E quando o erro acontece, ele é sempre para baixo — você nunca vai receber mais do que deveria, mas pode receber menos por anos ou décadas sem saber.</p>
 <p>Este artigo apresenta <strong>5 sinais concretos</strong> de que sua aposentadoria pode estar errada. Se você se identificar com algum deles, vale a pena investigar.</p>
@@ -532,6 +538,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-06",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O art. 103 da Lei 8.213/91 estabelece um prazo de <strong>10 anos</strong> para que o segurado solicite a revisão do ato de concessão do seu benefício previdenciário. Depois desse prazo, o direito de revisar <strong>decai</strong> — mesmo que o INSS tenha cometido um erro evidente no cálculo.</p>
 <p>Isso significa que o relógio está correndo. E para muita gente, <strong>está acabando</strong>.</p>
@@ -627,6 +634,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-28",
     readTime: "13 min",
+    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>CNIS (Cadastro Nacional de Informações Sociais)</strong> é o documento que o INSS usa como base para calcular a sua aposentadoria. Nele constam todos os seus <strong>vínculos empregatícios, salários de contribuição e recolhimentos</strong> ao longo da vida. Se o CNIS estiver errado ou incompleto, sua aposentadoria será calculada com base em <strong>informações erradas</strong> — e o valor sairá menor.</p>
 <p>Este tutorial ensina como acessar, ler e verificar o seu CNIS antes de pedir a aposentadoria. Encontrar e corrigir erros <strong>agora</strong> é muito mais fácil do que depois que o benefício já foi concedido.</p>
@@ -728,6 +736,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-18",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Depois de décadas contribuindo para o INSS, chega o momento da aposentadoria — e o valor é <strong>menor do que você esperava</strong>. Essa situação é mais comum do que parece e, na grande maioria dos casos, <strong>pode ser corrigida</strong>.</p>
 <p>Importante: <strong>ter aceitado o benefício não impede a revisão</strong>. Você pode pedir a correção mesmo que já esteja recebendo a aposentadoria. O prazo é de 10 anos a contar do primeiro pagamento.</p>
@@ -809,6 +818,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-08",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1577722422778-5e9dcb9e6ad9?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>pensão por morte</strong> é calculada com base no benefício que o falecido recebia — ou no benefício que ele teria direito se estivesse aposentado na data do óbito. Se esse benefício de origem continha <strong>erro de cálculo</strong>, a pensão derivada está <strong>automaticamente errada</strong> também.</p>
 <p>Muitos pensionistas não sabem disso. Recebem a pensão por anos sem questionar, sem saber que poderiam receber mais. Este artigo explica como funciona a <strong>revisão derivada</strong> e o que fazer para corrigir.</p>

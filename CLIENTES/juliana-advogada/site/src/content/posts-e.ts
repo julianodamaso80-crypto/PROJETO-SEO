@@ -10,6 +10,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-26",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>Benefício de Prestação Continuada (BPC/LOAS)</strong> é o principal programa assistencial do Brasil para idosos e pessoas com deficiência em situação de vulnerabilidade. Em 2026, o benefício passa a valer <strong>R$1.621 por mês</strong> — equivalente ao novo salário mínimo — mas veio acompanhado de mudanças significativas que afetam diretamente quem já recebe e quem pretende solicitar.</p>
 <p>Este artigo reúne <strong>todas as alterações de 2026</strong> em um único lugar para que você não perca nenhum direito.</p>
@@ -118,6 +119,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-16",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1577722422778-5e9dcb9e6ad9?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Existe um benefício que paga <strong>R$1.621 por mês</strong> a idosos com 65 anos ou mais — mesmo que <strong>nunca tenham contribuído ao INSS</strong>. Não é aposentadoria. Chama-se <strong>BPC/LOAS (Benefício de Prestação Continuada)</strong> e é garantido pela Lei Orgânica da Assistência Social (Lei 8.742/93).</p>
 <p>O problema? Milhões de brasileiros idosos que se enquadram nos requisitos simplesmente <strong>não sabem que esse benefício existe</strong>. Este guia é para eles — e para quem pode ajudá-los.</p>
@@ -216,6 +218,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-06",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Quando uma família descobre que o filho tem <strong>autismo</strong> ou qualquer outra deficiência, a primeira preocupação costuma ser com tratamento e terapias. O que muitas famílias <strong>não sabem</strong> é que existe um benefício do governo que paga <strong>R$1.621 por mês</strong> para ajudar nessa jornada — sem exigir nenhuma contribuição ao INSS.</p>
 <p>O <strong>BPC/LOAS</strong> (Benefício de Prestação Continuada) é um direito garantido pela Constituição Federal e pela Lei 8.742/93. Este guia foi feito para pais, mães e responsáveis que precisam de orientação clara e prática.</p>
@@ -313,6 +316,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-22",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você reuniu toda a documentação, esperou semanas pela análise e recebeu a resposta do INSS: <strong>"indeferido"</strong>. Se isso aconteceu com o seu pedido de BPC/LOAS, saiba que você <strong>não está sozinho</strong> — e que a negativa está longe de ser a última palavra.</p>
 <p>O INSS tem uma das <strong>maiores taxas de indeferimento</strong> do sistema previdenciário brasileiro para o BPC. Mas a Justiça Federal tem uma taxa de <strong>reversão expressiva</strong>, porque utiliza critérios mais amplos e humanos para avaliar quem realmente precisa do benefício.</p>
@@ -426,6 +430,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-02",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f66f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>São mais de <strong>1,5 milhão de brasileiros</strong> que trabalham como motoristas e entregadores de aplicativos como Uber, iFood, 99 e Rappi. Trabalham 10, 12 ou até 14 horas por dia. Não têm férias, 13º salário, FGTS ou seguro contra acidentes. Em 2026, esse cenário pode finalmente começar a mudar — mas a regulamentação ainda está em debate. Este artigo mostra <strong>o que já é direito, o que está sendo discutido e como se proteger agora</strong>.</p>
 
@@ -526,6 +531,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-24",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O Brasil registra <strong>milhares de afastamentos por transtornos mentais</strong> relacionados ao trabalho todos os anos. Quando o adoecimento psíquico decorre de <strong>assédio moral</strong> — condutas repetitivas de humilhação, isolamento, sobrecarga proposital ou perseguição — a empresa não apenas deve indenizar como pode ser responsabilizada por <strong>danos morais, materiais e existenciais</strong>.</p>
 <p>Em 2026, a <strong>NR-1 (Norma Regulamentadora nº 1)</strong> reforça a obrigação da empresa de prevenir riscos psicossociais. Quem descumpre, paga mais caro.</p>
@@ -631,6 +637,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-14",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você descobriu que está grávida — e a empresa te demitiu. Ou talvez você já soubesse e o empregador também, mas mesmo assim optou pela dispensa. Nos dois casos, <strong>a demissão é nula</strong>. A Constituição Federal protege a gestante com <strong>estabilidade no emprego</strong> desde a confirmação da gravidez até 5 meses após o parto. Este é um dos direitos mais sólidos do ordenamento jurídico trabalhista brasileiro.</p>
 
@@ -730,6 +737,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-18",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Imagine que você trabalhou <strong>15 anos exposto a agentes nocivos</strong> — ruído excessivo, produtos químicos, eletricidade ou agentes biológicos. Na hora de aposentar, esses 15 anos podem valer <strong>21 anos</strong> (para homens) ou <strong>18 anos</strong> (para mulheres). Isso se chama <strong>conversão de tempo especial em tempo comum</strong>, e é uma das estratégias mais poderosas do planejamento previdenciário.</p>
 <p>Mas atenção: após a <strong>Reforma da Previdência (EC 103/2019)</strong>, a conversão só vale para períodos trabalhados <strong>até 13/11/2019</strong>. Se você tem tempo especial anterior a essa data, precisa agir para garantir esse direito.</p>
@@ -844,6 +852,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-08",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Aposentar-se parece simples: completou a idade e o tempo, deu entrada no INSS e pronto. Mas a realidade é que, após a <strong>Reforma da Previdência de 2019</strong>, existem <strong>múltiplas regras de transição</strong> vigentes ao mesmo tempo — e a diferença entre escolher a regra certa e a errada pode chegar a <strong>R$200 mil ao longo da aposentadoria</strong>.</p>
 <p>Este artigo mostra, com um <strong>caso prático</strong>, por que o planejamento previdenciário deixou de ser luxo e se tornou necessidade.</p>
@@ -951,6 +960,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-25",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1556740758-95dedc6b8db2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Milhões de brasileiras trabalham em residências fazendo faxina, passando roupa, cozinhando ou cuidando de crianças e idosos. Muitas são chamadas de "diarista" quando, na verdade, são <strong>empregadas domésticas</strong> com direito a registro em carteira, FGTS, férias, 13º salário e todos os benefícios da <strong>Lei Complementar 150/2015</strong>.</p>
 <p>A diferença entre uma e outra não é o tipo de serviço — é a <strong>frequência</strong>. E confundir (intencionalmente ou não) pode custar caro para quem contrata e prejudicar quem trabalha.</p>

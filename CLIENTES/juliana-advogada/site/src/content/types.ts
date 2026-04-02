@@ -7,5 +7,6 @@ export interface BlogPost {
   category: "Trabalhista" | "Previdenciário";
   date: string;
   readTime: string;
+  image?: string;
   content: string;
 }

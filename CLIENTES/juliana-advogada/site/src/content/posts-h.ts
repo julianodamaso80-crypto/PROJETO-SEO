@@ -10,6 +10,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-04-02",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você é <strong>enfermeiro, técnico de enfermagem ou auxiliar de enfermagem</strong>, provavelmente já ouviu falar na aposentadoria especial. Essa modalidade permite se aposentar com <strong>25 anos de atividade insalubre</strong> — sem exigência de idade mínima na regra antiga. Mas com a Reforma da Previdência (EC 103/2019), as regras mudaram. Neste guia completo para 2026, explicamos tudo o que você precisa saber.</p>
 
@@ -114,6 +115,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-27",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A aposentadoria especial do eletricista é um dos temas mais procurados — e mais mal compreendidos — no direito previdenciário. A regra é clara: <strong>exposição habitual a tensão elétrica superior a 250 volts</strong> configura periculosidade e garante o direito à aposentadoria com <strong>25 anos de atividade especial</strong>. Mas nem todo eletricista se enquadra. Neste guia técnico, explicamos quem tem direito e como comprovar.</p>
 
@@ -203,6 +205,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-19",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1509391366360-70e68c1c5d33?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A aposentadoria especial para <strong>vigilantes e seguranças</strong> é um dos temas mais debatidos no direito previdenciário brasileiro. O uso de <strong>arma de fogo</strong> no exercício da profissão configura periculosidade e garante o enquadramento como atividade especial. Mas o cenário fica mais complexo quando falamos de vigilantes desarmados. Este guia esclarece todas as situações.</p>
 
@@ -288,6 +291,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-11",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A aposentadoria do professor é uma das poucas <strong>regras verdadeiramente diferenciadas</strong> na Previdência Social brasileira. Professores da educação básica contam com <strong>redução de 5 anos</strong> nos requisitos em relação aos demais segurados. Mas atenção: nem todo professor se enquadra. Neste guia, explicamos as regras exclusivas para 2026.</p>
 
@@ -395,6 +399,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-03",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Profissionais da saúde como <strong>médicos, dentistas, anestesistas e cirurgiões</strong> estão entre os trabalhadores com maior exposição a agentes biológicos no Brasil. Essa exposição garante o direito à <strong>aposentadoria especial com 25 anos de atividade</strong>. Mas a realidade de quem atua na área da saúde envolve frequentemente <strong>múltiplos vínculos empregatícios</strong>, o que traz desafios específicos na comprovação. Este guia aborda tudo.</p>
 
@@ -490,6 +495,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-24",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O setor metalúrgico concentra algumas das atividades mais insalubres do mercado de trabalho brasileiro. <strong>Soldadores, fundidores, caldeireiros e pintores industriais</strong> estão expostos diariamente a agentes químicos (fumos metálicos, solventes), físicos (ruído, calor) e, em alguns casos, até biológicos. Essa exposição garante o direito à <strong>aposentadoria especial com 25 anos de atividade</strong>. Neste guia, explicamos quem se enquadra e como superar o obstáculo mais comum: a resistência da empresa em fornecer o PPP.</p>
 
@@ -586,6 +592,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-14",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f66f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Poucos temas geram tanta confusão no direito previdenciário quanto a aposentadoria especial do caminhoneiro. Circulam nas redes sociais e em grupos de WhatsApp informações de que <strong>todo caminhoneiro tem direito à aposentadoria especial</strong>. A verdade, porém, é diferente: na <strong>maioria dos casos, o caminhoneiro não se enquadra</strong>. Neste artigo, separamos mito de realidade e mostramos as alternativas.</p>
 
@@ -679,6 +686,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-04",
     readTime: "13 min",
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A exposição a <strong>agentes químicos nocivos</strong> é uma das bases mais sólidas para a aposentadoria especial no Brasil. Dependendo do tipo de agente, o trabalhador pode se aposentar com <strong>15 ou 25 anos de atividade</strong> — até 20 anos antes do trabalhador comum. Neste guia, mapeamos os agentes, as profissões e os prazos para que você saiba exatamente onde se enquadra.</p>
 
@@ -794,6 +802,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-25",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Não importa quantos anos você trabalhou exposto a agentes nocivos: sem o <strong>PPP (Perfil Profissiográfico Previdenciário)</strong> e o <strong>LTCAT (Laudo Técnico das Condições Ambientais do Trabalho)</strong>, sua aposentadoria especial será <strong>negada pelo INSS</strong>. Esses dois documentos são a base de todo pedido de aposentadoria especial. Este guia explica tudo: o que são, o que devem conter, como solicitar e o que fazer quando parecem impossíveis de obter.</p>
 
@@ -914,6 +923,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-15",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Muitos trabalhadores passaram parte da carreira em <strong>atividades insalubres ou perigosas</strong>, mas não completaram os 25 anos necessários para a aposentadoria especial. A boa notícia: é possível <strong>converter esse tempo especial em tempo comum</strong>, usando um fator multiplicador que <strong>adianta sua aposentadoria</strong>. A má notícia: essa conversão só vale para períodos <strong>anteriores a 13 de novembro de 2019</strong>. Neste guia, explicamos tudo com tabelas e exemplos práticos.</p>
 

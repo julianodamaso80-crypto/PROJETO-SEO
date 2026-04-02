@@ -49,6 +49,27 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
+      {/* Imagem destaque */}
+      {post.image && (
+        <section style={{ padding: "0 24px" }}>
+          <div className="container--narrow" style={{ marginTop: "-20px" }}>
+            <img
+              src={post.image}
+              alt={post.title}
+              style={{
+                width: "100%",
+                height: "auto",
+                maxHeight: "420px",
+                objectFit: "cover",
+                borderRadius: "var(--radius-lg, 8px)",
+                display: "block",
+              }}
+              loading="eager"
+            />
+          </div>
+        </section>
+      )}
+
       {/* Artigo */}
       <section style={{ padding: "48px 24px 40px" }}>
         <div className="blog-content container--narrow">

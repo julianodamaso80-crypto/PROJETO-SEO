@@ -10,6 +10,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-02",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você foi demitido sem receber seus direitos, trabalhou sem registro ou sofreu assédio no trabalho, provavelmente já pensou em processar a empresa. Mas logo veio a dúvida: <strong>"quanto custa um processo trabalhista?"</strong></p>
 <p>A resposta curta: <strong>para a maioria dos trabalhadores, o custo inicial é zero</strong>. E este artigo vai explicar exatamente por que — com números reais de 2026.</p>
@@ -128,6 +129,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-28",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você entrou com o processo, o advogado fez a petição, e agora veio a intimação: <strong>audiência marcada</strong>. O coração acelera, o nervosismo aparece — e a pergunta não sai da cabeça: <em>"O que vai acontecer lá?"</em></p>
 <p>Este guia vai te contar <strong>exatamente</strong> o que acontece em cada minuto de uma audiência trabalhista, o que você deve falar, o que <strong>nunca</strong> deve dizer, e como se preparar para sair confiante.</p>
@@ -248,6 +250,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-20",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Depois de decidir processar a empresa, a pergunta mais ouvida é: <strong>"Quanto tempo vai demorar?"</strong></p>
 <p>Não vamos enrolar: a resposta depende de vários fatores. Mas este artigo traz <strong>prazos reais baseados em dados de 2026</strong> para que você saiba exatamente o que esperar.</p>
@@ -334,6 +337,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-12",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você entrou com o processo, chegou o dia da audiência, e a empresa fez uma proposta de acordo. E agora? <strong>Aceita ou recusa?</strong></p>
 <p>Essa é uma das decisões mais importantes de todo o processo trabalhista — e este artigo vai te dar ferramentas concretas para decidir com inteligência.</p>
@@ -444,6 +448,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-25",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1575505586569-646b2ca898fc?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você solicitou um benefício ao INSS — aposentadoria, auxílio-doença, BPC — e recebeu a temida carta de <strong>indeferimento</strong>. E agora?</p>
 <p>O caminho mais comum é o <strong>Juizado Especial Federal (JEF)</strong>, que foi criado justamente para resolver conflitos entre cidadãos e órgãos federais como o INSS de forma <strong>mais rápida, simples e gratuita</strong>.</p>
@@ -560,6 +565,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-08",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se o seu processo trabalhista envolve <strong>insalubridade, periculosidade, doença ocupacional ou acidente de trabalho</strong>, é quase certo que o juiz vai determinar uma <strong>perícia judicial</strong>. É o momento em que um especialista independente vai ao local de trabalho ou examina você para produzir um laudo técnico.</p>
 <p>Esse laudo tem enorme peso na decisão do juiz. Por isso, entender como a perícia funciona e como se preparar pode ser decisivo no seu caso.</p>
@@ -664,6 +670,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-28",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>No processo trabalhista, <strong>a prova testemunhal é uma das mais importantes</strong> — especialmente quando faltam documentos. Aquele colega que viu o assédio, que trabalhava no mesmo setor, que sabe que você fazia hora extra sem receber: ele pode ser a diferença entre ganhar e perder.</p>
 <p>Mas testemunhar tem regras sérias. Este guia responde <strong>todas as dúvidas</strong> sobre testemunhas no processo trabalhista.</p>
@@ -770,6 +777,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-18",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você esperou meses (ou anos). Apresentou provas, depôs em audiência, o juiz deu a sentença a seu favor. <strong>Você ganhou.</strong> Mas aí vem a parte que ninguém conta: a empresa simplesmente... <strong>não paga</strong>.</p>
 <p>Infelizmente, isso é mais comum do que deveria. E é aí que entra a <strong>fase de execução</strong> — o processo de forçar a empresa a cumprir a sentença.</p>
@@ -866,6 +874,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-08",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Imagine: você está doente, sem conseguir trabalhar, e o INSS <strong>negou seu auxílio-doença</strong>. Ou você tem 70 anos, sem renda, e o <strong>BPC foi indeferido</strong>. O advogado diz que o processo vai demorar 12 a 24 meses. Como sobreviver até lá?</p>
 <p>É para situações assim que existe a <strong>tutela de urgência</strong> (também chamada de tutela antecipada) — uma decisão judicial que obriga o INSS a <strong>implantar o benefício imediatamente</strong>, antes mesmo da sentença final.</p>
@@ -957,6 +966,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-30",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Existe uma bomba-relógio invisível correndo contra você desde o dia em que saiu da empresa: é a <strong>prescrição trabalhista</strong>. Se você não agir dentro do prazo, <strong>perde o direito de cobrar</strong> — para sempre.</p>
 <p>Este artigo explica de forma clara e com exemplos práticos como funcionam os prazos, para que você não perca nenhum centavo.</p>

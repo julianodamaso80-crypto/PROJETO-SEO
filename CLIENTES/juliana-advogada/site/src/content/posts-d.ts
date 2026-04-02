@@ -10,6 +10,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-27",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>pensão por morte</strong> é o benefício pago pelo INSS aos dependentes de um segurado que faleceu. Após a Reforma da Previdência (EC 103/2019), as regras de cálculo e duração mudaram significativamente. Este guia traz <strong>tudo atualizado para 2026</strong>, com valores reais, tabelas e um passo a passo completo para você solicitar o benefício sem erros.</p>
 
@@ -121,6 +122,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-17",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Uma das dúvidas mais frequentes no direito previdenciário é: <strong>"posso receber pensão por morte e aposentadoria ao mesmo tempo?"</strong> A resposta é <strong>sim</strong>, mas desde a Reforma da Previdência (EC 103/2019) existe uma regra de redução que impacta diretamente o valor final. Neste artigo, explicamos exatamente como funciona o cálculo, com exemplos práticos e uma tabela para você simular seu caso.</p>
 
@@ -227,6 +229,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-07",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1529156069898-49953bc6f00f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Milhões de brasileiros vivem em <strong>união estável</strong> sem registro formal em cartório. Quando o companheiro falece, a dor da perda se soma a uma angústia prática: <strong>"como vou provar que vivíamos juntos para receber a pensão por morte?"</strong>. A boa notícia é que a lei reconhece a união estável como entidade familiar (art. 226, §3º da CF e art. 1.723 do Código Civil), e existem diversos meios de prova aceitos pelo INSS e pela Justiça.</p>
 
@@ -328,6 +331,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-23",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Receber a notificação de que seu <strong>auxílio-doença (benefício por incapacidade temporária)</strong> foi negado é desesperador — especialmente quando você não consegue trabalhar e precisa do dinheiro para sobreviver. Mas <strong>não entre em pânico</strong>. Milhares de benefícios são negados inicialmente e depois revertidos. O importante é agir rápido e com estratégia. Este guia mostra exatamente o que fazer nas próximas 48 horas.</p>
 
@@ -440,6 +444,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-04-01",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Criado para reduzir filas e agilizar a concessão de benefícios por incapacidade, o <strong>Atestmed</strong> é o procedimento do INSS que permite a análise do auxílio-doença (benefício por incapacidade temporária) <strong>sem perícia presencial</strong>. Em vez de comparecer a uma agência, o segurado envia seu atestado médico digitalmente e o INSS avalia remotamente. Em 2026, o programa foi ampliado com novas regras que beneficiam milhões de segurados.</p>
 
@@ -543,6 +548,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-13",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>perícia médica do INSS</strong> é o momento que define se você vai receber ou não seu benefício por incapacidade. Em muitos casos, segurados com doenças reais e incapacitantes saem da perícia com o benefício <strong>negado</strong> — não porque não mereciam, mas porque cometeram erros evitáveis. Depois de acompanhar centenas de casos, identificamos os <strong>7 erros mais graves</strong> que fazem pessoas perderem seus benefícios.</p>
 
@@ -636,6 +642,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-03",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Os transtornos mentais se tornaram a <strong>principal causa crescente de afastamento do trabalho no Brasil</strong>. Segundo dados do INSS, os afastamentos por depressão, ansiedade e burnout aumentaram mais de 30% nos últimos três anos. Ainda assim, muitos segurados enfrentam negativas porque a perícia do INSS avalia saúde mental de forma diferente de condições físicas. Este guia especializado mostra como se preparar.</p>
 
@@ -751,6 +758,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-10",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>aposentadoria por pontos</strong> é uma das regras de transição criadas pela Reforma da Previdência (EC 103/2019) e considerada a mais vantajosa para quem tem bastante tempo de contribuição. Em <strong>2026</strong>, os requisitos são: <strong>103 pontos para homens</strong> (idade + tempo de contribuição) e <strong>93 pontos para mulheres</strong>. Este artigo traz a tabela completa, exemplos reais e a comparação com outras regras.</p>
 
@@ -868,6 +876,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-15",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1554224155-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você está planejando sua aposentadoria, precisa entender o <strong>fator previdenciário</strong> — um multiplicador criado em 1999 pela Lei 9.876 que pode <strong>reduzir significativamente o valor do seu benefício</strong>. Na prática, quem se aposenta mais jovem ou com menos tempo de contribuição pode perder de 20% a 40% do valor. Este artigo explica a fórmula de forma simples, mostra o impacto real com números e ensina como evitar.</p>
 
@@ -985,6 +994,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-05",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45a?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O Brasil tem mais de 15 milhões de <strong>MEIs (Microempreendedores Individuais)</strong> e outros milhões de <strong>autônomos</strong> que contribuem ao INSS por conta própria. Porém, a grande maioria não sabe que a contribuição padrão do MEI <strong>só garante aposentadoria por idade no valor de um salário mínimo</strong>. Se você quer uma aposentadoria melhor, precisa entender as opções de contribuição e fazer a escolha certa agora.</p>
 

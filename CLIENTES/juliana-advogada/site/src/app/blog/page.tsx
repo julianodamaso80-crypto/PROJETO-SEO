@@ -157,22 +157,25 @@ export default function BlogPage() {
                 </div>
                 <div style={{
                   background: "var(--blue)",
-                  display: "flex", alignItems: "center", justifyContent: "center",
-                  padding: "60px",
                   position: "relative",
                   overflow: "hidden",
+                  minHeight: "280px",
                 }}>
-                  <div style={{
-                    position: "absolute", inset: 0,
-                    background: "linear-gradient(135deg, rgba(16,52,89,0.9) 0%, rgba(0,15,33,0.95) 100%)",
-                  }} />
-                  <span style={{
-                    position: "relative", zIndex: 1,
-                    fontSize: "13px", fontWeight: 600, letterSpacing: "0.2em",
-                    textTransform: "uppercase", color: "rgba(230,230,230,0.3)",
-                  }}>
-                    Destaque
-                  </span>
+                  {filtered[0].image ? (
+                    <img
+                      src={filtered[0].image}
+                      alt={filtered[0].title}
+                      style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0 }}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <>
+                      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(16,52,89,0.9) 0%, rgba(0,15,33,0.95) 100%)" }} />
+                      <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <span style={{ fontSize: "13px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(230,230,230,0.3)" }}>Destaque</span>
+                      </div>
+                    </>
+                  )}
                 </div>
               </article>
             </Link>
@@ -204,11 +207,22 @@ export default function BlogPage() {
                     e.currentTarget.style.boxShadow = "none";
                   }}
                 >
-                  {/* Barra de cor da categoria no topo */}
-                  <div style={{
-                    height: "3px",
-                    background: post.category === "Trabalhista" ? "var(--blue)" : "var(--navy)",
-                  }} />
+                  {/* Imagem ou barra de cor */}
+                  {post.image ? (
+                    <div style={{ height: "180px", overflow: "hidden", position: "relative" }}>
+                      <img
+                        src={post.image}
+                        alt={post.title}
+                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        loading="lazy"
+                      />
+                    </div>
+                  ) : (
+                    <div style={{
+                      height: "3px",
+                      background: post.category === "Trabalhista" ? "var(--blue)" : "var(--navy)",
+                    }} />
+                  )}
                   <div style={{ padding: "28px 24px", flex: 1 }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
                       <span style={{

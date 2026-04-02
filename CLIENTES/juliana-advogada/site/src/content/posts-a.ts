@@ -13,6 +13,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-01",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você sofreu um acidente no trabalho, a primeira coisa que precisa existir é a <strong>CAT — Comunicação de Acidente de Trabalho</strong>. Sem ela, é como se o acidente nunca tivesse acontecido para o INSS. E é exatamente por isso que muitas empresas tentam convencer o trabalhador a "não registrar nada".</p>
 
@@ -131,6 +132,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-28",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Com a consolidação do trabalho remoto no Brasil, uma dúvida cresceu junto: <strong>se eu me machucar em casa durante o horário de trabalho, isso conta como acidente de trabalho?</strong> A resposta é sim — mas provar isso exige cuidados que a maioria dos trabalhadores não conhece.</p>
 
@@ -247,6 +249,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-20",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Muita gente acha que "acidente de trabalho" é só quando acontece algo repentino — uma queda, um corte, um choque. Mas a legislação brasileira equipara as <strong>doenças ocupacionais</strong> ao acidente de trabalho. O problema é que o tratamento jurídico de cada um é diferente, e essa diferença pode mudar completamente o rumo do seu processo.</p>
 
@@ -344,6 +347,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-15",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você sofreu um acidente no trabalho, foi ao médico, voltou para a empresa e ouviu: <em>"Não precisa abrir CAT, isso não foi acidente de trabalho."</em> Essa história se repete milhares de vezes por dia no Brasil. Mas a boa notícia é que <strong>você não depende da empresa para registrar a CAT</strong>.</p>
 
@@ -449,6 +453,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-02",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45a?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A cada dia, <strong>milhões de brasileiros</strong> ligam o aplicativo e saem para dirigir ou entregar. Uber, iFood, 99, Rappi — essas plataformas são a fonte de renda principal de uma parcela enorme da população. Mas a pergunta que não quer calar continua: <strong>existe vínculo empregatício?</strong></p>
 
@@ -569,6 +574,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-10",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você abriu um CNPJ a pedido da empresa. Emite nota fiscal todo mês, não tem férias, não tem 13º, não tem FGTS. Mas no dia a dia trabalha exatamente como um empregado CLT: <strong>cumpre horário, recebe ordens, não pode faltar sem justificativa e trabalha exclusivamente para aquela empresa</strong>.</p>
 
@@ -694,6 +700,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-05",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você trabalhou meses ou anos sem carteira assinada. Não tem contrato, não tem recibo, não tem nada formal. E agora, como provar na Justiça?</p>
 
@@ -832,6 +839,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-25",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Horas extras são o <strong>assunto mais recorrente na Justiça do Trabalho brasileira</strong>. Segundo o TST, os pedidos relacionados a jornada e horas extras lideram o ranking de demandas há anos consecutivos. E não é à toa: a maioria das empresas não paga corretamente — e quando paga, ignora os reflexos.</p>
 
@@ -967,6 +975,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-28",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O banco de horas parece um bom negócio: em vez de pagar as horas extras em dinheiro, a empresa compensa com folgas. Na teoria, funciona. Na prática, a <strong>maioria dos bancos de horas no Brasil é irregular</strong> — e quando irregular, todas as horas acumuladas devem ser pagas como extras com adicional de 50%.</p>
 
@@ -1073,6 +1082,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-20",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O expediente acabou, você está em casa, jantando com a família — e o celular toca. Mensagem no grupo do trabalho. O chefe pedindo um relatório "para ontem". Um colega encaminhando uma demanda urgente. Isso acontece com você? Então precisa entender quando isso configura <strong>hora extra</strong>, quando é <strong>sobreaviso</strong> — e como documentar para proteger seus direitos.</p>
 

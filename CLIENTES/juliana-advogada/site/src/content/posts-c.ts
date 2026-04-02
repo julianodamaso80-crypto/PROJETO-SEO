@@ -10,6 +10,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-29",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>O Benefício Que o INSS Não Faz Questão de Divulgar</h2>
@@ -109,6 +110,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-18",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>Dois Benefícios, Duas Situações Completamente Diferentes</h2>
@@ -199,6 +201,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-08",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>Você Voltou a Trabalhar, Mas Não Voltou Ao Normal</h2>
@@ -272,6 +275,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-25",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>A Lista Legal de Doenças Graves — E Por Que Ela Importa</h2>
@@ -347,6 +351,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-15",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>O Pente-Fino da Aposentadoria por Invalidez</h2>
@@ -443,6 +448,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-02",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>Um Acréscimo Que Pode Ultrapassar o Teto do INSS</h2>
@@ -542,6 +548,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-04-02",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>A Negativa do INSS Não É o Fim da Linha</h2>
@@ -675,6 +682,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-20",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>O Recurso Administrativo É Gratuito — E Muita Gente Não Faz</h2>
@@ -768,6 +776,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-10",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>O CNIS: O Documento Que Define Sua Aposentadoria</h2>
@@ -864,6 +873,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-15",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>Por Que Existem Regras de Transição</h2>

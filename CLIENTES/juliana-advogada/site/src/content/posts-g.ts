@@ -10,6 +10,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-01",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>demissão sem justa causa</strong> é a forma mais comum de desligamento no Brasil — e também a que garante o maior pacote de direitos ao trabalhador. Em 2026, com o salário mínimo em <strong>R$1.621</strong> e o teto do INSS em <strong>R$8.475,55</strong>, os valores das verbas rescisórias mudaram. Este guia reúne <strong>tudo que você tem direito a receber</strong>, com cálculos reais e prazos.</p>
 
@@ -96,6 +97,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-26",
     readTime: "14 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Recebeu o Termo de Rescisão e não sabe se os valores estão corretos? Neste artigo, você vai aprender a <strong>calcular cada verba rescisória</strong> com as fórmulas exatas e valores de 2026 (salário mínimo de <strong>R$1.621</strong>). São 3 exemplos completos para você conferir sua rescisão linha por linha.</p>
 
@@ -207,6 +209,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-18",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>seguro-desemprego</strong> é o principal benefício para quem foi demitido sem justa causa. Em 2026, os valores foram atualizados: o piso subiu para <strong>R$1.621,00</strong> (salário mínimo) e o teto para <strong>R$2.518,65</strong>. Veja como calcular o seu valor, quantas parcelas terá direito e como solicitar.</p>
 
@@ -309,6 +312,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-10",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Muitos trabalhadores são demitidos e recebem apenas <strong>30 dias de aviso prévio</strong>, quando na verdade teriam direito a muito mais. A <strong>Lei 12.506/2011</strong> criou o aviso prévio proporcional ao tempo de serviço, que pode chegar a <strong>90 dias</strong>. Neste artigo, você encontra a tabela completa e aprende a calcular o seu.</p>
 
@@ -389,6 +393,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-02",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1579621970563-61f423be8f9a?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O saque-aniversário do FGTS parece uma boa ideia: todo ano, no mês do seu aniversário, você retira uma parcela do fundo. Mas há uma <strong>armadilha grave</strong> que a maioria dos trabalhadores só descobre quando é tarde demais: se você for demitido, <strong>não pode sacar o saldo total do FGTS</strong>. Você recebe apenas a multa de 40% — e o restante fica <strong>preso por meses</strong>.</p>
 
@@ -459,6 +464,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-22",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Desde a Reforma Trabalhista de 2017, existe uma forma de encerrar o contrato de trabalho por <strong>acordo entre empregado e empregador</strong>: a demissão consensual, prevista no <strong>art. 484-A da CLT</strong>. É um meio-termo: você recebe mais do que se pedisse demissão, mas menos do que na demissão sem justa causa. Neste artigo, explicamos exatamente o que você recebe, o que perde e quando essa modalidade compensa.</p>
 
@@ -540,6 +546,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-12",
     readTime: "13 min",
+    image: "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>demissão por justa causa</strong> é a penalidade máxima na relação de trabalho. O empregado perde quase todos os direitos rescisórios — FGTS, multa, seguro-desemprego, aviso prévio. Mas a empresa precisa <strong>comprovar o motivo</strong>, seguir <strong>requisitos formais</strong> e respeitar <strong>a proporcionalidade</strong>. Quando não cumpre essas regras, a justa causa pode ser <strong>revertida na Justiça</strong>.</p>
 
@@ -629,6 +636,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-02",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Pedir demissão é a forma mais desfavorável de encerrar o contrato de trabalho. Você abre mão de uma parte significativa dos seus direitos — e muitos trabalhadores só descobrem isso <strong>depois de assinar a carta</strong>. Neste artigo, mostramos exatamente o que você recebe, o que perde e por que a <strong>rescisão indireta</strong> pode ser uma alternativa muito melhor.</p>
 
@@ -709,6 +717,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-20",
     readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1554224154-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>TRCT (Termo de Rescisão do Contrato de Trabalho)</strong> é o documento que detalha tudo que você tem a receber na demissão. O problema é que <strong>a maioria dos trabalhadores assina sem conferir</strong> — e erros são mais comuns do que você imagina. Neste guia, você aprende a conferir cada linha do seu TRCT e identificar os 7 erros mais frequentes.</p>
 
@@ -785,6 +794,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-10",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você sabia que se a empresa <strong>atrasar 1 dia</strong> no pagamento da sua rescisão, deve pagar uma <strong>multa equivalente ao seu salário inteiro</strong>? Esse é um dos direitos trabalhistas mais desconhecidos — e mais fáceis de cobrar. Neste artigo, explicamos o prazo legal, o que configura atraso e como garantir essa multa.</p>
 

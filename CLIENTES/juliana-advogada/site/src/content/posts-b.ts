@@ -15,6 +15,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-30",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>O Que é Rescisão Indireta?</h2>
 <p>A rescisão indireta é a "justa causa do empregador". Quando a empresa comete falta grave, o trabalhador pode encerrar o contrato e receber <strong>todas as verbas</strong> como se tivesse sido demitido sem justa causa — incluindo FGTS com multa de 40%, aviso prévio e seguro-desemprego.</p>
@@ -110,6 +111,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-22",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>A Pergunta Que Todo Trabalhador Faz</h2>
 <p>"Meu salário atrasou 15 dias. Posso pedir rescisão indireta?" — essa é uma das dúvidas mais frequentes que recebemos. A resposta curta: <strong>depende</strong>. A resposta completa está neste artigo.</p>
@@ -196,6 +198,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-12",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>Uma Situação Mais Comum do Que Você Imagina</h2>
 <p>Maria trabalhava como auxiliar administrativa há 4 anos, ganhando R$3.000. O chefe gritava, o salário atrasava, o FGTS não era depositado. Ela não aguentou e pediu demissão. Três meses depois, descobriu que poderia ter saído com <strong>todos os direitos</strong>. Será que ainda dá tempo?</p>
@@ -290,6 +293,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-08",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>O Que é o Adicional de Periculosidade</h2>
 <p>O adicional de periculosidade é um acréscimo de <strong>30% sobre o salário-base</strong> pago ao trabalhador que exerce atividades que o expõem a risco de morte ou lesão grave. A previsão legal está no <strong>Art. 193 da CLT</strong> e na <strong>Norma Regulamentadora NR-16</strong> do Ministério do Trabalho.</p>
@@ -382,6 +386,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-25",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1509391366360-70e68c1c5d33?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>Por Que Este Guia Existe</h2>
 <p>O adicional de periculosidade (30% sobre o salário-base, Art. 193 da CLT) é um direito de milhões de brasileiros — mas muitos não sabem que se enquadram. A razão: empresas frequentemente classificam funções de forma genérica para evitar o pagamento. Este guia detalha, profissão por profissão, quem tem direito, por quê e quanto recebe.</p>
@@ -486,6 +491,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-15",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>Dois Adicionais, Lógicas Completamente Diferentes</h2>
 <p>Periculosidade e insalubridade são adicionais previstos na CLT para compensar condições de trabalho prejudiciais. Mas a semelhança para por aí. A base de cálculo, os critérios de concessão e os valores são radicalmente diferentes — e entender isso pode significar centenas ou milhares de reais por mês.</p>
@@ -595,6 +601,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-10",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>O Que é o Adicional de Insalubridade</h2>
 <p>O adicional de insalubridade é uma compensação financeira devida ao trabalhador que exerce atividades expostas a agentes nocivos à saúde acima dos limites de tolerância. Está previsto nos <strong>Arts. 189 a 192 da CLT</strong> e regulamentado pela <strong>NR-15</strong> do Ministério do Trabalho, que possui 14 anexos detalhando cada tipo de agente.</p>
@@ -723,6 +730,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-01",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>Quem Este Artigo Ajuda</h2>
 <p>Este guia é para você que trabalha — ou trabalhou — em contato direto com produtos químicos e não recebe a proteção devida. Isso inclui:</p>
@@ -839,6 +847,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-01",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1544027993-3a08f98dbbc4?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>O Que Mudou na NR-1</h2>
 <p>A <strong>Norma Regulamentadora nº 1 (NR-1)</strong>, que trata do Gerenciamento de Riscos Ocupacionais (GRO) e do Programa de Gerenciamento de Riscos (PGR), foi atualizada pela Portaria MTE nº 1.419/2024 para incluir expressamente os <strong>riscos psicossociais</strong> entre os perigos que as empresas são obrigadas a identificar, avaliar e controlar.</p>
@@ -941,6 +950,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-31",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>A Maior Discussão Trabalhista do Momento</h2>
 <p>A <strong>PEC (Proposta de Emenda à Constituição)</strong> que propõe o fim da escala 6x1 e a redução da jornada semanal de 44 horas para 36 horas se tornou o tema trabalhista mais debatido no Brasil. Com mais de 230 assinaturas na Câmara — superando amplamente as 171 necessárias — a proposta avança para votação e, se aprovada, alterará o <strong>Art. 7º, inciso XIII, da Constituição Federal</strong>.</p>

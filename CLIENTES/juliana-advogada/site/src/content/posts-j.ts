@@ -10,6 +10,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-29",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você trabalha entre <strong>22h e 5h</strong>, a lei garante um pagamento maior por cada hora trabalhada. Isso se chama <strong>adicional noturno</strong>, previsto no <strong>art. 73 da CLT</strong>. Até aqui, muitos trabalhadores sabem. O que a maioria <strong>não sabe</strong> é que existe um segundo direito escondido dentro do primeiro: a <strong>hora noturna reduzida</strong>.</p>
 <p>Neste artigo, vamos mostrar exatamente como calcular o adicional noturno em 2026, revelar o direito que as empresas costumam ignorar e ensinar você a conferir se o seu contracheque está correto.</p>
@@ -88,6 +89,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-21",
     readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A maioria dos trabalhadores brasileiros acredita que pode ser demitida a qualquer momento. E, de fato, a regra geral é essa: a empresa pode dispensar sem justa causa, pagando as verbas rescisórias. Mas existem <strong>pelo menos 7 situações</strong> em que a lei <strong>proíbe</strong> a demissão — são as chamadas <strong>estabilidades provisórias</strong>.</p>
 <p>Se você está em qualquer uma dessas situações e foi demitido, a empresa pode ser obrigada a <strong>reintegrá-lo ao cargo</strong> ou <strong>pagar os salários de todo o período de estabilidade</strong>.</p>
@@ -175,6 +177,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-13",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Quem trabalha mais de <strong>6 horas por dia</strong> tem direito a um intervalo mínimo de <strong>1 hora para refeição e descanso</strong>. É o que diz o <strong>art. 71 da CLT</strong>. Quando a empresa reduz esse intervalo — dando apenas 30 ou 40 minutos — ela está descumprindo a lei e <strong>deve pagar por isso</strong>.</p>
 <p>Mas quanto exatamente? E o que mudou depois da Reforma Trabalhista de 2017? Neste artigo, explicamos as regras atuais, fazemos o cálculo real e mostramos como as Convenções Coletivas podem aumentar seus direitos.</p>
@@ -249,6 +252,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-05",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Todo trabalhador com carteira assinada tem direito a <strong>30 dias de férias</strong> a cada 12 meses de trabalho. Mas o que acontece quando a empresa simplesmente <strong>não concede</strong> as férias dentro do prazo? A resposta está no <strong>art. 137 da CLT</strong>: ela deve pagar a remuneração de férias <strong>em dobro</strong>.</p>
 <p>Este é um dos direitos mais negligenciados — e mais lucrativos — do trabalhador brasileiro. Neste artigo, explicamos exatamente quando as férias vencem, como calcular o pagamento dobrado e o que fazer para cobrar.</p>
@@ -330,6 +334,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-25",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você foi contratado como auxiliar administrativo, mas faz o trabalho do financeiro. Ou é operador de caixa, mas também limpa o estoque e organiza prateleiras. Isso tem nome: <strong>desvio de função</strong> e <strong>acúmulo de função</strong>. São situações diferentes, mas ambas podem dar direito a um <strong>aumento salarial de 10% a 40%</strong>.</p>
 <p>Apesar de não haver uma lei expressa na CLT sobre acúmulo de função, a <strong>jurisprudência trabalhista</strong> é consolidada: quem faz mais, deve receber mais.</p>
@@ -422,6 +427,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-15",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>vale-transporte</strong> é um dos benefícios mais básicos do trabalhador brasileiro, mas também um dos mais mal compreendidos — tanto por empregados quanto por empregadores. A regra central é simples: a empresa <strong>deve fornecer</strong> o vale-transporte e <strong>só pode descontar 6%</strong> do salário base do empregado. O restante do custo é responsabilidade da empresa.</p>
 <p>Este artigo esclarece todas as regras da <strong>Lei 7.418/85</strong> e do <strong>Decreto 95.247/87</strong>, com exemplos práticos e os erros mais comuns.</p>
@@ -500,6 +506,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-05",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O salário é a contraprestação mais básica da relação de emprego. Quando a empresa <strong>atrasa o pagamento</strong>, ela não está apenas causando transtorno — está <strong>descumprindo a lei</strong> e abrindo portas para consequências jurídicas graves, incluindo a possibilidade de o empregado <strong>sair da empresa recebendo tudo</strong> como se tivesse sido demitido sem justa causa.</p>
 
@@ -583,6 +590,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-28",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>aposentadoria por idade</strong> é o benefício previdenciário mais solicitado no Brasil. Depois da Reforma da Previdência (EC 103/2019), as regras mudaram significativamente — e muitas pessoas ainda não sabem exatamente o que precisam para se aposentar em 2026.</p>
 <p>Neste artigo, reunimos <strong>todos os requisitos atualizados</strong>, com exemplos de cálculo usando os valores de 2026: salário mínimo de <strong>R$1.621</strong> e teto do INSS de <strong>R$8.475,55</strong>.</p>
@@ -718,6 +726,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-18",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Depois de anos contribuindo, o aposentado finalmente recebe o benefício — e descobre que o valor depositado na conta é <strong>significativamente menor</strong> do que o valor bruto. Isso acontece porque existem vários descontos que incidem sobre a aposentadoria do INSS, alguns obrigatórios e outros que foram autorizados ao longo do tempo.</p>
 <p>Neste artigo, explicamos <strong>cada tipo de desconto</strong>, mostramos um exemplo real de quanto sobra e revelamos como é possível <strong>reduzir ou eliminar</strong> alguns deles.</p>
@@ -825,6 +834,7 @@ export const batchJPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-08",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Trabalhar em <strong>feriados e domingos</strong> é realidade para milhões de brasileiros em comércio, saúde, segurança, hotelaria e outras atividades essenciais. O que muitos não sabem é que, se a empresa <strong>não concede folga compensatória</strong>, ela deve pagar o dia trabalhado com <strong>100% de adicional</strong> — ou seja, em dobro.</p>
 <p>Neste artigo, mostramos exatamente como funciona esse direito, como calcular o valor e quanto dinheiro pode estar sendo perdido ao longo do ano.</p>
