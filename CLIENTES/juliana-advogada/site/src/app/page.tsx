@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { blogPosts } from "@/content/posts";
 import { HeroSection } from "@/components/HeroSection";
-import { AreaTabs } from "@/components/AreaTabs";
+
 import { HomeMotion } from "@/components/HomeMotion";
 
 const WA = "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";
@@ -108,12 +108,34 @@ export default function HomePage() {
                 cálculos de valores devidos e estratégia jurídica individualizada.
               </p>
             </div>
-            <AreaTabs trabalhista={AREAS_T} previdenciario={AREAS_P} />
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+              gap: "12px",
+            }}>
+              {[...AREAS_T, ...AREAS_P].map((a) => (
+                <div key={a.title} className="card" style={{ padding: "28px 24px" }}>
+                  <h3 style={{
+                    fontFamily: "var(--font)",
+                    fontSize: "18px",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "8px",
+                    lineHeight: 1.3,
+                  }}>
+                    {a.title}
+                  </h3>
+                  <p style={{ fontSize: "14px", lineHeight: 1.65, color: "var(--text-body)" }}>
+                    {a.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
             <div style={{ textAlign: "center", marginTop: "48px" }}>
               <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Fale com a Especialista
               </a>
-              <p style={{ marginTop: "12px", fontSize: "14px", color: "var(--text-muted)" }}>
+              <p style={{ marginTop: "12px", fontSize: "14px", color: "var(--text-body)" }}>
                 Consulta inicial gratuita. Análise técnica do seu caso.
               </p>
             </div>
@@ -136,7 +158,7 @@ export default function HomePage() {
           }} />
           <div style={{
             position: "absolute", inset: 0,
-            background: "rgba(0,15,33,0.92)",
+            background: "rgba(0,15,33,0.70)",
           }} />
 
           <div style={{ maxWidth: "1100px", margin: "0 auto", position: "relative", zIndex: 1 }}>
