@@ -80,7 +80,7 @@ export function HeroSection() {
             fontWeight: 600,
             letterSpacing: "0.25em",
             textTransform: "uppercase",
-            color: "#FFFFFF",
+            color: "var(--grey)",
             opacity: 0.6,
             marginBottom: "32px",
           }}>
@@ -92,7 +92,7 @@ export function HeroSection() {
             fontSize: "clamp(28px, 3.8vw, 44px)",
             fontWeight: 700,
             lineHeight: 1.45,
-            color: "#FFFFFF",
+            color: "var(--grey)",
             marginBottom: "32px",
           }}>
             A empresa violou seus direitos trabalhistas?
@@ -129,7 +129,7 @@ export function HeroSection() {
                 display: "inline-block",
                 padding: "18px 44px",
                 background: "var(--blue)",
-                color: "#FFFFFF",
+                color: "var(--grey)",
                 fontSize: "14px",
                 fontWeight: 700,
                 letterSpacing: "0.1em",
@@ -137,7 +137,7 @@ export function HeroSection() {
                 textDecoration: "none",
                 transition: "background 0.25s ease",
               }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = "#0D2D4D")}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "var(--navy)")}
               onMouseLeave={(e) => (e.currentTarget.style.background = "#103459")}
             >
               Agendar Consulta Gratuita
@@ -148,7 +148,7 @@ export function HeroSection() {
                 display: "inline-block",
                 padding: "17px 40px",
                 background: "transparent",
-                color: "#FFFFFF",
+                color: "var(--grey)",
                 fontSize: "14px",
                 fontWeight: 600,
                 letterSpacing: "0.1em",

@@ -49,18 +49,17 @@
   --blue:          #103459;
   --grey:          #E6E6E6;
   --silver:        #C0C0C0;
-  --white:         #F5F5F5;
   --black:         #000000;
 
-  /* Semantico — derivado da paleta oficial */
-  --bg-body:       var(--white);
+  /* Semantico — 100% derivado da paleta oficial */
+  --bg-body:       var(--grey);
   --bg-light:      var(--grey);
   --bg-dark:       var(--navy);
   --bg-mid:        var(--blue);
-  --bg-card:       #F0F0F0;
+  --bg-card:       var(--grey);
 
   --text-primary:  var(--navy);
-  --text-body:     #1A1A1A;
+  --text-body:     var(--black);
   --text-muted:    var(--silver);
   --text-on-dark:  var(--grey);
   --text-on-dark-muted: rgba(230,230,230,0.5);
@@ -129,7 +128,7 @@ a { color: inherit; }
   display: inline-block;
   padding: 16px 40px;
   background: var(--navy);
-  color: #FFFFFF;
+  color: var(--grey);
   font-family: var(--font);
   font-weight: 700;
   font-size: 13px;

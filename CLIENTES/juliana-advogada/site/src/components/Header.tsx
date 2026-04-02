@@ -35,23 +35,23 @@ export function Header() {
         <nav className="desktop-nav" style={{ display: "flex", alignItems: "center", gap: "32px" }}>
           {NAV.map((item) => (
             <Link key={item.href} href={item.href} style={{
-              fontSize: "14px", fontWeight: 600, color: "#FFFFFF",
+              fontSize: "14px", fontWeight: 600, color: "var(--grey)",
               textDecoration: "none", letterSpacing: "0.06em", textTransform: "uppercase",
               transition: "color 0.2s",
             }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#FFFFFF")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#FFFFFF")}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "var(--grey)")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "var(--grey)")}
             >
               {item.label}
             </Link>
           ))}
           <a href={WA} target="_blank" rel="noopener noreferrer" style={{
             fontSize: "12px", fontWeight: 700, padding: "12px 28px",
-            background: "var(--blue)", color: "#FFFFFF",
+            background: "var(--blue)", color: "var(--grey)",
             letterSpacing: "0.1em", textTransform: "uppercase",
             textDecoration: "none", transition: "background 0.2s",
           }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = "#0D2D4D")}
+            onMouseEnter={(e) => (e.currentTarget.style.background = "var(--navy)")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "var(--blue)")}
           >
             Agendar Consulta
