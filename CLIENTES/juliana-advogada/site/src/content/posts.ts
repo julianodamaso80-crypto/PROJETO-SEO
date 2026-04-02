@@ -1,8 +1,8 @@
-import { batch2Posts } from "./posts-trabalhista-batch2";
-import { batch3Posts } from "./posts-batch3";
-import { batch4Posts } from "./posts-batch4";
-import { batch5Posts } from "./posts-batch5";
-import { batch6Posts } from "./posts-batch6";
+import { posts01 } from "./posts_01_10";
+import { posts11 } from "./posts_11_20";
+import { posts21 } from "./posts_21_30";
+import { posts31 } from "./posts_31_40";
+import { posts41 } from "./posts_41_50";
 
 export type { BlogPost } from "./types";
 import type { BlogPost } from "./types";
@@ -701,9 +701,9 @@ const _originalPosts: BlogPost[] = [
 
 export const blogPosts: BlogPost[] = [
   ..._originalPosts,
-  ...batch2Posts,
-  ...batch3Posts,
-  ...batch4Posts,
-  ...batch5Posts,
-  ...batch6Posts,
+  ...posts01,
+  ...posts11,
+  ...posts21,
+  ...posts31,
+  ...posts41,
 ];
