@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre | DD Claw Advocacia",
+  title: "Sobre | DDC LAW Advocacia",
   description: "Advogada especialista em Direito Trabalhista e Previdenciário.",
 };
 
@@ -31,7 +31,7 @@ export default function SobrePage() {
       <section style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <hr className="rule" />
-          <h2 style={{ fontSize: "28px", marginBottom: "8px" }}>DD Claw</h2>
+          <h2 style={{ fontSize: "28px", marginBottom: "8px" }}>DDC LAW</h2>
           <p style={{ fontSize: "13px", color: "var(--accent)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "32px" }}>
             Advogada Trabalhista e Previdenciária
           </p>

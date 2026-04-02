@@ -24,198 +24,130 @@ export function HeroSection() {
       .fromTo(panelRef.current, { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 1.1 }, "-=1.2")
       .fromTo(trustRef.current, { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 }, "-=0.3");
 
-    // Micro parallax no painel ao mover o mouse
     const section = sectionRef.current;
     if (!section) return;
-
     const handleMouse = (e: MouseEvent) => {
       const rect = section.getBoundingClientRect();
       const x = (e.clientX - rect.left) / rect.width - 0.5;
       const y = (e.clientY - rect.top) / rect.height - 0.5;
-      gsap.to(panelRef.current, {
-        x: x * 8,
-        y: y * 6,
-        duration: 0.8,
-        ease: "power2.out",
-      });
+      gsap.to(panelRef.current, { x: x * 6, y: y * 4, duration: 0.8, ease: "power2.out" });
     };
-
     section.addEventListener("mousemove", handleMouse);
     return () => section.removeEventListener("mousemove", handleMouse);
   }, []);
 
   return (
-    <section
-      ref={sectionRef}
-      style={{
-        background: "var(--bg-dark)",
-        paddingTop: "72px",
-        overflow: "hidden",
-      }}
-    >
+    <section ref={sectionRef} style={{ background: "var(--navy)", paddingTop: "72px", overflow: "hidden" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
         <div style={{
-          display: "grid",
-          gridTemplateColumns: "1.15fr 0.85fr",
-          gap: "40px",
-          alignItems: "center",
-          minHeight: "calc(100vh - 72px)",
-          paddingTop: "72px",
-          paddingBottom: "72px",
+          display: "grid", gridTemplateColumns: "1.2fr 0.8fr", gap: "48px",
+          alignItems: "center", minHeight: "calc(100vh - 72px)",
+          paddingTop: "72px", paddingBottom: "72px",
         }}>
-          {/* ── Lado esquerdo: texto ── */}
+          {/* Texto */}
           <div>
-            <span
-              ref={eyebrowRef}
-              className="eyebrow"
-              style={{ color: "var(--text-on-dark-muted)", marginBottom: "32px", opacity: 0 }}
-            >
+            <span ref={eyebrowRef} className="eyebrow" style={{ color: "var(--text-on-dark-muted)", marginBottom: "32px", opacity: 0 }}>
               Direito Trabalhista &amp; Previdenciário
             </span>
 
-            <h1
-              ref={headlineRef}
-              style={{
-                fontFamily: "var(--font-serif)",
-                fontSize: "clamp(38px, 4.8vw, 58px)",
-                fontWeight: 700,
-                lineHeight: 1.08,
-                color: "var(--text-on-dark)",
-                marginTop: "32px",
-                marginBottom: "28px",
-                letterSpacing: "-0.02em",
-                opacity: 0,
-              }}
-            >
-              Seus direitos<br />
-              não esperam.<br />
-              <span style={{ color: "var(--bg-sand)" }}>
-                Sua defesa<br />também não.
-              </span>
+            <h1 ref={headlineRef} style={{
+              fontSize: "clamp(40px, 5vw, 62px)", fontWeight: 800, lineHeight: 1.05,
+              color: "var(--text-on-dark)", marginTop: "32px", marginBottom: "28px",
+              letterSpacing: "-0.03em",
+              opacity: 0,
+            }}>
+              Seus direitos<br />não esperam.<br />
+              <span style={{ color: "var(--silver)" }}>Sua defesa<br />também não.</span>
             </h1>
 
-            <p
-              ref={subRef}
-              style={{
-                fontSize: "17px",
-                lineHeight: 1.75,
-                color: "var(--text-on-dark-muted)",
-                maxWidth: "420px",
-                marginBottom: "40px",
-                opacity: 0,
-              }}
-            >
+            <p ref={subRef} style={{
+              fontSize: "17px", lineHeight: 1.7, fontWeight: 300,
+              color: "var(--text-on-dark-muted)", maxWidth: "420px", marginBottom: "40px", opacity: 0,
+            }}>
               Orientação jurídica especializada para quem teve seus direitos violados
               ou benefício negado pelo INSS.
             </p>
 
             <div ref={ctaRef} style={{ display: "flex", gap: "14px", flexWrap: "wrap", opacity: 0 }}>
-              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
+                style={{ background: "var(--blue)", color: "var(--grey)" }}>
                 Agendar Consulta
               </a>
-              <a href="#areas" className="btn-outline" style={{ color: "var(--text-on-dark)", borderColor: "rgba(243,240,232,0.2)" }}>
+              <a href="#areas" className="btn-outline"
+                style={{ color: "var(--grey)", borderColor: "rgba(230,230,230,0.2)" }}>
                 Áreas de Atuação
               </a>
             </div>
           </div>
 
-          {/* ── Lado direito: composição gráfica ── */}
+          {/* Composição gráfica — painel com pattern DDC */}
           <div ref={panelRef} style={{ position: "relative", opacity: 0 }}>
-            {/* Painel principal */}
+            {/* Painel principal com pattern da marca */}
             <div style={{
-              background: "var(--bg-cream)",
-              borderRadius: "var(--radius)",
-              padding: "48px 40px",
-              position: "relative",
-              zIndex: 2,
+              background: "var(--blue)", borderRadius: "var(--radius)",
+              padding: "56px 44px", position: "relative", zIndex: 2, overflow: "hidden",
             }}>
+              {/* Pattern DDC como textura de fundo */}
               <div style={{
-                fontFamily: "var(--font-serif)",
-                fontSize: "clamp(42px, 5vw, 64px)",
-                fontWeight: 700,
-                color: "var(--text-primary)",
-                lineHeight: 1.05,
-                letterSpacing: "-0.03em",
-                marginBottom: "28px",
-              }}>
-                DD<br />Claw
-              </div>
-
-              <div style={{
-                width: "32px",
-                height: "1px",
-                background: "var(--accent)",
-                marginBottom: "24px",
+                position: "absolute", inset: 0, opacity: 0.06,
+                backgroundImage: "url('/brand/pattern-light.png')",
+                backgroundSize: "300px", backgroundRepeat: "repeat",
               }} />
 
-              <div style={{ fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--text-muted)", marginBottom: "6px" }}>
+              {/* Logo grande como elemento tipográfico */}
+              <img src="/brand/logo-light.png" alt="" style={{
+                height: "48px", width: "auto", marginBottom: "32px", opacity: 0.7,
+                position: "relative", zIndex: 1,
+              }} />
+
+              <div style={{
+                width: "32px", height: "2px", background: "var(--silver)",
+                marginBottom: "28px", opacity: 0.4, position: "relative", zIndex: 1,
+              }} />
+
+              <div style={{
+                fontSize: "12px", letterSpacing: "0.3em", textTransform: "uppercase",
+                color: "rgba(230,230,230,0.4)", marginBottom: "8px",
+                fontWeight: 500, position: "relative", zIndex: 1,
+              }}>
                 Advocacia
               </div>
 
               <div style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "4px",
-                fontSize: "14px",
-                color: "var(--text-body)",
-                marginTop: "20px",
+                display: "flex", flexDirection: "column", gap: "6px",
+                fontSize: "15px", fontWeight: 300, color: "rgba(230,230,230,0.6)",
+                position: "relative", zIndex: 1,
               }}>
                 <span>Direito Trabalhista</span>
                 <span>Direito Previdenciário</span>
               </div>
 
-              {/* Linha decorativa vertical no canto */}
+              {/* Linha decorativa vertical */}
               <div style={{
-                position: "absolute",
-                top: "24px",
-                right: "24px",
-                width: "1px",
-                height: "80px",
-                background: "var(--border)",
-              }} />
-
-              {/* Moldura fina no canto inferior */}
-              <div style={{
-                position: "absolute",
-                bottom: "-16px",
-                right: "-16px",
-                width: "120px",
-                height: "120px",
-                border: "1px solid var(--accent)",
-                borderRadius: "var(--radius)",
-                zIndex: -1,
-                opacity: 0.4,
+                position: "absolute", top: "28px", right: "28px",
+                width: "1px", height: "80px", background: "rgba(230,230,230,0.1)", zIndex: 1,
               }} />
             </div>
 
-            {/* Bloco accent atras */}
+            {/* Moldura accent */}
             <div style={{
-              position: "absolute",
-              top: "-20px",
-              left: "-20px",
-              width: "100%",
-              height: "100%",
-              background: "var(--bg-dark-warm)",
-              borderRadius: "var(--radius)",
-              border: "1px solid rgba(243,240,232,0.06)",
-              zIndex: 1,
+              position: "absolute", bottom: "-12px", right: "-12px",
+              width: "60%", height: "60%",
+              border: "1px solid rgba(192,192,192,0.15)",
+              borderRadius: "var(--radius)", zIndex: 1,
             }} />
           </div>
         </div>
 
-        {/* ── Trust bar ── */}
-        <div
-          ref={trustRef}
-          style={{
-            borderTop: "1px solid rgba(243,240,232,0.08)",
-            padding: "24px 0 40px",
-            opacity: 0,
-          }}
-        >
+        {/* Trust bar */}
+        <div ref={trustRef} style={{
+          borderTop: "1px solid rgba(230,230,230,0.08)",
+          padding: "24px 0 40px", opacity: 0,
+        }}>
           <div className="trust-bar" style={{ color: "var(--text-on-dark-muted)" }}>
             {["Trabalhista e Previdenciário", "Atendimento Online", "Consulta Inicial Gratuita"].map((item) => (
               <div key={item} className="trust-bar-item">
-                <div className="trust-bar-dot" />
+                <div className="trust-bar-dot" style={{ background: "var(--silver)" }} />
                 <span>{item}</span>
               </div>
             ))}

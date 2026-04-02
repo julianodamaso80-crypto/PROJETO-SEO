@@ -40,7 +40,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </h1>
 
           <div style={{ display: "flex", alignItems: "center", gap: "16px", fontSize: "13px", color: "var(--text-muted)", flexWrap: "wrap" }}>
-            <span>DD Claw</span>
+            <span>DDC LAW</span>
             <span>·</span>
             <span>{new Date(post.date).toLocaleDateString("pt-BR", { day: "numeric", month: "long", year: "numeric" })}</span>
             <span>·</span>

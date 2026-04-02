@@ -3,7 +3,7 @@ import { blogPosts } from "@/content/posts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advogada Trabalhista | DD Claw",
+  title: "Advogada Trabalhista | DDC LAW",
   description: "Empresa desrespeitou seus direitos? Fale com uma advogada trabalhista especializada.",
 };
 

@@ -39,7 +39,7 @@ export default function HomePage() {
             <hr className="rule" />
             <span className="eyebrow" style={{ marginBottom: "16px" }}>Sobre</span>
             <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginTop: "16px", marginBottom: "24px" }}>
-              DD Claw
+              DDC LAW
             </h2>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px" }}>
               <p style={{ fontSize: "16px", lineHeight: 1.85 }}>
@@ -94,7 +94,7 @@ export default function HomePage() {
           <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
             <div style={{ marginBottom: "64px" }}>
               <hr className="rule" />
-              <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)" }}>Por que confiar na DD Claw</h2>
+              <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)" }}>Por que confiar na DDC LAW</h2>
             </div>
 
             <div data-animate="stagger" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "48px" }}>

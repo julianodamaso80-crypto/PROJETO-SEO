@@ -4,8 +4,8 @@ const WA = "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e
 
 export function Footer() {
   return (
-    <footer style={{ background: "var(--bg-dark)", borderTop: "1px solid var(--accent)" }}>
-      <div className="container" style={{ padding: "64px 24px 32px" }}>
+    <footer style={{ background: "var(--navy)", borderTop: "2px solid var(--blue)" }}>
+      <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "64px 24px 32px" }}>
 
         <div style={{
           display: "grid",
@@ -16,23 +16,15 @@ export function Footer() {
 
           {/* Brand */}
           <div>
-            <div style={{
-              fontFamily: "var(--font-serif)",
-              fontSize: "20px",
-              fontWeight: 700,
-              color: "var(--text-on-dark)",
-              marginBottom: "8px",
-            }}>
-              DD Claw
-            </div>
+            <img src="/brand/logo-light.png" alt="DDC LAW" style={{ height: "24px", width: "auto", marginBottom: "8px", opacity: 0.7 }} />
             <div style={{
               fontSize: "11px",
               color: "var(--text-on-dark-muted)",
-              letterSpacing: "0.12em",
+              letterSpacing: "0.2em",
               textTransform: "uppercase",
               marginBottom: "16px",
             }}>
-              Advocacia
+              Law
             </div>
             <p style={{ fontSize: "14px", color: "var(--text-on-dark-muted)", lineHeight: 1.7 }}>
               Direito do Trabalho e Previdenciário. Atendimento humanizado e transparente.
@@ -158,7 +150,7 @@ export function Footer() {
           gap: "12px",
         }}>
           <p style={{ fontSize: "12px", color: "rgba(247,245,240,0.35)" }}>
-            © {new Date().getFullYear()} DD Claw — OAB [número]
+            © {new Date().getFullYear()} DDC LAW — OAB [número]
           </p>
           <p style={{ fontSize: "11px", color: "rgba(247,245,240,0.25)" }}>
             Este site não constitui consultoria jurídica. Cada caso requer análise individual.

@@ -3,7 +3,7 @@ import { blogPosts } from "@/content/posts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advogada Previdenciária | DD Claw",
+  title: "Advogada Previdenciária | DDC LAW",
   description: "Benefício negado pelo INSS? Conheça seus direitos e as opções de recurso.",
 };
 
