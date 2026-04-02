@@ -1,16 +1,13 @@
-export interface BlogPost {
-  slug: string;
-  title: string;
-  metaTitle: string;
-  metaDescription: string;
-  excerpt: string;
-  category: "Trabalhista" | "Previdenciário";
-  date: string;
-  readTime: string;
-  content: string;
-}
+import { batch2Posts } from "./posts-trabalhista-batch2";
+import { batch3Posts } from "./posts-batch3";
+import { batch4Posts } from "./posts-batch4";
+import { batch5Posts } from "./posts-batch5";
+import { batch6Posts } from "./posts-batch6";
 
-export const blogPosts: BlogPost[] = [
+export type { BlogPost } from "./types";
+import type { BlogPost } from "./types";
+
+const _originalPosts: BlogPost[] = [
   {
     slug: "acidente-de-trabalho-direitos",
     title: "Acidente de Trabalho: 5 Direitos Que Todo Trabalhador Precisa Conhecer",
@@ -700,4 +697,13 @@ export const blogPosts: BlogPost[] = [
 <p>Mesmo com essas limitações, R$1.518/mês pode fazer <strong>toda a diferença</strong> para quem não tem outra fonte de renda.</p>
 `,
   },
+];
+
+export const blogPosts: BlogPost[] = [
+  ..._originalPosts,
+  ...batch2Posts,
+  ...batch3Posts,
+  ...batch4Posts,
+  ...batch5Posts,
+  ...batch6Posts,
 ];
