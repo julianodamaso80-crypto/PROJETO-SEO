@@ -49,25 +49,25 @@
   --blue:          #103459;
   --grey:          #E6E6E6;
   --silver:        #C0C0C0;
-  --white:         #FAFAFA;
+  --white:         #F5F5F5;
   --black:         #000000;
 
-  /* Semantico */
+  /* Semantico — derivado da paleta oficial */
   --bg-body:       var(--white);
-  --bg-light:      #F4F4F2;
+  --bg-light:      var(--grey);
   --bg-dark:       var(--navy);
   --bg-mid:        var(--blue);
-  --bg-card:       #FFFFFF;
+  --bg-card:       #F0F0F0;
 
   --text-primary:  var(--navy);
-  --text-body:     #3A3A3A;
-  --text-muted:    #888;
+  --text-body:     #1A1A1A;
+  --text-muted:    var(--silver);
   --text-on-dark:  var(--grey);
   --text-on-dark-muted: rgba(230,230,230,0.5);
 
   --accent:        var(--blue);
-  --border:        #D4D4D0;
-  --border-light:  #EBEBEB;
+  --border:        var(--silver);
+  --border-light:  var(--grey);
 
   --font:          'Darker Grotesque', system-ui, sans-serif;
 
@@ -126,44 +126,43 @@ a { color: inherit; }
    Botões
 ─────────────────────────── */
 .btn-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 34px;
+  display: inline-block;
+  padding: 16px 40px;
   background: var(--navy);
-  color: var(--grey);
+  color: #FFFFFF;
   font-family: var(--font);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.1em;
   border-radius: 0;
   border: none;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background 0.25s ease, transform 0.2s ease;
+  text-align: center;
+  white-space: nowrap;
+  transition: background 0.25s ease;
 }
 .btn-primary:hover {
   background: var(--blue);
-  transform: scale(1.02);
 }
 
 .btn-outline {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 13px 30px;
+  display: inline-block;
+  padding: 15px 36px;
   background: transparent;
   color: var(--text-primary);
   font-family: var(--font);
   font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.06em;
+  font-size: 13px;
+  letter-spacing: 0.1em;
   border-radius: 0;
   border: 1.5px solid var(--border);
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
   transition: border-color 0.25s ease;
 }
 .btn-outline:hover { border-color: var(--navy); }
@@ -199,11 +198,11 @@ a { color: inherit; }
    Rule / Divider
 ─────────────────────────── */
 .rule {
-  width: 40px;
-  height: 2px;
-  background: var(--accent);
+  width: 48px;
+  height: 1px;
+  background: var(--blue);
   border: none;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /* ───────────────────────────

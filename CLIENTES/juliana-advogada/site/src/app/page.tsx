@@ -38,11 +38,13 @@ export default function HomePage() {
         ═══════════════════════════════════════ */}
         <section data-animate="section" style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
           <div style={{ maxWidth: "960px", margin: "0 auto" }}>
-            <hr className="rule" />
-            <span className="eyebrow" style={{ marginBottom: "16px" }}>Sobre a DDC LAW</span>
-            <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginTop: "16px", marginBottom: "32px" }}>
-              Advocacia especializada em quem vive do próprio trabalho.
-            </h2>
+            <div style={{ textAlign: "center", marginBottom: "40px" }}>
+              <hr className="rule" style={{ margin: "0 auto 24px" }} />
+              <span className="eyebrow" style={{ marginBottom: "16px" }}>Sobre a DDC LAW</span>
+              <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginTop: "16px" }}>
+                Advocacia especializada em quem vive do próprio trabalho.
+              </h2>
+            </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px" }}>
               <div>
                 <p style={{ fontSize: "16px", lineHeight: 1.9, marginBottom: "16px" }}>
@@ -70,7 +72,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div style={{ display: "flex", gap: "48px", flexWrap: "wrap", marginTop: "40px", paddingTop: "32px", borderTop: "1px solid var(--border-light)" }}>
+            <div style={{ display: "flex", gap: "48px", flexWrap: "wrap", justifyContent: "center", marginTop: "40px", paddingTop: "32px", borderTop: "1px solid var(--border-light)" }}>
               {[
                 { label: "Atuação", value: "Trabalhista e Previdenciário" },
                 { label: "Atendimento", value: "Presencial e Online — Todo o Brasil" },
@@ -82,7 +84,7 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <div style={{ marginTop: "36px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap" }}>
+            <div style={{ marginTop: "36px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap", justifyContent: "center" }}>
               <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta Gratuita</a>
               <Link href="/sobre" className="btn-text">Conheça nossa história →</Link>
             </div>
@@ -94,13 +96,13 @@ export default function HomePage() {
         ═══════════════════════════════════════ */}
         <section id="areas" data-animate="section" style={{ padding: "var(--section-py) 24px", background: "var(--bg-light)" }}>
           <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-            <div style={{ marginBottom: "48px" }}>
-              <hr className="rule" />
+            <div style={{ marginBottom: "48px", textAlign: "center" }}>
+              <hr className="rule" style={{ margin: "0 auto 24px" }} />
               <span className="eyebrow" style={{ marginBottom: "16px" }}>Áreas de Atuação</span>
               <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginTop: "16px", marginBottom: "16px" }}>
                 Especialistas em Direito do Trabalho<br />e Direito Previdenciário.
               </h2>
-              <p style={{ fontSize: "16px", lineHeight: 1.8, maxWidth: "640px", color: "var(--text-body)" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.8, maxWidth: "640px", margin: "0 auto", color: "var(--text-body)" }}>
                 Atuamos em 13 áreas específicas dentro do Direito Trabalhista e Previdenciário.
                 Cada caso recebe análise técnica aprofundada, com levantamento de provas,
                 cálculos de valores devidos e estratégia jurídica individualizada.
@@ -123,10 +125,10 @@ export default function HomePage() {
         ═══════════════════════════════════════ */}
         <section data-animate="section" style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
           <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-            <div style={{ marginBottom: "64px" }}>
-              <hr className="rule" />
+            <div style={{ marginBottom: "64px", textAlign: "center" }}>
+              <hr className="rule" style={{ margin: "0 auto 24px" }} />
               <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginBottom: "16px" }}>Por que confiar na DDC LAW</h2>
-              <p style={{ fontSize: "16px", lineHeight: 1.8, maxWidth: "560px", color: "var(--text-body)" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.8, maxWidth: "560px", margin: "0 auto", color: "var(--text-body)" }}>
                 Não somos um escritório generalista. Somos especialistas dedicados
                 exclusivamente a defender quem trabalha e quem depende do INSS.
               </p>
@@ -159,15 +161,15 @@ export default function HomePage() {
         ═══════════════════════════════════════ */}
         <section data-animate="section" style={{ background: "var(--navy)", padding: "var(--section-py) 24px" }}>
           <div style={{ maxWidth: "760px", margin: "0 auto", textAlign: "center" }}>
-            <hr className="rule" style={{ background: "var(--blue)", margin: "0 auto 20px" }} />
+            <hr className="rule" style={{ background: "var(--blue)", margin: "0 auto 24px" }} />
             <span className="eyebrow eyebrow--light" style={{ marginBottom: "20px" }}>Nosso Compromisso</span>
             <h2 style={{
-              fontSize: "clamp(26px, 3vw, 38px)", color: "#fff",
+              fontSize: "clamp(26px, 3vw, 38px)", color: "var(--grey)",
               marginTop: "20px", marginBottom: "28px", lineHeight: 1.2,
             }}>
               Cada trabalhador que nos procura merece<br />a mesma dedicação que daríamos ao nosso próprio caso.
             </h2>
-            <p style={{ fontSize: "17px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "20px", maxWidth: "600px", margin: "0 auto 20px" }}>
+            <p style={{ fontSize: "17px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "20px", maxWidth: "600px", margin: "0 auto 24px" }}>
               A advocacia trabalhista e previdenciária existe para proteger quem é a parte mais
               vulnerável da relação. Quando a empresa descumpre a lei ou o INSS nega um direito legítimo,
               nossa função é restabelecer o equilíbrio — com técnica, estratégia e comprometimento.
@@ -177,7 +179,7 @@ export default function HomePage() {
               A consulta inicial é gratuita e sem compromisso.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
-              style={{ background: "var(--blue)", color: "#fff", fontSize: "14px", padding: "16px 40px" }}>
+              style={{ background: "var(--blue)", color: "var(--grey)", fontSize: "14px", padding: "16px 40px" }}>
               Fale Conosco Agora
             </a>
           </div>
@@ -189,11 +191,11 @@ export default function HomePage() {
         {posts.length > 0 && (
           <section data-animate="section" style={{ padding: "var(--section-py) 24px", background: "var(--bg-light)" }}>
             <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "48px", flexWrap: "wrap", gap: "16px" }}>
+              <div style={{ textAlign: "center", marginBottom: "48px" }}>
                 <div>
-                  <hr className="rule" />
+                  <hr className="rule" style={{ margin: "0 auto 24px" }} />
                   <h2 style={{ fontSize: "clamp(26px, 3vw, 36px)", marginBottom: "12px" }}>Conteúdo Jurídico Especializado</h2>
-                  <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.7, maxWidth: "480px" }}>
+                  <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.7, maxWidth: "480px", margin: "0 auto" }}>
                     Artigos técnicos sobre seus direitos trabalhistas e previdenciários.
                     Informação prática, atualizada e sem juridiquês.
                   </p>
@@ -235,7 +237,7 @@ export default function HomePage() {
         ═══════════════════════════════════════ */}
         <section data-animate="section" style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
           <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
-            <hr className="rule" style={{ margin: "0 auto 20px" }} />
+            <hr className="rule" style={{ margin: "0 auto 24px" }} />
             <h2 style={{ fontSize: "clamp(26px, 3vw, 38px)", marginBottom: "20px" }}>
               O primeiro passo para proteger seus direitos é uma conversa.
             </h2>
