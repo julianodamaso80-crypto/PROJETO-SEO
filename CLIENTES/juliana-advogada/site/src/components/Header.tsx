@@ -29,6 +29,12 @@ export function Header() {
         {/* Logo — maior e mais visível */}
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "16px" }}>
           <img src="/brand/logo-light.png" alt="DDC LAW" style={{ height: "100px", width: "auto" }} />
+          <span style={{
+            fontSize: "18px", fontWeight: 700, color: "var(--grey)",
+            letterSpacing: "0.08em", textTransform: "uppercase",
+          }}>
+            DDC LAW Advogados
+          </span>
         </Link>
 
         {/* Desktop Nav — mais visível, com peso */}
