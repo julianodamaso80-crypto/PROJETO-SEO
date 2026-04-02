@@ -179,6 +179,43 @@ a { color: inherit; }
 .btn-text:hover { color: var(--navy); }
 
 /* ───────────────────────────
+   Marquee — faixa infinita
+─────────────────────────── */
+.marquee {
+  display: flex;
+  width: 100%;
+}
+.marquee__track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 48px;
+  padding-right: 48px;
+  animation: marquee-scroll 30s linear infinite;
+  will-change: transform;
+}
+.marquee__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.marquee__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--silver);
+  opacity: 0.4;
+  flex-shrink: 0;
+}
+@keyframes marquee-scroll {
+  to { transform: translateX(-100%); }
+}
+
+/* ───────────────────────────
    Cards
 ─────────────────────────── */
 .card {

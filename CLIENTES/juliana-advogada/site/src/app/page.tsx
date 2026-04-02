@@ -95,31 +95,23 @@ export default function HomePage() {
         {/* ═══════════════════════════════════════
             FAIXA DE SERVIÇOS — azul
         ═══════════════════════════════════════ */}
-        <section style={{ background: "var(--blue)", padding: "48px 24px" }}>
-          <div style={{ maxWidth: "1100px", margin: "0 auto", textAlign: "center" }}>
-            <p style={{
-              fontSize: "13px", fontWeight: 600, letterSpacing: "0.2em",
-              textTransform: "uppercase", color: "var(--grey)", opacity: 0.5,
-              marginBottom: "20px",
-            }}>
-              Áreas de Atuação Exclusiva
-            </p>
-            <div style={{
-              display: "flex", flexWrap: "wrap", justifyContent: "center",
-              gap: "12px 32px", fontSize: "16px", fontWeight: 600, color: "var(--grey)",
-            }}>
-              {[
-                "Acidente de Trabalho", "Vínculo Empregatício", "Horas Extras",
-                "Rescisão Indireta", "Periculosidade", "Insalubridade",
-                "Aposentadoria Negada", "Auxílio-Doença", "Pensão por Morte",
-                "Auxílio-Acidente", "BPC/LOAS", "Planejamento Previdenciário",
-              ].map((s) => (
-                <span key={s} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                  <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "var(--silver)", opacity: 0.4 }} />
-                  {s}
-                </span>
-              ))}
-            </div>
+        <section style={{ background: "var(--blue)", padding: "28px 0", overflow: "hidden" }}>
+          <div className="marquee">
+            {[0, 1].map((i) => (
+              <div key={i} className="marquee__track" aria-hidden={i === 1}>
+                {[
+                  "Acidente de Trabalho", "Vínculo Empregatício", "Horas Extras",
+                  "Rescisão Indireta", "Periculosidade", "Insalubridade",
+                  "Aposentadoria Negada", "Auxílio-Doença", "Pensão por Morte",
+                  "Auxílio-Acidente", "BPC/LOAS", "Planejamento Previdenciário",
+                ].map((s) => (
+                  <span key={s} className="marquee__item">
+                    <span className="marquee__dot" />
+                    {s}
+                  </span>
+                ))}
+              </div>
+            ))}
           </div>
         </section>
 
