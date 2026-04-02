@@ -121,35 +121,51 @@ export default function HomePage() {
         </section>
 
         {/* ═══════════════════════════════════════
-            4. POR QUE A DDC LAW
+            4. POR QUE A DDC LAW — com imagem de fundo
         ═══════════════════════════════════════ */}
-        <section data-animate="section" style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
-          <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+        <section data-animate="section" style={{
+          padding: "var(--section-py) 24px",
+          position: "relative",
+          overflow: "hidden",
+        }}>
+          {/* Imagem de fundo */}
+          <div style={{
+            position: "absolute", inset: 0,
+            backgroundImage: "url('/brand/juliana22.jpg')",
+            backgroundSize: "cover", backgroundPosition: "center",
+          }} />
+          <div style={{
+            position: "absolute", inset: 0,
+            background: "rgba(0,15,33,0.92)",
+          }} />
+
+          <div style={{ maxWidth: "1100px", margin: "0 auto", position: "relative", zIndex: 1 }}>
             <div style={{ marginBottom: "64px", textAlign: "center" }}>
-              <hr className="rule" style={{ margin: "0 auto 24px" }} />
-              <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginBottom: "16px" }}>Por que confiar na DDC LAW</h2>
-              <p style={{ fontSize: "16px", lineHeight: 1.8, maxWidth: "560px", margin: "0 auto", color: "var(--text-body)" }}>
+              <hr className="rule" style={{ margin: "0 auto 24px", background: "var(--blue)" }} />
+              <h2 style={{ fontSize: "clamp(28px, 3.5vw, 40px)", marginBottom: "16px", color: "var(--grey)" }}>Por que confiar na DDC LAW</h2>
+              <p style={{ fontSize: "16px", lineHeight: 1.8, maxWidth: "560px", margin: "0 auto", color: "var(--silver)" }}>
                 Não somos um escritório generalista. Somos especialistas dedicados
                 exclusivamente a defender quem trabalha e quem depende do INSS.
               </p>
             </div>
 
-            <div data-animate="stagger" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "40px" }}>
+            <div data-animate="stagger" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "32px" }}>
               {[
-                { title: "Especialização Real", desc: "Atuação 100% focada em Direito do Trabalho e Previdenciário. Não dividimos atenção com outras áreas — cada caso recebe o aprofundamento técnico que merece." },
-                { title: "Atendimento Individualizado", desc: "Você fala diretamente com a advogada responsável pelo seu caso. Sem intermediários, sem filas, sem ser tratado como número. Cada processo tem acompanhamento pessoal." },
-                { title: "Transparência Absoluta", desc: "Explicamos cada etapa em linguagem clara. Você entende seus direitos, os riscos, os prazos e as possibilidades reais antes de tomar qualquer decisão." },
-                { title: "Análise Técnica Aprofundada", desc: "Calculamos valores devidos, identificamos irregularidades, reunimos provas e construímos a estratégia mais forte para o seu caso. Nada é feito no automático." },
+                { title: "Especialização Real", desc: "Atuação 100% focada em Direito do Trabalho e Previdenciário. Cada caso recebe aprofundamento técnico." },
+                { title: "Atendimento Individual", desc: "Você fala diretamente com a advogada responsável. Sem intermediários, sem filas." },
+                { title: "Transparência Total", desc: "Cada etapa explicada em linguagem clara. Você entende direitos, riscos e prazos." },
+                { title: "Análise Técnica", desc: "Calculamos valores, identificamos irregularidades e construímos a melhor estratégia." },
               ].map((d) => (
                 <div key={d.title}>
-                  <div style={{ width: "32px", height: "2px", background: "var(--accent)", marginBottom: "20px" }} />
-                  <h3 style={{ fontSize: "18px", marginBottom: "12px", fontWeight: 700 }}>{d.title}</h3>
-                  <p style={{ fontSize: "15px", lineHeight: 1.75, color: "var(--text-body)" }}>{d.desc}</p>
+                  <div style={{ width: "48px", height: "1px", background: "var(--blue)", marginBottom: "20px" }} />
+                  <h3 style={{ fontSize: "17px", marginBottom: "10px", fontWeight: 700, color: "var(--grey)" }}>{d.title}</h3>
+                  <p style={{ fontSize: "14px", lineHeight: 1.7, color: "var(--silver)" }}>{d.desc}</p>
                 </div>
               ))}
             </div>
             <div style={{ textAlign: "center", marginTop: "56px" }}>
-              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
+                style={{ background: "var(--blue)" }}>
                 Agendar Consulta Gratuita
               </a>
             </div>
