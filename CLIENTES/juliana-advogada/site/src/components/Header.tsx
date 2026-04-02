@@ -30,13 +30,14 @@ export function Header() {
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "0px" }}>
           <img src="/brand/logo-light.png" alt="DDC LAW" style={{ height: "100px", width: "auto" }} />
           <span style={{
-            fontSize: "22px", fontWeight: 700, color: "var(--grey)",
-            letterSpacing: "0.18em", textTransform: "uppercase",
-            fontFamily: "var(--font), 'Darker Grotesque', sans-serif",
-            lineHeight: 1.1,
-            marginLeft: "4px",
+            fontSize: "14px", fontWeight: 800, color: "var(--grey)",
+            letterSpacing: "0.22em", textTransform: "uppercase",
+            fontFamily: "'Arial Black', 'Helvetica Neue', Arial, sans-serif",
+            lineHeight: 1,
+            marginLeft: "0px",
+            whiteSpace: "nowrap",
           }}>
-            LAW<br />ADVOGADOS
+            LAW ADVOGADOS
           </span>
         </Link>
 
@@ -63,7 +64,7 @@ export function Header() {
             onMouseEnter={(e) => (e.currentTarget.style.background = "var(--navy)")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "var(--blue)")}
           >
-            Agendar Consulta
+            Falar com Especialista
           </a>
         </nav>
 
@@ -96,7 +97,7 @@ export function Header() {
               fontSize: "14px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase",
               textDecoration: "none",
             }}>
-            Agendar Consulta
+            Falar com Especialista
           </a>
         </div>
       )}

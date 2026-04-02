@@ -41,7 +41,7 @@ export default function TrabalhistaPage() {
             Conheça as situações em que a legislação trabalhista protege o empregado e como uma advogada especialista pode ajudar.
           </p>
           <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
-            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta</a>
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Especialista</a>
             <a href="#servicos" className="btn-outline" style={{ color: "var(--text-on-dark)", borderColor: "rgba(243,240,232,0.2)" }}>Ver áreas</a>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function TrabalhistaPage() {
           <p style={{ fontSize: "16px", lineHeight: 1.75, marginBottom: "36px", color: "var(--text-body)" }}>
             Consulta inicial gratuita e sem compromisso.
           </p>
-          <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta</a>
+          <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Especialista</a>
         </div>
       </section>
     </div>

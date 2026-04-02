@@ -73,14 +73,14 @@ export function HeroSection() {
               style={{ height: "120px", width: "auto" }}
             />
             <span style={{
-              fontSize: "28px", fontWeight: 700, color: "var(--grey)",
-              letterSpacing: "0.18em", textTransform: "uppercase",
-              fontFamily: "var(--font), 'Darker Grotesque', sans-serif",
-              lineHeight: 1.1,
-              marginLeft: "6px",
-              textAlign: "left",
+              fontSize: "17px", fontWeight: 800, color: "var(--grey)",
+              letterSpacing: "0.22em", textTransform: "uppercase",
+              fontFamily: "'Arial Black', 'Helvetica Neue', Arial, sans-serif",
+              lineHeight: 1,
+              marginLeft: "0px",
+              whiteSpace: "nowrap",
             }}>
-              LAW<br />ADVOGADOS
+              LAW ADVOGADOS
             </span>
           </div>
 
@@ -150,7 +150,7 @@ export function HeroSection() {
               onMouseEnter={(e) => (e.currentTarget.style.background = "var(--navy)")}
               onMouseLeave={(e) => (e.currentTarget.style.background = "#103459")}
             >
-              Agendar Consulta Gratuita
+              Falar com Especialista
             </a>
             <a
               href="#areas"
@@ -197,7 +197,7 @@ export function HeroSection() {
           color: "rgba(255,255,255,0.45)",
           letterSpacing: "0.02em",
         }}>
-          {["Direito do Trabalho", "Direito Previdenciário", "Atendimento Online e Presencial", "Consulta Inicial Gratuita"].map((item, i) => (
+          {["Direito do Trabalho", "Direito Previdenciário", "Atendimento Online e Presencial", "Atendemos Todo o Brasil"].map((item, i) => (
             <span key={item} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
               {i > 0 && <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>}
               {item}

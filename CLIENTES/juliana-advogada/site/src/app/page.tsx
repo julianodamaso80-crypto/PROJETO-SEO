@@ -86,7 +86,7 @@ export default function HomePage() {
               ))}
             </div>
             <div style={{ marginTop: "36px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap", justifyContent: "center" }}>
-              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta Gratuita</a>
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Especialista</a>
               <Link href="/sobre" className="btn-text">Conheça nossa história →</Link>
             </div>
           </div>
@@ -190,7 +190,7 @@ export default function HomePage() {
             <div style={{ textAlign: "center", marginTop: "56px" }}>
               <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
                 style={{ background: "var(--blue)" }}>
-                Agendar Consulta Gratuita
+                Falar com Especialista
               </a>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function HomePage() {
               </div>
               <div style={{ textAlign: "center", marginTop: "40px" }}>
                 <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
-                  Agendar Consulta Gratuita
+                  Falar com Especialista
                 </a>
               </div>
             </div>
@@ -291,7 +291,7 @@ export default function HomePage() {
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
               style={{ fontSize: "16px", padding: "18px 48px" }}>
-              Agendar Consulta Gratuita
+              Falar com Especialista
             </a>
           </div>
         </section>
