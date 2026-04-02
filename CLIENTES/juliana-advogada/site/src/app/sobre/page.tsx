@@ -13,7 +13,7 @@ export default function SobrePage() {
 
       {/* Header */}
       <section style={{ background: "var(--bg-dark)", padding: "80px 24px 72px" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
           <span className="eyebrow eyebrow--light" style={{ marginBottom: "20px" }}>Sobre</span>
           <h1 style={{
             fontSize: "clamp(32px, 4vw, 48px)",
@@ -29,10 +29,10 @@ export default function SobrePage() {
 
       {/* Bio */}
       <section style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <hr className="rule" />
+        <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
+          <hr className="rule" style={{ margin: "0 auto 24px" }} />
           <h2 style={{ fontSize: "28px", marginBottom: "8px" }}>DDC LAW</h2>
-          <p style={{ fontSize: "13px", color: "var(--accent)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "32px" }}>
+          <p style={{ fontSize: "15px", color: "var(--accent)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "32px" }}>
             Advogada Trabalhista e Previdenciária
           </p>
 
@@ -62,7 +62,7 @@ export default function SobrePage() {
           </div>
 
           {/* Valores */}
-          <h2 style={{ fontSize: "24px", marginBottom: "24px" }}>Como eu trabalho</h2>
+          <h2 style={{ fontSize: "24px", marginBottom: "24px", textAlign: "center" }}>Como eu trabalho</h2>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "48px" }}>
             {[
@@ -74,7 +74,7 @@ export default function SobrePage() {
                 <div style={{ width: "3px", height: "36px", background: "var(--accent)", borderRadius: "2px", flexShrink: 0, marginTop: "2px" }} />
                 <div>
                   <h3 style={{ fontSize: "16px", marginBottom: "4px" }}>{item.title}</h3>
-                  <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.65 }}>{item.desc}</p>
+                  <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.65 }}>{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -90,7 +90,7 @@ export default function SobrePage() {
             <h2 style={{ fontSize: "22px", color: "var(--text-on-dark)", marginBottom: "12px" }}>
               Primeiro passo: uma conversa.
             </h2>
-            <p style={{ fontSize: "15px", color: "var(--text-on-dark-muted)", marginBottom: "28px", maxWidth: "400px", margin: "0 auto 28px" }}>
+            <p style={{ fontSize: "16px", color: "var(--text-on-dark-muted)", marginBottom: "28px", maxWidth: "400px", margin: "0 auto 28px" }}>
               Conte sua situação e receba orientação clara sobre seus direitos.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta</a>

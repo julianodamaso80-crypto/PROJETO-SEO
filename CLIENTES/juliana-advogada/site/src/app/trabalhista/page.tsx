@@ -31,16 +31,16 @@ export default function TrabalhistaPage() {
     <div style={{ paddingTop: "72px" }}>
       {/* Hero */}
       <section style={{ background: "var(--bg-dark)", padding: "80px 24px 72px" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
           <span className="eyebrow eyebrow--light" style={{ marginBottom: "20px" }}>Direito Trabalhista</span>
           <h1 style={{ fontSize: "clamp(34px, 4.5vw, 52px)", color: "var(--text-on-dark)", marginTop: "20px", marginBottom: "20px" }}>
             Seus direitos trabalhistas<br />
             <span style={{ color: "var(--bg-sand)" }}>merecem atenção.</span>
           </h1>
-          <p style={{ fontSize: "17px", color: "var(--text-on-dark-muted)", maxWidth: "480px", lineHeight: 1.75, marginBottom: "36px" }}>
+          <p style={{ fontSize: "17px", color: "var(--text-on-dark-muted)", maxWidth: "480px", lineHeight: 1.75, marginBottom: "36px", margin: "0 auto 36px" }}>
             Conheça as situações em que a legislação trabalhista protege o empregado e como uma advogada especialista pode ajudar.
           </p>
-          <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta</a>
             <a href="#servicos" className="btn-outline" style={{ color: "var(--text-on-dark)", borderColor: "rgba(243,240,232,0.2)" }}>Ver áreas</a>
           </div>
@@ -50,18 +50,18 @@ export default function TrabalhistaPage() {
       {/* Serviços */}
       <section id="servicos" style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <div style={{ marginBottom: "56px" }}>
-            <hr className="rule" />
+          <div style={{ marginBottom: "56px", textAlign: "center" }}>
+            <hr className="rule" style={{ margin: "0 auto 24px" }} />
             <h2 style={{ fontSize: "clamp(26px, 3vw, 36px)" }}>Como posso te ajudar</h2>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "16px" }}>
             {SERVICES.map((svc) => (
               <div key={svc.title} className="card" style={{ padding: "28px 24px" }}>
                 <h3 style={{ fontSize: "18px", marginBottom: "8px", fontFamily: "var(--font)" }}>{svc.title}</h3>
-                <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.65, marginBottom: "16px" }}>{svc.desc}</p>
+                <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.65, marginBottom: "16px" }}>{svc.desc}</p>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "5px" }}>
                   {svc.details.map((d) => (
-                    <li key={d} style={{ fontSize: "13px", color: "var(--text-body)", display: "flex", gap: "8px", lineHeight: 1.5 }}>
+                    <li key={d} style={{ fontSize: "15px", color: "var(--text-body)", display: "flex", gap: "8px", lineHeight: 1.5 }}>
                       <span style={{ color: "var(--accent)", fontWeight: 600, flexShrink: 0 }}>—</span>{d}
                     </li>
                   ))}
@@ -77,8 +77,8 @@ export default function TrabalhistaPage() {
 
       {/* Prazos */}
       <section style={{ padding: "var(--section-py) 24px", background: "var(--bg-cream)" }}>
-        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
-          <hr className="rule" />
+        <div style={{ maxWidth: "700px", margin: "0 auto", textAlign: "center" }}>
+          <hr className="rule" style={{ margin: "0 auto 24px" }} />
           <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", marginBottom: "32px" }}>Prazos importantes</h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
             {[
@@ -87,7 +87,7 @@ export default function TrabalhistaPage() {
             ].map((item) => (
               <div key={item.n} className="card" style={{ padding: "32px 24px", textAlign: "center" }}>
                 <div style={{ fontFamily: "var(--font)", fontSize: "32px", fontWeight: 700, color: "var(--accent)", marginBottom: "12px" }}>{item.n}</div>
-                <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.6 }}>{item.d}</p>
+                <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.6 }}>{item.d}</p>
               </div>
             ))}
           </div>
@@ -99,7 +99,7 @@ export default function TrabalhistaPage() {
         <section style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
           <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "40px", flexWrap: "wrap", gap: "16px" }}>
-              <div><hr className="rule" /><h2 style={{ fontSize: "clamp(24px, 3vw, 32px)" }}>Artigos sobre Direito Trabalhista</h2></div>
+              <div style={{ textAlign: "center" }}><hr className="rule" style={{ margin: "0 auto 24px" }} /><h2 style={{ fontSize: "clamp(24px, 3vw, 32px)" }}>Artigos sobre Direito Trabalhista</h2></div>
               <Link href="/blog" className="btn-text">Ver todos →</Link>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "16px" }}>
@@ -108,7 +108,7 @@ export default function TrabalhistaPage() {
                   <article className="card" style={{ padding: "28px 24px", height: "100%" }}>
                     <span className="eyebrow" style={{ marginBottom: "12px" }}>{post.category}</span>
                     <h3 style={{ fontSize: "17px", lineHeight: 1.35, marginTop: "12px", marginBottom: "10px", fontFamily: "var(--font)" }}>{post.title}</h3>
-                    <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.6 }}>{post.excerpt}</p>
+                    <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.6 }}>{post.excerpt}</p>
                   </article>
                 </Link>
               ))}

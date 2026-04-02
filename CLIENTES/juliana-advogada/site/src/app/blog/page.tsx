@@ -13,11 +13,11 @@ export default function BlogPage() {
 
       {/* Header */}
       <section style={{ padding: "64px 24px", background: "var(--bg-cream)", borderBottom: "1px solid var(--border-light)" }}>
-        <div className="container">
-          <hr className="rule" />
+        <div className="container" style={{ textAlign: "center" }}>
+          <hr className="rule" style={{ margin: "0 auto 24px" }} />
           <p className="eyebrow" style={{ marginBottom: "12px" }}>Blog</p>
           <h1>Conteúdo Jurídico</h1>
-          <p style={{ fontSize: "17px", color: "var(--text-body)", marginTop: "12px", maxWidth: "520px" }}>
+          <p style={{ fontSize: "17px", color: "var(--text-body)", marginTop: "12px", maxWidth: "520px", margin: "12px auto 0" }}>
             Artigos sobre seus direitos trabalhistas e previdenciários. Informação prática, sem juridiquês.
           </p>
         </div>
@@ -33,12 +33,12 @@ export default function BlogPage() {
                   <div style={{ padding: "28px 24px", flex: 1 }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
                       <span className="eyebrow">{post.category}</span>
-                      <span style={{ fontSize: "12px", color: "var(--text-muted)" }}>{post.readTime}</span>
+                      <span style={{ fontSize: "16px", color: "var(--text-muted)" }}>{post.readTime}</span>
                     </div>
                     <h2 style={{ fontSize: "18px", lineHeight: 1.35, marginBottom: "12px" }}>
                       {post.title}
                     </h2>
-                    <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.6 }}>
+                    <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.6 }}>
                       {post.excerpt}
                     </p>
                   </div>

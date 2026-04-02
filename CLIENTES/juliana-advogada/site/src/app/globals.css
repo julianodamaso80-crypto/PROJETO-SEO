@@ -82,9 +82,10 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.7;
+  text-align: center;
   background: var(--bg-body);
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
@@ -111,9 +112,9 @@ a { color: inherit; }
 ─────────────────────────── */
 .eyebrow {
   font-family: var(--font);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--accent);
   display: block;

@@ -3,6 +3,7 @@ import { blogPosts } from "@/content/posts";
 import { HeroSection } from "@/components/HeroSection";
 
 import { HomeMotion } from "@/components/HomeMotion";
+import { AreaCards } from "@/components/AreaCards";
 
 const WA = "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";
 
@@ -80,7 +81,7 @@ export default function HomePage() {
               ].map((c) => (
                 <div key={c.label}>
                   <div style={{ fontSize: "11px", color: "var(--text-muted)", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: "4px" }}>{c.label}</div>
-                  <div style={{ fontSize: "15px", fontWeight: 700, color: "var(--text-primary)" }}>{c.value}</div>
+                  <div style={{ fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>{c.value}</div>
                 </div>
               ))}
             </div>
@@ -108,34 +109,12 @@ export default function HomePage() {
                 cálculos de valores devidos e estratégia jurídica individualizada.
               </p>
             </div>
-            <div style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-              gap: "12px",
-            }}>
-              {[...AREAS_T, ...AREAS_P].map((a) => (
-                <div key={a.title} className="card" style={{ padding: "28px 24px" }}>
-                  <h3 style={{
-                    fontFamily: "var(--font)",
-                    fontSize: "18px",
-                    fontWeight: 700,
-                    color: "var(--text-primary)",
-                    marginBottom: "8px",
-                    lineHeight: 1.3,
-                  }}>
-                    {a.title}
-                  </h3>
-                  <p style={{ fontSize: "14px", lineHeight: 1.65, color: "var(--text-body)" }}>
-                    {a.desc}
-                  </p>
-                </div>
-              ))}
-            </div>
+            <AreaCards items={[...AREAS_T, ...AREAS_P]} />
             <div style={{ textAlign: "center", marginTop: "48px" }}>
               <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Fale com a Especialista
               </a>
-              <p style={{ marginTop: "12px", fontSize: "14px", color: "var(--text-body)" }}>
+              <p style={{ marginTop: "12px", fontSize: "16px", color: "var(--text-body)" }}>
                 Consulta inicial gratuita. Análise técnica do seu caso.
               </p>
             </div>
@@ -180,8 +159,8 @@ export default function HomePage() {
               ].map((d) => (
                 <div key={d.title}>
                   <div style={{ width: "48px", height: "1px", background: "var(--blue)", marginBottom: "20px" }} />
-                  <h3 style={{ fontSize: "17px", marginBottom: "10px", fontWeight: 700, color: "var(--grey)" }}>{d.title}</h3>
-                  <p style={{ fontSize: "14px", lineHeight: 1.7, color: "var(--silver)" }}>{d.desc}</p>
+                  <h3 style={{ fontSize: "18px", marginBottom: "10px", fontWeight: 700, color: "var(--grey)" }}>{d.title}</h3>
+                  <p style={{ fontSize: "16px", lineHeight: 1.7, color: "var(--silver)" }}>{d.desc}</p>
                 </div>
               ))}
             </div>
@@ -207,17 +186,17 @@ export default function HomePage() {
             }}>
               Cada trabalhador que nos procura merece<br />a mesma dedicação que daríamos ao nosso próprio caso.
             </h2>
-            <p style={{ fontSize: "17px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "20px", maxWidth: "600px", margin: "0 auto 24px" }}>
+            <p style={{ fontSize: "18px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "20px", maxWidth: "600px", margin: "0 auto 24px" }}>
               A advocacia trabalhista e previdenciária existe para proteger quem é a parte mais
               vulnerável da relação. Quando a empresa descumpre a lei ou o INSS nega um direito legítimo,
               nossa função é restabelecer o equilíbrio — com técnica, estratégia e comprometimento.
             </p>
-            <p style={{ fontSize: "17px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "40px", maxWidth: "600px", margin: "0 auto 40px" }}>
+            <p style={{ fontSize: "18px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "40px", maxWidth: "600px", margin: "0 auto 40px" }}>
               Atendemos presencialmente e online, em todo o Brasil.
               A consulta inicial é gratuita e sem compromisso.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
-              style={{ background: "var(--blue)", color: "var(--grey)", fontSize: "14px", padding: "16px 40px" }}>
+              style={{ background: "var(--blue)", color: "var(--grey)", fontSize: "16px", padding: "16px 40px" }}>
               Fale Conosco Agora
             </a>
           </div>
@@ -247,10 +226,10 @@ export default function HomePage() {
                     <article className="card" style={{ height: "100%", display: "flex", flexDirection: "column" }}>
                       <div style={{ padding: "28px 24px", flex: 1 }}>
                         <span className="eyebrow" style={{ marginBottom: "14px" }}>{post.category}</span>
-                        <h3 style={{ fontSize: "17px", lineHeight: 1.35, marginTop: "14px", marginBottom: "12px", fontWeight: 700 }}>
+                        <h3 style={{ fontSize: "18px", lineHeight: 1.35, marginTop: "14px", marginBottom: "12px", fontWeight: 700 }}>
                           {post.title}
                         </h3>
-                        <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.65 }}>
+                        <p style={{ fontSize: "16px", color: "var(--text-body)", lineHeight: 1.65 }}>
                           {post.excerpt}
                         </p>
                       </div>
@@ -279,16 +258,16 @@ export default function HomePage() {
             <h2 style={{ fontSize: "clamp(26px, 3vw, 38px)", marginBottom: "20px" }}>
               O primeiro passo para proteger seus direitos é uma conversa.
             </h2>
-            <p style={{ fontSize: "17px", lineHeight: 1.8, marginBottom: "20px", color: "var(--text-body)" }}>
+            <p style={{ fontSize: "18px", lineHeight: 1.8, marginBottom: "20px", color: "var(--text-body)" }}>
               Na consulta inicial, analisamos sua situação, explicamos quais direitos se aplicam
               ao seu caso e apresentamos as opções jurídicas disponíveis — tudo de forma clara,
               objetiva e sem custo.
             </p>
-            <p style={{ fontSize: "17px", lineHeight: 1.8, marginBottom: "40px", color: "var(--text-body)" }}>
+            <p style={{ fontSize: "18px", lineHeight: 1.8, marginBottom: "40px", color: "var(--text-body)" }}>
               Atendimento presencial e online. Todo o Brasil.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
-              style={{ fontSize: "15px", padding: "18px 48px" }}>
+              style={{ fontSize: "16px", padding: "18px 48px" }}>
               Agendar Consulta Gratuita
             </a>
           </div>
