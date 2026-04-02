@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     template: "%s | DDC LAW",
   },
   description: "Advocacia especializada em Direito do Trabalho e Previdenciário. Orientação jurídica com clareza e dedicação.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
