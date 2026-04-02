@@ -77,10 +77,10 @@ export function HeroSection() {
               letterSpacing: "0.22em", textTransform: "uppercase",
               fontFamily: "'Arial Black', 'Helvetica Neue', Arial, sans-serif",
               lineHeight: 1,
-              marginLeft: "0px",
+              marginLeft: "-36px",
               whiteSpace: "nowrap",
             }}>
-              LAW ADVOGADOS
+              ADVOGADOS
             </span>
           </div>
 

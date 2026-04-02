@@ -34,10 +34,10 @@ export function Header() {
             letterSpacing: "0.22em", textTransform: "uppercase",
             fontFamily: "'Arial Black', 'Helvetica Neue', Arial, sans-serif",
             lineHeight: 1,
-            marginLeft: "0px",
+            marginLeft: "-30px",
             whiteSpace: "nowrap",
           }}>
-            LAW ADVOGADOS
+            ADVOGADOS
           </span>
         </Link>
 

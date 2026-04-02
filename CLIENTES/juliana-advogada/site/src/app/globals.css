@@ -289,6 +289,8 @@ a { color: inherit; }
   :root { --section-py: 80px; }
   .desktop-nav { display: none !important; }
   .mobile-toggle { display: flex !important; }
+  .blog-featured { grid-template-columns: 1fr !important; }
+  .blog-grid { grid-template-columns: 1fr !important; }
 }
 @media (min-width: 769px) {
   .mobile-toggle { display: none !important; }
