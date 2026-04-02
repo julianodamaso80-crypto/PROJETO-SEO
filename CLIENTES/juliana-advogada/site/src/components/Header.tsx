@@ -27,13 +27,16 @@ export function Header() {
         height: "80px", display: "flex", alignItems: "center", justifyContent: "space-between",
       }}>
         {/* Logo — maior e mais visível */}
-        <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "16px" }}>
+        <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "0px" }}>
           <img src="/brand/logo-light.png" alt="DDC LAW" style={{ height: "100px", width: "auto" }} />
           <span style={{
-            fontSize: "18px", fontWeight: 700, color: "var(--grey)",
-            letterSpacing: "0.08em", textTransform: "uppercase",
+            fontSize: "22px", fontWeight: 700, color: "var(--grey)",
+            letterSpacing: "0.18em", textTransform: "uppercase",
+            fontFamily: "var(--font), 'Darker Grotesque', sans-serif",
+            lineHeight: 1.1,
+            marginLeft: "4px",
           }}>
-            DDC LAW Advogados
+            LAW<br />ADVOGADOS
           </span>
         </Link>
 

@@ -65,13 +65,23 @@ export function HeroSection() {
       }}>
         <div ref={contentRef}>
 
-          {/* Logo DDC — grande e visível */}
-          <div style={{ marginBottom: "48px" }}>
+          {/* Logo DDC + LAW ADVOGADOS — tudo junto como uma marca só */}
+          <div style={{ marginBottom: "48px", display: "flex", alignItems: "center", justifyContent: "center", gap: "0px" }}>
             <img
               src="/brand/logo-light.png"
               alt="DDC LAW"
-              style={{ height: "120px", width: "auto", margin: "0 auto" }}
+              style={{ height: "120px", width: "auto" }}
             />
+            <span style={{
+              fontSize: "28px", fontWeight: 700, color: "var(--grey)",
+              letterSpacing: "0.18em", textTransform: "uppercase",
+              fontFamily: "var(--font), 'Darker Grotesque', sans-serif",
+              lineHeight: 1.1,
+              marginLeft: "6px",
+              textAlign: "left",
+            }}>
+              LAW<br />ADVOGADOS
+            </span>
           </div>
 
           {/* Eyebrow — tamanho legível */}
