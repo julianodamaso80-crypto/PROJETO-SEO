@@ -65,7 +65,8 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <div style={{ marginTop: "32px" }}>
+            <div style={{ marginTop: "32px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap" }}>
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Agendar Consulta</a>
               <Link href="/sobre" className="btn-text">Conheça a trajetória →</Link>
             </div>
           </div>
@@ -84,6 +85,11 @@ export default function HomePage() {
               </h2>
             </div>
             <AreaTabs trabalhista={AREAS_T} previdenciario={AREAS_P} />
+            <div style={{ textAlign: "center", marginTop: "48px" }}>
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                Fale com a Especialista
+              </a>
+            </div>
           </div>
         </section>
 
@@ -106,10 +112,15 @@ export default function HomePage() {
               ].map((d) => (
                 <div key={d.title}>
                   <div style={{ width: "32px", height: "1px", background: "var(--accent)", marginBottom: "20px" }} />
-                  <h3 style={{ fontSize: "17px", marginBottom: "10px", fontFamily: "var(--font-serif)" }}>{d.title}</h3>
+                  <h3 style={{ fontSize: "17px", marginBottom: "10px", fontFamily: "var(--font)" }}>{d.title}</h3>
                   <p style={{ fontSize: "15px", lineHeight: 1.7, color: "var(--text-body)" }}>{d.desc}</p>
                 </div>
               ))}
+            </div>
+            <div style={{ textAlign: "center", marginTop: "56px" }}>
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                Agendar Consulta Gratuita
+              </a>
             </div>
           </div>
         </section>
@@ -154,7 +165,7 @@ export default function HomePage() {
                     <article className="card" style={{ height: "100%", display: "flex", flexDirection: "column" }}>
                       <div style={{ padding: "28px 24px", flex: 1 }}>
                         <span className="eyebrow" style={{ marginBottom: "14px" }}>{post.category}</span>
-                        <h3 style={{ fontSize: "17px", lineHeight: 1.35, marginTop: "14px", marginBottom: "10px", fontFamily: "var(--font-serif)" }}>
+                        <h3 style={{ fontSize: "17px", lineHeight: 1.35, marginTop: "14px", marginBottom: "10px", fontFamily: "var(--font)" }}>
                           {post.title}
                         </h3>
                         <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.6 }}>

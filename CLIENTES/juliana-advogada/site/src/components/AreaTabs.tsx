@@ -68,7 +68,7 @@ export function AreaTabs({
         {items.map((a) => (
           <div key={a.title} className="card" style={{ padding: "28px 24px" }}>
             <h3 style={{
-              fontFamily: "var(--font-serif)",
+              fontFamily: "var(--font)",
               fontSize: "18px",
               fontWeight: 700,
               color: "var(--text-primary)",

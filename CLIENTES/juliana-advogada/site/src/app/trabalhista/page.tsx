@@ -57,7 +57,7 @@ export default function TrabalhistaPage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "16px" }}>
             {SERVICES.map((svc) => (
               <div key={svc.title} className="card" style={{ padding: "28px 24px" }}>
-                <h3 style={{ fontSize: "18px", marginBottom: "8px", fontFamily: "var(--font-serif)" }}>{svc.title}</h3>
+                <h3 style={{ fontSize: "18px", marginBottom: "8px", fontFamily: "var(--font)" }}>{svc.title}</h3>
                 <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.65, marginBottom: "16px" }}>{svc.desc}</p>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "5px" }}>
                   {svc.details.map((d) => (
@@ -86,7 +86,7 @@ export default function TrabalhistaPage() {
               { n: "5 anos", d: "Período retroativo que pode ser pleiteado na ação judicial." },
             ].map((item) => (
               <div key={item.n} className="card" style={{ padding: "32px 24px", textAlign: "center" }}>
-                <div style={{ fontFamily: "var(--font-serif)", fontSize: "32px", fontWeight: 700, color: "var(--accent)", marginBottom: "12px" }}>{item.n}</div>
+                <div style={{ fontFamily: "var(--font)", fontSize: "32px", fontWeight: 700, color: "var(--accent)", marginBottom: "12px" }}>{item.n}</div>
                 <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.6 }}>{item.d}</p>
               </div>
             ))}
@@ -107,7 +107,7 @@ export default function TrabalhistaPage() {
                 <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
                   <article className="card" style={{ padding: "28px 24px", height: "100%" }}>
                     <span className="eyebrow" style={{ marginBottom: "12px" }}>{post.category}</span>
-                    <h3 style={{ fontSize: "17px", lineHeight: 1.35, marginTop: "12px", marginBottom: "10px", fontFamily: "var(--font-serif)" }}>{post.title}</h3>
+                    <h3 style={{ fontSize: "17px", lineHeight: 1.35, marginTop: "12px", marginBottom: "10px", fontFamily: "var(--font)" }}>{post.title}</h3>
                     <p style={{ fontSize: "14px", color: "var(--text-body)", lineHeight: 1.6 }}>{post.excerpt}</p>
                   </article>
                 </Link>
