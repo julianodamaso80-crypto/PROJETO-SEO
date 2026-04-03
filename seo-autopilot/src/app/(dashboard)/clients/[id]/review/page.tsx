@@ -2,7 +2,8 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, Save, Rocket, Plus, Trash2, MessageSquare, Check, Loader2 } from "lucide-react";
+import { ArrowLeft, Save, Rocket, Plus, Trash2, MessageSquare, Check, Loader2, Download } from "lucide-react";
+import { exportReviewPdf } from "@/lib/exportReviewPdf";
 import { trpc } from "@/lib/trpc/client";
 
 interface OnboardingData {
@@ -317,6 +318,27 @@ export default function ReviewPage() {
             {data.clientEmail} · {data.status === "completed" ? "Completo" : "Pendente"} · {new Date(data.createdAt).toLocaleDateString("pt-BR")}
           </p>
         </div>
+        <button
+          onClick={() => {
+            exportReviewPdf({
+              clientName: data.clientName || "Cliente",
+              clientEmail: data.clientEmail,
+              status: data.status,
+              createdAt: data.createdAt,
+              sections: SECTIONS.map(s => ({
+                icon: s.icon,
+                label: s.label,
+                fields: getSectionFields(s.key, data),
+              })),
+              notes,
+            });
+          }}
+          className="btn-ghost"
+          style={{ display: "flex", alignItems: "center", gap: "8px", padding: "8px 20px", fontSize: "13px" }}
+        >
+          <Download size={16} />
+          Exportar PDF
+        </button>
         <span style={{
           padding: "6px 14px", borderRadius: "99px", fontSize: "12px", fontWeight: 600,
           background: data.status === "completed" ? "var(--accent-glow)" : "rgba(250,204,21,0.1)",
