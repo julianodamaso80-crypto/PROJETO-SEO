@@ -22,12 +22,12 @@ export function Header() {
       background: "var(--navy)",
       borderBottom: "1px solid rgba(230,230,230,0.06)",
     }}>
-      <div style={{
+      <div className="header-inner" style={{
         maxWidth: "1200px", margin: "0 auto", padding: "0 32px",
         height: "80px", display: "flex", alignItems: "center", justifyContent: "space-between",
       }}>
         {/* Logo — maior e mais visível */}
-        <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "0px" }}>
+        <Link href="/" className="header-logo" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "0px" }}>
           <img src="/brand/logo-light.png" alt="DDC LAW" style={{ height: "100px", width: "auto" }} />
           <span style={{
             fontSize: "14px", fontWeight: 800, color: "var(--grey)",
@@ -80,7 +80,7 @@ export function Header() {
       </div>
 
       {open && (
-        <div style={{ padding: "8px 32px 24px", background: "var(--navy)", borderTop: "1px solid rgba(230,230,230,0.06)" }}>
+        <div className="mobile-menu" style={{ padding: "8px 32px 24px", background: "var(--navy)", borderTop: "1px solid rgba(230,230,230,0.06)" }}>
           {NAV.map((item) => (
             <Link key={item.href} href={item.href} onClick={() => setOpen(false)} style={{
               display: "block", padding: "16px 0", fontSize: "16px", fontWeight: 600,

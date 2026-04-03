@@ -57,7 +57,7 @@ export function HeroSection() {
       }} />
 
       {/* Conteúdo centralizado */}
-      <div style={{
+      <div className="hero-content" style={{
         position: "relative", zIndex: 1,
         maxWidth: "900px", margin: "0 auto",
         padding: "80px 32px 120px",
@@ -66,7 +66,7 @@ export function HeroSection() {
         <div ref={contentRef}>
 
           {/* Logo DDC + LAW ADVOGADOS — tudo junto como uma marca só */}
-          <div style={{ marginBottom: "48px", display: "flex", alignItems: "center", justifyContent: "center", gap: "0px" }}>
+          <div className="hero-logo" style={{ marginBottom: "48px", display: "flex", alignItems: "center", justifyContent: "center", gap: "0px" }}>
             <img
               src="/brand/logo-light.png"
               alt="DDC LAW"
@@ -125,7 +125,7 @@ export function HeroSection() {
           </p>
 
           {/* CTAs — com espaço, sem sobreposição */}
-          <div style={{
+          <div className="hero-ctas" style={{
             display: "flex",
             gap: "20px",
             flexWrap: "wrap",
@@ -177,7 +177,7 @@ export function HeroSection() {
       </div>
 
       {/* Trust bar — separada, no fundo da hero */}
-      <div ref={trustRef} style={{
+      <div ref={trustRef} className="hero-trust" style={{
         position: "absolute",
         bottom: 0, left: 0, right: 0,
         zIndex: 1,

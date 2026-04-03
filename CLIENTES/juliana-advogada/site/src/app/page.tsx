@@ -46,7 +46,7 @@ export default function HomePage() {
                 Advocacia especializada em quem vive do próprio trabalho.
               </h2>
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px" }}>
+            <div className="grid-about" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px" }}>
               <div>
                 <p style={{ fontSize: "16px", lineHeight: 1.9, marginBottom: "16px" }}>
                   A DDC LAW nasceu com um propósito claro: defender os direitos de trabalhadores
@@ -73,7 +73,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div style={{ display: "flex", gap: "48px", flexWrap: "wrap", justifyContent: "center", marginTop: "40px", paddingTop: "32px", borderTop: "1px solid var(--border-light)" }}>
+            <div className="trust-info" style={{ display: "flex", gap: "48px", flexWrap: "wrap", justifyContent: "center", marginTop: "40px", paddingTop: "32px", borderTop: "1px solid var(--border-light)" }}>
               {[
                 { label: "Atuação", value: "Trabalhista e Previdenciário" },
                 { label: "Atendimento", value: "Presencial e Online — Todo o Brasil" },
@@ -173,7 +173,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div data-animate="stagger" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "32px" }}>
+            <div data-animate="stagger" className="grid-diferenciais" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "32px" }}>
               {[
                 { title: "Especialização Real", desc: "Atuação 100% focada em Direito do Trabalho e Previdenciário. Cada caso recebe aprofundamento técnico." },
                 { title: "Atendimento Individual", desc: "Você fala diretamente com a advogada responsável. Sem intermediários, sem filas." },

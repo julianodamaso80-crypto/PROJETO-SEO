@@ -283,15 +283,63 @@ a { color: inherit; }
 .blog-content td { padding: 10px 16px; color: var(--text-body); border-bottom: 1px solid var(--border-light); }
 
 /* ───────────────────────────
+   Utility
+─────────────────────────── */
+.container--narrow {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* ───────────────────────────
    Responsive
 ─────────────────────────── */
 @media (max-width: 768px) {
-  :root { --section-py: 80px; }
+  :root { --section-py: 64px; }
   .desktop-nav { display: none !important; }
   .mobile-toggle { display: flex !important; }
   .blog-featured { grid-template-columns: 1fr !important; }
   .blog-grid { grid-template-columns: 1fr !important; }
+
+  /* Grid 4-col e 2-col → 1 coluna */
+  .grid-about { grid-template-columns: 1fr !important; gap: 24px !important; }
+  .grid-diferenciais { grid-template-columns: repeat(2, 1fr) !important; gap: 20px !important; }
+
+  /* Hero ajustes */
+  .hero-content { padding: 40px 20px 80px !important; }
+  .hero-trust { padding: 16px 20px !important; gap: 16px !important; font-size: 11px !important; }
+  .hero-logo img { height: 80px !important; }
+  .hero-logo span { font-size: 12px !important; margin-left: -20px !important; }
+
+  /* Header mobile */
+  .header-inner { padding: 0 16px !important; height: 64px !important; }
+  .header-logo img { height: 72px !important; }
+  .header-logo span { font-size: 11px !important; margin-left: -22px !important; }
+  .mobile-menu { padding: 8px 16px 24px !important; }
+
+  /* Botões maiores para toque */
+  .btn-primary { padding: 16px 32px !important; font-size: 13px !important; width: 100%; text-align: center; }
+  .btn-text { font-size: 14px !important; }
+
+  /* Seções padding lateral menor */
+  section { padding-left: 16px !important; padding-right: 16px !important; }
+
+  /* Trust bar info */
+  .trust-info { flex-direction: column !important; gap: 16px !important; text-align: center; }
+
+  /* Blog post imagem */
+  .blog-post-image { max-height: 240px !important; }
+
+  /* Marquee mais rápido */
+  .marquee__track { animation-duration: 20s !important; }
+  .marquee__item { font-size: 14px !important; }
 }
+
+@media (max-width: 480px) {
+  .grid-diferenciais { grid-template-columns: 1fr !important; }
+  .hero-ctas { flex-direction: column !important; align-items: stretch !important; }
+  .hero-ctas a { text-align: center !important; }
+}
+
 @media (min-width: 769px) {
   .mobile-toggle { display: none !important; }
 }
