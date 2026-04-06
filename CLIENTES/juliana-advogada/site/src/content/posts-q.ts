@@ -10,7 +10,7 @@ export const batchQPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-01",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1579621970563-61f423be8f9a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Todo mês, a empresa é obrigada a depositar <strong>8% do seu salário bruto</strong> em uma conta vinculada ao seu nome na Caixa Econômica Federal. Esse depósito é o <strong>FGTS — Fundo de Garantia do Tempo de Serviço</strong>, previsto na <strong>Lei 8.036/1990</strong> e no <strong>art. 7º, III, da Constituição Federal</strong>.</p>
 <p>Em 2026, com o salário mínimo em <strong>R$1.621,00</strong>, o depósito mensal mínimo do FGTS é de <strong>R$129,68</strong>. Ao longo de um ano, são <strong>R$1.556,16</strong> acumulados — mais rendimento. Se o seu salário é maior, o valor cresce proporcionalmente.</p>
@@ -584,7 +584,7 @@ export const batchQPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-18",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Desde setembro de 2019, a <strong>Carteira de Trabalho e Previdência Social (CTPS)</strong> é digital. A carteira física de papel azul foi substituída por um sistema eletrônico vinculado ao seu <strong>CPF</strong>. Você não precisa mais apresentar o documento físico ao empregador — basta informar o número do CPF na admissão.</p>
 <p>Essa mudança foi estabelecida pela <strong>Lei 13.874/2019 (Lei da Liberdade Econômica)</strong> e pela <strong>Portaria SEPRT 1.065/2019</strong>. Em 2026, toda a vida laboral do trabalhador está registrada digitalmente, integrada ao <strong>eSocial</strong> e acessível por aplicativo ou site.</p>

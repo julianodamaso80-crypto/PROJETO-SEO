@@ -306,7 +306,7 @@ export const batchLPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-11",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O contrato de experiência é a porta de entrada para a maioria dos empregos formais no Brasil. Mas poucos trabalhadores conhecem as <strong>regras específicas</strong> que regem esse tipo de contrato — e é justamente nesse desconhecimento que muitas empresas se aproveitam. Demissão antes do prazo, ausência de anotação na carteira e descumprimento de estabilidade são problemas mais comuns do que parecem.</p>
 

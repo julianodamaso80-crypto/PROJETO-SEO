@@ -347,7 +347,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-15",
     readTime: "8 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você sofreu um acidente no trabalho, foi ao médico, voltou para a empresa e ouviu: <em>"Não precisa abrir CAT, isso não foi acidente de trabalho."</em> Essa história se repete milhares de vezes por dia no Brasil. Mas a boa notícia é que <strong>você não depende da empresa para registrar a CAT</strong>.</p>
 
@@ -453,7 +453,7 @@ export const batchAPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-02",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A cada dia, <strong>milhões de brasileiros</strong> ligam o aplicativo e saem para dirigir ou entregar. Uber, iFood, 99, Rappi — essas plataformas são a fonte de renda principal de uma parcela enorme da população. Mas a pergunta que não quer calar continua: <strong>existe vínculo empregatício?</strong></p>
 

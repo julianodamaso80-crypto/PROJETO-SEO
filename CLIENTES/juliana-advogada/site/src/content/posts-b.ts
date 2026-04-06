@@ -386,7 +386,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-25",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1509391366360-70e68c1c5d33?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1485230405346-71acb9518d9c?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>Por Que Este Guia Existe</h2>
 <p>O adicional de periculosidade (30% sobre o salário-base, Art. 193 da CLT) é um direito de milhões de brasileiros — mas muitos não sabem que se enquadram. A razão: empresas frequentemente classificam funções de forma genérica para evitar o pagamento. Este guia detalha, profissão por profissão, quem tem direito, por quê e quanto recebe.</p>
@@ -847,7 +847,7 @@ export const batchBPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-01",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1544027993-3a08f98dbbc4?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=800&h=450&fit=crop&auto=format",
     content: `
 <h2>O Que Mudou na NR-1</h2>
 <p>A <strong>Norma Regulamentadora nº 1 (NR-1)</strong>, que trata do Gerenciamento de Riscos Ocupacionais (GRO) e do Programa de Gerenciamento de Riscos (PGR), foi atualizada pela Portaria MTE nº 1.419/2024 para incluir expressamente os <strong>riscos psicossociais</strong> entre os perigos que as empresas são obrigadas a identificar, avaliar e controlar.</p>

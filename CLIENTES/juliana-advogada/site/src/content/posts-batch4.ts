@@ -10,7 +10,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-01",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria especial por insalubridade</strong> é um dos benefícios mais vantajosos do INSS — e também um dos mais difíceis de conseguir. Criada para proteger quem trabalha exposto a agentes nocivos à saúde, ela permite que o segurado se aposente com 15, 20 ou 25 anos de contribuição, sem precisar atingir a idade mínima comum. Porém, após a Reforma da Previdência (EC 103/2019), as regras mudaram significativamente.</p>
 

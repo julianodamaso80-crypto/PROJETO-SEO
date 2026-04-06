@@ -10,7 +10,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-04-01",
     readTime: "14 min",
-    image: "https://images.unsplash.com/photo-1554224155-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você já se aposentou pelo INSS e desconfia que o valor do seu benefício está abaixo do que deveria, saiba que existem <strong>pelo menos 7 tipos de revisão</strong> que podem corrigir erros, atualizar cálculos e — em muitos casos — gerar o pagamento de <strong>dezenas ou centenas de milhares de reais em atrasados</strong>.</p>
 <p>Este artigo é um <strong>mapa completo</strong>. Para cada tipo de revisão, você vai entender: o que é, quem se enquadra, qual o potencial de ganho e se ainda há prazo para pedir.</p>
@@ -108,7 +108,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-24",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Entre todas as revisões de aposentadoria do INSS, a <strong>Revisão do Teto</strong> é a que costuma gerar os maiores valores em atrasados. Estamos falando de <strong>R$50.000 a R$200.000</strong> — em alguns casos, até mais. E o melhor: <strong>não tem prazo de prescrição</strong>. Mesmo que você tenha se aposentado há 25 ou 30 anos, ainda pode pedir.</p>
 
@@ -444,7 +444,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-16",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O INSS administra mais de 37 milhões de benefícios. Com um volume dessa magnitude, <strong>erros de cálculo são mais comuns do que se imagina</strong>. E quando o erro acontece, ele é sempre para baixo — você nunca vai receber mais do que deveria, mas pode receber menos por anos ou décadas sem saber.</p>
 <p>Este artigo apresenta <strong>5 sinais concretos</strong> de que sua aposentadoria pode estar errada. Se você se identificar com algum deles, vale a pena investigar.</p>
@@ -634,7 +634,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-28",
     readTime: "13 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>CNIS (Cadastro Nacional de Informações Sociais)</strong> é o documento que o INSS usa como base para calcular a sua aposentadoria. Nele constam todos os seus <strong>vínculos empregatícios, salários de contribuição e recolhimentos</strong> ao longo da vida. Se o CNIS estiver errado ou incompleto, sua aposentadoria será calculada com base em <strong>informações erradas</strong> — e o valor sairá menor.</p>
 <p>Este tutorial ensina como acessar, ler e verificar o seu CNIS antes de pedir a aposentadoria. Encontrar e corrigir erros <strong>agora</strong> é muito mais fácil do que depois que o benefício já foi concedido.</p>
@@ -818,7 +818,7 @@ export const batchIPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-08",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1577722422778-5e9dcb9e6ad9?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>pensão por morte</strong> é calculada com base no benefício que o falecido recebia — ou no benefício que ele teria direito se estivesse aposentado na data do óbito. Se esse benefício de origem continha <strong>erro de cálculo</strong>, a pensão derivada está <strong>automaticamente errada</strong> também.</p>
 <p>Muitos pensionistas não sabem disso. Recebem a pensão por anos sem questionar, sem saber que poderiam receber mais. Este artigo explica como funciona a <strong>revisão derivada</strong> e o que fazer para corrigir.</p>

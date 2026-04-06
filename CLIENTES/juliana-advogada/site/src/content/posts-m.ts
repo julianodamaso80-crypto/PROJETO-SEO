@@ -138,7 +138,7 @@ export const batchMPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-26",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1579621970563-61f423be8f9a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Em janeiro de 2026, todos os benefícios do INSS foram reajustados. Quem recebe o <strong>piso</strong> (salário mínimo) passou a receber <strong>R$1.621,00</strong>. Quem ganha acima do mínimo teve reajuste de <strong>3,90%</strong>, correspondente ao INPC acumulado de 2025. O <strong>teto do INSS</strong> subiu para <strong>R$8.475,55</strong>.</p>
 <p>Neste artigo, apresentamos a tabela completa de valores, as faixas de desconto do Imposto de Renda para aposentados e as regras que determinam quando cada reajuste é aplicado.</p>
@@ -263,7 +263,7 @@ export const batchMPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-18",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Aposentados e pensionistas pagam Imposto de Renda na fonte sobre seus benefícios do INSS. Porém, existem <strong>duas isenções importantes</strong> que muitos desconhecem: a isenção extra para quem tem <strong>65 anos ou mais</strong> e a <strong>isenção total para portadores de doenças graves</strong>. Em muitos casos, o aposentado paga IR desnecessariamente por anos sem saber que tem direito à isenção.</p>
 <p>Neste artigo, você encontra a tabela completa do IR 2026, os cálculos com e sem isenção, a lista oficial de doenças graves e o passo a passo para solicitar a isenção.</p>
@@ -399,7 +399,7 @@ export const batchMPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-10",
     readTime: "13 min",
-    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Uma das perguntas mais frequentes de quem está perto de se aposentar é: <strong>"quanto vou receber?"</strong>. Desde a Reforma da Previdência (EC 103/2019), o cálculo mudou significativamente. A fórmula atual considera <strong>100% dos salários desde julho de 1994</strong> (não mais os 80% maiores) e aplica um <strong>coeficiente de 60% + 2% por ano extra</strong>.</p>
 <p>Neste artigo, explicamos a fórmula passo a passo, apresentamos a tabela completa de percentuais por anos de contribuição e mostramos 3 exemplos práticos com valores reais de 2026.</p>
@@ -685,7 +685,7 @@ export const batchMPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-22",
     readTime: "14 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Uma das primeiras perguntas de quem pensa em entrar com ação trabalhista é: <strong>"quanto eu recebo?"</strong>. A resposta depende de vários fatores — tipo de reclamação, salário, tempo de vínculo e provas. Mas é possível fazer uma <strong>estimativa realista</strong> com base nos valores praticados pela Justiça do Trabalho em 2026.</p>
 <p>Neste artigo, apresentamos uma simulação detalhada por tipo de verbas, 3 perfis reais de trabalhadores e os fatores que aumentam ou diminuem o valor da indenização.</p>
@@ -831,7 +831,7 @@ export const batchMPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-12",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Empresas que descumprem a legislação trabalhista estão sujeitas a <strong>multas administrativas</strong> aplicadas pelo Ministério do Trabalho e Emprego (MTE), além de condenações judiciais. Conhecer esses valores é importante tanto para <strong>empresários</strong> (para evitar riscos) quanto para <strong>trabalhadores</strong> (para saber o poder de negociação que têm).</p>
 <p>Neste artigo, reunimos a <strong>tabela completa de multas trabalhistas 2026</strong> com valores atualizados, incluindo infrações do eSocial e normas de segurança.</p>

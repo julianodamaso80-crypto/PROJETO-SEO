@@ -10,7 +10,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-02",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&q=80",
     content: `
 <p>A <strong>demissao por justa causa</strong> e a penalidade mais severa que um empregador pode aplicar ao trabalhador. Quando aplicada de forma indevida, o empregado perde direitos importantes como saque do FGTS, multa de 40% e seguro-desemprego. Mas a boa noticia e que <strong>muitas justas causas sao revertidas na Justica do Trabalho</strong> porque as empresas nao seguem os requisitos legais.</p>
 

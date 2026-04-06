@@ -142,7 +142,7 @@ export const batchNPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-25",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1556740758-95dedc6b8db2?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A resposta é <strong>sim</strong>: dona de casa pode se aposentar pelo INSS. O caminho é a inscrição como <strong>contribuinte facultativa</strong>, prevista no <strong>art. 201, §5º, da Constituição Federal</strong> e regulamentada pela <strong>Lei 8.213/91 (art. 11, §1º)</strong>. Não importa se nunca trabalhou com carteira assinada — basta escolher um plano de contribuição e pagar mensalmente.</p>
 <p>O problema é que existem <strong>3 planos diferentes</strong>, com valores e consequências muito distintos. Escolher o plano errado pode significar décadas pagando sem direito ao benefício que realmente precisa. Neste artigo, vamos explicar cada um com os <strong>valores atualizados de 2026</strong>.</p>

@@ -608,7 +608,7 @@ export const batchPPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-02",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1579621970563-61f423be8f9a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você é <strong>aposentado ou pensionista do INSS</strong> e está pagando parcelas de empréstimo consignado que consomem boa parte do seu benefício, atenção: você pode estar sendo vítima de <strong>juros abusivos</strong> — e a lei de 2026 oferece ferramentas reais para revisar o contrato.</p>
 
@@ -1306,7 +1306,7 @@ export const batchPPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-10",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1544027993-3a08f98dbbc4?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Trabalhar sob pressão faz parte de muitos empregos. Mas existe uma linha entre a <strong>cobrança legítima de resultados</strong> e o <strong>assédio moral por metas abusivas</strong> — e milhões de trabalhadores brasileiros estão do lado errado dessa linha sem saber que têm direito a indenização.</p>
 

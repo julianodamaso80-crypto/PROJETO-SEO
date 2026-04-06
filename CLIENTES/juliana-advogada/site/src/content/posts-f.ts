@@ -337,7 +337,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-12",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você entrou com o processo, chegou o dia da audiência, e a empresa fez uma proposta de acordo. E agora? <strong>Aceita ou recusa?</strong></p>
 <p>Essa é uma das decisões mais importantes de todo o processo trabalhista — e este artigo vai te dar ferramentas concretas para decidir com inteligência.</p>
@@ -777,7 +777,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-18",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Você esperou meses (ou anos). Apresentou provas, depôs em audiência, o juiz deu a sentença a seu favor. <strong>Você ganhou.</strong> Mas aí vem a parte que ninguém conta: a empresa simplesmente... <strong>não paga</strong>.</p>
 <p>Infelizmente, isso é mais comum do que deveria. E é aí que entra a <strong>fase de execução</strong> — o processo de forçar a empresa a cumprir a sentença.</p>
@@ -966,7 +966,7 @@ export const batchFPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-30",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Existe uma bomba-relógio invisível correndo contra você desde o dia em que saiu da empresa: é a <strong>prescrição trabalhista</strong>. Se você não agir dentro do prazo, <strong>perde o direito de cobrar</strong> — para sempre.</p>
 <p>Este artigo explica de forma clara e com exemplos práticos como funcionam os prazos, para que você não perca nenhum centavo.</p>

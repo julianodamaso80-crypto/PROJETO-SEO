@@ -205,7 +205,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-19",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1509391366360-70e68c1c5d33?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1485230405346-71acb9518d9c?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A aposentadoria especial para <strong>vigilantes e seguranças</strong> é um dos temas mais debatidos no direito previdenciário brasileiro. O uso de <strong>arma de fogo</strong> no exercício da profissão configura periculosidade e garante o enquadramento como atividade especial. Mas o cenário fica mais complexo quando falamos de vigilantes desarmados. Este guia esclarece todas as situações.</p>
 
@@ -592,7 +592,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-14",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f66f?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Poucos temas geram tanta confusão no direito previdenciário quanto a aposentadoria especial do caminhoneiro. Circulam nas redes sociais e em grupos de WhatsApp informações de que <strong>todo caminhoneiro tem direito à aposentadoria especial</strong>. A verdade, porém, é diferente: na <strong>maioria dos casos, o caminhoneiro não se enquadra</strong>. Neste artigo, separamos mito de realidade e mostramos as alternativas.</p>
 
@@ -802,7 +802,7 @@ export const batchHPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-25",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Não importa quantos anos você trabalhou exposto a agentes nocivos: sem o <strong>PPP (Perfil Profissiográfico Previdenciário)</strong> e o <strong>LTCAT (Laudo Técnico das Condições Ambientais do Trabalho)</strong>, sua aposentadoria especial será <strong>negada pelo INSS</strong>. Esses dois documentos são a base de todo pedido de aposentadoria especial. Este guia explica tudo: o que são, o que devem conter, como solicitar e o que fazer quando parecem impossíveis de obter.</p>
 

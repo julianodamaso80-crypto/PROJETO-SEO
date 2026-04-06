@@ -10,7 +10,7 @@ export const batchKPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-02",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O trabalhador do comércio — chamado de <strong>comerciário</strong> — é uma das categorias com mais direitos específicos na legislação brasileira. Mesmo assim, a maioria não conhece nem metade do que a lei garante, especialmente sobre <strong>trabalho aos domingos</strong>, <strong>comissões</strong> e <strong>horas extras em datas como Black Friday e Natal</strong>.</p>
 <p>Neste guia atualizado para 2026, reunimos tudo o que o comerciário precisa saber para não ser passado para trás.</p>
@@ -102,7 +102,7 @@ export const batchKPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-28",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1556741533-6e6a62e6dc78?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O bancário é uma das categorias profissionais com <strong>mais direitos específicos</strong> na CLT — e, paradoxalmente, uma das que mais sofrem descumprimentos. A jornada de <strong>6 horas diárias</strong>, garantida pelo art. 224 da CLT, é rotineiramente desrespeitada, e o assédio moral por metas abusivas se tornou epidemia no setor financeiro.</p>
 <p>Este artigo detalha cada direito do bancário em 2026, com fundamentos legais e valores atualizados.</p>
@@ -383,7 +383,7 @@ export const batchKPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-04",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1556740758-95dedc6b8db2?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>PEC das Domésticas</strong> (EC 72/2013) e a <strong>Lei Complementar 150/2015</strong> revolucionaram os direitos dos empregados domésticos no Brasil. Antes, essa categoria era excluída de benefícios básicos como FGTS, hora extra e adicional noturno. Hoje, em 2026, os direitos são praticamente idênticos aos dos demais trabalhadores — e muitos empregadores ainda descumprem a lei.</p>
 

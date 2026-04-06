@@ -490,7 +490,7 @@ export const batchOPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-18",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>Certidão de Tempo de Contribuição (CTC)</strong> é um documento essencial para quem trabalhou em <strong>regimes previdenciários diferentes</strong> ao longo da carreira — por exemplo, quem foi empregado CLT e depois se tornou servidor público. Apesar de sua importância, poucas pessoas conhecem esse instrumento e muitas perdem tempo de contribuição valioso por falta de informação.</p>
 
@@ -768,7 +768,7 @@ export const batchOPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-18",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1554224155-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Uma das dúvidas mais frequentes sobre o INSS é: <strong>"quantas contribuições eu preciso para ter direito a um benefício?"</strong>. A resposta varia para cada benefício — e existem exceções importantes que podem dispensar totalmente a carência. Este artigo funciona como um <strong>guia de referência completo</strong> sobre carência no INSS em 2026.</p>
 

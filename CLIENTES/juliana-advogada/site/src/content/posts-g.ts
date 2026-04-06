@@ -393,7 +393,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-02",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1579621970563-61f423be8f9a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O saque-aniversário do FGTS parece uma boa ideia: todo ano, no mês do seu aniversário, você retira uma parcela do fundo. Mas há uma <strong>armadilha grave</strong> que a maioria dos trabalhadores só descobre quando é tarde demais: se você for demitido, <strong>não pode sacar o saldo total do FGTS</strong>. Você recebe apenas a multa de 40% — e o restante fica <strong>preso por meses</strong>.</p>
 
@@ -636,7 +636,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-02",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Pedir demissão é a forma mais desfavorável de encerrar o contrato de trabalho. Você abre mão de uma parte significativa dos seus direitos — e muitos trabalhadores só descobrem isso <strong>depois de assinar a carta</strong>. Neste artigo, mostramos exatamente o que você recebe, o que perde e por que a <strong>rescisão indireta</strong> pode ser uma alternativa muito melhor.</p>
 
@@ -717,7 +717,7 @@ export const batchGPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-20",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1554224154-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>TRCT (Termo de Rescisão do Contrato de Trabalho)</strong> é o documento que detalha tudo que você tem a receber na demissão. O problema é que <strong>a maioria dos trabalhadores assina sem conferir</strong> — e erros são mais comuns do que você imagina. Neste guia, você aprende a conferir cada linha do seu TRCT e identificar os 7 erros mais frequentes.</p>
 

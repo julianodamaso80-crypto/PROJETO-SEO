@@ -229,7 +229,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-07",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1529156069898-49953bc6f00f?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Milhões de brasileiros vivem em <strong>união estável</strong> sem registro formal em cartório. Quando o companheiro falece, a dor da perda se soma a uma angústia prática: <strong>"como vou provar que vivíamos juntos para receber a pensão por morte?"</strong>. A boa notícia é que a lei reconhece a união estável como entidade familiar (art. 226, §3º da CF e art. 1.723 do Código Civil), e existem diversos meios de prova aceitos pelo INSS e pela Justiça.</p>
 
@@ -758,7 +758,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-10",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1434626881859-194d67b868b0?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>aposentadoria por pontos</strong> é uma das regras de transição criadas pela Reforma da Previdência (EC 103/2019) e considerada a mais vantajosa para quem tem bastante tempo de contribuição. Em <strong>2026</strong>, os requisitos são: <strong>103 pontos para homens</strong> (idade + tempo de contribuição) e <strong>93 pontos para mulheres</strong>. Este artigo traz a tabela completa, exemplos reais e a comparação com outras regras.</p>
 
@@ -876,7 +876,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-15",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1554224155-1573ab17a49d?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Se você está planejando sua aposentadoria, precisa entender o <strong>fator previdenciário</strong> — um multiplicador criado em 1999 pela Lei 9.876 que pode <strong>reduzir significativamente o valor do seu benefício</strong>. Na prática, quem se aposenta mais jovem ou com menos tempo de contribuição pode perder de 20% a 40% do valor. Este artigo explica a fórmula de forma simples, mostra o impacto real com números e ensina como evitar.</p>
 
@@ -994,7 +994,7 @@ export const batchDPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-05",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O Brasil tem mais de 15 milhões de <strong>MEIs (Microempreendedores Individuais)</strong> e outros milhões de <strong>autônomos</strong> que contribuem ao INSS por conta própria. Porém, a grande maioria não sabe que a contribuição padrão do MEI <strong>só garante aposentadoria por idade no valor de um salário mínimo</strong>. Se você quer uma aposentadoria melhor, precisa entender as opções de contribuição e fazer a escolha certa agora.</p>
 

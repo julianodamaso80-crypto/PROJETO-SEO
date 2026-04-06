@@ -316,7 +316,7 @@ export const batchTPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-12",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f66f?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O Brasil tem milhões de trabalhadores que dependem de plataformas como <strong>Uber, 99, iFood e Rappi</strong> como fonte de renda principal. Em 2026, a regulamentação do trabalho por aplicativo segue como <strong>prioridade declarada do Ministério do Trabalho</strong>, com propostas que incluem contribuição previdenciária paga pelas plataformas e seguro contra acidentes.</p>
 
@@ -410,7 +410,7 @@ export const batchTPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-04",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1563986768609-34c7251a585d?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Com o avanço da tecnologia no ambiente de trabalho, uma dúvida cresce a cada dia: <strong>até onde a empresa pode monitorar o funcionário?</strong> A resposta envolve um equilíbrio entre o <strong>poder diretivo do empregador</strong> (art. 2º da CLT) e o <strong>direito à privacidade do trabalhador</strong> (art. 5º, X, da Constituição e LGPD). Neste artigo, mostramos exatamente o que pode e o que não pode.</p>
 
@@ -744,7 +744,7 @@ export const batchTPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-04",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1544027993-3a08f98dbbc4?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O Brasil registra recordes de afastamentos por <strong>transtornos mentais</strong> a cada ano. Em 2026, burnout, depressão e ansiedade estão entre as <strong>maiores causas de incapacidade laboral</strong>. Mas muitos trabalhadores não sabem que têm direito ao <strong>auxílio-doença pelo INSS</strong> — e que, se o transtorno for causado pelo trabalho, podem ter direito ao <strong>auxílio-doença acidentário (B91)</strong>, com estabilidade de 12 meses após o retorno.</p>
 
@@ -853,7 +853,7 @@ export const batchTPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-24",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1509391366360-70e68c1c5d33?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1485230405346-71acb9518d9c?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Policiais e bombeiros exercem <strong>atividade de risco</strong> reconhecida pela Constituição Federal (art. 40, §4º, II). Por isso, têm <strong>regras diferenciadas de aposentadoria</strong>, com idade e tempo de contribuição reduzidos em relação aos demais servidores públicos e trabalhadores do regime geral. Em 2026, as regras variam conforme a categoria (federal, estadual, municipal) e o regime previdenciário.</p>
 
@@ -962,7 +962,7 @@ export const batchTPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-14",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>É uma das confusões mais comuns no direito brasileiro: misturar <strong>pensão alimentícia</strong> com <strong>pensão por morte</strong>. Parecem semelhantes por causa do nome, mas são <strong>institutos jurídicos completamente diferentes</strong> — com regras, valores, duração e fontes pagadoras distintas. Neste artigo, explicamos cada uma e respondemos a dúvida que mais aparece: <em>dá para receber as duas ao mesmo tempo?</em></p>
 

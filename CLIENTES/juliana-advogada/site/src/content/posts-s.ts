@@ -404,7 +404,7 @@ export const batchSPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-10",
     readTime: "8 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>Meu INSS</strong> é a porta de entrada para tudo relacionado aos seus benefícios previdenciários. Em 2026, o aplicativo e o site estão mais completos, permitindo consultar <strong>extrato CNIS, datas de pagamento, situação de pedidos, simular aposentadoria</strong> e agendar atendimento — tudo sem sair de casa.</p>
 <p>Este tutorial mostra como acessar cada funcionalidade de forma rápida e prática.</p>
@@ -657,7 +657,7 @@ export const batchSPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-20",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1579621970563-61f423be8f9a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Após a demissão sem justa causa, o <strong>FGTS</strong> é um dos primeiros direitos que o trabalhador quer acessar. Em 2026, o processo ficou mais digital — é possível sacar sem ir à agência da Caixa em muitos casos. Mas há prazos que a empresa precisa cumprir e armadilhas que podem atrasar o saque.</p>
 
@@ -1034,7 +1034,7 @@ export const batchSPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-20",
     readTime: "12 min",
-    image: "https://images.unsplash.com/photo-1577722422778-5e9dcb9e6ad9?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>A <strong>pensão por morte</strong> é o benefício pago pelo INSS aos <strong>dependentes</strong> de um segurado que faleceu. É um momento delicado, mas entender os prazos e documentos pode significar a diferença entre receber o <strong>valor integral retroativo</strong> ou perder meses de pagamento. O prazo mais importante é o de <strong>180 dias</strong>.</p>
 
@@ -1177,7 +1177,7 @@ export const batchSPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-10",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <p><strong>Atenção: se você recebe BPC/LOAS e não atualizou o CadÚnico, seu benefício pode ser suspenso.</strong> Em 2026, o governo federal reforçou a obrigatoriedade de atualização cadastral com <strong>biometria</strong>. Quem não regularizar corre risco real de perder os <strong>R$1.621,00 mensais</strong>.</p>
 <p>Este guia mostra exatamente o que fazer, onde ir e o que levar para manter seu benefício ativo.</p>

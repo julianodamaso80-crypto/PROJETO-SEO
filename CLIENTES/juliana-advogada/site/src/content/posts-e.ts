@@ -119,7 +119,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-16",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1577722422778-5e9dcb9e6ad9?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Existe um benefício que paga <strong>R$1.621 por mês</strong> a idosos com 65 anos ou mais — mesmo que <strong>nunca tenham contribuído ao INSS</strong>. Não é aposentadoria. Chama-se <strong>BPC/LOAS (Benefício de Prestação Continuada)</strong> e é garantido pela Lei Orgânica da Assistência Social (Lei 8.742/93).</p>
 <p>O problema? Milhões de brasileiros idosos que se enquadram nos requisitos simplesmente <strong>não sabem que esse benefício existe</strong>. Este guia é para eles — e para quem pode ajudá-los.</p>
@@ -430,7 +430,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-04-02",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f66f?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>São mais de <strong>1,5 milhão de brasileiros</strong> que trabalham como motoristas e entregadores de aplicativos como Uber, iFood, 99 e Rappi. Trabalham 10, 12 ou até 14 horas por dia. Não têm férias, 13º salário, FGTS ou seguro contra acidentes. Em 2026, esse cenário pode finalmente começar a mudar — mas a regulamentação ainda está em debate. Este artigo mostra <strong>o que já é direito, o que está sendo discutido e como se proteger agora</strong>.</p>
 
@@ -960,7 +960,7 @@ export const batchEPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-25",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1556740758-95dedc6b8db2?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Milhões de brasileiras trabalham em residências fazendo faxina, passando roupa, cozinhando ou cuidando de crianças e idosos. Muitas são chamadas de "diarista" quando, na verdade, são <strong>empregadas domésticas</strong> com direito a registro em carteira, FGTS, férias, 13º salário e todos os benefícios da <strong>Lei Complementar 150/2015</strong>.</p>
 <p>A diferença entre uma e outra não é o tipo de serviço — é a <strong>frequência</strong>. E confundir (intencionalmente ou não) pode custar caro para quem contrata e prejudicar quem trabalha.</p>

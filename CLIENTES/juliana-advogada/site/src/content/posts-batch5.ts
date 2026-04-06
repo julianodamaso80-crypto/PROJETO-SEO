@@ -669,7 +669,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-24",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&q=80",
     content: `
 <p>Você sabia que <strong>milhares de aposentados e pensionistas recebem valores menores</strong> do que realmente têm direito? Erros de cálculo, contribuições não computadas e mudanças na legislação podem gerar diferenças significativas no valor do benefício. A <strong>revisão de benefício do INSS</strong> é o instrumento legal para corrigir essas distorções. Conheça os <strong>5 principais tipos de revisão</strong> que podem aumentar sua aposentadoria, pensão ou auxílio.</p>
 

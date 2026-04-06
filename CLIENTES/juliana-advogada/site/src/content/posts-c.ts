@@ -548,7 +548,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-04-02",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>A Negativa do INSS Não É o Fim da Linha</h2>
@@ -682,7 +682,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-20",
     readTime: "8 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>O Recurso Administrativo É Gratuito — E Muita Gente Não Faz</h2>
@@ -776,7 +776,7 @@ export const batchCPosts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-03-10",
     readTime: "11 min",
-    image: "https://images.unsplash.com/photo-1554224154-26032fbb27d1?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop&auto=format",
     content: `
 <section>
 <h2>O CNIS: O Documento Que Define Sua Aposentadoria</h2>

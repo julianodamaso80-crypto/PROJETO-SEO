@@ -236,7 +236,7 @@ export const batchRPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-17",
     readTime: "8 min",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Sua empresa não registra funcionários, não deposita FGTS, descumpre normas de segurança ou pratica outras irregularidades? Você pode denunciar ao <strong>Ministério do Trabalho e Emprego (MTE)</strong> de forma <strong>totalmente anônima</strong>. A empresa não saberá quem fez a denúncia e, se tentar retaliação genérica, estará cometendo nova infração.</p>
 <p>Neste artigo, mostramos o passo a passo completo para fazer a denúncia e o que acontece depois que ela é registrada.</p>
@@ -338,7 +338,7 @@ export const batchRPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-09",
     readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1586769852044-127171c5e728?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>O <strong>eSocial</strong> é o sistema do governo federal que unifica o envio de informações trabalhistas, previdenciárias e fiscais pelas empresas. Ele foi feito para as empresas reportarem dados — mas os <strong>trabalhadores podem e devem</strong> verificar se tudo foi informado corretamente.</p>
 <p>Irregularidades no eSocial podem afetar seu FGTS, sua aposentadoria, seu seguro-desemprego e até seus direitos em caso de demissão. Neste guia, mostramos como consultar e o que procurar.</p>
@@ -916,7 +916,7 @@ export const batchRPosts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-01-19",
     readTime: "10 min",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45a?w=800&h=450&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=450&fit=crop&auto=format",
     content: `
 <p>Milhares de trabalhadores brasileiros atuam como <strong>"representantes comerciais"</strong> quando, na realidade, são <strong>empregados CLT disfarçados</strong>. A empresa evita registro em carteira para não pagar FGTS, INSS patronal, férias e 13º. Mas a Justiça do Trabalho olha para a <strong>realidade dos fatos</strong>, não para o contrato assinado.</p>
 <p>Se você se identifica com essa situação, este artigo explica quando o vínculo existe e quais direitos você pode recuperar.</p>
