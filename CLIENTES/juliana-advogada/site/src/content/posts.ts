@@ -21,6 +21,20 @@ import { batchQPosts } from "./posts-q";
 import { batchRPosts } from "./posts-r";
 import { batchSPosts } from "./posts-s";
 import { batchTPosts } from "./posts-t";
+import { batch2Posts } from "./posts-trabalhista-batch2";
+import { batch3Posts } from "./posts-batch3";
+import { batch4Posts } from "./posts-batch4";
+import { batch5Posts } from "./posts-batch5";
+import { batch6Posts } from "./posts-batch6";
+import { posts01 } from "./posts_01_10";
+import { posts11 } from "./posts_11_20";
+import { posts21 } from "./posts_21_30";
+import { posts31 } from "./posts_31_40";
+import { posts41 } from "./posts_41_50";
+import { postsImpactoTrab } from "./posts-impacto-trab";
+import { postsImpactoPrev } from "./posts-impacto-prev";
+import { postsImpactoGuias } from "./posts-impacto-guias";
+import { postsImpactoDireitos } from "./posts-impacto-direitos";
 
 export const blogPosts: BlogPost[] = [
   ...batchAPosts,
@@ -43,4 +57,18 @@ export const blogPosts: BlogPost[] = [
   ...batchRPosts,
   ...batchSPosts,
   ...batchTPosts,
+  ...batch2Posts,
+  ...batch3Posts,
+  ...batch4Posts,
+  ...batch5Posts,
+  ...batch6Posts,
+  ...posts01,
+  ...posts11,
+  ...posts21,
+  ...posts31,
+  ...posts41,
+  ...postsImpactoTrab,
+  ...postsImpactoPrev,
+  ...postsImpactoGuias,
+  ...postsImpactoDireitos,
 ];
