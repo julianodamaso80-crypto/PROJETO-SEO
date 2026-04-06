@@ -85,7 +85,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Fale com um advogado especialista</h2>
 <p>Se você foi demitido sem justa causa e suspeita que seus valores estão errados, ou se a empresa atrasou o pagamento, <strong>procure orientação jurídica</strong>. Na DDC Advocacia, analisamos sua rescisão gratuitamente e identificamos se há valores a receber.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Clique aqui para falar com nossa equipe pelo WhatsApp</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Clique aqui para falar com nossa equipe pelo WhatsApp</a></strong></p>
 `
   },
   {
@@ -197,7 +197,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Sua rescisão está errada? Fale conosco</h2>
 <p>Na DDC Advocacia, conferimos sua rescisão gratuitamente. Se houver diferença, você pode ter direito a receber a complementação <strong>com juros e correção monetária</strong>, além da multa por atraso do art. 477, §8º da CLT.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Envie seu TRCT pelo WhatsApp para análise gratuita</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Envie seu TRCT pelo WhatsApp para análise gratuita</a></strong></p>
 `
   },
   {
@@ -300,7 +300,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Não recebeu o seguro? Podemos ajudar</h2>
 <p>Se a empresa não forneceu as guias, se seu pedido foi negado ou se o prazo expirou por culpa do empregador, <strong>é possível buscar o pagamento na Justiça</strong>. Na DDC Advocacia, analisamos seu caso sem compromisso.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Fale conosco pelo WhatsApp</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Fale conosco pelo WhatsApp</a></strong></p>
 `
   },
   {
@@ -381,7 +381,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Seu aviso prévio foi calculado errado?</h2>
 <p>Se a empresa pagou apenas 30 dias sem considerar a proporcionalidade, <strong>você tem diferenças a receber</strong>. Esse é um dos erros mais comuns nas rescisões — e pode representar milhares de reais. Na DDC Advocacia, revisamos sua rescisão gratuitamente.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Fale conosco pelo WhatsApp</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Fale conosco pelo WhatsApp</a></strong></p>
 `
   },
   {
@@ -452,7 +452,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Está no saque-aniversário e preocupado?</h2>
 <p>Se você está no saque-aniversário e teme ser demitido, ou se já foi demitido e descobriu que não pode sacar seu FGTS, <strong>fale com um advogado</strong>. Na DDC Advocacia, analisamos sua situação e orientamos sobre as melhores opções.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Fale conosco pelo WhatsApp</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Fale conosco pelo WhatsApp</a></strong></p>
 `
   },
   {
@@ -534,7 +534,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Precisa decidir? Fale com um advogado</h2>
 <p>Se a empresa propôs um acordo e você está em dúvida, <strong>consulte antes de assinar</strong>. Na DDC Advocacia, analisamos sua situação e orientamos sobre a melhor opção financeira e jurídica.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Fale conosco pelo WhatsApp para uma orientação personalizada</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Fale conosco pelo WhatsApp para uma orientação personalizada</a></strong></p>
 `
   },
   {
@@ -624,7 +624,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Foi demitido por justa causa injustamente?</h2>
 <p>Se você acredita que a justa causa foi injusta, <strong>não aceite calado</strong>. Você tem <strong>2 anos</strong> para entrar com ação trabalhista. Na DDC Advocacia, analisamos os fatos, avaliamos as chances de reversão e lutamos para recuperar seus direitos.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Fale conosco pelo WhatsApp — atendimento sigiloso</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Fale conosco pelo WhatsApp — atendimento sigiloso</a></strong></p>
 `
   },
   {
@@ -705,7 +705,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Precisa sair da empresa? Fale conosco antes</h2>
 <p>Antes de pedir demissão e perder milhares de reais, <strong>consulte um advogado</strong>. Na DDC Advocacia, analisamos sua situação e indicamos o caminho que preserva o máximo dos seus direitos.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Fale conosco pelo WhatsApp — orientação gratuita</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Fale conosco pelo WhatsApp — orientação gratuita</a></strong></p>
 `
   },
   {
@@ -782,7 +782,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Encontrou erros? Fale conosco</h2>
 <p>Na DDC Advocacia, conferimos seu TRCT <strong>gratuitamente</strong>. Se houver diferenças, orientamos sobre a melhor forma de recuperar os valores — com juros e correção monetária.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Envie seu TRCT pelo WhatsApp para conferência gratuita</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Envie seu TRCT pelo WhatsApp para conferência gratuita</a></strong></p>
 `
   },
   {
@@ -866,7 +866,7 @@ export const batchGPosts: BlogPost[] = [
 
 <h2>Sua empresa atrasou? Fale conosco</h2>
 <p>Se a empresa não pagou sua rescisão no prazo de 10 dias, você tem direito à multa de 1 salário — além de juros e correção sobre os valores atrasados. Na DDC Advocacia, analisamos seu caso gratuitamente e cobramos esse direito para você.</p>
-<p><strong><a href="https://wa.me/5511999999999" target="_blank">Envie seus documentos pelo WhatsApp — análise gratuita em 24h</a></strong></p>
+<p><strong><a href="https://wa.me/5541998342090" target="_blank">Envie seus documentos pelo WhatsApp — análise gratuita em 24h</a></strong></p>
 `
   }
 ];
