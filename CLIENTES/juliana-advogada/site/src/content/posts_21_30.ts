@@ -10,6 +10,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-20",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>A Reforma da Previdência (EC 103/2019) acabou com a aposentadoria por tempo de contribuição "pura", mas criou <strong>4 regras de transição</strong> para quem já contribuía antes de 13/11/2019. Escolher a regra errada pode custar <strong>anos a mais de trabalho</strong> e dezenas de milhares de reais a menos no benefício.</p>
 
@@ -73,6 +74,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-19",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
     content: `
 <p>A aposentadoria especial é um benefício para quem trabalhou exposto a <strong>agentes nocivos à saúde</strong> — ruído, calor, produtos químicos, eletricidade, entre outros. O trabalhador pode se aposentar com <strong>15, 20 ou 25 anos</strong> de contribuição, dependendo do grau de risco. Mesmo quem não completa o tempo total pode converter o período especial em comum e antecipar a aposentadoria regular.</p>
 
@@ -147,6 +149,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-18",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
     content: `
 <p>O CNIS (Cadastro Nacional de Informações Sociais) é o documento que o INSS usa para calcular sua aposentadoria. Se ele estiver errado — vínculos faltando, salários zerados, períodos sem registro — você pode <strong>perder anos de contribuição</strong> e receber um benefício menor. Corrigir o CNIS antes de pedir a aposentadoria é fundamental.</p>
 
@@ -219,6 +222,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-17",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
     content: `
 <p>Milhões de aposentadorias no Brasil foram calculadas com erros — salários desconsiderados, tempo especial não reconhecido, regra menos favorável aplicada. Se a sua aposentadoria foi concedida nos últimos <strong>10 anos</strong>, ainda é possível revisar e aumentar o valor.</p>
 
@@ -268,6 +272,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-16",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80",
     content: `
 <p>O salário-maternidade é o benefício pago pelo INSS durante o período de afastamento por parto, adoção, guarda judicial ou aborto espontâneo. O direito é garantido a <strong>todas as seguradas</strong> — empregadas, MEI, contribuintes individuais, facultativas e até desempregadas dentro do período de graça.</p>
 
@@ -329,6 +334,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-15",
     readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>O auxílio-reclusão é um dos benefícios mais mal compreendidos do INSS. Não é pago ao preso — é pago aos <strong>dependentes</strong> (cônjuge, filhos menores) do segurado que está preso em regime fechado. O objetivo é garantir sustento à família que perdeu sua fonte de renda.</p>
 
@@ -380,6 +386,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-14",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
     content: `
 <p>O trabalhador rural tem direito a uma das formas mais favoráveis de aposentadoria do sistema brasileiro. O <strong>segurado especial</strong> — pequeno produtor, pescador artesanal, extrativista — pode se aposentar por idade com <strong>5 anos a menos</strong> que o trabalhador urbano e sem necessidade de contribuição direta ao INSS.</p>
 
@@ -436,6 +443,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-12",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=800&q=80",
     content: `
 <p>A Lei Complementar 142/2013 garante condições especiais de aposentadoria para a <strong>pessoa com deficiência</strong> segurada do RGPS. Dependendo do grau de deficiência, o tempo de contribuição pode ser reduzido em até <strong>10 anos</strong> em comparação com a regra geral.</p>
 
@@ -495,6 +503,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-10",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>A pensão por morte é o benefício pago aos <strong>dependentes</strong> do segurado que falece. Com a Reforma da Previdência (EC 103/2019), as regras mudaram significativamente: o valor não é mais integral e a duração para cônjuges depende da idade. Conhecer as novas regras é essencial para garantir o máximo do benefício.</p>
 
@@ -574,6 +583,7 @@ export const posts21: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-08",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
     content: `
 <p>Você não precisa ter carteira assinada para contribuir ao INSS e garantir aposentadoria, auxílio-doença, salário-maternidade e outros benefícios. Autônomos, profissionais liberais, MEIs e até quem não trabalha podem contribuir. A questão é: <strong>qual alíquota escolher</strong>?</p>
 

@@ -10,6 +10,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-15",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>O assédio moral no trabalho é uma das maiores causas de adoecimento profissional no Brasil. Segundo pesquisa do TST, <strong>mais de 50 mil processos por assédio moral</strong> são ajuizados por ano na Justiça do Trabalho. Se você é vítima, precisa saber: existe proteção legal, existe indenização, e existe um caminho para fazer a empresa pagar.</p>
 
@@ -87,6 +88,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-14",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
     content: `
 <p>É muito comum no Brasil: você é contratado como auxiliar, mas faz trabalho de analista. Registrado como vendedor, mas gerencia a loja. A carteira diz uma coisa, a realidade diz outra. Isso se chama <strong>desvio de função</strong>, e a empresa pode ser obrigada a pagar a diferença salarial de todo o período.</p>
 
@@ -148,6 +150,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-13",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80",
     content: `
 <p>A estabilidade da gestante é um dos direitos mais fortes da legislação trabalhista brasileira. A Constituição Federal (art. 10, II, "b" do ADCT) garante que a trabalhadora <strong>não pode ser demitida sem justa causa desde a confirmação da gravidez até 5 meses após o parto</strong>. Se a empresa descumprir, terá que pagar caro.</p>
 
@@ -211,6 +214,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-12",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>O FGTS é um dos direitos mais negligenciados pelas empresas no Brasil. Estima-se que <strong>mais de R$30 bilhões em FGTS deixam de ser depositados</strong> todos os anos. Se a empresa não deposita ou deposita a menos, você pode cobrar tudo retroativamente — com juros, correção monetária e multa.</p>
 
@@ -268,6 +272,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-11",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
     content: `
 <p>O trabalho noturno causa impactos comprovados na saúde — distúrbios do sono, problemas cardiovasculares e estresse crônico. Por isso, a CLT garante ao trabalhador noturno <strong>condições diferenciadas</strong>: adicional de pelo menos 20% sobre a hora diurna e uma hora ficta de 52 minutos e 30 segundos.</p>
 
@@ -329,6 +334,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-10",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
     content: `
 <p>As férias são um direito constitucional do trabalhador (art. 7º, XVII da CF). Após 12 meses de trabalho (período aquisitivo), a empresa tem mais 12 meses para conceder as férias (período concessivo). Se não conceder dentro desse prazo, <strong>as férias devem ser pagas em dobro</strong>.</p>
 
@@ -387,6 +393,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-09",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>Desde a Reforma Trabalhista de 2017, existe uma terceira opção além da demissão sem justa causa e do pedido de demissão: o <strong>acordo entre empregado e empregador</strong> (art. 484-A da CLT). É a chamada <strong>demissão consensual</strong>. Mas antes de aceitar, você precisa entender o que recebe — e o que deixa de receber.</p>
 
@@ -443,6 +450,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-08",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80",
     content: `
 <p>A pejotização é uma das fraudes trabalhistas mais comuns no Brasil. A empresa obriga o trabalhador a abrir um CNPJ para mascarar uma relação de emprego. Mas a Justiça do Trabalho não se engana: se existe subordinação, habitualidade, pessoalidade e onerosidade, <strong>existe vínculo CLT — independente do contrato assinado</strong>.</p>
 
@@ -512,6 +520,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-07",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
     content: `
 <p>Os bancários formam uma das categorias com mais direitos especiais na CLT. A jornada reduzida de <strong>6 horas diárias</strong> (art. 224 da CLT) é o mais conhecido, mas existem muitos outros que os bancos frequentemente descumprem.</p>
 
@@ -570,6 +579,7 @@ export const posts01: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-06",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>A rescisão do contrato de trabalho é o momento em que mais erros acontecem. Empresas pagam a menos, esquecem verbas ou atrasam. Saber exatamente o que você tem direito é a melhor forma de se proteger.</p>
 

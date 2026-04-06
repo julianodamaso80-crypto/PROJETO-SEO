@@ -10,6 +10,7 @@ export const posts41: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-11-28",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>O dano moral trabalhista ocorre quando a empresa viola a honra, a dignidade, a intimidade ou a imagem do trabalhador. Não se trata apenas de assédio — diversas condutas do empregador podem gerar direito a indenização. Conheça as <strong>10 situações mais comuns</strong> reconhecidas pela Justiça.</p>
 
@@ -63,6 +64,7 @@ export const posts41: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-11-26",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>O salário é a contraprestação fundamental do contrato de trabalho. A CLT é clara: deve ser pago até o <strong>5º dia útil do mês subsequente</strong> ao trabalhado (art. 459, §1º). O atraso, mesmo de poucos dias, é ilegal e pode gerar consequências graves para a empresa.</p>
 
@@ -115,6 +117,7 @@ export const posts41: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-11-24",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
     content: `
 <p>A forma como você contribui ao INSS afeta diretamente quais benefícios terá acesso e quanto receberá de aposentadoria. MEI, autônomo e CLT têm regras muito diferentes — e a escolha errada pode custar <strong>décadas de contribuição desperdiçada</strong>.</p>
 
@@ -179,6 +182,7 @@ export const posts41: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-11-22",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
     content: `
 <p>A Emenda Constitucional 72/2013 (PEC das Domésticas) e a Lei Complementar 150/2015 transformaram os direitos do trabalhador doméstico no Brasil. Desde então, empregadas domésticas, cuidadores, motoristas particulares, jardineiros e outros trabalhadores do lar têm <strong>praticamente os mesmos direitos</strong> dos empregados CLT.</p>
 
@@ -250,6 +254,7 @@ export const posts41: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-11-20",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
     content: `
 <p>Saber quanto vai receber de aposentadoria não deveria ser um mistério. Com a Reforma da Previdência, o cálculo ficou mais simples — mas ainda confunde muita gente. Veja o <strong>passo a passo</strong> para calcular o valor do seu benefício em 2026.</p>
 
@@ -320,6 +325,7 @@ export const posts41: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-11-18",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>A reintegração ao emprego é a decisão judicial que determina o <strong>retorno do trabalhador ao cargo</strong>, com pagamento de todos os salários e direitos do período em que ficou afastado. É a medida mais forte do direito trabalhista e ocorre quando a demissão foi ilegal.</p>
 
@@ -388,6 +394,7 @@ export const posts41: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-11-16",
     readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>Muitas pessoas acreditam que, por nunca terem contribuído ao INSS, estão completamente desprotegidas. Não é verdade. Existem benefícios que <strong>não exigem contribuição prévia</strong> ou que exigem carência reduzida. Conheça as possibilidades.</p>
 
@@ -450,6 +457,7 @@ export const posts41: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-11-14",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
     content: `
 <p>Muitos trabalhadores deixam de buscar seus direitos por medo do processo judicial — acham que é caro, demorado e complicado. A verdade é que o processo trabalhista brasileiro é <strong>mais acessível</strong> do que a maioria imagina. Pode ser gratuito, dura em média 12 a 24 meses e tem uma das maiores taxas de acordo do mundo.</p>
 
@@ -516,6 +524,7 @@ export const posts41: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-11-12",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80",
     content: `
 <p>O seguro-desemprego é o benefício pago ao trabalhador demitido sem justa causa, para garantir assistência financeira temporária durante a busca por novo emprego. Em 2026, os valores variam de <strong>R$1.518 a R$2.313,74</strong>, dependendo da média salarial dos últimos 3 meses.</p>
 

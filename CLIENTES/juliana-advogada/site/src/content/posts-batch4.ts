@@ -10,6 +10,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-01",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria especial por insalubridade</strong> é um dos benefícios mais vantajosos do INSS — e também um dos mais difíceis de conseguir. Criada para proteger quem trabalha exposto a agentes nocivos à saúde, ela permite que o segurado se aposente com 15, 20 ou 25 anos de contribuição, sem precisar atingir a idade mínima comum. Porém, após a Reforma da Previdência (EC 103/2019), as regras mudaram significativamente.</p>
 
@@ -92,6 +93,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-03",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1447005497901-b3e9ee359928?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria por idade</strong> é o benefício mais comum do INSS e atinge milhões de brasileiros todos os anos. Com a Reforma da Previdência (EC 103/2019), as regras mudaram — e em 2026, as regras de transição continuam impactando quem já contribuía antes de novembro de 2019. Se você está próximo de se aposentar, é essencial entender o que está valendo agora.</p>
 
@@ -165,6 +167,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-05",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria por tempo de contribuição</strong>, como existia antes, foi extinta pela Reforma da Previdência (EC 103/2019). Porém, quem já contribuía antes de 13/11/2019 ainda pode se aposentar por tempo de contribuição utilizando as <strong>regras de transição</strong>. São quatro modalidades, cada uma com requisitos diferentes — e escolher a mais vantajosa pode representar uma diferença de centenas de reais no benefício mensal.</p>
 
@@ -255,6 +258,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-07",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>A <strong>revisão da vida toda</strong> (ou revisão da vida inteira) é uma tese jurídica que permite ao aposentado incluir no cálculo do benefício as contribuições feitas <strong>antes de julho de 1994</strong> — que normalmente são ignoradas pelo INSS. O STF julgou o tema (Tema 1.102) e decidiu pela constitucionalidade da revisão, mas nem todo mundo pode se beneficiar. Entenda os detalhes.</p>
 
@@ -318,6 +322,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-10",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>O <strong>auxílio-doença</strong> — hoje oficialmente chamado de <strong>auxílio por incapacidade temporária</strong> — é o benefício pago pelo INSS ao segurado que fica temporariamente incapaz de trabalhar por motivo de doença ou acidente. É um dos benefícios mais solicitados, mas também um dos mais negados. Conhecer os requisitos e saber como se preparar para a perícia médica faz toda a diferença.</p>
 
@@ -392,6 +397,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-12",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
     content: `
 <p>Quem trabalha como <strong>contribuinte individual</strong> (autônomo) ou como <strong>MEI (Microempreendedor Individual)</strong> tem direito a benefícios do INSS — desde que contribua corretamente. Mas os erros são frequentes: alíquota errada, lacunas no recolhimento e código de pagamento incorreto podem comprometer a aposentadoria. Entenda como funciona e garanta seus direitos previdenciários.</p>
 
@@ -462,6 +468,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-14",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
     content: `
 <p>Se você trabalhou em atividade <strong>insalubre, perigosa ou penosa</strong> — mesmo que por alguns anos — pode ter direito a <strong>converter esse tempo especial em tempo comum</strong> com um fator multiplicador. Isso significa que cada ano trabalhado em condição especial vale mais do que um ano normal, e essa conversão pode adiantar sua aposentadoria em vários anos. Entenda como funciona esse direito previsto na Lei 8.213/91.</p>
 
@@ -531,6 +538,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-17",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
     content: `
 <p>Se aposentar pelo INSS sem <strong>planejamento previdenciário</strong> é como fazer uma viagem sem mapa: você pode até chegar ao destino, mas provavelmente vai gastar mais tempo e dinheiro do que o necessário. O planejamento previdenciário é uma análise técnica completa que identifica o melhor momento e a melhor regra para você se aposentar, garantindo o maior benefício possível. Depois da Reforma da Previdência, com tantas regras de transição, essa análise se tornou praticamente indispensável.</p>
 
@@ -602,6 +610,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-20",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>O <strong>auxílio-reclusão</strong> é um dos benefícios previdenciários mais cercados de desinformação. Ao contrário do que muitos pensam, ele não é pago ao preso — é pago aos <strong>dependentes</strong> do segurado do INSS que está recluso em regime fechado. É um benefício de proteção à família, previsto no art. 80 da Lei 8.213/91, e tem requisitos específicos que precisam ser cumpridos.</p>
 
@@ -670,6 +679,7 @@ export const batch4Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-02-24",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80",
     content: `
 <p>O <strong>salário-maternidade</strong> é o benefício pago à segurada do INSS durante o período de afastamento por motivo de nascimento de filho, adoção, guarda judicial para fins de adoção ou aborto não criminoso. Previsto nos artigos 71 a 73 da <strong>Lei 8.213/91</strong>, o benefício não é exclusivo de trabalhadoras com carteira assinada — autônomas, MEIs, contribuintes facultativas e até desempregadas podem ter direito.</p>
 

@@ -10,6 +10,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-28",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>A perícia médica do INSS é o momento mais crítico do processo de concessão de benefícios por incapacidade. Uma perícia que dura em média <strong>15 minutos</strong> decide se você vai receber ou não. A preparação adequada faz toda a diferença entre aprovação e negativa.</p>
 
@@ -85,6 +86,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-26",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>O INSS nega benefícios de forma recorrente — erros de cálculo, perícias superficiais, documentação desconsiderada. Se seu benefício foi negado, <strong>não desista</strong>. Existem 3 caminhos concretos para reverter, e a maioria das negativas pode ser revertida.</p>
 
@@ -151,6 +153,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-24",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1447005497901-b3e9ee359928?w=800&q=80",
     content: `
 <p>A aposentadoria por idade é a modalidade mais simples e acessível do RGPS. Após a Reforma da Previdência (EC 103/2019), os requisitos foram unificados e o cálculo mudou. Entender as novas regras pode significar <strong>milhares de reais a mais</strong> no seu benefício.</p>
 
@@ -213,6 +216,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-22",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>A Reforma da Previdência (EC 103/2019) extinguiu a aposentadoria por tempo de contribuição "pura" — aquela que exigia apenas 35 anos (homem) ou 30 anos (mulher) sem idade mínima. Mas isso <strong>não significa que ela desapareceu completamente</strong>. Existem duas possibilidades reais em 2026.</p>
 
@@ -265,6 +269,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-20",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>O auxílio por incapacidade temporária (antigo auxílio-doença) é o benefício pago pelo INSS quando o segurado fica <strong>incapaz de trabalhar por mais de 15 dias consecutivos</strong> por motivo de doença ou acidente. É o benefício mais solicitado — e também o mais negado.</p>
 
@@ -337,6 +342,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-18",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
     content: `
 <p>Se você trabalhou como autônomo — sem carteira assinada e sem pagar INSS — esse período <strong>pode contar para aposentadoria</strong>, mas precisa ser regularizado. A boa notícia é que é possível pagar contribuições em atraso. A má notícia é que quanto mais tempo esperar, mais caro fica.</p>
 
@@ -395,6 +401,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-16",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
     content: `
 <p>Antes da Reforma, era possível acumular dois benefícios integralmente — como pensão por morte e aposentadoria. Desde novembro/2019, a acumulação continua possível, mas com <strong>redução no benefício de menor valor</strong>. Entender as regras pode significar centenas de reais a mais ou a menos por mês.</p>
 
@@ -453,6 +460,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-14",
     readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>Muitos aposentados que continuaram trabalhando e contribuindo ao INSS querem recalcular o benefício incluindo as novas contribuições. A <strong>desaposentação</strong> era a tese que permitia isso — mas o STF a vetou. Existe alternativa? A <strong>reaposentação</strong> pode ser uma possibilidade, mas com ressalvas importantes.</p>
 
@@ -506,6 +514,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-12",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
     content: `
 <p>O professor tem direito a condições especiais de aposentadoria, com <strong>redução de 5 anos</strong> nos requisitos em relação ao trabalhador comum. Essa regra vale para quem exerce exclusivamente funções de magistério na educação infantil, ensino fundamental e médio.</p>
 
@@ -571,6 +580,7 @@ export const posts31: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-10",
     readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
     content: `
 <p>O <strong>período de graça</strong> é o tempo em que o segurado mantém todos os direitos do INSS mesmo sem contribuir. Funciona como uma "proteção temporária" após parar de pagar. Se você perder esse período sem se proteger, fica <strong>sem cobertura</strong> para auxílio-doença, salário-maternidade e outros benefícios.</p>
 

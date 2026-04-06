@@ -10,6 +10,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-15",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>Doença ocupacional é toda enfermidade produzida ou desencadeada pelo exercício do trabalho. A Lei 8.213/91 (art. 20) equipara a doença ocupacional ao <strong>acidente de trabalho</strong>, o que significa que o trabalhador doente tem exatamente os mesmos direitos: estabilidade de 12 meses, FGTS durante o afastamento e indenização.</p>
 
@@ -75,6 +76,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-14",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>O assédio sexual no trabalho é <strong>crime</strong> previsto no art. 216-A do Código Penal, com pena de 1 a 2 anos de detenção. Além da esfera criminal, gera direito a <strong>indenização por danos morais</strong> na Justiça do Trabalho. A empresa é responsável solidariamente quando não toma providências ou quando o assediador age em razão do cargo.</p>
 
@@ -145,6 +147,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-13",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&q=80",
     content: `
 <p>O aviso prévio é a comunicação antecipada da rescisão do contrato de trabalho. É obrigatório tanto para a empresa quanto para o trabalhador, e seu descumprimento gera consequências financeiras. Após a Lei 12.506/2011, o aviso passou a ser <strong>proporcional ao tempo de serviço</strong>.</p>
 
@@ -208,6 +211,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-12",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
     content: `
 <p>O contrato de trabalho intermitente foi criado pela Reforma Trabalhista de 2017 (art. 443, §3º e art. 452-A da CLT). Nele, o trabalhador é registrado em carteira, mas só trabalha quando <strong>convocado pela empresa</strong>. Nos períodos de inatividade, não recebe — mas mantém o vínculo.</p>
 
@@ -262,6 +266,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-11",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>Se você recebe comissões ou gorjetas, precisa saber: esses valores <strong>integram seu salário</strong> para todos os efeitos legais. Isso significa que devem refletir em férias, 13º, FGTS, horas extras e verbas rescisórias. Quando a empresa ignora isso — e muitas ignoram — está te pagando menos do que deve.</p>
 
@@ -325,6 +330,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-10",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
     content: `
 <p>O princípio é simples: <strong>trabalho igual, salário igual</strong>. O art. 461 da CLT garante que trabalhadores que exercem a mesma função, com mesma produtividade e mesma perfeição técnica, devem receber o mesmo salário. Se você ganha menos que um colega na mesma posição, pode ter direito a diferenças salariais retroativas.</p>
 
@@ -386,6 +392,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-09",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>A demissão por justa causa é a penalidade mais grave do direito trabalhista. O trabalhador perde praticamente todos os direitos rescisórios. Por isso, só pode ser aplicada em hipóteses <strong>taxativas</strong> previstas na lei — e com provas robustas. Se a empresa errar, a Justiça reverte.</p>
 
@@ -459,6 +466,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-08",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&q=80",
     content: `
 <p>O teletrabalho cresceu exponencialmente e ganhou regulamentação específica na CLT (arts. 75-A a 75-F, atualizados pela Lei 14.442/2022). Se você trabalha de casa, precisa conhecer seus direitos — muitas empresas ainda não cumprem as regras.</p>
 
@@ -521,6 +529,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-07",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80",
     content: `
 <p>Desde 2017, a terceirização é permitida para <strong>qualquer atividade</strong>, inclusive a atividade-fim da empresa (Lei 6.019/74, alterada pela Lei 13.467/2017). Mas isso não significa que o terceirizado tem menos direitos. Pelo contrário: a lei garante proteções específicas — e a empresa tomadora pode ser responsabilizada.</p>
 
@@ -579,6 +588,7 @@ export const posts11: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-02-06",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>A estabilidade no emprego impede a demissão sem justa causa durante determinado período. Existem diversas situações previstas em lei que garantem essa proteção. Se a empresa demitir durante a estabilidade, será condenada a <strong>reintegrar o trabalhador ou pagar indenização</strong> de todo o período.</p>
 

@@ -10,6 +10,7 @@ export const batch2Posts: BlogPost[] = [
   category: "Trabalhista",
   date: "2026-03-01",
   readTime: "9 min",
+  image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
   content: `
 <p>O <strong>assédio moral no trabalho</strong> é uma das situações mais devastadoras que um trabalhador pode enfrentar. Segundo pesquisa do Tribunal Superior do Trabalho, mais de <strong>50% dos trabalhadores brasileiros</strong> já sofreram alguma forma de assédio no ambiente profissional. Apesar disso, muitas vítimas não sabem que podem processar a empresa e obter indenizações que variam de <strong>R$10.000 a mais de R$100.000</strong>.</p>
 <p>Se você está passando por essa situação — ou já passou — este artigo vai te mostrar exatamente como identificar, documentar e buscar reparação judicial.</p>

@@ -10,6 +10,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-12-02",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>Milhões de brasileiros desenvolvem <strong>doenças ocupacionais</strong> todos os anos sem saber que têm os mesmos direitos de quem sofre um acidente de trabalho. LER/DORT, perda auditiva, problemas respiratórios, hérnias de disco e até transtornos psíquicos como burnout podem ser considerados <strong>doença do trabalho</strong> quando existe relação com a atividade exercida. A CLT e a Lei 8.213/91 garantem proteção integral ao trabalhador nessa situação.</p>
 
@@ -87,6 +88,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-12-05",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
     content: `
 <p>O <strong>empregado doméstico</strong> conquistou igualdade de direitos com os demais trabalhadores a partir da <strong>PEC das Domésticas (Emenda Constitucional 72/2013)</strong>, regulamentada pela <strong>Lei Complementar 150/2015</strong>. Cozinheiras, faxineiras, babás, motoristas particulares, jardineiros e cuidadores de idosos que trabalham mais de dois dias por semana para a mesma família têm hoje uma lista completa de garantias trabalhistas. Confira todos os direitos e como cobrá-los.</p>
 
@@ -158,6 +160,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-12-09",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>A <strong>demissão discriminatória</strong> ocorre quando o empregador dispensa o trabalhador por motivo de doença, idade, raça, gênero, orientação sexual, gravidez, atividade sindical ou qualquer outra razão que viole o princípio da igualdade. A <strong>Lei 9.029/95</strong> proíbe essa prática e garante ao trabalhador o direito à reintegração ou à indenização em dobro. Entenda como funciona e como provar.</p>
 
@@ -224,6 +227,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-12-12",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
     content: `
 <p>O <strong>intervalo intrajornada</strong> — o famoso horário de almoço — é um direito garantido pelo art. 71 da CLT. Trabalhadores com jornada acima de 6 horas devem ter no mínimo <strong>1 hora de intervalo</strong>, e quem trabalha entre 4 e 6 horas tem direito a <strong>15 minutos</strong>. Quando a empresa suprime ou reduz esse intervalo, deve pagar hora extra. Entenda as regras e como calcular.</p>
 
@@ -290,6 +294,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2025-12-15",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>O <strong>seguro-desemprego</strong> é o benefício pago ao trabalhador formal demitido sem justa causa para garantir assistência financeira temporária enquanto busca nova colocação. Em 2026, os valores variam de <strong>R$ 1.518,00 a R$ 2.313,74</strong>, dependendo da média salarial dos últimos 3 meses. Confira todas as regras atualizadas, quem tem direito e como solicitar.</p>
 
@@ -390,6 +395,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-07",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>A <strong>Reforma da Previdência (EC 103/2019)</strong> alterou profundamente as regras de aposentadoria do <strong>servidor público federal</strong>. Quem ingressou no serviço público antes da reforma pode se enquadrar em uma das regras de transição; quem entrou depois segue as regras permanentes. Entenda cada modalidade, os requisitos e como calcular o valor do benefício.</p>
 
@@ -473,6 +479,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-18",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>O <strong>auxílio-doença (auxílio por incapacidade temporária)</strong> é o benefício do INSS pago ao segurado que fica temporariamente incapaz de trabalhar por mais de 15 dias consecutivos. A aprovação depende da perícia médica, mas algumas doenças, identificadas pelo <strong>CID (Classificação Internacional de Doenças)</strong>, têm taxa de concessão significativamente maior. Confira a lista atualizada e saiba como se preparar para a perícia.</p>
 
@@ -556,6 +563,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-20",
     readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80",
     content: `
 <p>O <strong>Meu INSS</strong> é a plataforma digital do Instituto Nacional do Seguro Social que permite ao segurado acessar praticamente todos os serviços previdenciários pela internet. Desde solicitar aposentadoria até agendar perícia médica, o sistema funciona 24 horas por dia e elimina a necessidade de ir até uma agência na maioria dos casos. Confira como usar cada serviço e ganhar tempo no seu processo.</p>
 
@@ -640,6 +648,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-23",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria programada</strong> foi criada pela <strong>Reforma da Previdência (EC 103/2019)</strong> e substituiu as antigas aposentadorias por idade e por tempo de contribuição do INSS. Agora existe uma única modalidade que exige tanto idade mínima quanto tempo mínimo de contribuição. Entenda as regras, quem pode pedir e como é calculado o valor do benefício.</p>
 
@@ -729,6 +738,7 @@ export const batch6Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2025-12-28",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>Muitos aposentados que continuaram trabalhando e contribuindo para o INSS se perguntam: <strong>é possível trocar minha aposentadoria por uma com valor maior?</strong> Essa pergunta envolve dois conceitos muito discutidos no direito previdenciário: a <strong>desaposentação</strong> e a <strong>reaposentação</strong>. Embora o STF tenha barrado a desaposentação, existem alternativas legais para quem busca melhorar o valor do benefício.</p>
 

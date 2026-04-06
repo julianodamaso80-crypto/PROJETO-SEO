@@ -10,6 +10,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-05",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria rural</strong> é um dos benefícios mais importantes da Previdência Social brasileira, garantindo proteção a milhões de trabalhadores do campo. O <strong>segurado especial</strong> — agricultor familiar, pescador artesanal, extrativista — pode se aposentar aos <strong>60 anos (homem) ou 55 anos (mulher)</strong>, cinco anos antes do trabalhador urbano, conforme a Lei 8.213/91, art. 48, §1º. No entanto, a maior dificuldade não está na idade, mas na <strong>comprovação da atividade rural</strong>.</p>
 
@@ -79,6 +80,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-07",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria da pessoa com deficiência</strong> é um benefício previsto na Lei Complementar 142/2013, que regulamentou o §1º do art. 201 da Constituição Federal. Esse dispositivo garante requisitos <strong>diferenciados e reduzidos</strong> para trabalhadores que exercem suas atividades com algum grau de deficiência — física, mental, intelectual ou sensorial. Mesmo após a Reforma da Previdência (EC 103/2019), essas regras foram <strong>mantidas integralmente</strong>.</p>
 
@@ -169,6 +171,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-09",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>Receber uma <strong>carta de indeferimento do INSS</strong> é uma experiência frustrante, mas não significa o fim da linha. Dados do Conselho de Recursos da Previdência Social mostram que <strong>mais de 50% dos recursos administrativos são providos</strong> total ou parcialmente. Na Justiça Federal, o índice de reversão é ainda maior. Se o INSS negou seu benefício, você tem o direito de recorrer — e as chances de sucesso são reais.</p>
 
@@ -245,6 +248,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-11",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     content: `
 <p>A <strong>perícia médica do INSS</strong> é o momento mais decisivo para quem solicita auxílio por incapacidade temporária (antigo auxílio-doença) ou aposentadoria por incapacidade permanente (antiga aposentadoria por invalidez). Em uma consulta que dura em média <strong>15 a 20 minutos</strong>, o perito federal avalia se você está ou não incapaz para o trabalho. Uma preparação adequada pode ser a diferença entre ter o benefício concedido ou negado.</p>
 
@@ -321,6 +325,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-13",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>A possibilidade de <strong>recolher contribuições em atraso ao INSS</strong> é uma ferramenta importante para quem tem "buracos" no tempo de contribuição. Períodos sem registro, trabalho informal ou simplesmente meses em que o contribuinte individual esqueceu de pagar a guia podem ser regularizados. Mas atenção: <strong>nem sempre vale a pena pagar</strong>. Dependendo da situação, o custo pode superar o benefício. Veja quando compensa e como fazer.</p>
 
@@ -397,6 +402,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-15",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
     content: `
 <p>A <strong>aposentadoria do professor</strong> sempre contou com regras diferenciadas na legislação brasileira, em reconhecimento à importância e ao desgaste da profissão docente. Após a Reforma da Previdência (EC 103/2019), as regras mudaram significativamente para novos segurados, mas foram criadas <strong>regras de transição</strong> para quem já contribuía antes de 13/11/2019. Entender essas regras é essencial para planejar a aposentadoria da forma mais vantajosa.</p>
 
@@ -491,6 +497,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-17",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>A <strong>pensão por morte</strong> é o benefício pago pelo INSS aos dependentes do segurado que falece. Após a Reforma da Previdência (EC 103/2019), as regras sofreram mudanças significativas — especialmente no <strong>cálculo do valor</strong> e na <strong>duração</strong> do benefício. Em 2026, essas regras continuam vigentes, e é fundamental conhecê-las para garantir o benefício integral e evitar surpresas desagradáveis.</p>
 
@@ -577,6 +584,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-20",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
     content: `
 <p>Muitos brasileiros começaram a vida trabalhando na <strong>zona rural</strong> e depois migraram para as cidades em busca de oportunidades. Outros fizeram o caminho inverso ou alternaram entre atividades rurais e urbanas ao longo da vida. Para essas pessoas, a <strong>aposentadoria híbrida</strong> é uma possibilidade real de somar todos os períodos e garantir o benefício. Prevista no art. 48, §3º da Lei 8.213/91 (incluído pela Lei 11.718/2008), essa modalidade permite a <strong>soma do tempo rural com o urbano</strong> para completar a carência exigida.</p>
 
@@ -661,6 +669,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-24",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
     content: `
 <p>Você sabia que <strong>milhares de aposentados e pensionistas recebem valores menores</strong> do que realmente têm direito? Erros de cálculo, contribuições não computadas e mudanças na legislação podem gerar diferenças significativas no valor do benefício. A <strong>revisão de benefício do INSS</strong> é o instrumento legal para corrigir essas distorções. Conheça os <strong>5 principais tipos de revisão</strong> que podem aumentar sua aposentadoria, pensão ou auxílio.</p>
 
@@ -732,6 +741,7 @@ export const batch5Posts: BlogPost[] = [
     category: "Previdenciário",
     date: "2026-01-28",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>O <strong>direito adquirido</strong> é um dos princípios mais importantes do Direito Previdenciário brasileiro. Garantido pelo art. 5º, XXXVI da Constituição Federal e pelo art. 3º da EC 103/2019, ele assegura que quem <strong>completou todos os requisitos para aposentadoria antes da Reforma da Previdência</strong> (13/11/2019) pode se aposentar pelas regras antigas — mesmo que só faça o requerimento anos depois. E as regras antigas, na grande maioria dos casos, são <strong>significativamente mais vantajosas</strong>.</p>
 

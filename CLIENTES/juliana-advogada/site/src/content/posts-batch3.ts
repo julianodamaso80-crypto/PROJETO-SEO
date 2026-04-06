@@ -10,6 +10,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-02",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848e968882?w=800&q=80",
     content: `
 <p>A <strong>demissao por justa causa</strong> e a penalidade mais severa que um empregador pode aplicar ao trabalhador. Quando aplicada de forma indevida, o empregado perde direitos importantes como saque do FGTS, multa de 40% e seguro-desemprego. Mas a boa noticia e que <strong>muitas justas causas sao revertidas na Justica do Trabalho</strong> porque as empresas nao seguem os requisitos legais.</p>
 
@@ -90,6 +91,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-04",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
     content: `
 <p>A <strong>estabilidade provisoria no emprego</strong> e uma protecao legal que impede a empresa de demitir o trabalhador sem justa causa durante determinado periodo. Existem diversas hipoteses previstas na CLT, na Constituicao Federal e em normas coletivas. Se voce tem estabilidade e foi demitido, pode ter direito a <strong>reintegracao ou indenizacao</strong> do periodo restante.</p>
 
@@ -157,6 +159,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-06",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
     content: `
 <p>O <strong>trabalho intermitente</strong> e uma modalidade de contrato criada pela Reforma Trabalhista de 2017 (Lei 13.467/17), incluida no artigo 443, §3o, e regulamentada pelo artigo 452-A da CLT. Nessa modalidade, o trabalhador e convocado para prestar servicos de forma nao continua, recebendo apenas pelas horas efetivamente trabalhadas. Mas isso nao significa que voce nao tem direitos — <strong>a lei garante diversas protecoes</strong>.</p>
 
@@ -227,6 +230,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-08",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&q=80",
     content: `
 <p>O <strong>teletrabalho</strong> — popularmente chamado de home office — se tornou realidade para milhoes de brasileiros. Com a pandemia e as mudancas legislativas, o trabalho remoto ganhou regulamentacao propria na CLT. Se voce trabalha de casa, precisa conhecer seus <strong>direitos sobre custos, jornada, ergonomia e acidentes de trabalho</strong>.</p>
 
@@ -296,6 +300,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-10",
     readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=800&q=80",
     content: `
 <p>O <strong>assedio sexual no trabalho</strong> e um problema grave que afeta milhoes de trabalhadores — especialmente mulheres. Alem de ser uma violacao dos direitos humanos, o assedio sexual no ambiente de trabalho e <strong>crime previsto no Codigo Penal</strong> e gera direito a indenizacao trabalhista. Se voce esta passando por essa situacao, saiba que existem caminhos legais para se proteger e buscar reparacao.</p>
 
@@ -379,6 +384,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-13",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
     content: `
 <p>O principio de <strong>salario igual para trabalho igual</strong> e um dos pilares do Direito do Trabalho brasileiro. Se voce exerce a mesma funcao que um colega e recebe remuneracao inferior, a <strong>equiparacao salarial</strong> e um direito garantido pelo artigo 461 da CLT e pelo artigo 7o, XXX, da Constituicao Federal. Em 2023, a Lei 14.611 reforçou essa protecao, especialmente para combater a desigualdade salarial entre homens e mulheres.</p>
 
@@ -451,6 +457,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-15",
     readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
     content: `
 <p>Voce foi contratado para uma funcao, mas com o tempo passou a exercer atividades completamente diferentes — sem receber nada a mais por isso? Essa situacao e mais comum do que se imagina e pode configurar o <strong>acumulo de funcao</strong>, gerando direito a um <strong>adicional salarial</strong>. Entenda quando a lei protege o trabalhador nesse cenario.</p>
 
@@ -522,6 +529,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-17",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80",
     content: `
 <p>A <strong>terceirizacao</strong> e uma realidade que atinge milhoes de trabalhadores no Brasil. Desde 2017, com a Lei 13.429 e a Reforma Trabalhista, a terceirizacao passou a ser permitida para <strong>qualquer atividade</strong>, incluindo a atividade-fim da empresa. Mas isso nao significa que o trabalhador terceirizado nao tem direitos — pelo contrario, a lei estabelece protecoes importantes que muitas empresas ignoram.</p>
 
@@ -593,6 +601,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-20",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80",
     content: `
 <p>Os <strong>danos morais trabalhistas</strong> sao uma forma de reparacao quando o empregador ou colegas de trabalho causam sofrimento psicologico, humilhacao ou violacao da dignidade do trabalhador. Se voce passou por situacoes de abuso, constrangimento ou tratamento degradante no ambiente de trabalho, a <strong>Justica do Trabalho pode condena-los a pagar indenizacao</strong>.</p>
 
@@ -671,6 +680,7 @@ export const batch3Posts: BlogPost[] = [
     category: "Trabalhista",
     date: "2026-03-23",
     readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&q=80",
     content: `
 <p>O <strong>aviso previo</strong> e uma das verbas mais importantes na rescisao do contrato de trabalho. Ele funciona como uma notificacao antecipada de que o contrato sera encerrado, dando tempo para o trabalhador buscar novo emprego ou para a empresa encontrar um substituto. A <strong>CLT</strong> e a <strong>Lei 12.506/2011</strong> regulam o tema, e entender as regras pode significar uma diferenca de milhares de reais na sua rescisao.</p>
 
