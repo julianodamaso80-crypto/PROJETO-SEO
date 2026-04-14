@@ -169,11 +169,22 @@ export default function Home() {
               </ElectricBorder>
             ))}
           </div>
+
+          <div className="text-center mt-12">
+            <a
+              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Agendar Avaliação
+            </a>
+          </div>
         </div>
       </section>
 
       {/* ══════ SOBRE A DRA. JULIANE ══════ */}
-      <section className="section reveal" style={{ background: "var(--pink)" }}>
+      <section className="section reveal" style={{ background: "var(--rose)" }}>
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Photo */}
@@ -194,20 +205,20 @@ export default function Home() {
 
             {/* Bio */}
             <div className="reveal-right">
-              <p className="eyebrow mb-3">Sobre a Profissional</p>
+              <p className="eyebrow mb-3" style={{ color: "var(--white)" }}>Sobre a Profissional</p>
               <h2
                 className="font-serif text-3xl md:text-4xl font-bold mb-6"
-                style={{ color: "var(--text-primary)" }}
+                style={{ color: "var(--white)" }}
               >
                 Dra. Juliane Elaine
               </h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "var(--text-body)" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "rgba(255,255,255,0.92)" }}>
                 Biomédica pós-graduada em Harmonização Orofacial, com formação
                 complementar na Europa e mais de 5 anos de experiência em
                 procedimentos estéticos avançados. Registrada no Conselho
                 Regional de Biomedicina sob o n.º 05033 RJ.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "var(--text-body)" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.92)" }}>
                 Especialista em harmonização facial, corporal e íntima, a Dra.
                 Juliane é reconhecida por seus resultados naturais e protocolos
                 personalizados. Atua como mentora de outros profissionais da
@@ -218,8 +229,8 @@ export default function Home() {
               <div
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6"
                 style={{
-                  background: "rgba(184,139,122,0.15)",
-                  color: "var(--rose)",
+                  background: "rgba(255,255,255,0.18)",
+                  color: "var(--white)",
                 }}
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -237,7 +248,7 @@ export default function Home() {
                 >
                   Agendar Avaliação
                 </a>
-                <Link href="/sobre" className="btn-outline">
+                <Link href="/sobre" className="btn-outline" style={{ color: "var(--white)", borderColor: "var(--white)" }}>
                   Saiba Mais
                 </Link>
               </div>
@@ -305,17 +316,28 @@ export default function Home() {
               </div>
             );
           })}
+
+          <div className="text-center mt-12">
+            <a
+              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Agendar Avaliação
+            </a>
+          </div>
         </div>
       </section>
 
       {/* ══════ DIFERENCIAIS ══════ */}
-      <section className="section reveal" style={{ background: "var(--pink)" }}>
+      <section className="section reveal" style={{ background: "var(--rose)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="eyebrow mb-3">Por Que Nos Escolher</p>
+            <p className="eyebrow mb-3" style={{ color: "var(--white)" }}>Por Que Nos Escolher</p>
             <h2
               className="font-serif text-3xl md:text-4xl font-bold"
-              style={{ color: "var(--text-primary)" }}
+              style={{ color: "var(--white)" }}
             >
               Nossos Diferenciais
             </h2>
@@ -336,6 +358,17 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <a
+              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Agendar Avaliação
+            </a>
           </div>
         </div>
       </section>
@@ -391,21 +424,32 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          <div className="text-center mt-12">
+            <a
+              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Agendar Avaliação
+            </a>
+          </div>
         </div>
       </section>
 
       {/* ══════ BLOG PREVIEW ══════ */}
-      <section className="section reveal" style={{ background: "var(--pink)" }}>
+      <section className="section reveal" style={{ background: "var(--rose)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="eyebrow mb-3">Blog</p>
+            <p className="eyebrow mb-3" style={{ color: "var(--white)" }}>Blog</p>
             <h2
               className="font-serif text-3xl md:text-4xl font-bold"
-              style={{ color: "var(--text-primary)" }}
+              style={{ color: "var(--white)" }}
             >
               Conteúdos sobre Estética
             </h2>
-            <p className="mt-3 text-base text-text-muted">
+            <p className="mt-3 text-base" style={{ color: "rgba(255,255,255,0.85)" }}>
               Artigos e informações sobre os procedimentos mais procurados.
             </p>
           </div>
@@ -428,10 +472,10 @@ export default function Home() {
                 tag: "Bioestimuladores",
               },
             ].map((post) => (
-              <div key={post.title} className="card card-hover">
+              <div key={post.title} className="card card-hover" style={{ background: "var(--white)" }}>
                 <div
                   className="w-full h-40 rounded-lg mb-4 flex items-center justify-center"
-                  style={{ background: "var(--pink)" }}
+                  style={{ background: "var(--nude)" }}
                 >
                   <span className="text-sm text-text-muted">Imagem</span>
                 </div>
@@ -454,8 +498,16 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="text-center mt-10">
-            <Link href="/blog" className="btn-outline">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+            <a
+              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Agendar Avaliação
+            </a>
+            <Link href="/blog" className="btn-outline" style={{ color: "var(--white)", borderColor: "var(--white)" }}>
               Ver Todos os Artigos
             </Link>
           </div>
