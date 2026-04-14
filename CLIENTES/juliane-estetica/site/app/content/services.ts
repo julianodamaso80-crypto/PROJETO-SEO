@@ -30,7 +30,7 @@ export const CATEGORIES: Record<
 
 export const SERVICES: Service[] = [
   // ═══════════════════════════════════════════════════
-  // HARMONIZAÇÃO FACIAL (4)
+  // HARMONIZAÇÃO FACIAL (5)
   // ═══════════════════════════════════════════════════
   {
     slug: "harmonizacao-facial",
@@ -185,9 +185,46 @@ Os resultados duram de 12 a 18 meses. É importante ressaltar que a rinomodelaç
       },
     ],
   },
+  {
+    slug: "perfiloplastia",
+    title: "Perfiloplastia",
+    category: "facial",
+    categoryLabel: "Harmonização Facial",
+    shortDesc:
+      "Harmonização do perfil facial — nariz, mento, mandíbula e lábios — para equilíbrio do terço inferior e projeção.",
+    fullDesc: `A Perfiloplastia é um protocolo de harmonização que trabalha especificamente o perfil do rosto, corrigindo desequilíbrios entre nariz, mento, ângulo mandibular e lábios. Na JS Estética Avançada, a Dra. Juliane Elaine realiza uma análise tridimensional do perfil para definir as áreas que precisam de volume, projeção ou refinamento.
+
+O procedimento combina diferentes técnicas: ácido hialurônico de alta densidade para projeção de mento e mandíbula, rinomodelação para equilibrar o dorso e a ponta do nariz, e ajustes labiais para completar a harmonia do terço inferior. Tudo é pensado para dar ao rosto um perfil mais definido e equilibrado.
+
+A Perfiloplastia é especialmente indicada para pacientes com retrognatismo (queixo retraído), ângulo mandibular pouco definido, convexidade facial aumentada ou desproporção entre os terços. O resultado é um perfil mais harmônico, com mento mais projetado, mandíbula mais marcada e linhas faciais mais definidas.
+
+O procedimento dura em média 60 minutos, com anestesia local, e o resultado é imediato. A durabilidade é de 12 a 24 meses, dependendo do produto utilizado e do metabolismo individual.`,
+    keywords: [
+      "perfiloplastia rj",
+      "perfiloplastia rio de janeiro",
+      "harmonização de perfil facial",
+      "projeção de mento rj",
+      "contorno mandibular rj",
+    ],
+    icon: "📐",
+    faq: [
+      {
+        q: "Perfiloplastia e harmonização facial são a mesma coisa?",
+        a: "Não. A perfiloplastia foca no equilíbrio do perfil (nariz, mento e mandíbula), enquanto a harmonização facial completa trabalha todos os terços do rosto e a simetria frontal.",
+      },
+      {
+        q: "Quanto tempo dura o resultado?",
+        a: "Entre 12 e 24 meses, dependendo do ácido hialurônico utilizado e do metabolismo do paciente. Retoques periódicos mantêm o resultado.",
+      },
+      {
+        q: "A perfiloplastia substitui cirurgia de mento?",
+        a: "Para casos leves e moderados, sim. Casos com grandes alterações ósseas podem exigir avaliação cirúrgica complementar.",
+      },
+    ],
+  },
 
   // ═══════════════════════════════════════════════════
-  // PROCEDIMENTOS CORPORAIS (3)
+  // PROCEDIMENTOS CORPORAIS (4)
   // ═══════════════════════════════════════════════════
   {
     slug: "bioestimuladores-de-colageno",
@@ -300,6 +337,43 @@ A Dra. Juliane Elaine avalia cuidadosamente a indicação do tratamento, conside
       },
     ],
   },
+  {
+    slug: "endolaser",
+    title: "Endolaser",
+    category: "corporal",
+    categoryLabel: "Procedimentos Corporais",
+    shortDesc:
+      "Tratamento minimamente invasivo com laser intradérmico para flacidez, gordura localizada e estímulo de colágeno.",
+    fullDesc: `O Endolaser é uma tecnologia minimamente invasiva que utiliza uma fibra óptica de laser inserida sob a pele para atuar diretamente na gordura localizada, na flacidez e no estímulo de colágeno. Na JS Estética Avançada, a Dra. Juliane Elaine realiza o procedimento com equipamento de última geração, garantindo resultados precisos e seguros.
+
+O laser, ao ser aplicado no tecido subcutâneo, promove três efeitos simultâneos: rompimento controlado das células de gordura, retração da pele (efeito lifting) e estímulo intenso da produção de colágeno novo. Isso torna o Endolaser ideal para pacientes que querem resultado de lipoaspiração leve associado à melhora da flacidez.
+
+As regiões mais tratadas são papada, braços, abdômen, flancos, culotes, interno de coxa, joelhos e, inclusive, rosto para flacidez. O procedimento dura entre 40 e 90 minutos, dependendo da área, e é realizado com anestesia local tumescente, proporcionando conforto total.
+
+A recuperação é rápida: o retorno às atividades é em 2 a 3 dias, com uso de cinta compressiva conforme orientação. Os resultados começam a aparecer em 15 dias e atingem o pico entre 3 e 6 meses, com melhora contínua da firmeza. Em muitos casos, uma única sessão é suficiente.`,
+    keywords: [
+      "endolaser rj",
+      "endolaser rio de janeiro",
+      "laser gordura localizada rj",
+      "laser flacidez rj",
+      "endolaser papada rj",
+    ],
+    icon: "🔦",
+    faq: [
+      {
+        q: "O Endolaser substitui lipoaspiração?",
+        a: "Para gorduras localizadas de pequeno e médio volume com flacidez associada, sim. Casos com grande volume de gordura podem ser combinados ou requerer avaliação cirúrgica.",
+      },
+      {
+        q: "Quantas sessões são necessárias?",
+        a: "Na maioria dos casos, uma sessão é suficiente. A Dra. Juliane avalia cada caso para indicar o protocolo ideal.",
+      },
+      {
+        q: "Quando vejo os resultados?",
+        a: "Os primeiros resultados aparecem em 15 dias. O resultado completo, com a retração da pele e formação de colágeno, é percebido entre 3 e 6 meses.",
+      },
+    ],
+  },
 
   // ═══════════════════════════════════════════════════
   // ESTÉTICA ÍNTIMA (2)
@@ -342,40 +416,49 @@ Os resultados variam conforme o procedimento: o preenchimento tem efeito imediat
     ],
   },
   {
-    slug: "preenchimento-gluteo-intimo",
-    title: "Preenchimento Glúteo Íntimo (Hipoplasia)",
+    slug: "estetica-intima-masculina",
+    title: "Estética Íntima Masculina",
     category: "intima",
     categoryLabel: "Estética Íntima",
     shortDesc:
-      "Correção de hipoplasia glútea e melhora do contorno da região íntimo-glútea.",
-    fullDesc: `O Preenchimento Glúteo Íntimo é um procedimento indicado para pacientes que apresentam hipoplasia (perda de volume) na região glútea íntima, causando desconforto estético e funcional. Na JS Estética Avançada, a Dra. Juliane Elaine utiliza ácido hialurônico e bioestimuladores específicos para restaurar o volume e melhorar o contorno da região.
+      "Aumento de comprimento e largura peniana com ácido hialurônico — procedimento seguro, discreto e com resultado imediato.",
+    fullDesc: `A Estética Íntima Masculina é um conjunto de procedimentos minimamente invasivos voltados para homens que buscam melhorar o aspecto estético e funcional da região íntima. Na JS Estética Avançada, a Dra. Juliane Elaine realiza o atendimento com total discrição, acolhimento e profissionalismo, em ambiente privativo.
 
-O tratamento é realizado em ambiente clínico estéril, com anestesia local, garantindo segurança e conforto total à paciente. A aplicação é feita de forma estratégica, respeitando a anatomia individual e buscando um resultado natural e harmonioso.
+O procedimento principal é o aumento de comprimento e largura peniana com ácido hialurônico de alta densidade, uma técnica consagrada internacionalmente e considerada segura quando realizada por profissional habilitado. A aplicação é feita em camadas estratégicas da região, promovendo aumento imediato de volume e extensão, com resultado natural e proporcional à anatomia do paciente.
 
-Muitas mulheres sofrem com a perda de volume na região glútea íntima após emagrecimento, envelhecimento ou por constituição física. O procedimento restaura o aspecto juvenil e saudável da região, melhorando a autoestima e o conforto no dia a dia.
+Além do aumento, a estética íntima masculina inclui tratamentos para rejuvenescimento peniano, correção de assimetrias, melhora da flacidez e do aspecto da pele local. A Dra. Juliane possui capacitação específica na área e utiliza apenas produtos aprovados pela ANVISA, com protocolos baseados em evidência.
 
-O resultado é imediato, com melhora progressiva ao longo das semanas. A durabilidade é de 12 a 24 meses, dependendo do produto utilizado e do protocolo escolhido.`,
+O procedimento é realizado com anestesia tópica e/ou bloqueio local, garantindo conforto total. O resultado é imediato e a durabilidade varia de 12 a 24 meses, dependendo do produto escolhido. A recuperação é rápida, com retorno às atividades normais em 24 a 48 horas e restrição de atividades físicas intensas por 7 a 10 dias.`,
     keywords: [
-      "preenchimento glúteo íntimo rj",
-      "hipoplasia glútea tratamento",
-      "preenchimento íntimo rio de janeiro",
-      "estética íntima avançada rj",
+      "estética íntima masculina rj",
+      "aumento peniano com ácido hialurônico rio de janeiro",
+      "aumento de comprimento peniano rj",
+      "aumento de largura peniana rj",
+      "estética íntima masculina barra da tijuca",
     ],
-    icon: "🩷",
+    icon: "♂️",
     faq: [
       {
-        q: "Quanto tempo dura o resultado?",
-        a: "De 12 a 24 meses, dependendo do produto utilizado. Retoques periódicos mantêm o resultado.",
+        q: "O aumento com ácido hialurônico é seguro?",
+        a: "Sim, quando realizado por profissional habilitado, com produtos aprovados pela ANVISA e em ambiente adequado. É uma técnica consagrada e amplamente estudada internacionalmente.",
       },
       {
-        q: "Preciso de repouso após o procedimento?",
-        a: "Recomendamos evitar exercícios intensos por 5 a 7 dias. As atividades diárias normais podem ser retomadas no dia seguinte.",
+        q: "O resultado é imediato?",
+        a: "Sim. O aumento de volume e comprimento é percebido imediatamente após a aplicação, com acomodação final nos dias seguintes.",
+      },
+      {
+        q: "Quanto tempo dura o resultado?",
+        a: "De 12 a 24 meses, dependendo do produto utilizado e do metabolismo individual. Retoques periódicos mantêm o resultado.",
+      },
+      {
+        q: "Preciso de afastamento do trabalho?",
+        a: "Não. O retorno às atividades normais é em 24 a 48 horas. Apenas exercícios físicos intensos e relações sexuais devem ser evitados por 7 a 10 dias.",
       },
     ],
   },
 
   // ═══════════════════════════════════════════════════
-  // TRATAMENTOS DE PELE (3)
+  // TRATAMENTOS DE PELE (7)
   // ═══════════════════════════════════════════════════
   {
     slug: "skinbooster",
@@ -485,6 +568,154 @@ O protocolo completo geralmente inclui de 3 a 5 sessões, com intervalo de 30 di
       {
         q: "Posso usar maquiagem após o procedimento?",
         a: "Recomendamos evitar maquiagem nas primeiras 24 a 48 horas. Após esse período, pode usar normalmente com cuidados adequados.",
+      },
+    ],
+  },
+  {
+    slug: "exossomos",
+    title: "Exossomos",
+    category: "pele",
+    categoryLabel: "Tratamentos de Pele",
+    shortDesc:
+      "Regeneração celular avançada com exossomos — a nova geração de tratamentos para rejuvenescimento e reparo da pele.",
+    fullDesc: `Os Exossomos são vesículas extracelulares ricas em fatores de crescimento, proteínas e material genético que atuam na comunicação celular e na regeneração dos tecidos. Representam a fronteira mais moderna da estética regenerativa e são considerados o sucessor natural dos PRPs e fatores de crescimento tradicionais.
+
+Na JS Estética Avançada, a Dra. Juliane Elaine utiliza exossomos como tratamento intensivo de rejuvenescimento, atuando diretamente na reprogramação celular da pele. O ativo estimula a produção de colágeno, elastina e ácido hialurônico, além de acelerar a cicatrização e reduzir inflamação.
+
+As indicações incluem fotoenvelhecimento, perda de firmeza, manchas, rugas finas, pele opaca, pós-peeling, pós-laser e recuperação após procedimentos mais agressivos. Pode ser aplicado via microagulhamento, drug delivery com ultrassom ou injeções intradérmicas superficiais.
+
+O protocolo recomendado inclui de 3 a 4 sessões com intervalo de 15 a 30 dias. Os resultados são percebidos já a partir da primeira sessão, com melhora progressiva de textura, luminosidade e firmeza. É um tratamento premium, indicado para quem busca o que há de mais avançado em regeneração cutânea.`,
+    keywords: [
+      "exossomos rj",
+      "exossomos rio de janeiro",
+      "regeneração celular pele rj",
+      "exossomos harmonização rj",
+      "terapia regenerativa facial rj",
+    ],
+    icon: "🧫",
+    faq: [
+      {
+        q: "O que são exossomos?",
+        a: "São vesículas microscópicas liberadas pelas células, ricas em fatores de crescimento, proteínas e material genético. Atuam como mensageiros celulares, estimulando regeneração e rejuvenescimento.",
+      },
+      {
+        q: "Quantas sessões são necessárias?",
+        a: "O protocolo padrão envolve de 3 a 4 sessões com intervalo de 15 a 30 dias. Manutenções semestrais mantêm os resultados.",
+      },
+      {
+        q: "Quais as diferenças entre exossomos e PRP?",
+        a: "Enquanto o PRP é derivado do próprio sangue do paciente, os exossomos são obtidos de forma padronizada em laboratório, com concentração controlada e maior potência regenerativa.",
+      },
+    ],
+  },
+  {
+    slug: "profhilo",
+    title: "Profhilo",
+    category: "pele",
+    categoryLabel: "Tratamentos de Pele",
+    shortDesc:
+      "Bioestimulador de ácido hialurônico puro para hidratação profunda e remodelação da pele — efeito lifting natural.",
+    fullDesc: `O Profhilo é um tratamento injetável exclusivo à base de ácido hialurônico estabilizado de alta concentração, desenvolvido na Itália e considerado um dos bioremodeladores mais avançados do mundo. Diferente dos preenchimentos tradicionais, o Profhilo não adiciona volume: ele hidrata profundamente, estimula colágeno, elastina e ácido hialurônico endógeno.
+
+Na JS Estética Avançada, a Dra. Juliane Elaine aplica o Profhilo em pontos estratégicos do rosto (técnica BAP — Bio Aesthetic Points), pescoço, colo, mãos e braços. O produto se espalha na camada profunda da derme, reidratando e remodelando a pele de forma natural e progressiva.
+
+O Profhilo é indicado para pacientes com flacidez leve a moderada, ressecamento, perda de luminosidade e sinais iniciais de envelhecimento. É ideal para quem busca efeito lifting sem volume adicional — o resultado é uma pele mais firme, hidratada, luminosa e com textura renovada.
+
+O protocolo padrão envolve 2 sessões com intervalo de 30 dias, seguidas de manutenção semestral. A aplicação é rápida (15 a 20 minutos), com anestesia tópica. Os resultados começam a ser percebidos após 15 dias, com efeito completo em 60 dias.`,
+    keywords: [
+      "profhilo rj",
+      "profhilo rio de janeiro",
+      "bioremodelador ácido hialurônico rj",
+      "profhilo barra da tijuca",
+      "lifting facial sem volume rj",
+    ],
+    icon: "💧",
+    faq: [
+      {
+        q: "Profhilo é preenchimento?",
+        a: "Não. O Profhilo é um bioremodelador — ele não adiciona volume, mas hidrata e estimula colágeno e elastina profundamente, atuando em toda a qualidade da pele.",
+      },
+      {
+        q: "Quantas sessões são necessárias?",
+        a: "O protocolo padrão é de 2 sessões com intervalo de 30 dias. A manutenção é recomendada a cada 6 meses.",
+      },
+      {
+        q: "Em quais áreas posso aplicar?",
+        a: "Rosto, pescoço, colo, mãos, braços e região interna de coxas. É versátil e indicado para qualquer área com flacidez e ressecamento.",
+      },
+    ],
+  },
+  {
+    slug: "pdrn",
+    title: "PDRN (Salmon DNA)",
+    category: "pele",
+    categoryLabel: "Tratamentos de Pele",
+    shortDesc:
+      "Regeneração tecidual com polidesoxirribonucleotídeos derivados de DNA de salmão — reparo intenso e rejuvenescimento.",
+    fullDesc: `O PDRN (Polidesoxirribonucleotídeo) é um ativo regenerativo extraído do DNA purificado do salmão, conhecido também como "Salmon DNA". Sua estrutura molecular é altamente compatível com o tecido humano, o que faz dele um dos mais potentes ativos de reparo e rejuvenescimento disponíveis na estética avançada.
+
+Na JS Estética Avançada, a Dra. Juliane Elaine utiliza o PDRN para estimular a regeneração celular, aumentar a produção de colágeno, melhorar a microcirculação e acelerar a cicatrização. É indicado para pacientes com pele danificada pelo sol, cicatrizes, manchas, rugas finas, pós-procedimento ablativo e para rejuvenescimento geral.
+
+O PDRN atua em três frentes: anti-inflamatória (reduz vermelhidão e sensibilidade), regeneradora (repara danos estruturais da pele) e rejuvenescedora (estimula renovação celular e produção de matriz extracelular). Pode ser aplicado por microagulhamento, drug delivery ou injeções intradérmicas.
+
+O protocolo habitual envolve de 3 a 4 sessões com intervalo de 15 a 21 dias. A recuperação é muito rápida, praticamente sem efeitos adversos. O resultado é uma pele mais saudável, firme, luminosa e com aspecto jovem. Excelente opção para pacientes com pele sensível ou em recuperação.`,
+    keywords: [
+      "pdrn rj",
+      "salmon dna rio de janeiro",
+      "pdrn facial rj",
+      "regeneração celular pele rj",
+      "rejuvenescimento pdrn barra da tijuca",
+    ],
+    icon: "🐟",
+    faq: [
+      {
+        q: "PDRN é seguro?",
+        a: "Sim. O PDRN é altamente purificado e biocompatível, utilizado há mais de 20 anos na medicina regenerativa. Aprovado para uso estético e com excelente perfil de segurança.",
+      },
+      {
+        q: "Quantas sessões são necessárias?",
+        a: "De 3 a 4 sessões com intervalo de 15 a 21 dias. Manutenção a cada 4 a 6 meses é recomendada.",
+      },
+      {
+        q: "PDRN e exossomos são a mesma coisa?",
+        a: "Não. Ambos regenerativos, mas com mecanismos diferentes: o PDRN é baseado em fragmentos de DNA que estimulam receptores celulares, enquanto os exossomos transportam fatores de crescimento diretamente às células.",
+      },
+    ],
+  },
+  {
+    slug: "co2-fracionado",
+    title: "Laser CO2 Fracionado",
+    category: "pele",
+    categoryLabel: "Tratamentos de Pele",
+    shortDesc:
+      "Laser ablativo fracionado para resurfacing profundo — trata cicatrizes, manchas, rugas e renova toda a pele.",
+    fullDesc: `O Laser CO2 Fracionado é o padrão ouro para resurfacing facial e renovação profunda da pele. Utiliza feixes de luz fracionados que atingem a pele em colunas microscópicas, preservando tecido saudável ao redor. Isso permite tratamento intenso com recuperação mais rápida e menores riscos em comparação ao CO2 tradicional.
+
+Na JS Estética Avançada, a Dra. Juliane Elaine aplica o CO2 fracionado com equipamento de última geração, personalizando a profundidade e a densidade do tratamento conforme a queixa e o fotótipo do paciente. O laser estimula intensamente a produção de colágeno e a renovação epidérmica.
+
+As principais indicações são: cicatrizes de acne profundas, rugas finas e médias, fotoenvelhecimento severo, manchas, estrias, poros dilatados, textura irregular e flacidez facial. É um dos poucos tratamentos capazes de produzir melhora visível em apenas uma sessão.
+
+O procedimento é realizado com anestesia tópica e/ou bloqueio local, dura em média 30 a 60 minutos. A recuperação leva de 5 a 10 dias, com vermelhidão inicial, descamação e formação de crostas finas. Após esse período, a pele revela-se renovada, lisa, firme e com aspecto muito mais jovem. Pode ser feito isoladamente ou combinado com exossomos e PDRN para potencializar o resultado.`,
+    keywords: [
+      "co2 fracionado rj",
+      "laser co2 rio de janeiro",
+      "resurfacing facial rj",
+      "tratamento cicatriz acne laser rj",
+      "laser fracionado barra da tijuca",
+    ],
+    icon: "⚡",
+    faq: [
+      {
+        q: "Quantas sessões de CO2 fracionado preciso?",
+        a: "Depende da queixa. Muitos pacientes têm excelente melhora com 1 a 2 sessões. Casos mais graves de cicatriz de acne podem exigir de 3 a 4 sessões.",
+      },
+      {
+        q: "Como é a recuperação?",
+        a: "De 5 a 10 dias de vermelhidão e descamação. É essencial usar protetor solar rigoroso e seguir os cuidados pós indicados pela Dra. Juliane.",
+      },
+      {
+        q: "Posso fazer CO2 fracionado no verão?",
+        a: "Preferencialmente nos meses de menor exposição solar. Se feito no verão, exige disciplina total com protetor solar e evitar exposição direta por pelo menos 30 dias.",
       },
     ],
   },
