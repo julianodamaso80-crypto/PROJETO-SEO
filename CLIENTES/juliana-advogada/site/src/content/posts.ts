@@ -35,6 +35,7 @@ import { postsImpactoTrab } from "./posts-impacto-trab";
 import { postsImpactoPrev } from "./posts-impacto-prev";
 import { postsImpactoGuias } from "./posts-impacto-guias";
 import { postsImpactoDireitos } from "./posts-impacto-direitos";
+import { postsBpcImigrantes } from "./posts-bpc-imigrantes";
 
 export const blogPosts: BlogPost[] = [
   ...batchAPosts,
@@ -71,4 +72,5 @@ export const blogPosts: BlogPost[] = [
   ...postsImpactoPrev,
   ...postsImpactoGuias,
   ...postsImpactoDireitos,
+  ...postsBpcImigrantes,
 ];

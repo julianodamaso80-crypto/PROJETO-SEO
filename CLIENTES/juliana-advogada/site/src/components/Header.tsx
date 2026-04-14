@@ -56,15 +56,17 @@ export function Header() {
             </Link>
           ))}
           <a href={WA} target="_blank" rel="noopener noreferrer" style={{
-            fontSize: "12px", fontWeight: 700, padding: "12px 28px",
-            background: "var(--blue)", color: "var(--grey)",
-            letterSpacing: "0.1em", textTransform: "uppercase",
+            fontSize: "12px", fontWeight: 800, padding: "14px 30px",
+            background: "var(--green)", color: "#FFFFFF",
+            letterSpacing: "0.08em", textTransform: "uppercase",
             textDecoration: "none", transition: "background 0.2s",
+            borderRadius: "4px",
+            boxShadow: "0 3px 12px rgba(22,163,74,0.4)",
           }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = "var(--navy)")}
-            onMouseLeave={(e) => (e.currentTarget.style.background = "var(--blue)")}
+            onMouseEnter={(e) => (e.currentTarget.style.background = "var(--green-dark)")}
+            onMouseLeave={(e) => (e.currentTarget.style.background = "var(--green)")}
           >
-            Falar com Especialista
+            Consulta Gratuita
           </a>
         </nav>
 
@@ -93,11 +95,12 @@ export function Header() {
           <a href={WA} target="_blank" rel="noopener noreferrer"
             onClick={() => setOpen(false)} style={{
               display: "flex", justifyContent: "center", marginTop: "20px", width: "100%",
-              padding: "14px", background: "var(--blue)", color: "var(--grey)",
-              fontSize: "14px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase",
-              textDecoration: "none",
+              padding: "16px", background: "var(--green)", color: "#FFFFFF",
+              fontSize: "14px", fontWeight: 800, letterSpacing: "0.08em", textTransform: "uppercase",
+              textDecoration: "none", borderRadius: "4px",
+              boxShadow: "0 4px 16px rgba(22,163,74,0.45)",
             }}>
-            Falar com Especialista
+            Consulta Gratuita
           </a>
         </div>
       )}

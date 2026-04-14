@@ -94,7 +94,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               Consulta inicial gratuita. Tire suas dúvidas sem compromisso.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Falar com Especialista
+              Quero Minha Consulta Gratuita
             </a>
           </div>
         </div>

@@ -93,7 +93,7 @@ export default function SobrePage() {
             <p style={{ fontSize: "16px", color: "var(--text-on-dark-muted)", marginBottom: "28px", maxWidth: "400px", margin: "0 auto 28px" }}>
               Conte sua situação e receba orientação clara sobre seus direitos.
             </p>
-            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Especialista</a>
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Quero Minha Consulta Gratuita</a>
           </div>
         </div>
       </section>

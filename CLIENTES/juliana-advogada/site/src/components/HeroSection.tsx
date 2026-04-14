@@ -138,19 +138,22 @@ export function HeroSection() {
               style={{
                 display: "inline-block",
                 padding: "18px 44px",
-                background: "var(--blue)",
-                color: "var(--grey)",
+                background: "var(--green)",
+                color: "#FFFFFF",
                 fontSize: "14px",
-                fontWeight: 700,
-                letterSpacing: "0.1em",
+                fontWeight: 800,
+                letterSpacing: "0.08em",
                 textTransform: "uppercase",
                 textDecoration: "none",
-                transition: "background 0.25s ease",
+                borderRadius: "4px",
+                boxShadow: "0 4px 18px rgba(22,163,74,0.5)",
+                transition: "all 0.25s ease",
+                animation: "cta-pulse 2.4s ease-in-out infinite",
               }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = "var(--navy)")}
-              onMouseLeave={(e) => (e.currentTarget.style.background = "#103459")}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "var(--green-dark)")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "var(--green)")}
             >
-              Falar com Especialista
+              Quero Minha Consulta Gratuita
             </a>
             <a
               href="#areas"
