@@ -1,8 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SERVICES, CATEGORIES } from "./content/services";
+import { blogPosts } from "./content/posts";
 import HeroBackground from "./components/HeroBackground";
 import ElectricBorder from "./components/ElectricBorder";
+
+const FEATURED_BLOG_SLUGS = [
+  "harmonizacao-facial-barra-da-tijuca-guia-completo",
+  "harmonizacao-glutea-aumente-volume-sem-cirurgia",
+  "harmonizacao-intima-feminina-o-que-e-como-funciona",
+];
 
 const FEATURED = [
   {
@@ -56,6 +63,10 @@ export default function Home() {
     "pele",
     "anti-aging",
   ];
+
+  const featuredPosts = FEATURED_BLOG_SLUGS
+    .map((slug) => blogPosts.find((p) => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p));
 
   return (
     <>
@@ -455,46 +466,40 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-children">
-            {[
-              {
-                title: "Harmonização Facial: Tudo o Que Você Precisa Saber",
-                desc: "Entenda como funciona a harmonização facial full face, quais são os procedimentos envolvidos e o que esperar dos resultados.",
-                tag: "Harmonização",
-              },
-              {
-                title: "Botox Preventivo: Quando Começar?",
-                desc: "A toxina botulínica pode ser usada de forma preventiva. Saiba a partir de qual idade e por que considerar o botox preventivo.",
-                tag: "Botox",
-              },
-              {
-                title: "Bioestimuladores de Colágeno: O Guia Completo",
-                desc: "Sculptra, Radiesse ou Ellansé? Descubra qual bioestimulador é ideal para o seu caso e como funciona o tratamento.",
-                tag: "Bioestimuladores",
-              },
-            ].map((post) => (
-              <div key={post.title} className="card card-hover" style={{ background: "var(--white)" }}>
-                <div
-                  className="w-full h-40 rounded-lg mb-4 flex items-center justify-center"
-                  style={{ background: "var(--nude)" }}
-                >
-                  <span className="text-sm text-text-muted">Imagem</span>
+            {featuredPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="card card-hover no-underline group block overflow-hidden p-0"
+                style={{ background: "var(--white)" }}
+              >
+                <div className="relative w-full h-48 overflow-hidden rounded-t-lg">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
                 </div>
-                <span
-                  className="text-xs font-semibold uppercase"
-                  style={{ color: "var(--rose)" }}
-                >
-                  {post.tag}
-                </span>
-                <h3
-                  className="font-serif text-lg font-bold mt-2 mb-2"
-                  style={{ color: "var(--text-primary)" }}
-                >
-                  {post.title}
-                </h3>
-                <p className="text-sm leading-relaxed" style={{ color: "var(--text-body)" }}>
-                  {post.desc}
-                </p>
-              </div>
+                <div className="p-6">
+                  <span
+                    className="text-xs font-semibold uppercase tracking-wider"
+                    style={{ color: "var(--rose)" }}
+                  >
+                    {post.category}
+                  </span>
+                  <h3
+                    className="font-serif text-lg font-bold mt-2 mb-2 group-hover:text-rose transition-colors"
+                    style={{ color: "var(--text-primary)" }}
+                  >
+                    {post.title}
+                  </h3>
+                  <p className="text-sm leading-relaxed line-clamp-3" style={{ color: "var(--text-body)" }}>
+                    {post.excerpt}
+                  </p>
+                </div>
+              </Link>
             ))}
           </div>
 
