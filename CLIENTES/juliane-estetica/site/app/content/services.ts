@@ -210,7 +210,7 @@ O procedimento dura em média 60 minutos, com anestesia local, e o resultado é 
     faq: [
       {
         q: "Perfiloplastia e harmonização facial são a mesma coisa?",
-        a: "Não. A perfiloplastia foca no equilíbrio do perfil (nariz, mento e mandíbula), enquanto a harmonização facial completa trabalha todos os terços do rosto e a simetria frontal.",
+        a: "Não. A perfiloplastia foca no equilíbrio do perfil (nariz, mento e lábios), enquanto a harmonização facial completa trabalha todos os terços do rosto e a simetria frontal.",
       },
       {
         q: "Quanto tempo dura o resultado?",
@@ -311,7 +311,7 @@ O protocolo completo geralmente envolve de 2 a 3 sessões, com resultados progre
 
 O procedimento funciona através da injeção de enzimas específicas que rompem a membrana das células adiposas, liberando a gordura que é então metabolizada e eliminada pelo organismo. É uma excelente opção para pacientes que desejam reduzir gordura localizada resistente a dieta e exercícios.
 
-Cada sessão dura em média 30 minutos, e o protocolo completo geralmente envolve de 3 a 5 sessões, com intervalo de 15 a 30 dias entre elas. Os resultados são progressivos, com redução visível de medidas a cada sessão.
+Cada sessão dura em média 30 minutos, e o protocolo completo geralmente envolve de 5 a 10 sessões, com intervalo de 15 a 30 dias entre elas. Os resultados são progressivos, com redução visível de medidas a cada sessão.
 
 A Dra. Juliane Elaine avalia cuidadosamente a indicação do tratamento, considerando a quantidade de gordura, a qualidade da pele e as expectativas do paciente. O procedimento é seguro quando realizado por profissional qualificado com produtos de qualidade.`,
     keywords: [
@@ -325,7 +325,7 @@ A Dra. Juliane Elaine avalia cuidadosamente a indicação do tratamento, conside
     faq: [
       {
         q: "Quantas sessões são necessárias?",
-        a: "De 3 a 5 sessões, com intervalo de 15 a 30 dias. O número exato depende da área tratada e da quantidade de gordura.",
+        a: "De 5 a 10 sessões, com intervalo de 15 a 30 dias. O número exato depende da área tratada e da quantidade de gordura.",
       },
       {
         q: "As enzimas líticas doem?",
@@ -333,7 +333,7 @@ A Dra. Juliane Elaine avalia cuidadosamente a indicação do tratamento, conside
       },
       {
         q: "É possível tratar a papada com enzimas?",
-        a: "Sim, a papada é uma das regiões com melhores resultados. Geralmente são necessárias de 3 a 4 sessões para resultado satisfatório.",
+        a: "Sim, a papada é uma das regiões com melhores resultados. Geralmente são necessárias de 5 a 10 sessões para resultado satisfatório.",
       },
     ],
   },
@@ -348,7 +348,7 @@ A Dra. Juliane Elaine avalia cuidadosamente a indicação do tratamento, conside
 
 O laser, ao ser aplicado no tecido subcutâneo, promove três efeitos simultâneos: rompimento controlado das células de gordura, retração da pele (efeito lifting) e estímulo intenso da produção de colágeno novo. Isso torna o Endolaser ideal para pacientes que querem resultado de lipoaspiração leve associado à melhora da flacidez.
 
-As regiões mais tratadas são papada, braços, abdômen, flancos, culotes, interno de coxa, joelhos e, inclusive, rosto para flacidez. O procedimento dura entre 40 e 90 minutos, dependendo da área, e é realizado com anestesia local tumescente, proporcionando conforto total.
+As regiões mais tratadas são papada, braços, abdômen, flancos, culotes, interno de coxa, joelhos e, inclusive, rosto para flacidez. O procedimento demora em torno de 2h a 4h, dependendo da área, e é realizado com anestesia local tumescente, proporcionando conforto total.
 
 A recuperação é rápida: o retorno às atividades é em 2 a 3 dias, com uso de cinta compressiva conforme orientação. Os resultados começam a aparecer em 15 dias e atingem o pico entre 3 e 6 meses, com melhora contínua da firmeza. Em muitos casos, uma única sessão é suficiente.`,
     keywords: [
