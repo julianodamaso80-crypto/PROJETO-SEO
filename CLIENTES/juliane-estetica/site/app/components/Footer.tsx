@@ -24,9 +24,9 @@ export default function Footer() {
                 <Image
                   src="/images/logo-juliane.jpeg"
                   alt="JS Estética Avançada — Dra. Juliane Elaine"
-                  width={200}
-                  height={64}
-                  className="h-14 w-auto object-contain bg-white rounded p-1"
+                  width={360}
+                  height={112}
+                  className="h-28 w-auto object-contain bg-white rounded-md p-2"
                 />
               </div>
               <p className="text-sm text-white/60 leading-relaxed mb-4">

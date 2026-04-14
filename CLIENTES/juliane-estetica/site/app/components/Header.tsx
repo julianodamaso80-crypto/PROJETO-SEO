@@ -44,10 +44,10 @@ export default function Header() {
           <Image
             src="/images/logo-juliane.jpeg"
             alt="JS Estética Avançada — Dra. Juliane Elaine"
-            width={180}
-            height={56}
+            width={320}
+            height={96}
             priority
-            className="h-12 w-auto object-contain"
+            className="h-24 w-auto object-contain"
           />
         </Link>
 

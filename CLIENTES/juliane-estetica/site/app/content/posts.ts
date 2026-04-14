@@ -11,7 +11,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-01",
     readTime: "8 min",
     image:
-      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização facial barra da tijuca",
       "harmonização facial rio de janeiro",
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-28",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização facial dói",
       "harmonização facial dor",
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-22",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "quanto custa harmonização facial",
       "preço harmonização facial rio de janeiro",
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-15",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização facial natural",
       "harmonização facial resultado natural",
@@ -298,7 +298,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-10",
     readTime: "6 min",
     image:
-      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "diferença botox preenchimento",
       "botox ou preenchimento",
@@ -368,7 +368,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-05",
     readTime: "8 min",
     image:
-      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "full face harmonização",
       "harmonização facial completa",
@@ -442,7 +442,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-01",
     readTime: "9 min",
     image:
-      "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização glútea",
       "aumento de glúteo sem cirurgia",
@@ -528,7 +528,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-25",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "preenchimento glúteo seguro",
       "preenchimento glúteo riscos",
@@ -593,7 +593,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-18",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização glútea vs prótese",
       "prótese silicone glúteo",
@@ -686,7 +686,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-12",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "bioestimulador colágeno glúteo",
       "sculptra glúteo",
@@ -770,7 +770,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-05",
     readTime: "6 min",
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização panturrilha",
       "preenchimento panturrilha",
@@ -846,7 +846,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-30",
     readTime: "8 min",
     image:
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização íntima feminina",
       "harmonização íntima o que é",
@@ -926,7 +926,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-25",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1609743522471-83c84ce23e32?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "rejuvenescimento íntimo",
       "rejuvenescimento íntimo benefícios",
@@ -998,7 +998,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-20",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "harmonização íntima segura",
       "harmonização íntima riscos",
@@ -1083,7 +1083,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-15",
     readTime: "6 min",
     image:
-      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "autoestima estética íntima",
       "estética íntima mulheres",
@@ -1146,7 +1146,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-10",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "gerenciamento de pele",
       "skincare profissional",
@@ -1227,7 +1227,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-05",
     readTime: "8 min",
     image:
-      "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "bioestimulador de colágeno",
       "sculptra para que serve",
@@ -1316,7 +1316,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-28",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "peeling químico",
       "peeling químico tipos",
@@ -1413,7 +1413,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-20",
     readTime: "8 min",
     image:
-      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "como escolher clínica estética",
       "clínica estética segura",
@@ -1507,7 +1507,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-15",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=800&q=80",
+      "/images/dra-juliane.jpeg",
     keywords: [
       "biomédica esteta",
       "biomédico esteta habilitação",
