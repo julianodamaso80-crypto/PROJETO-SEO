@@ -1,5 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SERVICES, CATEGORIES } from "./content/services";
+import HeroBackground from "./components/HeroBackground";
+import ElectricBorder from "./components/ElectricBorder";
 
 const FEATURED = [
   {
@@ -58,20 +61,20 @@ export default function Home() {
     <>
       {/* ══════ HERO ══════ */}
       <section
-        className="relative flex items-center justify-center text-center"
+        className="relative flex items-center justify-center text-center overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, var(--pink) 0%, var(--nude) 50%, var(--white) 100%)",
           minHeight: "calc(100vh - var(--header-h))",
           padding: "var(--section-px)",
         }}
       >
-        <div className="container max-w-3xl">
-          <p className="eyebrow animate-fade-up mb-4">
+        <HeroBackground />
+        <div className="container max-w-3xl relative" style={{ zIndex: 1 }}>
+          <p className="eyebrow animate-fade-up mb-4 hero-text">
             Biomédica Esteta — CRBM 05033 RJ
           </p>
 
           <h1
-            className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-up-delay"
+            className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-up-delay hero-text hero-text--title"
             style={{ color: "var(--text-primary)" }}
           >
             Harmonização Facial e Corporal com{" "}
@@ -79,7 +82,7 @@ export default function Home() {
           </h1>
 
           <p
-            className="mt-6 text-lg md:text-xl leading-relaxed animate-fade-up-delay2 max-w-2xl mx-auto"
+            className="mt-6 text-lg md:text-xl leading-relaxed animate-fade-up-delay2 max-w-2xl mx-auto hero-text"
             style={{ color: "var(--text-body)" }}
           >
             Dra. Juliane Elaine — biomédica pós-graduada em harmonização
@@ -116,7 +119,7 @@ export default function Home() {
       </section>
 
       {/* ══════ PROCEDIMENTOS DESTAQUE ══════ */}
-      <section className="section reveal" style={{ background: "var(--white)" }}>
+      <section className="section reveal" style={{ background: "var(--nude)" }}>
         <div className="container">
           <div className="text-center mb-12">
             <p className="eyebrow mb-3">Especialidades</p>
@@ -130,54 +133,62 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-children">
             {FEATURED.map((item) => (
-              <Link
+              <ElectricBorder
                 key={item.slug}
-                href={`/procedimentos/${item.slug}`}
-                className="card card-hover text-center no-underline group"
+                color="#B88B7A"
+                speed={1}
+                chaos={0.2}
+                borderRadius={16}
               >
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center text-3xl mx-auto mb-4"
-                  style={{ background: "var(--pink)" }}
+                <Link
+                  href={`/procedimentos/${item.slug}`}
+                  className="card card-hover text-center no-underline group block"
                 >
-                  {item.icon}
-                </div>
-                <h3
-                  className="font-serif text-xl font-bold mb-2 group-hover:text-rose transition-colors"
-                  style={{ color: "var(--text-primary)" }}
-                >
-                  {item.label}
-                </h3>
-                <p className="text-sm leading-relaxed" style={{ color: "var(--text-body)" }}>
-                  {item.desc}
-                </p>
-                <span
-                  className="inline-block mt-4 text-sm font-semibold"
-                  style={{ color: "var(--rose)" }}
-                >
-                  Saiba mais &rarr;
-                </span>
-              </Link>
+                  <div
+                    className="w-16 h-16 rounded-full flex items-center justify-center text-3xl mx-auto mb-4"
+                    style={{ background: "var(--pink)" }}
+                  >
+                    {item.icon}
+                  </div>
+                  <h3
+                    className="font-serif text-xl font-bold mb-2 group-hover:text-rose transition-colors"
+                    style={{ color: "var(--text-primary)" }}
+                  >
+                    {item.label}
+                  </h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "var(--text-body)" }}>
+                    {item.desc}
+                  </p>
+                  <span
+                    className="inline-block mt-4 text-sm font-semibold"
+                    style={{ color: "var(--rose)" }}
+                  >
+                    Saiba mais &rarr;
+                  </span>
+                </Link>
+              </ElectricBorder>
             ))}
           </div>
         </div>
       </section>
 
       {/* ══════ SOBRE A DRA. JULIANE ══════ */}
-      <section className="section reveal" style={{ background: "var(--nude)" }}>
+      <section className="section reveal" style={{ background: "var(--pink)" }}>
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Photo placeholder */}
-            <div className="reveal-left">
-              <div
-                className="rounded-2xl overflow-hidden aspect-[3/4] flex items-center justify-center"
-                style={{ background: "var(--pink)" }}
-              >
-                <div className="text-center p-8">
-                  <span className="text-6xl block mb-4">👩‍⚕️</span>
-                  <p className="text-sm font-medium" style={{ color: "var(--text-muted)" }}>
-                    Foto da Dra. Juliane
-                  </p>
-                </div>
+            {/* Photo */}
+            <div className="reveal-left dra-photo">
+              <div className="dra-photo__frame">
+                <Image
+                  src="/images/dra-juliane.jpeg"
+                  alt="Dra. Juliane Elaine — Biomédica Esteta"
+                  width={900}
+                  height={1200}
+                  sizes="(max-width: 1024px) 90vw, 45vw"
+                  className="dra-photo__img"
+                  priority
+                />
+                <div className="dra-photo__sheen" />
               </div>
             </div>
 
@@ -236,7 +247,7 @@ export default function Home() {
       </section>
 
       {/* ══════ TODOS OS PROCEDIMENTOS ══════ */}
-      <section className="section reveal" style={{ background: "var(--white)" }}>
+      <section className="section reveal" style={{ background: "var(--nude)" }}>
         <div className="container">
           <div className="text-center mb-12">
             <p className="eyebrow mb-3">Procedimentos</p>
@@ -330,7 +341,7 @@ export default function Home() {
       </section>
 
       {/* ══════ UNIDADES ══════ */}
-      <section className="section reveal" style={{ background: "var(--white)" }}>
+      <section className="section reveal" style={{ background: "var(--nude)" }}>
         <div className="container">
           <div className="text-center mb-12">
             <p className="eyebrow mb-3">Nossas Unidades</p>
@@ -384,7 +395,7 @@ export default function Home() {
       </section>
 
       {/* ══════ BLOG PREVIEW ══════ */}
-      <section className="section reveal" style={{ background: "var(--nude)" }}>
+      <section className="section reveal" style={{ background: "var(--pink)" }}>
         <div className="container">
           <div className="text-center mb-12">
             <p className="eyebrow mb-3">Blog</p>
