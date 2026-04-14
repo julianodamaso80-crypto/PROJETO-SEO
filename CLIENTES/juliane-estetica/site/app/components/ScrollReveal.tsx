@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export function ScrollReveal() {
+  const pathname = usePathname();
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -18,10 +21,13 @@ export function ScrollReveal() {
     const elements = document.querySelectorAll(
       ".reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger-children"
     );
-    elements.forEach((el) => observer.observe(el));
+    elements.forEach((el) => {
+      el.classList.remove("visible");
+      observer.observe(el);
+    });
 
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   return null;
 }

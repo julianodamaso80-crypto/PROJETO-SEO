@@ -161,17 +161,17 @@ export default function UnidadesPage() {
                   </div>
                 </div>
 
-                {/* Map placeholder */}
-                <div
-                  className="rounded-lg h-48 flex items-center justify-center"
-                  style={{ background: "var(--nude)" }}
-                >
-                  <div className="text-center">
-                    <span className="text-3xl">🗺️</span>
-                    <p className="text-sm text-text-muted mt-2">
-                      Mapa — {unit.name}
-                    </p>
-                  </div>
+                {/* Map */}
+                <div className="rounded-lg overflow-hidden h-56 border" style={{ borderColor: "var(--border)" }}>
+                  <iframe
+                    title={`Mapa — ${unit.name}`}
+                    src={`https://maps.google.com/maps?q=${unit.mapQuery}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, display: "block" }}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
                 </div>
               </div>
             ))}

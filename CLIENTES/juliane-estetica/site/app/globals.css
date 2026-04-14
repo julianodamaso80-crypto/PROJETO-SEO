@@ -16,6 +16,11 @@
   --dark: #1A1A1A;
   --pink: #F5E6E0;
 
+  /* CTA — verde vibrante p/ chamar atenção */
+  --cta: #10B981;
+  --cta-hover: #059669;
+  --cta-glow: rgba(16, 185, 129, 0.35);
+
   /* Text hierarchy */
   --text-primary: #1A1A1A;
   --text-body: #3D3D3D;
@@ -146,22 +151,24 @@ svg {
   gap: 8px;
   padding: 14px 32px;
   font-size: 0.9375rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
   color: var(--white);
-  background: var(--rose);
-  border: 2px solid var(--rose);
+  background: var(--cta);
+  border: 2px solid var(--cta);
   border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  box-shadow: 0 8px 24px -8px var(--cta-glow), 0 2px 8px -2px var(--cta-glow);
+  transition: background 0.2s, border-color 0.2s, transform 0.15s, box-shadow 0.2s;
   text-decoration: none;
   white-space: nowrap;
 }
 
 .btn-primary:hover {
-  background: var(--rose-hover);
-  border-color: var(--rose-hover);
-  transform: translateY(-1px);
+  background: var(--cta-hover);
+  border-color: var(--cta-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px -8px var(--cta-glow), 0 4px 12px -2px var(--cta-glow);
 }
 
 .btn-primary:active {
@@ -625,4 +632,132 @@ details.faq-item .faq-answer {
     bottom: 16px;
     right: 16px;
   }
+}
+
+/* ═══════════════════════════════════════════════════
+   Hero animated background — LiquidEther (WebGL)
+   Tunable via --hero-bg-* custom props
+   ═══════════════════════════════════════════════════ */
+:root {
+  --hero-bg-overlay: 0.4;   /* 0–1: intensidade do véu p/ legibilidade */
+  --hero-bg-base-from: #F8F5F9;
+  --hero-bg-base-to:   #EDE7EE;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-bg__base {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 20%, var(--hero-bg-base-from) 0%, var(--hero-bg-base-to) 75%);
+}
+
+.hero-bg > div:not(.hero-bg__base):not(.hero-bg__overlay) {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-bg__overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 50%,
+      rgba(255, 255, 255, calc(var(--hero-bg-overlay) * 1.05)) 0%,
+      rgba(255, 255, 255, calc(var(--hero-bg-overlay) * 0.65)) 40%,
+      rgba(255, 255, 255, calc(var(--hero-bg-overlay) * 0.2)) 80%,
+      rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0.18) 100%);
+}
+
+/* Realce do texto da hero sobre o vídeo */
+.hero-text {
+  text-shadow:
+    0 1px 2px rgba(255, 255, 255, 0.6),
+    0 2px 16px rgba(255, 255, 255, 0.5);
+}
+.hero-text--title {
+  text-shadow:
+    0 1px 2px rgba(255, 255, 255, 0.7),
+    0 4px 24px rgba(255, 255, 255, 0.55),
+    0 1px 0 rgba(26, 26, 26, 0.08);
+}
+
+/* ═══════════════════════════════════════════════════
+   Dra. Juliane — photo frame
+   ═══════════════════════════════════════════════════ */
+.dra-photo {
+  position: relative;
+  padding: 14px;
+}
+.dra-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 28px;
+  background: linear-gradient(135deg,
+    rgba(217, 199, 232, 0.55) 0%,
+    rgba(242, 214, 220, 0.45) 50%,
+    rgba(201, 196, 207, 0.35) 100%);
+  filter: blur(40px);
+  transform: scale(0.95);
+  z-index: 0;
+  opacity: 0.9;
+}
+.dra-photo__frame {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 3 / 4;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 30px 60px -20px rgba(26, 26, 26, 0.25),
+    0 18px 36px -18px rgba(184, 139, 122, 0.35);
+  transform: translateZ(0);
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.dra-photo__frame:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 40px 80px -20px rgba(26, 26, 26, 0.3),
+    0 22px 44px -18px rgba(184, 139, 122, 0.45);
+}
+.dra-photo__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.dra-photo__frame:hover .dra-photo__img {
+  transform: scale(1.04);
+}
+.dra-photo__sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    125deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.18) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  mix-blend-mode: overlay;
+}
+@media (max-width: 768px) {
+  .dra-photo { padding: 10px; }
+  .dra-photo__frame { border-radius: 20px; }
 }

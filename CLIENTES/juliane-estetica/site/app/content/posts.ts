@@ -442,7 +442,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-01",
     readTime: "9 min",
     image:
-      "https://images.unsplash.com/photo-1540555700478-4be289fbec6f?w=800&q=80",
+      "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=800&q=80",
     keywords: [
       "harmonização glútea",
       "aumento de glúteo sem cirurgia",
@@ -593,7 +593,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-18",
     readTime: "7 min",
     image:
-      "https://images.unsplash.com/photo-1560750588-73207b1ef5b0?w=800&q=80",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80",
     keywords: [
       "harmonização glútea vs prótese",
       "prótese silicone glúteo",
@@ -1083,7 +1083,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-15",
     readTime: "6 min",
     image:
-      "https://images.unsplash.com/photo-1614859324967-bdf0e4831034?w=800&q=80",
+      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
     keywords: [
       "autoestima estética íntima",
       "estética íntima mulheres",
