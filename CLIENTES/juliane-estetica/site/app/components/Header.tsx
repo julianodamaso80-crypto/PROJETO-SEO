@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const PROCEDURES_DROPDOWN = [
@@ -39,16 +40,15 @@ export default function Header() {
     >
       <div className="container h-full flex items-center justify-between px-6">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-1.5 no-underline">
-          <span
-            className="text-2xl font-bold font-serif"
-            style={{ color: "var(--rose)" }}
-          >
-            JS
-          </span>
-          <span className="text-sm font-medium text-text-primary hidden sm:inline">
-            Estética Avançada
-          </span>
+        <Link href="/" className="flex items-center gap-2 no-underline">
+          <Image
+            src="/images/logo-juliane.jpeg"
+            alt="JS Estética Avançada — Dra. Juliane Elaine"
+            width={180}
+            height={56}
+            priority
+            className="h-12 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -114,7 +114,7 @@ export default function Header() {
 
         {/* CTA desktop */}
         <a
-          href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+          href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary hidden lg:inline-flex text-sm"
@@ -186,7 +186,7 @@ export default function Header() {
             ))}
 
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary mt-6 text-center"

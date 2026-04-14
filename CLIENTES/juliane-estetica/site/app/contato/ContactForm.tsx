@@ -28,7 +28,7 @@ export default function ContactForm() {
     e.preventDefault();
     const text = `Ola! Gostaria de agendar uma avaliacao.\n\nNome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}\nProcedimento: ${formData.procedure || "A definir"}\nUnidade: ${formData.unit || "A definir"}\nMensagem: ${formData.message || "—"}`;
     window.open(
-      `https://wa.me/5521999999999?text=${encodeURIComponent(text)}`,
+      `https://wa.me/5521992469772?text=${encodeURIComponent(text)}`,
       "_blank"
     );
     setSubmitted(true);
@@ -122,7 +122,7 @@ export default function ContactForm() {
             onChange={handleChange}
             className="w-full px-4 py-3 rounded-lg border text-sm outline-none transition-colors"
             style={{ borderColor: "var(--border)", background: "var(--surface)" }}
-            placeholder="(21) 99999-9999"
+            placeholder="(21) 99246-9772"
           />
         </div>
 

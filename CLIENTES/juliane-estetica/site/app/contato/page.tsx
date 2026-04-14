@@ -76,13 +76,13 @@ export default function ContatoPage() {
                       WhatsApp
                     </p>
                     <a
-                      href="https://wa.me/5521999999999"
+                      href="https://wa.me/5521992469772"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm hover:underline"
                       style={{ color: "var(--rose)" }}
                     >
-                      (21) 99999-9999
+                      (21) 99246-9772
                     </a>
                   </div>
                 </div>
@@ -204,7 +204,7 @@ export default function ContatoPage() {
             sua avaliacao.
           </p>
           <a
-            href="https://wa.me/5521999999999"
+            href="https://wa.me/5521992469772"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary mt-8"

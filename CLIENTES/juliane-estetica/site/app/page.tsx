@@ -103,7 +103,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 animate-fade-up-delay3">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -183,7 +183,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -252,7 +252,7 @@ export default function Home() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+                  href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"
@@ -330,7 +330,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -373,7 +373,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -438,7 +438,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -505,7 +505,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -536,7 +536,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/5521999999999?text=Olá! Gostaria de agendar uma avaliação."
+              href="https://wa.me/5521992469772?text=Olá! Gostaria de agendar uma avaliação."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

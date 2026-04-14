@@ -129,7 +129,7 @@ export default function ProcedimentosPage() {
             protocolo para voce.
           </p>
           <a
-            href="https://wa.me/5521999999999"
+            href="https://wa.me/5521992469772"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary mt-8"
