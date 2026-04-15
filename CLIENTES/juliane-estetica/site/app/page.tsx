@@ -6,9 +6,9 @@ import HeroBackground from "./components/HeroBackground";
 import ElectricBorder from "./components/ElectricBorder";
 
 const FEATURED_BLOG_SLUGS = [
-  "harmonizacao-facial-barra-da-tijuca-guia-completo",
-  "harmonizacao-glutea-aumente-volume-sem-cirurgia",
-  "harmonizacao-intima-feminina-o-que-e-como-funciona",
+  "harmonizacao-panturrilha",
+  "harmonizacao-quadriceps",
+  "endolaser-tratamento-flacidez-gordura-localizada",
 ];
 
 const FEATURED = [

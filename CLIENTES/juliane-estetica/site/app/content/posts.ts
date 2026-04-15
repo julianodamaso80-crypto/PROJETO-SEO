@@ -11,7 +11,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-01",
     readTime: "8 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/elegant%20beautiful%20woman%20face%20close%20portrait%20soft%20natural%20makeup%20luxury%20aesthetic%20clinic%20editorial%20beauty%20photography%20rose%20gold%20tones?width=800&height=600&nologo=true&model=flux&seed=101",
     keywords: [
       "harmonização facial barra da tijuca",
       "harmonização facial rio de janeiro",
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-28",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/woman%20receiving%20gentle%20professional%20facial%20treatment%20esthetician%20hands%20calm%20relaxed%20expression%20soft%20lighting%20aesthetic%20clinic?width=800&height=600&nologo=true&model=flux&seed=102",
     keywords: [
       "harmonização facial dói",
       "harmonização facial dor",
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-22",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/luxury%20modern%20aesthetic%20medical%20clinic%20interior%20elegant%20reception%20rose%20gold%20and%20beige%20tones%20welcoming%20atmosphere?width=800&height=600&nologo=true&model=flux&seed=103",
     keywords: [
       "quanto custa harmonização facial",
       "preço harmonização facial rio de janeiro",
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-15",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/natural%20beauty%20woman%20face%20portrait%20flawless%20skin%20soft%20makeup%20elegant%20editorial%20photography%20warm%20light?width=800&height=600&nologo=true&model=flux&seed=104",
     keywords: [
       "harmonização facial natural",
       "harmonização facial resultado natural",
@@ -298,7 +298,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-10",
     readTime: "6 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/aesthetic%20medical%20products%20syringes%20hyaluronic%20acid%20vials%20flat%20lay%20clean%20white%20background%20professional%20medical%20photography?width=800&height=600&nologo=true&model=flux&seed=105",
     keywords: [
       "diferença botox preenchimento",
       "botox ou preenchimento",
@@ -368,7 +368,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-05",
     readTime: "8 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/beautiful%20symmetrical%20woman%20face%20portrait%20harmonious%20proportions%20professional%20beauty%20photography%20soft%20studio%20light?width=800&height=600&nologo=true&model=flux&seed=106",
     keywords: [
       "full face harmonização",
       "harmonização facial completa",
@@ -442,7 +442,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-01",
     readTime: "9 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/modern%20luxury%20aesthetic%20clinic%20treatment%20room%20professional%20medical%20environment%20rose%20gold%20interior%20elegant?width=800&height=600&nologo=true&model=flux&seed=107",
     keywords: [
       "harmonização glútea",
       "aumento de glúteo sem cirurgia",
@@ -528,7 +528,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-25",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/female%20doctor%20professional%20medical%20consultation%20clean%20white%20coat%20aesthetic%20clinic%20trust%20and%20expertise?width=800&height=600&nologo=true&model=flux&seed=108",
     keywords: [
       "preenchimento glúteo seguro",
       "preenchimento glúteo riscos",
@@ -593,7 +593,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-18",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/medical%20consultation%20aesthetic%20clinic%20female%20doctor%20explaining%20to%20patient%20professional%20wellness%20environment?width=800&height=600&nologo=true&model=flux&seed=109",
     keywords: [
       "harmonização glútea vs prótese",
       "prótese silicone glúteo",
@@ -686,7 +686,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-12",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/collagen%20serum%20skincare%20products%20luxury%20flat%20lay%20rose%20gold%20bottles%20minimal%20elegant%20aesthetic?width=800&height=600&nologo=true&model=flux&seed=110",
     keywords: [
       "bioestimulador colágeno glúteo",
       "sculptra glúteo",
@@ -761,52 +761,41 @@ export const blogPosts: BlogPost[] = [
     `,
   },
   {
-    slug: "harmonizacao-panturrilha-quadriceps",
+    slug: "harmonizacao-panturrilha",
     title:
-      "Harmonização de Panturrilha e Quadríceps: O Que Você Precisa Saber",
+      "Harmonização de Panturrilha: Volume e Contorno Sem Cirurgia",
     category: "Harmonização Corporal",
     excerpt:
-      "Descubra como a harmonização de panturrilha e quadríceps pode melhorar o contorno das pernas, quem pode fazer e como funciona o procedimento.",
-    date: "2026-02-05",
+      "Descubra como a harmonização de panturrilha corrige panturrilhas finas, assimetrias e melhora o contorno das pernas com bioestimuladores — sem cirurgia.",
+    date: "2026-04-14",
     readTime: "6 min",
-    image:
-      "/images/dra-juliane.jpeg",
+    image: "/images/panturrilha.jpeg",
     keywords: [
       "harmonização panturrilha",
       "preenchimento panturrilha",
-      "harmonização quadríceps",
-      "harmonização corporal pernas",
+      "panturrilha fina tratamento",
       "bioestimulador panturrilha",
+      "aumento panturrilha sem cirurgia",
     ],
     content: `
-      <p>Quando falamos de <strong>harmonização corporal</strong>, o glúteo costuma ser o protagonista. Porém, existe uma demanda crescente por procedimentos para <strong>panturrilha e quadríceps</strong> — regiões que muitas vezes não respondem adequadamente ao treino e geram insatisfação estética significativa.</p>
+      <p>A <strong>harmonização de panturrilha</strong> é um dos procedimentos corporais que mais cresce entre quem busca melhorar o contorno das pernas sem passar por cirurgia. Para muitas pessoas, a panturrilha é uma região que simplesmente não responde a treino de força — e é aí que a estética avançada entra.</p>
 
       <h2>Para Quem É Indicada?</h2>
-      <p>A harmonização de panturrilha e quadríceps é indicada para:</p>
+      <p>A harmonização de panturrilha é indicada para:</p>
       <ul>
         <li><strong>Panturrilhas finas:</strong> pessoas com panturrilhas naturalmente pouco volumosas que não respondem ao exercício físico</li>
         <li><strong>Assimetria:</strong> diferença visível de volume entre uma perna e outra</li>
         <li><strong>Sequelas:</strong> perda de volume por atrofia muscular, poliomielite ou outras condições</li>
-        <li><strong>Quadríceps hipotrófico:</strong> coxas finas ou com contorno irregular</li>
-        <li><strong>Pacientes que não desejam cirurgia:</strong> alternativa ao implante de silicone de panturrilha</li>
+        <li><strong>Alternativa à cirurgia:</strong> quem não deseja implante de silicone de panturrilha</li>
+        <li><strong>Refinamento estético:</strong> projeção de volume para equilíbrio visual das pernas</li>
       </ul>
 
-      <h2>Como Funciona?</h2>
-      <p>O procedimento utiliza bioestimuladores de colágeno (como Sculptra e Radiesse) ou ácido hialurônico corporal, aplicados estrategicamente para:</p>
-      <ul>
-        <li>Aumentar volume na região desejada</li>
-        <li>Melhorar o contorno e a definição muscular aparente</li>
-        <li>Estimular produção de colágeno para firmeza e sustentação</li>
-      </ul>
-
-      <h3>Panturrilha</h3>
-      <p>A aplicação na panturrilha é feita na porção medial (face interna) do músculo gastrocnêmio, que é a região que mais contribui para a projeção e o volume visual da panturrilha. O produto é depositado em plano subcutâneo profundo, usando cânulas para maior segurança.</p>
-
-      <h3>Quadríceps</h3>
-      <p>No quadríceps, a aplicação foca nas porções que geram contorno visível — especialmente o vasto medial (face interna da coxa acima do joelho) e o reto femoral (porção frontal central). O objetivo é criar ou melhorar a definição muscular aparente.</p>
+      <h2>Como Funciona a Técnica?</h2>
+      <p>O procedimento utiliza <strong>bioestimuladores de colágeno</strong> (como Sculptra e Radiesse) ou <strong>ácido hialurônico corporal</strong> de alta densidade, aplicados estrategicamente na porção medial (face interna) do músculo gastrocnêmio — a região que mais contribui para a projeção e o volume visual da panturrilha.</p>
+      <p>O produto é depositado em plano subcutâneo profundo com o uso de cânulas, técnica mais segura e com menor risco de hematoma. A Dra. Juliane Elaine (CRBM 05033 RJ) realiza marcação prévia para garantir simetria entre as duas pernas.</p>
 
       <h2>Procedimento e Recuperação</h2>
-      <p>O procedimento é realizado em consultório, com anestesia local. A sessão dura entre 30 e 60 minutos, dependendo da extensão da área tratada.</p>
+      <p>A sessão é feita em consultório, com anestesia local, e dura em média de 30 a 60 minutos por sessão.</p>
       <p><strong>Recuperação:</strong></p>
       <ul>
         <li>Inchaço moderado por 5 a 10 dias</li>
@@ -817,21 +806,158 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Quantas Sessões São Necessárias?</h2>
-      <p>Em geral, são necessárias de 2 a 4 sessões, com intervalo de 30 a 45 dias entre elas. A quantidade depende do volume desejado, do produto utilizado e da resposta individual de cada paciente.</p>
+      <p>Em geral, são necessárias <strong>de 2 a 4 sessões</strong>, com intervalo de 30 a 45 dias entre elas. A quantidade depende do volume desejado, do produto escolhido e da resposta individual de cada paciente.</p>
 
-      <h2>Resultados</h2>
-      <p>A harmonização de panturrilha e quadríceps proporciona:</p>
+      <h2>Resultados Esperados</h2>
       <ul>
-        <li>Aumento moderado e natural de volume</li>
+        <li>Aumento moderado e natural de volume na panturrilha</li>
         <li>Melhor proporção visual entre as pernas e o tronco</li>
         <li>Contorno mais definido e simétrico</li>
-        <li>Melhora da autoestima, especialmente para quem evita roupas curtas</li>
+        <li>Liberdade para usar roupas curtas, saias e shorts com confiança</li>
       </ul>
 
-      <h2>Harmonização Corporal Completa</h2>
-      <p>Na JS Estética Avançada, oferecemos protocolos de harmonização para o corpo inteiro — glúteos, panturrilhas, quadríceps e muito mais. A biomédica esteta Juliane Elaine (CRBM 05033 RJ) planeja cada protocolo de forma integrada, considerando as proporções corporais como um todo. Atendemos na <strong>Barra da Tijuca</strong> e em <strong>Bangu</strong>, no Rio de Janeiro.</p>
+      <h2>Agende Sua Avaliação</h2>
+      <p>Na JS Estética Avançada, a biomédica esteta Juliane Elaine realiza avaliação completa para indicar a melhor técnica e quantidade de produto para o seu caso. Atendemos na <strong>Barra da Tijuca</strong> e em <strong>Bangu</strong>, no Rio de Janeiro.</p>
 
-      <p><a href="/contato" class="blog-cta">Agendar avaliação para harmonização corporal →</a></p>
+      <p><a href="/contato" class="blog-cta">Agendar avaliação para harmonização de panturrilha →</a></p>
+    `,
+  },
+  {
+    slug: "harmonizacao-quadriceps",
+    title:
+      "Harmonização de Quadríceps: Definição Muscular Sem Passar por Academia",
+    category: "Harmonização Corporal",
+    excerpt:
+      "Conheça a harmonização de quadríceps: como bioestimuladores criam definição muscular nas coxas, quem pode fazer, técnica e resultado natural.",
+    date: "2026-04-14",
+    readTime: "6 min",
+    image: "/images/quadriceps.jpeg",
+    keywords: [
+      "harmonização quadríceps",
+      "definição quadríceps",
+      "preenchimento quadríceps",
+      "bioestimulador coxa",
+      "contorno muscular coxas",
+    ],
+    content: `
+      <p>A <strong>harmonização de quadríceps</strong> é um procedimento que tem conquistado pacientes que desejam melhorar o contorno e a definição aparente das coxas — especialmente aqueles que já treinam mas não conseguem o desenho muscular desejado ou querem acelerar o resultado estético.</p>
+
+      <h2>Para Quem É Indicada?</h2>
+      <ul>
+        <li><strong>Quadríceps hipotrófico:</strong> coxas finas ou com contorno pouco definido</li>
+        <li><strong>Atletas e praticantes de musculação:</strong> quem deseja realçar o desenho muscular que já possui</li>
+        <li><strong>Assimetrias:</strong> diferença entre a coxa direita e a esquerda</li>
+        <li><strong>Sequelas de perda de massa:</strong> atrofia por lesão, pós-cirúrgico ou sedentarismo</li>
+        <li><strong>Estética corporal completa:</strong> como parte de um protocolo de harmonização corporal</li>
+      </ul>
+
+      <h2>Como Funciona a Técnica?</h2>
+      <p>A harmonização de quadríceps utiliza <strong>bioestimuladores de colágeno</strong> (Sculptra, Radiesse) ou <strong>ácido hialurônico corporal</strong> aplicados nas porções do músculo que geram contorno visível:</p>
+      <ul>
+        <li><strong>Vasto medial:</strong> face interna da coxa, logo acima do joelho — região que dá o característico "sulco" do quadríceps definido</li>
+        <li><strong>Reto femoral:</strong> porção frontal central, responsável pelo volume e projeção da coxa</li>
+        <li><strong>Vasto lateral:</strong> face externa, para equilíbrio visual completo</li>
+      </ul>
+      <p>A aplicação é feita em plano subcutâneo profundo, com cânulas, de forma a criar contorno natural sem aparência artificial.</p>
+
+      <h2>Procedimento e Recuperação</h2>
+      <p>A sessão dura de 40 a 70 minutos por perna, com anestesia local.</p>
+      <p><strong>Recuperação:</strong></p>
+      <ul>
+        <li>Inchaço leve a moderado por 5 a 10 dias</li>
+        <li>Retorno às atividades do dia a dia em 24 a 48 horas</li>
+        <li>Musculação liberada após 5 a 7 dias</li>
+        <li>Resultado progressivo ao longo de 2 a 6 meses conforme o colágeno é formado</li>
+      </ul>
+
+      <h2>Quantas Sessões São Necessárias?</h2>
+      <p>A maioria dos protocolos envolve <strong>de 2 a 4 sessões</strong>, com intervalo de 30 a 45 dias entre elas. O plano é totalmente personalizado — a Dra. Juliane Elaine avalia a anatomia, o objetivo e o nível de treino do paciente para definir a estratégia ideal.</p>
+
+      <h2>Resultados Esperados</h2>
+      <ul>
+        <li>Contorno muscular visível e natural</li>
+        <li>Definição do vasto medial (sulco característico acima do joelho)</li>
+        <li>Proporção e simetria entre as duas coxas</li>
+        <li>Complemento estético para quem já treina sem conseguir o "desenho" desejado</li>
+      </ul>
+
+      <h2>Agende Sua Avaliação</h2>
+      <p>Na JS Estética Avançada, oferecemos harmonização corporal integrada: panturrilha, quadríceps, glúteo e muito mais. A biomédica esteta Juliane Elaine (CRBM 05033 RJ) planeja cada protocolo considerando as proporções corporais como um todo. Atendemos na <strong>Barra da Tijuca</strong> e em <strong>Bangu</strong>, no Rio de Janeiro.</p>
+
+      <p><a href="/contato" class="blog-cta">Agendar avaliação para harmonização de quadríceps →</a></p>
+    `,
+  },
+  {
+    slug: "endolaser-tratamento-flacidez-gordura-localizada",
+    title:
+      "Endolaser: O Tratamento Que Une Redução de Gordura e Combate à Flacidez",
+    category: "Harmonização Corporal",
+    excerpt:
+      "Endolaser é o tratamento minimamente invasivo que combina redução de gordura localizada, retração de pele e estímulo de colágeno — em uma única sessão.",
+    date: "2026-04-14",
+    readTime: "7 min",
+    image: "/images/endolaser.jpeg",
+    keywords: [
+      "endolaser rj",
+      "endolaser rio de janeiro",
+      "laser gordura localizada",
+      "tratamento flacidez",
+      "endolaser papada",
+    ],
+    content: `
+      <p>O <strong>Endolaser</strong> é uma das tecnologias mais avançadas da estética corporal atual. Minimamente invasivo, ele combina em um único procedimento três efeitos que, até pouco tempo, só eram obtidos com cirurgia: <strong>redução de gordura localizada, retração da pele e estímulo intenso de colágeno</strong>.</p>
+
+      <h2>O Que É o Endolaser?</h2>
+      <p>O Endolaser utiliza uma <strong>fibra óptica de laser</strong> inserida sob a pele através de uma micropunção. Ao ser aplicado no tecido subcutâneo, o laser promove três ações simultâneas:</p>
+      <ol>
+        <li><strong>Lipólise:</strong> rompimento controlado das células de gordura localizada</li>
+        <li><strong>Retração da pele:</strong> efeito lifting pelo aquecimento controlado da derme</li>
+        <li><strong>Neocolagênese:</strong> estímulo intenso da produção de colágeno novo</li>
+      </ol>
+
+      <h2>Para Quem É Indicado?</h2>
+      <ul>
+        <li>Gordura localizada de pequeno a médio volume associada a flacidez</li>
+        <li>Papada que não respondeu a enzimas ou outros tratamentos</li>
+        <li>Flacidez de braços, interno de coxa, joelhos e abdômen</li>
+        <li>Pacientes que buscam resultado de lipoaspiração leve sem cirurgia</li>
+        <li>Quem deseja melhora da firmeza e redução no mesmo procedimento</li>
+      </ul>
+
+      <h2>Principais Regiões Tratadas</h2>
+      <ul>
+        <li><strong>Papada</strong> — uma das áreas com melhor resultado</li>
+        <li><strong>Braços</strong> — especialmente a porção posterior com flacidez</li>
+        <li><strong>Abdômen e flancos</strong></li>
+        <li><strong>Culotes e interno de coxa</strong></li>
+        <li><strong>Joelhos</strong> — região com difícil resposta a outros tratamentos</li>
+        <li><strong>Rosto</strong> — para flacidez facial em casos selecionados</li>
+      </ul>
+
+      <h2>Como É o Procedimento?</h2>
+      <p>O Endolaser é realizado em consultório com <strong>anestesia local tumescente</strong>, proporcionando conforto total durante toda a sessão. O procedimento demora em torno de <strong>2h a 4h</strong>, dependendo da área e da quantidade de regiões tratadas.</p>
+      <p>Após a aplicação do laser, a gordura liquefeita pode ser drenada ou, em casos de menor volume, metabolizada pelo próprio organismo. O uso de cinta compressiva é orientado nas primeiras semanas.</p>
+
+      <h2>Recuperação</h2>
+      <ul>
+        <li>Retorno às atividades em 2 a 3 dias</li>
+        <li>Uso de cinta compressiva conforme orientação</li>
+        <li>Inchaço moderado que regride ao longo de 2 a 4 semanas</li>
+        <li>Atividades físicas leves liberadas após 7 dias</li>
+        <li>Atividades intensas após 15 a 21 dias</li>
+      </ul>
+
+      <h2>Quando os Resultados Aparecem?</h2>
+      <p>Os primeiros resultados são visíveis em <strong>15 dias</strong>, com redução de volume e melhora inicial da firmeza. O resultado completo — com retração máxima da pele e formação de colágeno — é percebido <strong>entre 3 e 6 meses</strong>, com melhora contínua da firmeza até o final desse período.</p>
+      <p>Em muitos casos, <strong>uma única sessão é suficiente</strong>, diferente de outros tratamentos que exigem protocolos longos.</p>
+
+      <h2>Endolaser Substitui Lipoaspiração?</h2>
+      <p>Para volumes de gordura pequenos e médios, especialmente quando há flacidez associada, sim — o Endolaser entrega resultado equivalente com recuperação muito mais rápida. Para grandes volumes, pode ser combinado a outras técnicas ou requerer avaliação cirúrgica complementar.</p>
+
+      <h2>Agende Sua Avaliação</h2>
+      <p>A Dra. Juliane Elaine (CRBM 05033 RJ) é especialista em Endolaser e realiza avaliação detalhada de cada caso, indicando se é a melhor técnica para você ou se há opções complementares. Atendemos na <strong>Barra da Tijuca</strong> e em <strong>Bangu</strong>, no Rio de Janeiro.</p>
+
+      <p><a href="/contato" class="blog-cta">Agendar avaliação para Endolaser →</a></p>
     `,
   },
 
@@ -846,7 +972,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-30",
     readTime: "8 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/elegant%20woman%20wellness%20spa%20serene%20peaceful%20soft%20pastel%20tones%20editorial%20beauty%20photography%20feminine%20delicate?width=800&height=600&nologo=true&model=flux&seed=111",
     keywords: [
       "harmonização íntima feminina",
       "harmonização íntima o que é",
@@ -926,7 +1052,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-25",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/confident%20smiling%20woman%20wellness%20portrait%20natural%20daylight%20empowerment%20self%20care%20warm%20elegant%20tones?width=800&height=600&nologo=true&model=flux&seed=112",
     keywords: [
       "rejuvenescimento íntimo",
       "rejuvenescimento íntimo benefícios",
@@ -998,7 +1124,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-20",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/professional%20female%20doctor%20aesthetic%20clinic%20modern%20medical%20interior%20white%20and%20rose%20gold%20trust%20wellness?width=800&height=600&nologo=true&model=flux&seed=113",
     keywords: [
       "harmonização íntima segura",
       "harmonização íntima riscos",
@@ -1083,7 +1209,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-15",
     readTime: "6 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/confident%20woman%20self%20love%20portrait%20looking%20at%20mirror%20warm%20natural%20light%20empowerment%20wellness%20editorial?width=800&height=600&nologo=true&model=flux&seed=114",
     keywords: [
       "autoestima estética íntima",
       "estética íntima mulheres",
@@ -1146,7 +1272,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-10",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/luxury%20skincare%20products%20serums%20creams%20flat%20lay%20rose%20gold%20pink%20tones%20minimal%20elegant%20beauty?width=800&height=600&nologo=true&model=flux&seed=115",
     keywords: [
       "gerenciamento de pele",
       "skincare profissional",
@@ -1227,7 +1353,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-05",
     readTime: "8 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/woman%20facial%20skincare%20treatment%20esthetician%20applying%20serum%20soft%20studio%20lighting%20beauty%20close%20up?width=800&height=600&nologo=true&model=flux&seed=116",
     keywords: [
       "bioestimulador de colágeno",
       "sculptra para que serve",
@@ -1316,7 +1442,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-28",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/woman%20facial%20skincare%20peeling%20treatment%20professional%20esthetician%20hands%20gentle%20clean%20soft%20lighting?width=800&height=600&nologo=true&model=flux&seed=117",
     keywords: [
       "peeling químico",
       "peeling químico tipos",
@@ -1413,7 +1539,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-20",
     readTime: "8 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/modern%20luxury%20aesthetic%20clinic%20interior%20welcoming%20reception%20rose%20gold%20and%20beige%20professional%20safe%20environment?width=800&height=600&nologo=true&model=flux&seed=118",
     keywords: [
       "como escolher clínica estética",
       "clínica estética segura",
@@ -1507,7 +1633,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-15",
     readTime: "7 min",
     image:
-      "/images/dra-juliane.jpeg",
+      "https://image.pollinations.ai/prompt/confident%20female%20biomedical%20professional%20doctor%20portrait%20white%20lab%20coat%20aesthetic%20clinic%20background%20trustworthy?width=800&height=600&nologo=true&model=flux&seed=119",
     keywords: [
       "biomédica esteta",
       "biomédico esteta habilitação",
