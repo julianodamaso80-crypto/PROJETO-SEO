@@ -11,7 +11,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-01",
     readTime: "8 min",
     image:
-      "https://image.pollinations.ai/prompt/elegant%20beautiful%20woman%20face%20close%20portrait%20soft%20natural%20makeup%20luxury%20aesthetic%20clinic%20editorial%20beauty%20photography%20rose%20gold%20tones?width=800&height=600&nologo=true&model=flux&seed=101",
+      "/images/blog/harmonizacao-facial-barra-da-tijuca-guia-completo.jpg",
     keywords: [
       "harmonização facial barra da tijuca",
       "harmonização facial rio de janeiro",
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-28",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/woman%20receiving%20gentle%20professional%20facial%20treatment%20esthetician%20hands%20calm%20relaxed%20expression%20soft%20lighting%20aesthetic%20clinic?width=800&height=600&nologo=true&model=flux&seed=102",
+      "/images/blog/harmonizacao-facial-doi-mitos-e-verdades.jpg",
     keywords: [
       "harmonização facial dói",
       "harmonização facial dor",
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-22",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/luxury%20modern%20aesthetic%20medical%20clinic%20interior%20elegant%20reception%20rose%20gold%20and%20beige%20tones%20welcoming%20atmosphere?width=800&height=600&nologo=true&model=flux&seed=103",
+      "/images/blog/quanto-custa-harmonizacao-facial-rio-de-janeiro.jpg",
     keywords: [
       "quanto custa harmonização facial",
       "preço harmonização facial rio de janeiro",
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-15",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/natural%20beauty%20woman%20face%20portrait%20flawless%20skin%20soft%20makeup%20elegant%20editorial%20photography%20warm%20light?width=800&height=600&nologo=true&model=flux&seed=104",
+      "/images/blog/harmonizacao-facial-natural-resultado-sem-ficar-artificial.jpg",
     keywords: [
       "harmonização facial natural",
       "harmonização facial resultado natural",
@@ -298,7 +298,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-10",
     readTime: "6 min",
     image:
-      "https://image.pollinations.ai/prompt/aesthetic%20medical%20products%20syringes%20hyaluronic%20acid%20vials%20flat%20lay%20clean%20white%20background%20professional%20medical%20photography?width=800&height=600&nologo=true&model=flux&seed=105",
+      "/images/blog/diferenca-botox-preenchimento-qual-melhor.jpg",
     keywords: [
       "diferença botox preenchimento",
       "botox ou preenchimento",
@@ -368,7 +368,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-05",
     readTime: "8 min",
     image:
-      "https://image.pollinations.ai/prompt/beautiful%20symmetrical%20woman%20face%20portrait%20harmonious%20proportions%20professional%20beauty%20photography%20soft%20studio%20light?width=800&height=600&nologo=true&model=flux&seed=106",
+      "/images/blog/full-face-o-que-e-harmonizacao-completa.jpg",
     keywords: [
       "full face harmonização",
       "harmonização facial completa",
@@ -442,7 +442,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-01",
     readTime: "9 min",
     image:
-      "https://image.pollinations.ai/prompt/modern%20luxury%20aesthetic%20clinic%20treatment%20room%20professional%20medical%20environment%20rose%20gold%20interior%20elegant?width=800&height=600&nologo=true&model=flux&seed=107",
+      "/images/blog/harmonizacao-glutea-aumente-volume-sem-cirurgia.jpg",
     keywords: [
       "harmonização glútea",
       "aumento de glúteo sem cirurgia",
@@ -528,7 +528,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-25",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/female%20doctor%20professional%20medical%20consultation%20clean%20white%20coat%20aesthetic%20clinic%20trust%20and%20expertise?width=800&height=600&nologo=true&model=flux&seed=108",
+      "/images/blog/preenchimento-gluteo-e-seguro-riscos-e-cuidados.jpg",
     keywords: [
       "preenchimento glúteo seguro",
       "preenchimento glúteo riscos",
@@ -593,7 +593,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-18",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/medical%20consultation%20aesthetic%20clinic%20female%20doctor%20explaining%20to%20patient%20professional%20wellness%20environment?width=800&height=600&nologo=true&model=flux&seed=109",
+      "/images/blog/harmonizacao-glutea-vs-protese-silicone.jpg",
     keywords: [
       "harmonização glútea vs prótese",
       "prótese silicone glúteo",
@@ -686,7 +686,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-12",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/collagen%20serum%20skincare%20products%20luxury%20flat%20lay%20rose%20gold%20bottles%20minimal%20elegant%20aesthetic?width=800&height=600&nologo=true&model=flux&seed=110",
+      "/images/blog/bioestimulador-colageno-gluteo-como-funciona.jpg",
     keywords: [
       "bioestimulador colágeno glúteo",
       "sculptra glúteo",
@@ -972,7 +972,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-30",
     readTime: "8 min",
     image:
-      "https://image.pollinations.ai/prompt/elegant%20woman%20wellness%20spa%20serene%20peaceful%20soft%20pastel%20tones%20editorial%20beauty%20photography%20feminine%20delicate?width=800&height=600&nologo=true&model=flux&seed=111",
+      "/images/blog/harmonizacao-intima-feminina-o-que-e-como-funciona.jpg",
     keywords: [
       "harmonização íntima feminina",
       "harmonização íntima o que é",
@@ -1052,7 +1052,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-25",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/confident%20smiling%20woman%20wellness%20portrait%20natural%20daylight%20empowerment%20self%20care%20warm%20elegant%20tones?width=800&height=600&nologo=true&model=flux&seed=112",
+      "/images/blog/rejuvenescimento-intimo-beneficios-alem-da-estetica.jpg",
     keywords: [
       "rejuvenescimento íntimo",
       "rejuvenescimento íntimo benefícios",
@@ -1124,7 +1124,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-20",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/professional%20female%20doctor%20aesthetic%20clinic%20modern%20medical%20interior%20white%20and%20rose%20gold%20trust%20wellness?width=800&height=600&nologo=true&model=flux&seed=113",
+      "/images/blog/harmonizacao-intima-e-segura-tudo-sobre-procedimento.jpg",
     keywords: [
       "harmonização íntima segura",
       "harmonização íntima riscos",
@@ -1209,7 +1209,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-15",
     readTime: "6 min",
     image:
-      "https://image.pollinations.ai/prompt/confident%20woman%20self%20love%20portrait%20looking%20at%20mirror%20warm%20natural%20light%20empowerment%20wellness%20editorial?width=800&height=600&nologo=true&model=flux&seed=114",
+      "/images/blog/autoestima-estetica-intima-mulheres.jpg",
     keywords: [
       "autoestima estética íntima",
       "estética íntima mulheres",
@@ -1272,7 +1272,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-10",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/luxury%20skincare%20products%20serums%20creams%20flat%20lay%20rose%20gold%20pink%20tones%20minimal%20elegant%20beauty?width=800&height=600&nologo=true&model=flux&seed=115",
+      "/images/blog/gerenciamento-de-pele-skincare-profissional.jpg",
     keywords: [
       "gerenciamento de pele",
       "skincare profissional",
@@ -1353,7 +1353,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-05",
     readTime: "8 min",
     image:
-      "https://image.pollinations.ai/prompt/woman%20facial%20skincare%20treatment%20esthetician%20applying%20serum%20soft%20studio%20lighting%20beauty%20close%20up?width=800&height=600&nologo=true&model=flux&seed=116",
+      "/images/blog/bioestimulador-colageno-para-que-serve-quanto-tempo-dura.jpg",
     keywords: [
       "bioestimulador de colágeno",
       "sculptra para que serve",
@@ -1442,7 +1442,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-28",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/woman%20facial%20skincare%20peeling%20treatment%20professional%20esthetician%20hands%20gentle%20clean%20soft%20lighting?width=800&height=600&nologo=true&model=flux&seed=117",
+      "/images/blog/peeling-quimico-tipos-indicacoes-cuidados.jpg",
     keywords: [
       "peeling químico",
       "peeling químico tipos",
@@ -1539,7 +1539,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-20",
     readTime: "8 min",
     image:
-      "https://image.pollinations.ai/prompt/modern%20luxury%20aesthetic%20clinic%20interior%20welcoming%20reception%20rose%20gold%20and%20beige%20professional%20safe%20environment?width=800&height=600&nologo=true&model=flux&seed=118",
+      "/images/blog/como-escolher-clinica-estetica-segura-criterios.jpg",
     keywords: [
       "como escolher clínica estética",
       "clínica estética segura",
@@ -1633,7 +1633,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-15",
     readTime: "7 min",
     image:
-      "https://image.pollinations.ai/prompt/confident%20female%20biomedical%20professional%20doctor%20portrait%20white%20lab%20coat%20aesthetic%20clinic%20background%20trustworthy?width=800&height=600&nologo=true&model=flux&seed=119",
+      "/images/blog/por-que-escolher-biomedica-esteta.jpg",
     keywords: [
       "biomédica esteta",
       "biomédico esteta habilitação",
