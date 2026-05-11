@@ -3,7 +3,6 @@ import Image from "next/image";
 import { SERVICES, CATEGORIES } from "./content/services";
 import { blogPosts } from "./content/posts";
 import HeroBackground from "./components/HeroBackground";
-import ElectricBorder from "./components/ElectricBorder";
 import Depoimentos from "./components/Depoimentos";
 
 const FEATURED_BLOG_SLUGS = [
@@ -145,40 +144,33 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-children">
             {FEATURED.map((item) => (
-              <ElectricBorder
+              <Link
                 key={item.slug}
-                color="#B88B7A"
-                speed={1}
-                chaos={0.2}
-                borderRadius={16}
+                href={`/procedimentos/${item.slug}`}
+                className="card card-hover text-center no-underline group block"
               >
-                <Link
-                  href={`/procedimentos/${item.slug}`}
-                  className="card card-hover text-center no-underline group block"
+                <div
+                  className="w-16 h-16 rounded-full flex items-center justify-center text-3xl mx-auto mb-4"
+                  style={{ background: "var(--pink)" }}
                 >
-                  <div
-                    className="w-16 h-16 rounded-full flex items-center justify-center text-3xl mx-auto mb-4"
-                    style={{ background: "var(--pink)" }}
-                  >
-                    {item.icon}
-                  </div>
-                  <h3
-                    className="font-serif text-xl font-bold mb-2 group-hover:text-rose transition-colors"
-                    style={{ color: "var(--text-primary)" }}
-                  >
-                    {item.label}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: "var(--text-body)" }}>
-                    {item.desc}
-                  </p>
-                  <span
-                    className="inline-block mt-4 text-sm font-semibold"
-                    style={{ color: "var(--rose)" }}
-                  >
-                    Saiba mais &rarr;
-                  </span>
-                </Link>
-              </ElectricBorder>
+                  {item.icon}
+                </div>
+                <h3
+                  className="font-serif text-xl font-bold mb-2 group-hover:text-rose transition-colors"
+                  style={{ color: "var(--text-primary)" }}
+                >
+                  {item.label}
+                </h3>
+                <p className="text-sm leading-relaxed" style={{ color: "var(--text-body)" }}>
+                  {item.desc}
+                </p>
+                <span
+                  className="inline-block mt-4 text-sm font-semibold"
+                  style={{ color: "var(--rose)" }}
+                >
+                  Saiba mais &rarr;
+                </span>
+              </Link>
             ))}
           </div>
 
