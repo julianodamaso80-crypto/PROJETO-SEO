@@ -4,6 +4,7 @@ import { SERVICES, CATEGORIES } from "./content/services";
 import { blogPosts } from "./content/posts";
 import HeroBackground from "./components/HeroBackground";
 import ElectricBorder from "./components/ElectricBorder";
+import Depoimentos from "./components/Depoimentos";
 
 const FEATURED_BLOG_SLUGS = [
   "harmonizacao-panturrilha",
@@ -380,6 +381,32 @@ export default function Home() {
             >
               Agendar Avaliação
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════ DEPOIMENTOS ══════ */}
+      <section className="section reveal" style={{ background: "var(--surface)" }}>
+        <div className="container">
+          <div className="text-center mb-12">
+            <p className="eyebrow mb-3">Pacientes Reais</p>
+            <h2
+              className="font-serif text-3xl md:text-4xl font-bold"
+              style={{ color: "var(--text-primary)" }}
+            >
+              O Que Dizem Nossas Pacientes
+            </h2>
+            <p className="mt-3 text-base max-w-2xl mx-auto" style={{ color: "var(--text-muted)" }}>
+              Mensagens recebidas no WhatsApp, Instagram e DM, publicadas com autorização.
+            </p>
+          </div>
+
+          <Depoimentos limit={3} />
+
+          <div className="text-center mt-12">
+            <Link href="/resultados" className="btn-primary">
+              Ver Todos os Resultados &amp; Depoimentos
+            </Link>
           </div>
         </div>
       </section>

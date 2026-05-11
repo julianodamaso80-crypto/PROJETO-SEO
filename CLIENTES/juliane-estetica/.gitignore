@@ -1,0 +1,9 @@
+# Conteudo bruto baixado do Drive da cliente — assets organizados ficam em site/public/
+drive-cliente/
+
+# Scripts auxiliares de download/conversao
+download_drive.sh
+download_drive.py
+download_curl.sh
+convert_heic.py
+organize_public.py

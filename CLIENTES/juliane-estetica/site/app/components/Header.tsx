@@ -98,6 +98,9 @@ export default function Header() {
             )}
           </div>
 
+          <Link href="/resultados" className="text-sm font-medium text-text-body hover:text-rose transition-colors no-underline">
+            Resultados
+          </Link>
           <Link href="/sobre" className="text-sm font-medium text-text-body hover:text-rose transition-colors no-underline">
             Sobre
           </Link>
@@ -170,6 +173,7 @@ export default function Header() {
             </div>
 
             {[
+              { label: "Resultados", href: "/resultados" },
               { label: "Sobre", href: "/sobre" },
               { label: "Unidades", href: "/unidades" },
               { label: "Blog", href: "/blog" },
