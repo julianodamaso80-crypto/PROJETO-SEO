@@ -270,13 +270,13 @@ A durabilidade dos bioestimuladores é de 18 a 24 meses, sendo um dos tratamento
     categoryLabel: "Procedimentos Corporais",
     shortDesc:
       "Aumento e remodelação dos glúteos sem cirurgia, com bioestimuladores e preenchedores corporais.",
-    fullDesc: `A Gluteoplastia Não Cirúrgica é um procedimento inovador que permite aumentar o volume, melhorar o contorno e combater a flacidez dos glúteos sem necessidade de cirurgia plástica. Na JS Estética Avançada, utilizamos bioestimuladores de colágeno e ácido hialurônico corporal para remodelar a região.
+    fullDesc: `A Gluteoplastia Não Cirúrgica é um procedimento inovador que permite aumentar o volume, melhorar o contorno e combater a flacidez dos glúteos sem necessidade de cirurgia plástica. Na JS Estética Avançada, utilizamos bioestimulador, ácido hialurônico, ativos e preenchedor autólogo para remodelar a região.
 
 O tratamento é indicado para pacientes que desejam mais volume, projeção e firmeza nos glúteos, mas não querem passar por uma cirurgia invasiva. A Dra. Juliane Elaine realiza avaliação detalhada da anatomia e das proporções corporais para criar um plano de tratamento personalizado.
 
 O procedimento é realizado com anestesia local, em ambiente estéril, com total segurança. A aplicação estratégica dos bioestimuladores promove aumento de volume imediato e estímulo gradual de colágeno nos meses seguintes.
 
-O protocolo completo geralmente envolve de 2 a 3 sessões, com resultados progressivos que duram de 18 a 24 meses. A recuperação é rápida, com retorno às atividades em 24 a 48 horas.`,
+O protocolo pode envolver de 1 a 4 sessões, dependendo do protocolo escolhido, com resultados progressivos que duram de 18 a 24 meses. A recuperação é rápida, com retorno às atividades em 24 a 48 horas.`,
     keywords: [
       "gluteoplastia sem cirurgia rj",
       "aumento de glúteos sem cirurgia",
@@ -289,6 +289,10 @@ O protocolo completo geralmente envolve de 2 a 3 sessões, com resultados progre
       {
         q: "O procedimento dói?",
         a: "Utilizamos anestesia local para garantir conforto total. Após o procedimento, pode haver desconforto leve, controlável com analgésicos simples.",
+      },
+      {
+        q: "O resultado é imediato?",
+        a: "Se o protocolo for de volumização, sim — o resultado já aparece no mesmo dia. Nos protocolos com bioestimuladores, o efeito é progressivo ao longo dos meses seguintes.",
       },
       {
         q: "Quanto tempo dura o resultado?",
