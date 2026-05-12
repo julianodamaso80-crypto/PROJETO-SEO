@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { GALERIAS } from "../content/depoimentos";
 
 export default function GaleriaResultados() {
-  const [tab, setTab] = useState<typeof GALERIAS[number]["categoria"]>("harmonizacao-feminina");
+  const [tab, setTab] = useState<string>(GALERIAS[0].key);
   const [lightbox, setLightbox] = useState<string | null>(null);
 
   useEffect(() => {
@@ -21,18 +21,18 @@ export default function GaleriaResultados() {
     };
   }, [lightbox]);
 
-  const ativa = GALERIAS.find((g) => g.categoria === tab)!;
+  const ativa = GALERIAS.find((g) => g.key === tab)!;
 
   return (
     <>
       {/* Tabs */}
       <div className="flex flex-wrap justify-center gap-2 mb-10">
         {GALERIAS.map((g) => {
-          const ativo = g.categoria === tab;
+          const ativo = g.key === tab;
           return (
             <button
-              key={g.categoria}
-              onClick={() => setTab(g.categoria)}
+              key={g.key}
+              onClick={() => setTab(g.key)}
               className="px-5 py-2.5 rounded-full text-sm font-medium transition-all"
               style={{
                 background: ativo ? "var(--rose)" : "var(--white)",

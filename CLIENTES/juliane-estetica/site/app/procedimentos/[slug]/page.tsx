@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SERVICES, CATEGORIES } from "@/app/content/services";
+import { getGaleriasParaSlug } from "@/app/content/depoimentos";
+import CarrosselAntesDepois from "@/app/components/CarrosselAntesDepois";
 
 /* ── Static params ─────────────────────────────── */
 export async function generateStaticParams() {
@@ -34,6 +36,7 @@ export default async function ProcedimentoPage({ params }: Props) {
   );
 
   const catInfo = CATEGORIES[service.category];
+  const galerias = getGaleriasParaSlug(slug);
 
   return (
     <>
@@ -75,6 +78,36 @@ export default async function ProcedimentoPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Antes & Depois (1 ou mais carrosseis) */}
+      {galerias.length > 0 && (
+        <section className="section" style={{ background: "var(--surface)" }}>
+          <div className="container max-w-4xl">
+            <div className="reveal text-center mb-12">
+              <span className="eyebrow">Resultados Reais</span>
+              <h2
+                className="font-serif text-3xl md:text-4xl font-bold mt-3"
+                style={{ color: "var(--text-primary)" }}
+              >
+                Antes &amp; Depois
+              </h2>
+              <p
+                className="mt-3 max-w-2xl mx-auto text-sm"
+                style={{ color: "var(--text-muted)" }}
+              >
+                Fotos publicadas com autorização expressa das pacientes. Clique
+                em qualquer imagem para ampliar.
+              </p>
+            </div>
+
+            <div className="space-y-12">
+              {galerias.map((g) => (
+                <CarrosselAntesDepois key={g.key} galeria={g} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* FAQ */}
       {service.faq.length > 0 && (

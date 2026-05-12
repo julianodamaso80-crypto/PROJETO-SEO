@@ -5,5 +5,7 @@ drive-cliente/
 download_drive.sh
 download_drive.py
 download_curl.sh
+download_novas.sh
 convert_heic.py
 organize_public.py
+organize_novas.py

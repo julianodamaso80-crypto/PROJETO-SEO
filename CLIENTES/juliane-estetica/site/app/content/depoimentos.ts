@@ -77,37 +77,80 @@ export const DEPOIMENTOS: Depoimento[] = [
   },
 ];
 
-export type AntesDepois = {
-  categoria: "harmonizacao-feminina" | "harmonizacao-masculina" | "gluteos";
+export type Galeria = {
+  key: string;
   label: string;
+  procedimento: string;
   fotos: string[];
 };
 
-export const GALERIAS: AntesDepois[] = [
+function fotos(prefix: string, total: number, exts: Record<number, string> = {}): string[] {
+  return Array.from({ length: total }, (_, i) => {
+    const n = String(i + 1).padStart(2, "0");
+    const ext = exts[i + 1] ?? "jpg";
+    return `/resultados/${prefix}-${n}.${ext}`;
+  });
+}
+
+export const GALERIAS: Galeria[] = [
   {
-    categoria: "harmonizacao-feminina",
+    key: "harmonizacao-feminina",
     label: "Harmonização Facial Feminina",
-    fotos: Array.from({ length: 13 }, (_, i) => {
-      const n = String(i + 1).padStart(2, "0");
-      const ext = n === "10" ? "png" : "jpg";
-      return `/resultados/harmonizacao-feminina-${n}.${ext}`;
-    }),
+    procedimento: "Harmonização Facial",
+    fotos: fotos("harmonizacao-feminina", 13, { 10: "png" }),
   },
   {
-    categoria: "harmonizacao-masculina",
+    key: "harmonizacao-masculina",
     label: "Harmonização Facial Masculina",
-    fotos: Array.from({ length: 7 }, (_, i) => {
-      const n = String(i + 1).padStart(2, "0");
-      const ext = ["01", "03", "04"].includes(n) ? "png" : "jpg";
-      return `/resultados/harmonizacao-masculina-${n}.${ext}`;
-    }),
+    procedimento: "Harmonização Facial",
+    fotos: fotos("harmonizacao-masculina", 7, { 1: "png", 3: "png", 4: "png" }),
   },
   {
-    categoria: "gluteos",
+    key: "gluteos",
     label: "Gluteoplastia Não Cirúrgica",
-    fotos: Array.from({ length: 7 }, (_, i) => {
-      const n = String(i + 1).padStart(2, "0");
-      return `/resultados/gluteos-${n}.jpg`;
-    }),
+    procedimento: "Gluteoplastia",
+    fotos: fotos("gluteos", 7),
+  },
+  {
+    key: "botox",
+    label: "Botox (Toxina Botulínica)",
+    procedimento: "Botox",
+    fotos: fotos("botox", 4, { 1: "png", 2: "png", 3: "png", 4: "png" }),
+  },
+  {
+    key: "labios",
+    label: "Preenchimento Labial",
+    procedimento: "Preenchimento Labial",
+    fotos: fotos("labios", 5),
+  },
+  {
+    key: "rinomodelacao",
+    label: "Rinomodelação",
+    procedimento: "Rinomodelação",
+    fotos: fotos("rinomodelacao", 3, { 1: "png", 2: "png" }),
+  },
+  {
+    key: "perfiloplastia",
+    label: "Perfiloplastia",
+    procedimento: "Perfiloplastia",
+    fotos: fotos("perfiloplastia", 2),
   },
 ];
+
+// Mapa slug do servico (services.ts) -> chaves de galerias a exibir, em ordem.
+export const GALERIAS_POR_SLUG: Record<string, string[]> = {
+  "harmonizacao-facial": ["harmonizacao-feminina", "harmonizacao-masculina"],
+  "gluteoplastia-nao-cirurgica": ["gluteos"],
+  "botox": ["botox"],
+  "preenchimento-labial": ["labios"],
+  "rinomodelacao": ["rinomodelacao"],
+  "perfiloplastia": ["perfiloplastia"],
+};
+
+export function getGaleriasParaSlug(slug: string): Galeria[] {
+  const keys = GALERIAS_POR_SLUG[slug];
+  if (!keys) return [];
+  return keys
+    .map((k) => GALERIAS.find((g) => g.key === k))
+    .filter((g): g is Galeria => !!g);
+}
