@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     template: "%s | JS Estética Avançada",
   },
   description:
-    "JS Estetica Avancada — Dra. Juliane Elaine, Biomedica CRBM 05033 RJ. Harmonizacao facial, botox, preenchimento, bioestimuladores de colageno e estetica intima. Barra da Tijuca e Bangu, Rio de Janeiro.",
+    "JS Estetica Avancada — Dra. Juliane Elaine, Biomedica CRBM 05033 RJ. Harmonizacao facial, tratamento antirrugas, preenchimento, bioestimuladores de colageno e estetica intima. Barra da Tijuca e Bangu, Rio de Janeiro.",
   keywords: [
     "estetica avancada rio de janeiro",
     "harmonizacao facial rj",
-    "botox barra da tijuca",
+    "tratamento antirrugas barra da tijuca",
     "bioestimuladores de colageno rj",
     "estetica intima rj",
     "preenchimento labial rj",

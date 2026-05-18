@@ -19,7 +19,7 @@ const FAQ_ITEMS = [
     question: "Doi? Os procedimentos sao dolorosos?",
     answer: `A grande maioria dos procedimentos esteticos avancados causa desconforto minimo. Na JS Estetica Avancada, utilizamos protocolos de conforto que incluem anestesia topica (cremes anestesicos aplicados antes do procedimento) e bloqueio local quando necessario.
 
-Para procedimentos como botox, a aplicacao e feita com agulhas ultrafinas e a sensacao e de uma leve picadinha. No caso de preenchimentos e bioestimuladores, alem da anestesia topica, muitos produtos ja contem lidocaina na formulacao, aumentando ainda mais o conforto.
+Para procedimentos como o tratamento antirrugas, a aplicacao e feita com agulhas ultrafinas e a sensacao e de uma leve picadinha. No caso de preenchimentos e bioestimuladores, alem da anestesia topica, muitos produtos ja contem lidocaina na formulacao, aumentando ainda mais o conforto.
 
 Procedimentos como peeling quimico podem causar leve ardencia durante a aplicacao, que e normal e temporaria. O microagulhamento e realizado apos 30 minutos de anestesia topica, tornando a sessao bastante toleravel.
 
@@ -39,7 +39,7 @@ A experiencia internacional da Dra. Juliane na Europa trouxe tecnicas que priori
     question: "Quanto tempo dura o resultado?",
     answer: `A durabilidade varia conforme o procedimento realizado:
 
-- Botox (Toxina Botulinica): 4 a 6 meses
+- Tratamento Antirrugas: 4 a 6 meses
 - Preenchimento Labial: 6 a 12 meses
 - Preenchimento Facial (acido hialuronico): 12 a 18 meses
 - Rinomodelacao: 12 a 18 meses
@@ -82,7 +82,7 @@ Como em qualquer procedimento, podem ocorrer efeitos colaterais leves e esperado
     question: "Tem manutencao? Preciso voltar para manter o resultado?",
     answer: `Sim, a maioria dos procedimentos esteticos requer manutencao periodica para manter os resultados. A frequencia varia conforme o tratamento:
 
-- Botox: manutencao a cada 4 a 6 meses
+- Tratamento Antirrugas: manutencao a cada 4 a 6 meses
 - Preenchimentos com acido hialuronico: retoque anual ou conforme necessidade
 - Bioestimuladores de colageno: sessao de manutencao apos 18 a 24 meses
 - Skinbooster: manutencao a cada 6 meses
@@ -104,7 +104,7 @@ Resultado imediato:
 - Fios de PDO: lifting mecanico imediato, com melhora progressiva
 
 Resultado progressivo:
-- Botox: inicia entre 3 a 7 dias, resultado completo em 15 dias
+- Tratamento Antirrugas: inicia entre 3 a 7 dias, resultado completo em 15 dias
 - Bioestimuladores de colageno: melhora gradual a partir de 30 dias, resultado completo em 3 a 6 meses
 - Skinbooster: melhora na qualidade da pele a partir da primeira sessao, resultado otimo apos as 3 sessoes do protocolo
 - Peeling quimico: renovacao visivel em 7 a 14 dias apos cada sessao

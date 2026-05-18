@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "estetica bangu",
     "clinica estetica rio de janeiro",
     "harmonizacao facial barra da tijuca",
-    "botox bangu",
+    "tratamento antirrugas bangu",
   ],
 };
 
@@ -23,7 +23,7 @@ const UNITS = [
     mapQuery: "Av+Americas+3500+Barra+da+Tijuca+RJ",
     services: [
       "Harmonizacao Facial",
-      "Botox",
+      "Tratamento Antirrugas",
       "Preenchimento Labial",
       "Rinomodelacao",
       "Bioestimuladores de Colageno",
@@ -40,7 +40,7 @@ const UNITS = [
     mapQuery: "Rua+Oliveira+Ribeiro+1000+Bangu+RJ",
     services: [
       "Harmonizacao Facial",
-      "Botox",
+      "Tratamento Antirrugas",
       "Preenchimento Labial",
       "Bioestimuladores de Colageno",
       "Gluteoplastia Nao Cirurgica",

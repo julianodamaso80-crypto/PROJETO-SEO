@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "contato estetica avancada rj",
     "agendar harmonizacao facial",
     "whatsapp estetica rj",
-    "agendar botox rio de janeiro",
+    "agendar tratamento antirrugas rio de janeiro",
     "clinica estetica barra da tijuca contato",
   ],
 };

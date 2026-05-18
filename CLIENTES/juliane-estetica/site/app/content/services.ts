@@ -41,7 +41,7 @@ export const SERVICES: Service[] = [
       "Conjunto de procedimentos para equilibrar proporções faciais, realçando sua beleza natural com resultados harmônicos.",
     fullDesc: `A Harmonização Facial é um conjunto de procedimentos estéticos minimamente invasivos que tem como objetivo equilibrar as proporções do rosto, respeitando a individualidade de cada paciente. Na JS Estética Avançada, a Dra. Juliane Elaine realiza uma avaliação completa da face, considerando simetria, proporção e harmonia entre os terços faciais.
 
-O protocolo pode incluir preenchimento com ácido hialurônico, toxina botulínica, bioestimuladores de colágeno e skinbooster, sempre de forma personalizada. Cada plano de tratamento é desenhado após análise detalhada, levando em conta as queixas do paciente, anatomia facial e expectativas realistas.
+O protocolo pode incluir preenchimento com ácido hialurônico, ativos neuromoduladores, bioestimuladores de colágeno e skinbooster, sempre de forma personalizada. Cada plano de tratamento é desenhado após análise detalhada, levando em conta as queixas do paciente, anatomia facial e expectativas realistas.
 
 A Dra. Juliane possui pós-graduação em Harmonização Orofacial e experiência internacional na Europa, o que garante domínio das técnicas mais modernas e seguras do mercado. Todos os produtos utilizados são aprovados pela ANVISA e de marcas reconhecidas mundialmente.
 
@@ -112,38 +112,38 @@ A durabilidade do preenchimento labial varia de 6 a 12 meses, dependendo do prod
   },
   {
     slug: "botox",
-    title: "Botox (Toxina Botulínica)",
+    title: "Tratamento Antirrugas",
     category: "facial",
     categoryLabel: "Harmonização Facial",
     shortDesc:
-      "Suavização de rugas e linhas de expressão com toxina botulínica, para uma aparência descansada e rejuvenescida.",
-    fullDesc: `O Botox, ou aplicação de toxina botulínica, é o procedimento estético mais realizado no mundo. Na JS Estética Avançada, a Dra. Juliane Elaine utiliza a técnica para suavizar rugas dinâmicas da testa, glabela (entre as sobrancelhas), pés de galinha e outras regiões.
+      "Suavização de rugas e linhas de expressão com ativo neuromodulador, para uma aparência descansada e rejuvenescida.",
+    fullDesc: `O Tratamento Antirrugas é o procedimento estético mais realizado no mundo. Na JS Estética Avançada, a Dra. Juliane Elaine utiliza a técnica para suavizar rugas dinâmicas da testa, glabela (entre as sobrancelhas), pés de galinha e outras regiões.
 
-A toxina botulínica age relaxando temporariamente os músculos responsáveis pelas linhas de expressão, resultando em uma aparência mais descansada, jovem e natural. A aplicação é rápida (15 a 20 minutos), com agulhas ultrafinas que causam desconforto mínimo.
+O ativo neuromodulador age relaxando temporariamente os músculos responsáveis pelas linhas de expressão, resultando em uma aparência mais descansada, jovem e natural. A aplicação é rápida (15 a 20 minutos), com agulhas ultrafinas que causam desconforto mínimo.
 
-Além do tratamento estético, o Botox pode ser utilizado para tratar hiperidrose (suor excessivo), bruxismo e sorriso gengival. A Dra. Juliane avalia cada caso individualmente para determinar os pontos de aplicação e a dosagem ideal.
+Além do efeito estético, o tratamento pode ser utilizado para casos de hiperidrose (suor excessivo), bruxismo e sorriso gengival. A Dra. Juliane avalia cada caso individualmente para determinar os pontos de aplicação e a dosagem ideal.
 
 Os resultados começam a aparecer entre 3 e 7 dias após a aplicação, com efeito máximo em 15 dias. A durabilidade é de 4 a 6 meses, sendo recomendada a manutenção periódica para resultados contínuos.`,
     keywords: [
-      "botox rio de janeiro",
-      "toxina botulínica rj",
-      "botox barra da tijuca",
-      "botox bangu",
-      "aplicação botox rj",
+      "tratamento antirrugas rio de janeiro",
+      "suavização rugas de expressão rj",
+      "tratamento rugas barra da tijuca",
+      "tratamento rugas bangu",
+      "aplicação antirrugas rj",
       "rugas testa tratamento",
     ],
     icon: "💉",
     faq: [
       {
-        q: "O Botox dói?",
+        q: "O tratamento dói?",
         a: "A aplicação é feita com agulhas ultrafinas e o desconforto é mínimo. Caso necessário, utilizamos anestesia tópica para maior conforto.",
       },
       {
-        q: "O Botox congela o rosto?",
+        q: "O tratamento congela o rosto?",
         a: "Não. Com a técnica correta e dosagem adequada, o resultado é natural, preservando as expressões faciais e suavizando apenas as rugas indesejadas.",
       },
       {
-        q: "Com que frequência devo reaplicar o Botox?",
+        q: "Com que frequência devo reaplicar?",
         a: "A recomendação é a cada 4 a 6 meses. Com o tempo e tratamento contínuo, os intervalos podem aumentar.",
       },
     ],
@@ -773,7 +773,7 @@ O procedimento dura cerca de 40 a 60 minutos, com anestesia local. O resultado �
       "Programa completo de rejuvenescimento combinando múltiplas técnicas para resultados duradouros.",
     fullDesc: `O Protocolo Anti-Aging Personalizado é o tratamento mais completo da JS Estética Avançada, combinando diferentes técnicas e procedimentos para um rejuvenescimento global e duradouro. A Dra. Juliane Elaine desenvolve um plano individualizado considerando as necessidades, o biotipo e os objetivos de cada paciente.
 
-O protocolo pode incluir: toxina botulínica (para suavizar rugas dinâmicas), preenchimento com ácido hialurônico (para restaurar volumes), bioestimuladores de colágeno (para firmeza), skinbooster (para qualidade da pele), fios de PDO (para sustentação), peelings (para renovação) e microagulhamento (para textura).
+O protocolo pode incluir: ativo neuromodulador (para suavizar rugas dinâmicas), preenchimento com ácido hialurônico (para restaurar volumes), bioestimuladores de colágeno (para firmeza), skinbooster (para qualidade da pele), fios de PDO (para sustentação), peelings (para renovação) e microagulhamento (para textura).
 
 A abordagem é gradual e estratégica: não se trata de realizar todos os procedimentos de uma vez, mas sim de criar um cronograma inteligente que respeita o tempo de recuperação de cada técnica e maximiza os resultados. O plano é revisado a cada consulta.
 

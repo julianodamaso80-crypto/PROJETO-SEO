@@ -5,7 +5,7 @@ import Depoimentos from "../components/Depoimentos";
 export const metadata: Metadata = {
   title: "Resultados Reais — Antes e Depois | JS Estética Avançada",
   description:
-    "Veja resultados reais de harmonização facial, gluteoplastia não cirúrgica, preenchimento e botox realizados pela Dra. Juliane Elaine. Pacientes satisfeitas das nossas clínicas em Barra da Tijuca e Bangu — RJ.",
+    "Veja resultados reais de harmonização facial, gluteoplastia não cirúrgica, preenchimento e tratamento antirrugas realizados pela Dra. Juliane Elaine. Pacientes satisfeitas das nossas clínicas em Barra da Tijuca e Bangu — RJ.",
   keywords: [
     "resultados harmonização facial rj",
     "antes e depois estética rj",

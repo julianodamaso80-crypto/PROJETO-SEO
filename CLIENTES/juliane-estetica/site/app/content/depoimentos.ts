@@ -49,13 +49,13 @@ export const DEPOIMENTOS: Depoimento[] = [
   },
   {
     id: "05",
-    nome: "Paciente Botox + Preenchimento",
+    nome: "Paciente Antirrugas + Preenchimento",
     fonte: "WhatsApp",
     texto:
-      "Ju, bom dia! Cada dia que passa os resultados estão bem melhores. O botox ficou perfeito, o bigode nem se fala. A boca diminuiu bastante porém ficou bicudinha e linda. Estou amando. Muito obrigada.",
+      "Ju, bom dia! Cada dia que passa os resultados estão bem melhores. O tratamento ficou perfeito, o bigode nem se fala. A boca diminuiu bastante porém ficou bicudinha e linda. Estou amando. Muito obrigada.",
     destaque: "Cada dia que passa os resultados estão bem melhores.",
     printSrc: "/depoimentos/feedback-05.jpg",
-    procedimento: "Botox + Preenchimento",
+    procedimento: "Tratamento Antirrugas + Preenchimento",
   },
   {
     id: "06",
@@ -113,9 +113,9 @@ export const GALERIAS: Galeria[] = [
   },
   {
     key: "botox",
-    label: "Botox (Toxina Botulínica)",
-    procedimento: "Botox",
-    fotos: fotos("botox", 4, { 1: "png", 2: "png", 3: "png", 4: "png" }),
+    label: "Tratamento Antirrugas",
+    procedimento: "Tratamento Antirrugas",
+    fotos: fotos("antirrugas", 4, { 1: "png", 2: "png", 3: "png", 4: "png" }),
   },
   {
     key: "labios",

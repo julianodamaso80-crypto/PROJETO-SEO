@@ -9,11 +9,11 @@ import {
 export const metadata: Metadata = {
   title: "Procedimentos Esteticos",
   description:
-    "Conheca todos os procedimentos da JS Estetica Avancada: harmonizacao facial, botox, preenchimento labial, bioestimuladores, estetica intima, skinbooster, peeling, microagulhamento, fios de PDO e protocolos anti-aging. Barra da Tijuca e Bangu, RJ.",
+    "Conheca todos os procedimentos da JS Estetica Avancada: harmonizacao facial, tratamento antirrugas, preenchimento labial, bioestimuladores, estetica intima, skinbooster, peeling, microagulhamento, fios de PDO e protocolos anti-aging. Barra da Tijuca e Bangu, RJ.",
   keywords: [
     "procedimentos esteticos rj",
     "harmonizacao facial rio de janeiro",
-    "botox rj",
+    "tratamento antirrugas rj",
     "preenchimento labial rj",
     "bioestimuladores rj",
     "estetica intima rj",

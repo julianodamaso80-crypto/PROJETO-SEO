@@ -4,7 +4,7 @@ import Image from "next/image";
 const PROCEDURES = [
   { href: "/procedimentos/harmonizacao-facial", label: "Harmonização Facial" },
   { href: "/procedimentos/preenchimento-labial", label: "Preenchimento" },
-  { href: "/procedimentos/botox", label: "Botox" },
+  { href: "/procedimentos/botox", label: "Tratamento Antirrugas" },
   { href: "/procedimentos/bioestimuladores-de-colageno", label: "Bioestimuladores" },
   { href: "/procedimentos/fios-de-pdo", label: "Fios de PDO" },
   { href: "/procedimentos/gluteoplastia-nao-cirurgica", label: "Harmonização Glútea" },

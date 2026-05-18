@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
       <p>Os procedimentos mais comuns incluem:</p>
       <ul>
         <li><strong>Preenchimento com ácido hialurônico</strong> — para lábios, malar (maçã do rosto), mandíbula, mento (queixo) e olheiras</li>
-        <li><strong>Toxina botulínica (Botox)</strong> — para rugas dinâmicas na testa, entre as sobrancelhas e ao redor dos olhos</li>
+        <li><strong>Tratamento Antirrugas</strong> — para rugas dinâmicas na testa, entre as sobrancelhas e ao redor dos olhos</li>
         <li><strong>Bioestimuladores de colágeno</strong> — como Sculptra e Radiesse, que estimulam a produção natural de colágeno</li>
         <li><strong>Fios de PDO</strong> — para lifting não cirúrgico e sustentação tecidual</li>
         <li><strong>Skinbooster</strong> — hidratação profunda da pele com microinjeções de ácido hialurônico</li>
@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Quanto Custa Harmonização Facial na Barra da Tijuca?</h2>
       <p>Os valores variam conforme o número de procedimentos, a quantidade de produto utilizado e a experiência do profissional. Em média, na região da Barra da Tijuca e no Rio de Janeiro:</p>
       <ul>
-        <li>Toxina botulínica: R$ 1.200 a R$ 2.500 por sessão</li>
+        <li>Tratamento Antirrugas: R$ 1.200 a R$ 2.500 por sessão</li>
         <li>Preenchimento labial: R$ 1.800 a R$ 3.500 por seringa</li>
         <li>Preenchimento de mandíbula e mento: R$ 2.500 a R$ 5.000</li>
         <li>Bioestimulador de colágeno: R$ 2.000 a R$ 4.000 por sessão</li>
@@ -97,8 +97,8 @@ export const blogPosts: BlogPost[] = [
       <h2>Mito 1: "Harmonização Facial É Muito Dolorosa"</h2>
       <p><strong>Verdade:</strong> Na grande maioria dos casos, o desconforto é mínimo e perfeitamente tolerável. Antes de qualquer procedimento, a biomédica esteta aplica anestésico tópico (creme anestésico) na região a ser tratada, que age por 20 a 30 minutos. Além disso, muitos preenchedores à base de ácido hialurônico já contêm lidocaína em sua formulação, proporcionando anestesia durante a própria aplicação.</p>
 
-      <h2>Mito 2: "Botox É Mais Doloroso Que Preenchimento"</h2>
-      <p><strong>Verdade:</strong> Na prática, a toxina botulínica é um dos procedimentos que menos causam desconforto. As agulhas utilizadas são ultrafinas (30G ou 32G), e as injeções são rápidas — geralmente toda a sessão dura de 10 a 15 minutos. A sensação é comparável a pequenas picadas de mosquito.</p>
+      <h2>Mito 2: "Tratamento Antirrugas É Mais Doloroso Que Preenchimento"</h2>
+      <p><strong>Verdade:</strong> Na prática, o tratamento antirrugas é um dos procedimentos que menos causam desconforto. As agulhas utilizadas são ultrafinas (30G ou 32G), e as injeções são rápidas — geralmente toda a sessão dura de 10 a 15 minutos. A sensação é comparável a pequenas picadas de mosquito.</p>
 
       <h2>Mito 3: "Preenchimento Labial É Insuportável"</h2>
       <p><strong>Verdade:</strong> Os lábios são uma região sensível, é verdade. Porém, com a técnica adequada, o desconforto é controlado. Utilizamos bloqueio anestésico local (semelhante ao do dentista) que adormece completamente a região. Com o bloqueio, a maioria das pacientes relata <strong>pressão</strong>, não dor.</p>
@@ -146,7 +146,7 @@ export const blogPosts: BlogPost[] = [
     title: "Quanto Custa Harmonização Facial no Rio de Janeiro em 2026",
     category: "Harmonização Facial",
     excerpt:
-      "Valores atualizados de harmonização facial no RJ: preenchimento, botox, bioestimuladores. Entenda o que influencia o preço e como investir com segurança.",
+      "Valores atualizados de harmonização facial no RJ: preenchimento, tratamento antirrugas, bioestimuladores. Entenda o que influencia o preço e como investir com segurança.",
     date: "2026-03-22",
     readTime: "7 min",
     image:
@@ -154,7 +154,7 @@ export const blogPosts: BlogPost[] = [
     keywords: [
       "quanto custa harmonização facial",
       "preço harmonização facial rio de janeiro",
-      "valor botox rj",
+      "valor tratamento antirrugas rj",
       "preço preenchimento labial",
       "harmonização facial valor 2026",
     ],
@@ -164,7 +164,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Tabela de Valores: Harmonização Facial no RJ (2026)</h2>
       <p>Os valores abaixo representam uma faixa de referência para clínicas de qualidade no Rio de Janeiro, incluindo a Barra da Tijuca, Bangu e Zona Sul:</p>
       <ul>
-        <li><strong>Toxina Botulínica (Botox):</strong> R$ 1.200 a R$ 2.800 por sessão (testa, glabela, pés de galinha)</li>
+        <li><strong>Tratamento Antirrugas:</strong> R$ 1.200 a R$ 2.800 por sessão (testa, glabela, pés de galinha)</li>
         <li><strong>Preenchimento Labial:</strong> R$ 1.800 a R$ 3.500 por seringa de ácido hialurônico</li>
         <li><strong>Preenchimento de Mandíbula:</strong> R$ 2.500 a R$ 5.000 (1 a 2 seringas)</li>
         <li><strong>Preenchimento de Mento (Queixo):</strong> R$ 2.000 a R$ 4.000</li>
@@ -291,26 +291,26 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "diferenca-botox-preenchimento-qual-melhor",
     title:
-      "Diferença Entre Botox e Preenchimento: Qual É o Melhor Para Você",
+      "Diferença Entre Tratamento Antirrugas e Preenchimento: Qual É o Melhor Para Você",
     category: "Harmonização Facial",
     excerpt:
-      "Botox e preenchimento são procedimentos diferentes com indicações distintas. Entenda quando usar cada um e como eles se complementam na harmonização facial.",
+      "Tratamento antirrugas e preenchimento são procedimentos diferentes com indicações distintas. Entenda quando usar cada um e como eles se complementam na harmonização facial.",
     date: "2026-03-10",
     readTime: "6 min",
     image:
       "/images/blog/diferenca-botox-preenchimento-qual-melhor.jpg",
     keywords: [
-      "diferença botox preenchimento",
-      "botox ou preenchimento",
-      "toxina botulínica vs ácido hialurônico",
-      "botox para rugas",
+      "diferença tratamento antirrugas preenchimento",
+      "antirrugas ou preenchimento",
+      "neuromodulador vs ácido hialurônico",
+      "antirrugas para rugas de expressão",
       "preenchimento facial",
     ],
     content: `
-      <p>Uma confusão muito comum é achar que <strong>Botox e preenchimento</strong> são a mesma coisa. Apesar de ambos serem injetáveis e fazerem parte da harmonização facial, eles têm mecanismos de ação, indicações e resultados completamente diferentes. Vamos esclarecer de uma vez por todas.</p>
+      <p>Uma confusão muito comum é achar que <strong>tratamento antirrugas e preenchimento</strong> são a mesma coisa. Apesar de ambos serem injetáveis e fazerem parte da harmonização facial, eles têm mecanismos de ação, indicações e resultados completamente diferentes. Vamos esclarecer de uma vez por todas.</p>
 
-      <h2>O Que É Botox (Toxina Botulínica)?</h2>
-      <p>A toxina botulínica, popularmente conhecida como Botox (que na verdade é uma marca), é uma proteína que <strong>relaxa temporariamente a musculatura</strong> da região onde é aplicada. Ela age na junção neuromuscular, impedindo que o músculo se contraia com a mesma intensidade.</p>
+      <h2>O Que É o Tratamento Antirrugas?</h2>
+      <p>O tratamento antirrugas utiliza um ativo neuromodulador, uma proteína que <strong>relaxa temporariamente a musculatura</strong> da região onde é aplicada. Ela age na junção neuromuscular, impedindo que o músculo se contraia com a mesma intensidade.</p>
       <p><strong>Indicações principais:</strong></p>
       <ul>
         <li>Rugas da testa (linhas horizontais)</li>
@@ -323,7 +323,7 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Duração:</strong> 4 a 6 meses em média.</p>
 
       <h2>O Que É Preenchimento (Ácido Hialurônico)?</h2>
-      <p>O preenchimento com ácido hialurônico é um gel biocompatível injetado para <strong>adicionar volume, contorno e hidratação</strong> a determinadas regiões do rosto. Diferente do Botox, ele não relaxa músculos — ele preenche espaços e redefine contornos.</p>
+      <p>O preenchimento com ácido hialurônico é um gel biocompatível injetado para <strong>adicionar volume, contorno e hidratação</strong> a determinadas regiões do rosto. Diferente do tratamento antirrugas, ele não relaxa músculos — ele preenche espaços e redefine contornos.</p>
       <p><strong>Indicações principais:</strong></p>
       <ul>
         <li>Aumento e definição labial</li>
@@ -338,20 +338,20 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Comparação Direta</h2>
       <ul>
-        <li><strong>Ação:</strong> Botox relaxa músculo | Preenchimento adiciona volume</li>
-        <li><strong>Indicação:</strong> Botox para rugas de expressão | Preenchimento para contorno e volume</li>
-        <li><strong>Resultado:</strong> Botox em 7-14 dias | Preenchimento imediato</li>
-        <li><strong>Duração:</strong> Botox 4-6 meses | Preenchimento 8-18 meses</li>
-        <li><strong>Reversibilidade:</strong> Botox se desfaz naturalmente | Preenchimento de AH pode ser dissolvido com hialuronidase</li>
+        <li><strong>Ação:</strong> Antirrugas relaxa músculo | Preenchimento adiciona volume</li>
+        <li><strong>Indicação:</strong> Antirrugas para rugas de expressão | Preenchimento para contorno e volume</li>
+        <li><strong>Resultado:</strong> Antirrugas em 7-14 dias | Preenchimento imediato</li>
+        <li><strong>Duração:</strong> Antirrugas 4-6 meses | Preenchimento 8-18 meses</li>
+        <li><strong>Reversibilidade:</strong> Antirrugas se desfaz naturalmente | Preenchimento de AH pode ser dissolvido com hialuronidase</li>
       </ul>
 
       <h2>Quando Usar Cada Um?</h2>
-      <p><strong>Use Botox quando:</strong> sua queixa principal são rugas que aparecem ao movimentar o rosto (rugas dinâmicas) — testa, glabela, pés de galinha.</p>
+      <p><strong>Use o tratamento antirrugas quando:</strong> sua queixa principal são rugas que aparecem ao movimentar o rosto (rugas dinâmicas) — testa, glabela, pés de galinha.</p>
       <p><strong>Use Preenchimento quando:</strong> sua queixa envolve falta de volume, contorno indefinido, sulcos estáticos ou assimetrias.</p>
-      <p><strong>Use ambos quando:</strong> em muitos casos, o resultado ideal combina os dois procedimentos. Por exemplo, Botox na testa e glabela + preenchimento em lábios e mandíbula. Eles se complementam perfeitamente.</p>
+      <p><strong>Use ambos quando:</strong> em muitos casos, o resultado ideal combina os dois procedimentos. Por exemplo, antirrugas na testa e glabela + preenchimento em lábios e mandíbula. Eles se complementam perfeitamente.</p>
 
       <h2>Posso Fazer Os Dois No Mesmo Dia?</h2>
-      <p>Sim, é absolutamente possível e seguro realizar Botox e preenchimento na mesma sessão. Aliás, isso é bastante comum em protocolos de harmonização facial completa (Full Face). A combinação permite tratar diferentes queixas simultaneamente, com resultado harmonioso.</p>
+      <p>Sim, é absolutamente possível e seguro realizar o tratamento antirrugas e o preenchimento na mesma sessão. Aliás, isso é bastante comum em protocolos de harmonização facial completa (Full Face). A combinação permite tratar diferentes queixas simultaneamente, com resultado harmonioso.</p>
 
       <h2>Avaliação na JS Estética Avançada</h2>
       <p>Na avaliação, a biomédica esteta Juliane Elaine analisa suas queixas e indica exatamente quais procedimentos são mais adequados para o seu caso. Atendemos na <strong>Barra da Tijuca</strong> e em <strong>Bangu</strong>, no Rio de Janeiro, com transparência total sobre indicações e valores.</p>
@@ -380,9 +380,9 @@ export const blogPosts: BlogPost[] = [
       <p>O termo <strong>Full Face</strong> tem ganhado cada vez mais destaque no universo da estética. Mas o que exatamente ele significa? Full Face é um protocolo de <strong>harmonização facial completa</strong>, no qual múltiplas regiões do rosto são tratadas de forma integrada para alcançar equilíbrio e proporção global.</p>
 
       <h2>O Que Inclui Um Protocolo Full Face?</h2>
-      <p>Diferente de tratar apenas uma região isolada (como só lábios ou só botox), o Full Face engloba um conjunto de procedimentos planejados para harmonizar o rosto como um todo. Os procedimentos mais comuns em um protocolo Full Face incluem:</p>
+      <p>Diferente de tratar apenas uma região isolada (como só lábios ou só rugas de expressão), o Full Face engloba um conjunto de procedimentos planejados para harmonizar o rosto como um todo. Os procedimentos mais comuns em um protocolo Full Face incluem:</p>
       <ul>
-        <li><strong>Toxina botulínica:</strong> testa, glabela e pés de galinha para suavizar rugas de expressão</li>
+        <li><strong>Tratamento antirrugas:</strong> testa, glabela e pés de galinha para suavizar rugas de expressão</li>
         <li><strong>Preenchimento de mandíbula:</strong> para definir o contorno facial e o ângulo mandibular</li>
         <li><strong>Preenchimento de mento:</strong> para projetar o queixo e equilibrar o perfil</li>
         <li><strong>Preenchimento malar:</strong> para restaurar ou criar volume na maçã do rosto</li>
@@ -1573,7 +1573,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>4. Produtos Registrados na ANVISA</h2>
-      <p>Todos os injetáveis (ácido hialurônico, toxina botulínica, bioestimuladores) devem ser registrados na ANVISA. O profissional deve mostrar o produto lacrado antes da aplicação, com lote e validade visíveis. Desconfie se o produto já vier preparado ou se o profissional não permitir que você veja a embalagem.</p>
+      <p>Todos os injetáveis (ácido hialurônico, ativos neuromoduladores, bioestimuladores) devem ser registrados na ANVISA. O profissional deve mostrar o produto lacrado antes da aplicação, com lote e validade visíveis. Desconfie se o produto já vier preparado ou se o profissional não permitir que você veja a embalagem.</p>
 
       <h2>5. Avaliação Presencial Antes do Procedimento</h2>
       <p>Um profissional sério nunca realiza procedimentos sem avaliação prévia. Na consulta, devem ser avaliados:</p>
@@ -1655,7 +1655,7 @@ export const blogPosts: BlogPost[] = [
           <ul>
             <li>Anatomia facial e corporal aplicada</li>
             <li>Farmacologia de injetáveis</li>
-            <li>Técnicas de aplicação de toxina botulínica e preenchedores</li>
+            <li>Técnicas de aplicação de neuromoduladores e preenchedores</li>
             <li>Bioestimuladores de colágeno</li>
             <li>Fios de PDO e sustentação</li>
             <li>Peelings e procedimentos de pele</li>
@@ -1670,7 +1670,7 @@ export const blogPosts: BlogPost[] = [
       <h2>O Que o Biomédico Esteta Pode Fazer?</h2>
       <p>Conforme regulamentação do CFBM, o biomédico esteta está habilitado para realizar:</p>
       <ul>
-        <li>Aplicação de toxina botulínica (Botox)</li>
+        <li>Aplicação de tratamento antirrugas</li>
         <li>Preenchimento com ácido hialurônico</li>
         <li>Bioestimuladores de colágeno</li>
         <li>Fios de PDO</li>
