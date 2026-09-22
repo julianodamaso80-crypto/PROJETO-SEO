@@ -109,7 +109,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Perdeu um familiar e precisa da pensão por morte?</strong></p>
 <p>Nossa equipe analisa seu caso gratuitamente e orienta sobre o valor correto e o melhor caminho para solicitar.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">CONSULTA GRATUITA</a></p>
+<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">FALAR COM ADVOGADO</a></p>
 </div>
 `
   },

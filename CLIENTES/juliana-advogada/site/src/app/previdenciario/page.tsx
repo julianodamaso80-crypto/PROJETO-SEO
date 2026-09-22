@@ -43,7 +43,7 @@ export default function PrevidenciarioPage() {
             Negativa do INSS não é definitiva. Conheça seus direitos e as opções de recurso.
           </p>
           <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
-            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Quero Minha Análise Gratuita</a>
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Advogado</a>
             <a href="#servicos" className="btn-outline" style={{ color: "var(--text-on-dark)", borderColor: "rgba(243,240,232,0.2)" }}>Ver áreas</a>
           </div>
         </div>
@@ -125,9 +125,9 @@ export default function PrevidenciarioPage() {
           <hr className="rule" style={{ margin: "0 auto 20px" }} />
           <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", marginBottom: "16px" }}>Tire suas dúvidas com uma especialista.</h2>
           <p style={{ fontSize: "16px", lineHeight: 1.75, marginBottom: "36px", color: "var(--text-body)" }}>
-            Consulta inicial gratuita e sem compromisso.
+            Consulta inicial sem compromisso.
           </p>
-          <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Quero Minha Análise Gratuita</a>
+          <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Advogado</a>
         </div>
       </section>
     </div>

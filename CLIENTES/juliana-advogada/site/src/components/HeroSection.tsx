@@ -153,7 +153,7 @@ export function HeroSection() {
               onMouseEnter={(e) => (e.currentTarget.style.background = "var(--green-dark)")}
               onMouseLeave={(e) => (e.currentTarget.style.background = "var(--green)")}
             >
-              Quero Minha Consulta Gratuita
+              Falar com Advogado
             </a>
             <a
               href="#areas"

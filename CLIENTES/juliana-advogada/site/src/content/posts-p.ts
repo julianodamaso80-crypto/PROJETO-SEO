@@ -690,7 +690,7 @@ export const batchPPosts: BlogPost[] = [
 
 <p>Você pode <strong>bloquear</strong> a contratação de novos empréstimos consignados pelo Meu INSS ou pelo telefone 135. Isso impede que bancos façam novos descontos no seu benefício sem sua autorização — medida essencial para quem já sofreu fraude.</p>
 
-<p class="cta-highlight"><strong>Aposentado pagando juros abusivos no consignado?</strong> Podemos revisar seu contrato e reduzir suas parcelas. Se houve fraude, buscamos a devolução em dobro e indenização por danos morais. Consulta gratuita para aposentados.</p>
+<p class="cta-highlight"><strong>Aposentado pagando juros abusivos no consignado?</strong> Podemos revisar seu contrato e reduzir suas parcelas. Se houve fraude, buscamos a devolução em dobro e indenização por danos morais.</p>
 
 <h2>Perguntas frequentes sobre consignado para aposentados</h2>
 

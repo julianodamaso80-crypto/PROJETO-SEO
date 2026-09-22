@@ -91,10 +91,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               Precisa de orientação sobre {post.category === "Trabalhista" ? "direitos trabalhistas" : "benefícios do INSS"}?
             </h2>
             <p style={{ color: "var(--text-on-dark-muted)", fontSize: "15px", marginBottom: "24px", lineHeight: 1.6, maxWidth: "400px", margin: "0 auto 24px" }}>
-              Consulta inicial gratuita. Tire suas dúvidas sem compromisso.
+              Tire suas dúvidas sem compromisso.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Quero Minha Consulta Gratuita
+              Falar com Advogado
             </a>
           </div>
         </div>

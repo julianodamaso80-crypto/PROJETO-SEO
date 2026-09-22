@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AdvogadaSection } from "@/components/AdvogadaSection";
 
 export const metadata: Metadata = {
   title: "Sobre | DDC LAW Advocacia",
@@ -26,6 +27,9 @@ export default function SobrePage() {
           </h1>
         </div>
       </section>
+
+      {/* A advogada */}
+      <AdvogadaSection background="var(--bg-body)" />
 
       {/* Bio */}
       <section style={{ padding: "var(--section-py) 24px", background: "var(--bg-body)" }}>
@@ -93,7 +97,7 @@ export default function SobrePage() {
             <p style={{ fontSize: "16px", color: "var(--text-on-dark-muted)", marginBottom: "28px", maxWidth: "400px", margin: "0 auto 28px" }}>
               Conte sua situação e receba orientação clara sobre seus direitos.
             </p>
-            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Quero Minha Consulta Gratuita</a>
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Advogado</a>
           </div>
         </div>
       </section>

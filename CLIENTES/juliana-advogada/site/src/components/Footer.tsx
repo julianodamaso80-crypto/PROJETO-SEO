@@ -110,8 +110,12 @@ export function Footer() {
               Contato
             </div>
             <p style={{ fontSize: "14px", color: "var(--text-on-dark-muted)", marginBottom: "16px", lineHeight: 1.6 }}>
+              Av. Cândido de Abreu, 660 — Centro Cívico<br />
+              Curitiba/PR — 82590-300
+            </p>
+            <p style={{ fontSize: "14px", color: "var(--text-on-dark-muted)", marginBottom: "16px", lineHeight: 1.6 }}>
               Atendimento presencial e online<br />
-              Consulta inicial gratuita
+              Consulta inicial sem compromisso
             </p>
             <a
               href={WA}
@@ -150,7 +154,7 @@ export function Footer() {
           gap: "12px",
         }}>
           <p style={{ fontSize: "12px", color: "rgba(247,245,240,0.35)" }}>
-            © {new Date().getFullYear()} DDC LAW — OAB [número]
+            © {new Date().getFullYear()} DDC LAW
           </p>
           <p style={{ fontSize: "11px", color: "rgba(247,245,240,0.25)" }}>
             Este site não constitui consultoria jurídica. Cada caso requer análise individual.

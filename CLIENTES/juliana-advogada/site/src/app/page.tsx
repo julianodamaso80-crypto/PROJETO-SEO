@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/HeroSection";
 
 import { HomeMotion } from "@/components/HomeMotion";
 import { AreaCards } from "@/components/AreaCards";
+import { AdvogadaSection } from "@/components/AdvogadaSection";
 
 const WA = "https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";
 
@@ -68,7 +69,7 @@ export default function HomePage() {
                 </p>
                 <p style={{ fontSize: "16px", lineHeight: 1.9 }}>
                   Atendemos presencialmente e online, em todo o Brasil. A consulta inicial
-                  é gratuita e sem compromisso — você entende seus direitos antes de tomar
+                  é sem compromisso — você entende seus direitos antes de tomar
                   qualquer decisão.
                 </p>
               </div>
@@ -77,7 +78,7 @@ export default function HomePage() {
               {[
                 { label: "Atuação", value: "Trabalhista e Previdenciário" },
                 { label: "Atendimento", value: "Presencial e Online — Todo o Brasil" },
-                { label: "Consulta Inicial", value: "Gratuita e Sem Compromisso" },
+                { label: "Consulta Inicial", value: "Sem Compromisso" },
               ].map((c) => (
                 <div key={c.label}>
                   <div style={{ fontSize: "11px", color: "var(--text-muted)", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: "4px" }}>{c.label}</div>
@@ -86,11 +87,16 @@ export default function HomePage() {
               ))}
             </div>
             <div style={{ marginTop: "36px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap", justifyContent: "center" }}>
-              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Quero Minha Consulta Gratuita</a>
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">Falar com Advogado</a>
               <Link href="/sobre" className="btn-text">Conheça nossa história →</Link>
             </div>
           </div>
         </section>
+
+        {/* ═══════════════════════════════════════
+            2b. A ADVOGADA
+        ═══════════════════════════════════════ */}
+        <AdvogadaSection />
 
         {/* ═══════════════════════════════════════
             FAIXA DE SERVIÇOS — azul
@@ -138,7 +144,7 @@ export default function HomePage() {
                 Fale com a Especialista
               </a>
               <p style={{ marginTop: "12px", fontSize: "16px", color: "var(--text-body)" }}>
-                Consulta inicial gratuita. Análise técnica do seu caso.
+                Análise técnica do seu caso, sem compromisso.
               </p>
             </div>
           </div>
@@ -190,7 +196,7 @@ export default function HomePage() {
             <div style={{ textAlign: "center", marginTop: "56px" }}>
               <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
                 style={{ background: "var(--blue)" }}>
-                Quero Minha Consulta Gratuita
+                Falar com Advogado
               </a>
             </div>
           </div>
@@ -216,7 +222,7 @@ export default function HomePage() {
             </p>
             <p style={{ fontSize: "18px", color: "rgba(230,230,230,0.6)", lineHeight: 1.85, marginBottom: "40px", maxWidth: "600px", margin: "0 auto 40px" }}>
               Atendemos presencialmente e online, em todo o Brasil.
-              A consulta inicial é gratuita e sem compromisso.
+              A consulta inicial é sem compromisso.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
               style={{ background: "var(--blue)", color: "var(--grey)", fontSize: "16px", padding: "16px 40px" }}>
@@ -265,7 +271,7 @@ export default function HomePage() {
               </div>
               <div style={{ textAlign: "center", marginTop: "40px" }}>
                 <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary">
-                  Quero Minha Consulta Gratuita
+                  Falar com Advogado
                 </a>
               </div>
             </div>
@@ -283,15 +289,15 @@ export default function HomePage() {
             </h2>
             <p style={{ fontSize: "18px", lineHeight: 1.8, marginBottom: "20px", color: "var(--text-body)" }}>
               Na consulta inicial, analisamos sua situação, explicamos quais direitos se aplicam
-              ao seu caso e apresentamos as opções jurídicas disponíveis — tudo de forma clara,
-              objetiva e sem custo.
+              ao seu caso e apresentamos as opções jurídicas disponíveis — tudo de forma clara
+              e objetiva.
             </p>
             <p style={{ fontSize: "18px", lineHeight: 1.8, marginBottom: "40px", color: "var(--text-body)" }}>
               Atendimento presencial e online. Todo o Brasil.
             </p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-primary"
               style={{ fontSize: "16px", padding: "18px 48px" }}>
-              Quero Minha Consulta Gratuita
+              Falar com Advogado
             </a>
           </div>
         </section>

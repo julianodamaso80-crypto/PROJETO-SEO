@@ -319,6 +319,8 @@ a { color: inherit; }
   /* Grid 4-col e 2-col → 1 coluna */
   .grid-about { grid-template-columns: 1fr !important; gap: 24px !important; }
   .grid-diferenciais { grid-template-columns: repeat(2, 1fr) !important; gap: 20px !important; }
+  .grid-advogada { grid-template-columns: 1fr !important; gap: 28px !important; }
+  .advogada-foto { max-width: 260px; margin: 0 auto; }
 
   /* Hero ajustes */
   .hero-content { padding: 40px 20px 80px !important; }

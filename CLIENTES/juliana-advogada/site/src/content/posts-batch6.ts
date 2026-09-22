@@ -148,7 +148,7 @@ export const batch6Posts: BlogPost[] = [
 
 <h2>Conclusão: empregado doméstico tem direitos iguais</h2>
 <p>Desde 2015, não existe mais diferença legal entre o empregado doméstico e qualquer outro trabalhador com carteira assinada. Se seus direitos estão sendo descumpridos — falta de registro, não pagamento de hora extra, ausência de FGTS — procure orientação jurídica para cobrar tudo que é devido.</p>
-<p>Agende uma consulta gratuita com nossa equipe especializada em direito trabalhista.</p>
+<p>Fale com nossa equipe especializada em direito trabalhista.</p>
 `
   },
   {

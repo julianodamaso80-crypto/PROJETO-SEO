@@ -108,7 +108,7 @@ export const batchFPosts: BlogPost[] = [
 <h2>Passo a passo: como iniciar seu processo trabalhista</h2>
 <ol>
 <li><strong>Reúna seus documentos</strong> — quanto mais provas, melhor</li>
-<li><strong>Consulte um advogado trabalhista</strong> — a maioria oferece consulta inicial gratuita</li>
+<li><strong>Consulte um advogado trabalhista</strong> — quanto antes, melhores as chances de reunir provas</li>
 <li><strong>Assine o contrato de honorários</strong> — leia com atenção o percentual combinado</li>
 <li><strong>Aguarde a audiência inicial</strong> — geralmente em 2 a 4 meses</li>
 <li><strong>Participe da tentativa de acordo</strong> — pode resolver tudo em uma sessão</li>
@@ -116,7 +116,7 @@ export const batchFPosts: BlogPost[] = [
 
 <h2>Não deixe seus direitos prescreverem</h2>
 <p>Você tem <strong>2 anos após a demissão</strong> para entrar com a ação, podendo cobrar os últimos <strong>5 anos de trabalho</strong>. Cada dia que passa é dinheiro que você perde — literalmente.</p>
-<p><strong>A consulta é gratuita. O processo pode ser gratuito. O advogado só cobra se ganhar.</strong> Qual o motivo para não buscar seus direitos?</p>
+<p><strong>O processo pode ser gratuito e o advogado só cobra se ganhar.</strong> Qual o motivo para não buscar seus direitos?</p>
 <p>📞 <strong>Fale agora com um advogado trabalhista especializado e descubra quanto você pode ter a receber.</strong></p>
 `
   },

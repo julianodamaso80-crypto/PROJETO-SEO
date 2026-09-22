@@ -66,7 +66,7 @@ export function Header() {
             onMouseEnter={(e) => (e.currentTarget.style.background = "var(--green-dark)")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "var(--green)")}
           >
-            Consulta Gratuita
+            Falar com Advogado
           </a>
         </nav>
 
@@ -100,7 +100,7 @@ export function Header() {
               textDecoration: "none", borderRadius: "4px",
               boxShadow: "0 4px 16px rgba(22,163,74,0.45)",
             }}>
-            Consulta Gratuita
+            Falar com Advogado
           </a>
         </div>
       )}
