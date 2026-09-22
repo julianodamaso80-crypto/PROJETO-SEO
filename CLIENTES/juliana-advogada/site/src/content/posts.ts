@@ -37,7 +37,7 @@ import { postsImpactoGuias } from "./posts-impacto-guias";
 import { postsImpactoDireitos } from "./posts-impacto-direitos";
 import { postsBpcImigrantes } from "./posts-bpc-imigrantes";
 
-export const blogPosts: BlogPost[] = [
+const todosOsPosts: BlogPost[] = [
   ...batchAPosts,
   ...batchBPosts,
   ...batchCPosts,
@@ -74,3 +74,13 @@ export const blogPosts: BlogPost[] = [
   ...postsImpactoDireitos,
   ...postsBpcImigrantes,
 ];
+
+// 12 slugs aparecem em mais de um arquivo de conteúdo. Mantemos a versão mais
+// completa de cada um: URL duplicada gera canibalização e entrada repetida no sitemap.
+export const blogPosts: BlogPost[] = Object.values(
+  todosOsPosts.reduce<Record<string, BlogPost>>((acc, post) => {
+    const atual = acc[post.slug];
+    if (!atual || post.content.length > atual.content.length) acc[post.slug] = post;
+    return acc;
+  }, {}),
+);

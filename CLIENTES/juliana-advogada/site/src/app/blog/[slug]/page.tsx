@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { SITE_URL, ORG } from "@/lib/site";
+import { clusterDoPost, type Cluster } from "@/content/clusters";
 
 const WA = "https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";
 
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-function schemaArtigo(post: (typeof blogPosts)[number]) {
+function schemaArtigo(post: (typeof blogPosts)[number], tema?: Cluster) {
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -51,7 +52,10 @@ function schemaArtigo(post: (typeof blogPosts)[number]) {
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Início", item: `${SITE_URL}/` },
           { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
-          { "@type": "ListItem", position: 3, name: post.title },
+          ...(tema
+            ? [{ "@type": "ListItem", position: 3, name: tema.nome, item: `${SITE_URL}/temas/${tema.slug}` },
+               { "@type": "ListItem", position: 4, name: post.title }]
+            : [{ "@type": "ListItem", position: 3, name: post.title }]),
         ],
       },
     ],
@@ -63,13 +67,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) notFound();
 
-  const related = blogPosts.filter((p) => p.slug !== slug && p.category === post.category).slice(0, 3);
+  const tema = clusterDoPost(post);
+  // artigos do mesmo tema dizem mais ao leitor que artigos da mesma categoria ampla
+  const related = blogPosts
+    .filter((p) => p.slug !== slug && (tema ? clusterDoPost(p)?.slug === tema.slug : p.category === post.category))
+    .slice(0, 3);
 
   return (
     <div style={{ paddingTop: "72px" }}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArtigo(post)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArtigo(post, tema)) }}
       />
 
       {/* Header */}
@@ -78,7 +86,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <Link href="/blog" style={{ fontSize: "13px", color: "var(--text-muted)", textDecoration: "none" }}>Blog</Link>
             <span style={{ color: "var(--text-muted)", fontSize: "12px" }}>›</span>
-            <span className="eyebrow">{post.category}</span>
+            {tema ? (
+              <Link href={`/temas/${tema.slug}`} className="eyebrow" style={{ textDecoration: "none" }}>
+                {tema.nome}
+              </Link>
+            ) : (
+              <span className="eyebrow">{post.category}</span>
+            )}
           </div>
 
           <h1 style={{ marginBottom: "20px", lineHeight: 1.2 }}>
