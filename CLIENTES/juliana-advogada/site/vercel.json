@@ -1,5 +1,11 @@
 {
   "framework": "nextjs",
   "buildCommand": "next build",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "rewrites": [
+    {
+      "source": "/google4a42f9fb19ca382d.html",
+      "destination": "/google4a42f9fb19ca382d"
+    }
+  ]
 }
