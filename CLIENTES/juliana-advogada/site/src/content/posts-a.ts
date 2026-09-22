@@ -115,7 +115,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>Se você sofreu um acidente de trabalho ou desenvolveu uma doença por causa da sua atividade profissional, o primeiro passo é garantir que a CAT seja registrada. Com ela, você acessa benefícios mais favoráveis do INSS, garante estabilidade no emprego e fortalece qualquer ação judicial futura.</p>
 
-<p><strong>A empresa se recusou a emitir a CAT? Não sabe como preencher corretamente?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre o registro, os prazos e os próximos passos para garantir todos os seus direitos.</p>
+<p><strong>A empresa se recusou a emitir a CAT? Não sabe como preencher corretamente?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre o registro, os prazos e os próximos passos para garantir todos os seus direitos.</p>
 `,
   },
 
@@ -232,7 +232,7 @@ export const batchAPosts: BlogPost[] = [
 <li>Consulte um advogado trabalhista antes de assinar qualquer documento</li>
 </ol>
 
-<p><strong>Está trabalhando de casa e sofreu um acidente ou desenvolveu uma doença por falta de ergonomia?</strong> <a href="/contato">Entre em contato com a nossa equipe</a>. Avaliamos seu caso, orientamos sobre a documentação necessária e garantimos que seus direitos sejam respeitados — independentemente de onde você trabalha.</p>
+<p><strong>Está trabalhando de casa e sofreu um acidente ou desenvolveu uma doença por falta de ergonomia?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Entre em contato com a nossa equipe</a>. Avaliamos seu caso, orientamos sobre a documentação necessária e garantimos que seus direitos sejam respeitados — independentemente de onde você trabalha.</p>
 `,
   },
 
@@ -330,7 +330,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>Por outro lado, as <strong>indenizações em doenças ocupacionais tendem a ser maiores</strong>, especialmente quando há redução permanente da capacidade de trabalho — situação em que cabe pensão mensal até a idade de expectativa de vida do trabalhador.</p>
 
-<p><strong>Está com dúvida se a sua doença tem relação com o trabalho?</strong> <a href="/contato">Fale conosco para uma avaliação</a>. Analisamos seu histórico profissional, seus exames e a atividade da empresa para determinar se existe nexo causal — e quais direitos você pode reivindicar.</p>
+<p><strong>Está com dúvida se a sua doença tem relação com o trabalho?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale conosco para uma avaliação</a>. Analisamos seu histórico profissional, seus exames e a atividade da empresa para determinar se existe nexo causal — e quais direitos você pode reivindicar.</p>
 `,
   },
 
@@ -436,7 +436,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>A empresa pode contestar a CAT junto ao INSS, mas <strong>o ônus da prova se inverte</strong>: registrada a CAT e apresentado o atestado médico, é a empresa que precisa provar que o acidente não tem relação com o trabalho.</p>
 
-<p><strong>A empresa se recusou a emitir a CAT e você precisa de orientação?</strong> <a href="/contato">Fale com a nossa equipe agora</a>. Te ajudamos a registrar corretamente e a garantir que o acidente fique documentado — protegendo seus direitos desde o primeiro momento.</p>
+<p><strong>A empresa se recusou a emitir a CAT e você precisa de orientação?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe agora</a>. Te ajudamos a registrar corretamente e a garantir que o acidente fique documentado — protegendo seus direitos desde o primeiro momento.</p>
 `,
   },
 
@@ -557,7 +557,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>O mais provável é que a regulamentação crie um modelo intermediário, com contribuição previdenciária obrigatória e algumas proteções, mas sem o vínculo CLT completo. Independentemente disso, trabalhadores que <strong>já exerceram a atividade sem nenhuma proteção</strong> podem buscar seus direitos retroativamente na Justiça.</p>
 
-<p><strong>É motorista ou entregador de aplicativo e quer entender seus direitos?</strong> <a href="/contato">Agende uma consulta</a>. Analisamos sua situação específica — tempo de trabalho, jornada, punições sofridas — e orientamos sobre a melhor estratégia para o seu caso.</p>
+<p><strong>É motorista ou entregador de aplicativo e quer entender seus direitos?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Agende uma consulta</a>. Analisamos sua situação específica — tempo de trabalho, jornada, punições sofridas — e orientamos sobre a melhor estratégia para o seu caso.</p>
 `,
   },
 
@@ -683,7 +683,7 @@ export const batchAPosts: BlogPost[] = [
 <li>Pode enviar substituto</li>
 </ul>
 
-<p><strong>Está trabalhando como PJ mas suspeita que deveria ser CLT?</strong> <a href="/contato">Fale conosco para uma análise gratuita do seu caso</a>. Avaliamos os sinais de fraude, calculamos o valor aproximado dos seus direitos e orientamos sobre a melhor estratégia — com sigilo total.</p>
+<p><strong>Está trabalhando como PJ mas suspeita que deveria ser CLT?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale conosco para uma análise gratuita do seu caso</a>. Avaliamos os sinais de fraude, calculamos o valor aproximado dos seus direitos e orientamos sobre a melhor estratégia — com sigilo total.</p>
 `,
   },
 
@@ -822,7 +822,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>O maior erro é esperar. Mensagens são apagadas, celulares quebram, colegas mudam de emprego e ficam receosos de testemunhar. <strong>Reúna suas provas agora</strong>, mesmo que ainda não tenha decidido entrar com ação.</p>
 
-<p><strong>Trabalhou sem carteira assinada e quer saber se tem provas suficientes?</strong> <a href="/contato">Envie suas dúvidas para a nossa equipe</a>. Analisamos o material que você já tem e orientamos sobre como fortalecer seu caso antes de ingressar na Justiça.</p>
+<p><strong>Trabalhou sem carteira assinada e quer saber se tem provas suficientes?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Envie suas dúvidas para a nossa equipe</a>. Analisamos o material que você já tem e orientamos sobre como fortalecer seu caso antes de ingressar na Justiça.</p>
 `,
   },
 
@@ -958,7 +958,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>O trabalhador tem <strong>2 anos após a demissão</strong> para entrar com a ação, cobrando os últimos <strong>5 anos</strong> de horas extras (art. 7º, XXIX, CF). Se você saiu da empresa há menos de 2 anos, ainda está no prazo.</p>
 
-<p><strong>Faz horas extras que não são pagas corretamente ou quer calcular quanto tem a receber?</strong> <a href="/contato">Entre em contato com a nossa equipe</a>. Fazemos o cálculo detalhado do seu caso — com reflexos em todas as verbas — e orientamos sobre a melhor forma de cobrar.</p>
+<p><strong>Faz horas extras que não são pagas corretamente ou quer calcular quanto tem a receber?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Entre em contato com a nossa equipe</a>. Fazemos o cálculo detalhado do seu caso — com reflexos em todas as verbas — e orientamos sobre a melhor forma de cobrar.</p>
 `,
   },
 
@@ -1065,7 +1065,7 @@ export const batchAPosts: BlogPost[] = [
 
 <p>Se não há acordo coletivo obrigando, <strong>sim</strong>. O banco de horas por acordo individual depende da sua concordância. Porém, na prática, a recusa pode gerar conflito. A melhor estratégia é documentar a situação e, se necessário, buscar orientação jurídica.</p>
 
-<p><strong>Seu banco de horas nunca é compensado direito ou você desconfia que é irregular?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o acordo (se existir), calculamos o que você tem a receber e orientamos sobre como agir — sem precisar pedir demissão.</p>
+<p><strong>Seu banco de horas nunca é compensado direito ou você desconfia que é irregular?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o acordo (se existir), calculamos o que você tem a receber e orientamos sobre como agir — sem precisar pedir demissão.</p>
 `,
   },
 
@@ -1202,7 +1202,7 @@ Se isso ocorre toda noite útil no mês (22 dias): <strong>R$1.400/mês</strong>
 <li>Com reflexos (13º, férias, FGTS): <strong>~R$10.000</strong></li>
 </ul>
 
-<p><strong>Recebe mensagens de trabalho fora do expediente com frequência?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico de mensagens, calculamos o valor devido e orientamos sobre a melhor estratégia — seja negociação direta ou ação judicial.</p>
+<p><strong>Recebe mensagens de trabalho fora do expediente com frequência?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico de mensagens, calculamos o valor devido e orientamos sobre a melhor estratégia — seja negociação direta ou ação judicial.</p>
 `,
   },
 ];

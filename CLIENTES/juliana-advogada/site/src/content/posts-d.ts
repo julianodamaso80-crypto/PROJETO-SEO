@@ -109,7 +109,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Perdeu um familiar e precisa da pensão por morte?</strong></p>
 <p>Nossa equipe analisa seu caso gratuitamente e orienta sobre o valor correto e o melhor caminho para solicitar.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">FALAR COM ADVOGADO</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">FALAR COM ADVOGADO</a></p>
 </div>
 `
   },
@@ -216,7 +216,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Recebe pensão e aposentadoria com desconto?</strong></p>
 <p>Verificamos se o cálculo do INSS está correto e se você tem direito a valores maiores.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">VERIFICAR MEU CASO</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">VERIFICAR MEU CASO</a></p>
 </div>
 `
   },
@@ -318,7 +318,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>União estável sem certidão de casamento?</strong></p>
 <p>Analisamos sua documentação e indicamos o melhor caminho para garantir sua pensão por morte — administrativo ou judicial.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">ANALISAR MINHA DOCUMENTAÇÃO</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">ANALISAR MINHA DOCUMENTAÇÃO</a></p>
 </div>
 `
   },
@@ -431,7 +431,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Benefício negado? Podemos reverter.</strong></p>
 <p>Analisamos gratuitamente o motivo da negativa e indicamos o caminho mais rápido para conseguir seu auxílio-doença.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">ANÁLISE GRATUITA URGENTE</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">ANÁLISE GRATUITA URGENTE</a></p>
 </div>
 `
   },
@@ -535,7 +535,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Precisa de ajuda com o Atestmed?</strong></p>
 <p>Orientamos sobre a documentação ideal e acompanhamos seu pedido do início ao fim.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">FALAR COM ESPECIALISTA</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">FALAR COM ESPECIALISTA</a></p>
 </div>
 `
   },
@@ -629,7 +629,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Perícia agendada? Prepare-se com quem entende.</strong></p>
 <p>Orientamos você sobre documentação, postura e estratégia para maximizar suas chances na perícia do INSS.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">PREPARAR MINHA PERÍCIA</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">PREPARAR MINHA PERÍCIA</a></p>
 </div>
 `
   },
@@ -745,7 +745,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Afastado por saúde mental e sem benefício?</strong></p>
 <p>Somos especializados em benefícios por incapacidade. Analisamos seu caso e orientamos sobre a melhor estratégia.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">QUERO ORIENTAÇÃO ESPECIALIZADA</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">QUERO ORIENTAÇÃO ESPECIALIZADA</a></p>
 </div>
 `
   },
@@ -863,7 +863,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Quer saber se já pode se aposentar?</strong></p>
 <p>Fazemos o cálculo completo das suas contribuições e identificamos a melhor regra de transição para o seu caso.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">CALCULAR MINHA APOSENTADORIA</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">CALCULAR MINHA APOSENTADORIA</a></p>
 </div>
 `
   },
@@ -981,7 +981,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>Não deixe o fator previdenciário reduzir sua aposentadoria.</strong></p>
 <p>Simulamos todas as regras de transição e encontramos a opção com o melhor valor para o seu caso.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">SIMULAR MINHA APOSENTADORIA</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">SIMULAR MINHA APOSENTADORIA</a></p>
 </div>
 `
   },
@@ -1136,7 +1136,7 @@ export const batchDPosts: BlogPost[] = [
 <div style="background:#1a3a5c;color:#fff;padding:20px;border-radius:8px;margin:24px 0;text-align:center;">
 <p style="font-size:18px;margin-bottom:10px;"><strong>MEI ou autônomo? Planeje sua aposentadoria.</strong></p>
 <p>Analisamos seu histórico de contribuições e indicamos o melhor plano para garantir o benefício que você merece.</p>
-<p style="margin-top:15px;"><a href="/contato" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">PLANEJAR MINHA APOSENTADORIA</a></p>
+<p style="margin-top:15px;"><a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener" style="background:#c9a84c;color:#1a3a5c;padding:12px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">PLANEJAR MINHA APOSENTADORIA</a></p>
 </div>
 `
   }

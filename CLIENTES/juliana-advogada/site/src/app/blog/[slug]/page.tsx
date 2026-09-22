@@ -2,6 +2,7 @@ import { blogPosts } from "@/content/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SITE_URL, ORG } from "@/lib/site";
 
 const WA = "https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";
 
@@ -13,7 +14,48 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
-  return { title: post.metaTitle, description: post.metaDescription };
+  return {
+    title: post.metaTitle,
+    description: post.metaDescription,
+    alternates: { canonical: `/blog/${post.slug}` },
+    openGraph: {
+      type: "article",
+      url: `/blog/${post.slug}`,
+      title: post.metaTitle,
+      description: post.metaDescription,
+      publishedTime: post.date,
+      images: post.image ? [post.image] : undefined,
+    },
+  };
+}
+
+function schemaArtigo(post: (typeof blogPosts)[number]) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: post.title,
+        description: post.metaDescription,
+        image: post.image,
+        datePublished: post.date,
+        dateModified: post.date,
+        inLanguage: "pt-BR",
+        articleSection: post.category,
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${post.slug}` },
+        author: { "@type": "Organization", name: ORG.name, url: SITE_URL },
+        publisher: { "@id": `${SITE_URL}/#escritorio` },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Início", item: `${SITE_URL}/` },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: post.title },
+        ],
+      },
+    ],
+  };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -25,6 +67,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <div style={{ paddingTop: "72px" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArtigo(post)) }}
+      />
 
       {/* Header */}
       <section style={{ padding: "64px 24px 40px", background: "var(--bg-cream)", borderBottom: "1px solid var(--border-light)" }}>

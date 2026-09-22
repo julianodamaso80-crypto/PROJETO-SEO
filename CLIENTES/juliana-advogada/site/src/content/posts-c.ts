@@ -97,7 +97,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Fale Com Quem Entende de Benefícios Por Incapacidade</h2>
 <p>Se você sofreu um acidente e ficou com qualquer tipo de sequela — mesmo que pareça "pequena" — pode estar deixando dinheiro na mesa todo mês. O auxílio-acidente é um direito seu, previsto em lei, e que pode representar dezenas de milhares de reais ao longo dos anos.</p>
-<p><strong>A DDC LAW é especialista em direito previdenciário e benefícios por incapacidade.</strong> Analisamos seu caso sem compromisso para verificar se você tem direito ao auxílio-acidente. <a href="/contato">Fale conosco pelo WhatsApp</a> e agende sua consulta.</p>
+<p><strong>A DDC LAW é especialista em direito previdenciário e benefícios por incapacidade.</strong> Analisamos seu caso sem compromisso para verificar se você tem direito ao auxílio-acidente. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale conosco pelo WhatsApp</a> e agende sua consulta.</p>
 </section>
     `,
   },
@@ -188,7 +188,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Não Sabe Qual Benefício Pedir? Consultoria Especializada Faz Diferença</h2>
 <p>Pedir o benefício errado pode significar meses de espera, negativas e retrabalho. A escolha entre auxílio-acidente e aposentadoria por invalidez depende de uma análise técnica da sua incapacidade, do seu histórico contributivo e da sua situação de trabalho atual.</p>
-<p><strong>A DDC LAW analisa seu caso previdenciário de forma completa</strong>, identificando qual benefício oferece a melhor proteção para sua situação específica. <a href="/contato">Agende uma consulta</a> e tome a decisão certa.</p>
+<p><strong>A DDC LAW analisa seu caso previdenciário de forma completa</strong>, identificando qual benefício oferece a melhor proteção para sua situação específica. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Agende uma consulta</a> e tome a decisão certa.</p>
 </section>
     `,
   },
@@ -262,7 +262,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>O Valor Que Você Pode Estar Perdendo Todo Mês</h2>
 <p>Com o salário mínimo de 2026 em R$1.621,00, o auxílio-acidente mínimo é de <strong>R$810,50/mês</strong>. São quase R$10 mil por ano que podem estar deixando de entrar na sua conta simplesmente porque você não sabia que tinha direito — ou porque o INSS negou sem razão.</p>
-<p><strong>A DDC LAW atua exclusivamente em direito previdenciário e trabalhista.</strong> Se você ficou com qualquer sequela após acidente de trabalho, podemos avaliar seu direito ao auxílio-acidente e conduzir o pedido administrativo ou judicial. <a href="/contato">Fale conosco pelo WhatsApp</a>.</p>
+<p><strong>A DDC LAW atua exclusivamente em direito previdenciário e trabalhista.</strong> Se você ficou com qualquer sequela após acidente de trabalho, podemos avaliar seu direito ao auxílio-acidente e conduzir o pedido administrativo ou judicial. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale conosco pelo WhatsApp</a>.</p>
 </section>
     `,
   },
@@ -338,7 +338,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Documentação é a Chave — Prepare-se Antes da Perícia</h2>
 <p>A maior causa de negativa é documentação insuficiente. Para cada doença da lista, os exames específicos mencionados na tabela acima são <strong>essenciais</strong>. Laudos genéricos como "paciente incapaz" não bastam — o perito precisa ver exames objetivos que comprovem o diagnóstico e a gravidade.</p>
-<p><strong>A DDC LAW prepara dossiês médicos completos para perícias do INSS.</strong> Sabemos exatamente o que cada doença exige em termos de documentação. <a href="/contato">Consulte-nos antes de agendar sua perícia</a> — a diferença entre aprovação e negativa frequentemente está na preparação.</p>
+<p><strong>A DDC LAW prepara dossiês médicos completos para perícias do INSS.</strong> Sabemos exatamente o que cada doença exige em termos de documentação. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Consulte-nos antes de agendar sua perícia</a> — a diferença entre aprovação e negativa frequentemente está na preparação.</p>
 </section>
     `,
   },
@@ -435,7 +435,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Não Enfrente o Pente-Fino Sozinho</h2>
 <p>A revisão de benefício por incapacidade é um dos momentos mais angustiantes para quem depende do INSS. A diferença entre manter e perder o benefício frequentemente está na <strong>preparação documental</strong> e na <strong>estratégia de defesa</strong>.</p>
-<p><strong>A DDC LAW prepara segurados para perícias de revisão e atua no restabelecimento de benefícios cessados.</strong> Se você foi convocado para o pente-fino ou já teve o benefício cortado, <a href="/contato">entre em contato agora</a> — quanto antes agirmos, melhor o resultado.</p>
+<p><strong>A DDC LAW prepara segurados para perícias de revisão e atua no restabelecimento de benefícios cessados.</strong> Se você foi convocado para o pente-fino ou já teve o benefício cortado, <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">entre em contato agora</a> — quanto antes agirmos, melhor o resultado.</p>
 </section>
     `,
   },
@@ -535,7 +535,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Não Deixe Esse Direito Sem Cobrar</h2>
 <p>O adicional de 25% pode representar <strong>milhares de reais por ano</strong> na renda de quem já enfrenta a dificuldade de depender de outra pessoa para viver. Se você ou um familiar aposentado por invalidez precisa de assistência permanente, esse acréscimo é um direito previsto em lei.</p>
-<p><strong>A DDC LAW atua na concessão do adicional de 25%</strong>, preparando a documentação médica e acompanhando o processo administrativo ou judicial. <a href="/contato">Agende uma avaliação</a> e saiba se você tem direito.</p>
+<p><strong>A DDC LAW atua na concessão do adicional de 25%</strong>, preparando a documentação médica e acompanhando o processo administrativo ou judicial. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Agende uma avaliação</a> e saiba se você tem direito.</p>
 </section>
     `,
   },
@@ -669,7 +669,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>A Estratégia Certa Economiza Tempo e Garante Retroativos</h2>
 <p>Cada mês sem o benefício é um mês de renda perdida — mas também um mês a mais de retroativo quando a reversão acontecer. A escolha do caminho certo desde o início pode significar a diferença entre receber o benefício em semanas (tutela de urgência) ou em anos.</p>
-<p><strong>A DDC LAW analisa negativas do INSS e define a melhor estratégia de reversão para cada caso.</strong> Recurso, novo pedido ou ação judicial — a decisão precisa ser técnica, não emocional. <a href="/contato">Envie sua carta de negativa pelo WhatsApp</a> e receba uma análise em até 48h.</p>
+<p><strong>A DDC LAW analisa negativas do INSS e define a melhor estratégia de reversão para cada caso.</strong> Recurso, novo pedido ou ação judicial — a decisão precisa ser técnica, não emocional. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Envie sua carta de negativa pelo WhatsApp</a> e receba uma análise em até 48h.</p>
 </section>
     `,
   },
@@ -763,7 +763,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Recurso Bem Feito Exige Técnica — Não Arrisque Seu Prazo</h2>
 <p>Você tem <strong>apenas uma chance</strong> de recurso administrativo e <strong>apenas 30 dias</strong> para exercê-la. Um recurso mal fundamentado é uma oportunidade desperdiçada que pode atrasar seu benefício em meses ou anos.</p>
-<p><strong>A DDC LAW redige recursos previdenciários com fundamentação técnica e jurídica adequada.</strong> Se você recebeu uma negativa do INSS, <a href="/contato">envie o documento pelo WhatsApp</a> e avaliamos se o recurso administrativo é a melhor estratégia para o seu caso.</p>
+<p><strong>A DDC LAW redige recursos previdenciários com fundamentação técnica e jurídica adequada.</strong> Se você recebeu uma negativa do INSS, <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">envie o documento pelo WhatsApp</a> e avaliamos se o recurso administrativo é a melhor estratégia para o seu caso.</p>
 </section>
     `,
   },
@@ -860,7 +860,7 @@ export const batchCPosts: BlogPost[] = [
 <section>
 <h2>Corrija Antes de Pedir a Aposentadoria</h2>
 <p>O momento ideal para verificar e corrigir o CNIS é <strong>antes</strong> de dar entrada na aposentadoria. Uma vez que o benefício é concedido com valor errado por falta de períodos no CNIS, o processo de revisão é mais demorado e burocrático.</p>
-<p><strong>A DDC LAW faz análise completa do CNIS</strong>, identificando períodos faltantes, salários incorretos e oportunidades de averbação que podem aumentar significativamente o valor da sua aposentadoria. <a href="/contato">Envie seu CNIS pelo WhatsApp</a> e receba um diagnóstico preliminar.</p>
+<p><strong>A DDC LAW faz análise completa do CNIS</strong>, identificando períodos faltantes, salários incorretos e oportunidades de averbação que podem aumentar significativamente o valor da sua aposentadoria. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Envie seu CNIS pelo WhatsApp</a> e receba um diagnóstico preliminar.</p>
 </section>
     `,
   },
@@ -1009,7 +1009,7 @@ export const batchCPosts: BlogPost[] = [
 
 <section>
 <h2>Planeje Sua Aposentadoria Com Dados, Não Com Achismo</h2>
-<p><strong>A DDC LAW faz planejamento previdenciário completo</strong>: analisa seu CNIS, simula todas as regras de transição aplicáveis, calcula o valor estimado em cada cenário e recomenda a regra que oferece o melhor resultado financeiro para o seu caso específico. <a href="/contato">Agende seu planejamento previdenciário</a> e tome a decisão mais importante da sua vida financeira com segurança.</p>
+<p><strong>A DDC LAW faz planejamento previdenciário completo</strong>: analisa seu CNIS, simula todas as regras de transição aplicáveis, calcula o valor estimado em cada cenário e recomenda a regra que oferece o melhor resultado financeiro para o seu caso específico. <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Agende seu planejamento previdenciário</a> e tome a decisão mais importante da sua vida financeira com segurança.</p>
 </section>
     `,
   },

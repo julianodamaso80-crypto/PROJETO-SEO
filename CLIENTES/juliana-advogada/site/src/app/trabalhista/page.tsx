@@ -3,8 +3,9 @@ import { blogPosts } from "@/content/posts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advogada Trabalhista | DDC LAW",
+  title: "Advogada Trabalhista",
   description: "Empresa desrespeitou seus direitos? Fale com uma advogada trabalhista especializada.",
+  alternates: { canonical: "/trabalhista" },
 };
 
 const WA = "https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";

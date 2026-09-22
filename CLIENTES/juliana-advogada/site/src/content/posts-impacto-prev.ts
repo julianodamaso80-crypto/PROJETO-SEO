@@ -91,7 +91,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você está próximo de se aposentar ou quer saber quanto falta, o primeiro passo é analisar seu extrato previdenciário e simular cada regra de transição. Não confie apenas no simulador do Meu INSS — ele é genérico e não considera tempo especial, contribuições em atraso ou vínculos não registrados.</p>
 
-<p><strong>Quer descobrir qual regra de transição é a melhor para o seu caso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico contributivo e indicamos o caminho mais vantajoso para sua aposentadoria em 2026.</p>
+<p><strong>Quer descobrir qual regra de transição é a melhor para o seu caso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico contributivo e indicamos o caminho mais vantajoso para sua aposentadoria em 2026.</p>
 `,
   },
 
@@ -183,7 +183,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se o INSS negou seu benefício, não aceite a decisão sem questionar. A maioria das negativas pode ser revertida com a documentação correta e a estratégia adequada. Cada dia sem recorrer é um dia de benefício perdido.</p>
 
-<p><strong>Teve o benefício negado e não sabe por onde começar?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o motivo da negativa e indicamos o melhor caminho — recurso administrativo ou ação judicial — para garantir o que é seu por direito.</p>
+<p><strong>Teve o benefício negado e não sabe por onde começar?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o motivo da negativa e indicamos o melhor caminho — recurso administrativo ou ação judicial — para garantir o que é seu por direito.</p>
 `,
   },
 
@@ -282,7 +282,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você é idoso com 65 anos ou mais, ou pessoa com deficiência, e sua família vive em situação de vulnerabilidade, o BPC pode garantir R$ 1.621 por mês. O primeiro passo é se inscrever no CadÚnico e, em seguida, fazer o requerimento no Meu INSS.</p>
 
-<p><strong>Não sabe se cumpre os requisitos ou teve o BPC negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos sua situação familiar e orientamos sobre o pedido administrativo ou judicial.</p>
+<p><strong>Não sabe se cumpre os requisitos ou teve o BPC negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos sua situação familiar e orientamos sobre o pedido administrativo ou judicial.</p>
 `,
   },
 
@@ -376,7 +376,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se o INSS negou seu auxílio-doença na perícia, saiba que a negativa pode ser revertida. O segredo está na <strong>documentação médica adequada</strong> e na <strong>estratégia correta</strong> de recurso.</p>
 
-<p><strong>Precisa recorrer de uma perícia negativa?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu caso, orientamos sobre a documentação e definimos o melhor caminho — recurso administrativo ou ação judicial.</p>
+<p><strong>Precisa recorrer de uma perícia negativa?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu caso, orientamos sobre a documentação e definimos o melhor caminho — recurso administrativo ou ação judicial.</p>
 `,
   },
 
@@ -478,7 +478,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você está incapaz de trabalhar de forma permanente, a aposentadoria por invalidez pode garantir sua renda. O sucesso do pedido depende de <strong>documentação médica robusta</strong> e de uma estratégia adequada na perícia.</p>
 
-<p><strong>Quer saber se sua doença dá direito à aposentadoria por invalidez?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu quadro clínico, verificamos os requisitos e orientamos sobre o melhor caminho para garantir seu benefício.</p>
+<p><strong>Quer saber se sua doença dá direito à aposentadoria por invalidez?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu quadro clínico, verificamos os requisitos e orientamos sobre o melhor caminho para garantir seu benefício.</p>
 `,
   },
 
@@ -556,7 +556,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>A Revisão da Vida Toda pode representar um aumento significativo na aposentadoria de quem tinha bons salários antes de 1994. Mas exige cálculo preciso e análise jurídica especializada.</p>
 
-<p><strong>Quer saber se a Revisão da Vida Toda compensa no seu caso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico contributivo, fazemos os cálculos comparativos e indicamos se a revisão é vantajosa para você.</p>
+<p><strong>Quer saber se a Revisão da Vida Toda compensa no seu caso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico contributivo, fazemos os cálculos comparativos e indicamos se a revisão é vantajosa para você.</p>
 `,
   },
 
@@ -674,7 +674,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você perdeu um familiar que contribuía para o INSS, a pensão por morte pode garantir sua segurança financeira. O pedido deve ser feito o mais rápido possível para não perder parcelas retroativas.</p>
 
-<p><strong>Precisa pedir a pensão por morte ou teve o pedido negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre os documentos necessários, calculamos o valor do benefício e acompanhamos todo o processo.</p>
+<p><strong>Precisa pedir a pensão por morte ou teve o pedido negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre os documentos necessários, calculamos o valor do benefício e acompanhamos todo o processo.</p>
 `,
   },
 
@@ -778,7 +778,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você trabalhou ou trabalha em atividade insalubre ou perigosa, o tempo especial pode ser a chave para antecipar sua aposentadoria ou aumentar o valor do benefício. O primeiro passo é reunir os PPPs de todas as empresas por onde passou.</p>
 
-<p><strong>Quer saber se seu tempo de trabalho pode ser reconhecido como especial?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seus documentos, verificamos a exposição a agentes nocivos e calculamos o impacto no seu tempo de aposentadoria.</p>
+<p><strong>Quer saber se seu tempo de trabalho pode ser reconhecido como especial?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seus documentos, verificamos a exposição a agentes nocivos e calculamos o impacto no seu tempo de aposentadoria.</p>
 `,
   },
 
@@ -862,7 +862,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Acesse seu CNIS hoje e compare com seus documentos. Se encontrar divergências, providencie a correção o quanto antes — cada mês de contribuição conta para o cálculo do seu benefício.</p>
 
-<p><strong>Encontrou erros no CNIS e não sabe como corrigir?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu extrato, identificamos todas as pendências e cuidamos da correção administrativa ou judicial.</p>
+<p><strong>Encontrou erros no CNIS e não sabe como corrigir?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu extrato, identificamos todas as pendências e cuidamos da correção administrativa ou judicial.</p>
 `,
   },
 
@@ -948,7 +948,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você trabalhou no campo e está se aproximando da idade mínima, comece a reunir documentos agora. Quanto mais antigos e variados os documentos, mais forte será sua prova.</p>
 
-<p><strong>Quer saber se consegue comprovar seu tempo rural?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seus documentos, orientamos sobre quais provas complementares são necessárias e acompanhamos o requerimento ou a ação judicial.</p>
+<p><strong>Quer saber se consegue comprovar seu tempo rural?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seus documentos, orientamos sobre quais provas complementares são necessárias e acompanhamos o requerimento ou a ação judicial.</p>
 `,
   },
 
@@ -1038,7 +1038,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você trabalha como autônomo ou está sem emprego, manter as contribuições ao INSS em dia é essencial para garantir proteção em caso de doença, acidente ou na aposentadoria. Escolha o plano que cabe no seu orçamento e comece a contribuir.</p>
 
-<p><strong>Não sabe qual plano é o ideal para você?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico contributivo e indicamos a melhor estratégia de contribuição para maximizar seus direitos previdenciários.</p>
+<p><strong>Não sabe qual plano é o ideal para você?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico contributivo e indicamos a melhor estratégia de contribuição para maximizar seus direitos previdenciários.</p>
 `,
   },
 
@@ -1120,7 +1120,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Não espere até o momento de pedir a aposentadoria para descobrir que poderia ter feito melhor. O planejamento previdenciário antecipado permite corrigir erros, completar lacunas e escolher o caminho mais vantajoso.</p>
 
-<p><strong>Quer saber exatamente quanto vai receber de aposentadoria?</strong> <a href="/contato">Fale com a nossa equipe</a>. Realizamos o planejamento previdenciário completo, com análise do CNIS, simulação em todas as regras e plano de ação personalizado.</p>
+<p><strong>Quer saber exatamente quanto vai receber de aposentadoria?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Realizamos o planejamento previdenciário completo, com análise do CNIS, simulação em todas as regras e plano de ação personalizado.</p>
 `,
   },
 
@@ -1207,7 +1207,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Revise seu histórico: se você já recebeu auxílio-doença e ficou com sequela, pode ter direito ao auxílio-acidente desde a data da alta — com pagamento retroativo.</p>
 
-<p><strong>Ficou com sequela após acidente ou doença e quer saber se tem direito?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu caso e orientamos sobre o pedido administrativo ou judicial do auxílio-acidente.</p>
+<p><strong>Ficou com sequela após acidente ou doença e quer saber se tem direito?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu caso e orientamos sobre o pedido administrativo ou judicial do auxílio-acidente.</p>
 `,
   },
 
@@ -1295,7 +1295,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você está sem contribuir, verifique há quanto tempo parou e se ainda está dentro do período de graça. Se estiver perto de perder a qualidade, uma única contribuição como facultativo (a partir de R$ 81,05) renova seus direitos por mais 12 meses.</p>
 
-<p><strong>Não sabe se ainda tem qualidade de segurado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos seu histórico no INSS e orientamos sobre como manter sua proteção previdenciária ativa.</p>
+<p><strong>Não sabe se ainda tem qualidade de segurado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos seu histórico no INSS e orientamos sobre como manter sua proteção previdenciária ativa.</p>
 `,
   },
 
@@ -1390,7 +1390,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você é pessoa com deficiência e contribui para o INSS, pode ter direito a uma aposentadoria com requisitos significativamente reduzidos. O primeiro passo é verificar se você já atingiu o tempo necessário e preparar a documentação para a avaliação biopsicossocial.</p>
 
-<p><strong>Quer saber se já pode se aposentar pela LC 142?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu caso, calculamos o tempo de contribuição e orientamos sobre a avaliação biopsicossocial do INSS.</p>
+<p><strong>Quer saber se já pode se aposentar pela LC 142?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu caso, calculamos o tempo de contribuição e orientamos sobre a avaliação biopsicossocial do INSS.</p>
 `,
   },
 
@@ -1469,7 +1469,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Instale o Meu INSS no celular e acesse seu extrato de contribuição. Confira se todos os vínculos e salários estão corretos. Esse simples hábito pode evitar problemas quando chegar a hora de pedir um benefício.</p>
 
-<p><strong>Precisa de ajuda para usar o Meu INSS ou encontrou problemas no seu extrato?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre o uso da plataforma e cuidamos das correções necessárias no seu cadastro.</p>
+<p><strong>Precisa de ajuda para usar o Meu INSS ou encontrou problemas no seu extrato?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre o uso da plataforma e cuidamos das correções necessárias no seu cadastro.</p>
 `,
   },
 
@@ -1551,7 +1551,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você recebe um benefício do INSS e pode ter direito a outro, é fundamental verificar as regras de acumulação antes de fazer o pedido. Em muitos casos, a estratégia correta é optar pelo benefício mais vantajoso em vez de acumular.</p>
 
-<p><strong>Quer saber se pode acumular benefícios no seu caso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seus benefícios e indicamos a melhor estratégia para maximizar sua renda previdenciária.</p>
+<p><strong>Quer saber se pode acumular benefícios no seu caso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seus benefícios e indicamos a melhor estratégia para maximizar sua renda previdenciária.</p>
 `,
   },
 
@@ -1645,7 +1645,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você está grávida, em processo de adoção ou acabou de dar à luz, verifique se cumpre os requisitos e solicite o benefício. Lembre-se de que o pedido pode ser feito até 5 anos após o fato gerador (parto ou adoção).</p>
 
-<p><strong>Teve o salário-maternidade negado ou não sabe se tem direito?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos sua situação previdenciária e orientamos sobre como garantir o benefício.</p>
+<p><strong>Teve o salário-maternidade negado ou não sabe se tem direito?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos sua situação previdenciária e orientamos sobre como garantir o benefício.</p>
 `,
   },
 
@@ -1740,7 +1740,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você é professor de educação básica, verifique seu CNIS para garantir que todos os vínculos de magistério estão registrados corretamente. Simule sua aposentadoria em cada regra de transição para identificar qual é a mais vantajosa.</p>
 
-<p><strong>É professor e quer saber quando pode se aposentar?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico de magistério, simulamos todas as regras e indicamos o caminho mais vantajoso para sua aposentadoria.</p>
+<p><strong>É professor e quer saber quando pode se aposentar?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico de magistério, simulamos todas as regras e indicamos o caminho mais vantajoso para sua aposentadoria.</p>
 `,
   },
 
@@ -1832,7 +1832,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você tem períodos sem contribuição que poderiam ser pagos em atraso, o primeiro passo é avaliar se o investimento compensa. Não pague sem fazer contas antes — o prejuízo pode ser significativo.</p>
 
-<p><strong>Quer saber se vale a pena pagar INSS atrasado no seu caso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Calculamos o custo do recolhimento e o impacto no seu benefício para que você tome a decisão certa.</p>
+<p><strong>Quer saber se vale a pena pagar INSS atrasado no seu caso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Calculamos o custo do recolhimento e o impacto no seu benefício para que você tome a decisão certa.</p>
 `,
   },
 
@@ -1932,7 +1932,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você tem perícia agendada, prepare-se com antecedência. A documentação adequada pode fazer a diferença entre ter o benefício concedido ou negado.</p>
 
-<p><strong>Tem perícia marcada e quer se preparar da melhor forma?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre quais documentos são essenciais e como apresentar seu caso ao perito de forma eficaz.</p>
+<p><strong>Tem perícia marcada e quer se preparar da melhor forma?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre quais documentos são essenciais e como apresentar seu caso ao perito de forma eficaz.</p>
 `,
   },
 
@@ -2018,7 +2018,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você é dependente de uma pessoa que está presa em regime fechado e que contribuía para o INSS, pode ter direito ao auxílio-reclusão. Não deixe o prazo passar — cada mês sem requerimento é um mês de benefício perdido.</p>
 
-<p><strong>Precisa solicitar o auxílio-reclusão ou teve o pedido negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos os requisitos e orientamos sobre o pedido ou recurso.</p>
+<p><strong>Precisa solicitar o auxílio-reclusão ou teve o pedido negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos os requisitos e orientamos sobre o pedido ou recurso.</p>
 `,
   },
 
@@ -2105,7 +2105,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você trabalhou parte da vida no campo e parte na cidade, não deixe nenhum período sem aproveitamento. A aposentadoria híbrida pode ser a chave para garantir seu benefício.</p>
 
-<p><strong>Quer saber se a aposentadoria híbrida é o melhor caminho para você?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico rural e urbano e indicamos a estratégia mais vantajosa.</p>
+<p><strong>Quer saber se a aposentadoria híbrida é o melhor caminho para você?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico rural e urbano e indicamos a estratégia mais vantajosa.</p>
 `,
   },
 
@@ -2203,7 +2203,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Confira seu extrato de pagamento no Meu INSS para garantir que o reajuste foi aplicado corretamente. Se o valor parece errado, pode haver um problema que precisa ser corrigido.</p>
 
-<p><strong>Acha que seu benefício não foi reajustado corretamente?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos o cálculo do reajuste e orientamos sobre eventuais correções ou revisões.</p>
+<p><strong>Acha que seu benefício não foi reajustado corretamente?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos o cálculo do reajuste e orientamos sobre eventuais correções ou revisões.</p>
 `,
   },
 
@@ -2274,7 +2274,7 @@ export const postsImpactoPrev: BlogPost[] = [
 
 <p>Se você se aposentou e continuou contribuindo na esperança de melhorar o benefício via desaposentação, a via está fechada. Porém, outras revisões podem ser possíveis. O importante é analisar se há algum erro no cálculo original ou alguma tese revisional aplicável ao seu caso.</p>
 
-<p><strong>Quer saber se existe alguma forma de melhorar o valor da sua aposentadoria?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu benefício e verificamos se há alguma revisão aplicável que possa aumentar seu valor mensal.</p>
+<p><strong>Quer saber se existe alguma forma de melhorar o valor da sua aposentadoria?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu benefício e verificamos se há alguma revisão aplicável que possa aumentar seu valor mensal.</p>
 `,
   },
 ];

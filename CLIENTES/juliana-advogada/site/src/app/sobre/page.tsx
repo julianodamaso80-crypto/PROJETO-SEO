@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { AdvogadaSection } from "@/components/AdvogadaSection";
 
 export const metadata: Metadata = {
-  title: "Sobre | DDC LAW Advocacia",
+  title: "Sobre",
   description: "Advogada especialista em Direito Trabalhista e Previdenciário.",
+  alternates: { canonical: "/sobre" },
 };
 
 const WA = "https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta";

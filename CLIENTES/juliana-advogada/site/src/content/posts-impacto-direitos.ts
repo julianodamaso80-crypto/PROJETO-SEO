@@ -76,7 +76,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você foi demitido durante um tratamento de saúde ou logo após uma doença relacionada ao trabalho, existe uma boa chance de a demissão ser revertida judicialmente. O primeiro passo é reunir toda a documentação médica e procurar orientação jurídica especializada.</p>
 
-<p><strong>Precisa avaliar se a sua demissão foi ilegal?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu caso, verificamos se há direito à reintegração ou indenização e orientamos sobre os próximos passos.</p>
+<p><strong>Precisa avaliar se a sua demissão foi ilegal?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu caso, verificamos se há direito à reintegração ou indenização e orientamos sobre os próximos passos.</p>
 `,
   },
 
@@ -156,7 +156,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você trabalha ou trabalhou além do horário sem receber horas extras, comece a reunir provas agora mesmo: salve e-mails, tire prints de mensagens, anote os horários reais de entrada e saída. Quanto mais documentação você tiver, mais forte será sua reclamação.</p>
 
-<p><strong>Quer saber quanto pode receber de horas extras não pagas?</strong> <a href="/contato">Fale com a nossa equipe</a>. Fazemos o cálculo detalhado dos valores devidos e orientamos sobre a melhor estratégia para cobrar seus direitos.</p>
+<p><strong>Quer saber quanto pode receber de horas extras não pagas?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Fazemos o cálculo detalhado dos valores devidos e orientamos sobre a melhor estratégia para cobrar seus direitos.</p>
 `,
   },
 
@@ -241,7 +241,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se a sua aposentadoria foi negada por falta de tempo, não aceite a decisão sem antes verificar se existem períodos que podem ser reconhecidos. Muitos segurados conseguem a aposentadoria após a comprovação de tempo rural, atividade especial ou vínculos não registrados no CNIS.</p>
 
-<p><strong>Teve a aposentadoria negada?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu CNIS, identificamos períodos que podem ser reconhecidos e traçamos a melhor estratégia para garantir o seu benefício.</p>
+<p><strong>Teve a aposentadoria negada?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu CNIS, identificamos períodos que podem ser reconhecidos e traçamos a melhor estratégia para garantir o seu benefício.</p>
 `,
   },
 
@@ -321,7 +321,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você sofreu um acidente de trabalho, o passo mais importante é garantir que a <strong>CAT</strong> foi emitida e que o afastamento está registrado como <strong>acidentário (B91)</strong>, e não como doença comum (B31). Isso garante estabilidade, FGTS e facilita a busca por indenizações.</p>
 
-<p><strong>Sofreu um acidente de trabalho e não sabe quais são seus direitos?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu caso e orientamos sobre cada direito que você tem — desde os benefícios do INSS até as indenizações devidas pela empresa.</p>
+<p><strong>Sofreu um acidente de trabalho e não sabe quais são seus direitos?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu caso e orientamos sobre cada direito que você tem — desde os benefícios do INSS até as indenizações devidas pela empresa.</p>
 `,
   },
 
@@ -394,7 +394,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>A estabilidade da gestante é um direito constitucional que não pode ser ignorado pela empresa. Se você foi demitida durante a gravidez ou durante o período de estabilidade pós-parto, tem direito à reintegração ou a uma indenização que pode ser bastante expressiva.</p>
 
-<p><strong>Foi demitida grávida?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu caso, calculamos a indenização devida e orientamos sobre a melhor estratégia — seja a reintegração ou a indenização substitutiva.</p>
+<p><strong>Foi demitida grávida?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu caso, calculamos a indenização devida e orientamos sobre a melhor estratégia — seja a reintegração ou a indenização substitutiva.</p>
 `,
   },
 
@@ -482,7 +482,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você está em situação de trabalho degradante, com jornada exaustiva ou restrição de liberdade, saiba que existem canais seguros e anônimos para denúncia. E se já saiu dessa situação, pode reivindicar judicialmente todos os direitos que lhe foram negados.</p>
 
-<p><strong>Precisa de orientação sobre trabalho em condições degradantes?</strong> <a href="/contato">Fale com a nossa equipe</a>. Tratamos cada caso com total sigilo e orientamos sobre os direitos e as medidas cabíveis.</p>
+<p><strong>Precisa de orientação sobre trabalho em condições degradantes?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Tratamos cada caso com total sigilo e orientamos sobre os direitos e as medidas cabíveis.</p>
 `,
   },
 
@@ -568,7 +568,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se o seu intervalo de almoço é suprimido ou reduzido abaixo do mínimo legal, você tem direito ao pagamento como hora extra. Comece a anotar os horários reais de intervalo e a reunir evidências.</p>
 
-<p><strong>Seu intervalo de almoço não é respeitado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Calculamos o valor devido e orientamos sobre como cobrar esse direito na Justiça.</p>
+<p><strong>Seu intervalo de almoço não é respeitado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Calculamos o valor devido e orientamos sobre como cobrar esse direito na Justiça.</p>
 `,
   },
 
@@ -658,7 +658,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>O adicional de insalubridade não é um favor — é um direito de quem arrisca a saúde pelo trabalho. Se você está exposto a agentes nocivos e não recebe o adicional, pode cobrar os últimos 5 anos judicialmente.</p>
 
-<p><strong>Acha que tem direito ao adicional de insalubridade?</strong> <a href="/contato">Fale com a nossa equipe</a>. Avaliamos a sua situação e orientamos sobre os próximos passos para garantir esse direito.</p>
+<p><strong>Acha que tem direito ao adicional de insalubridade?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Avaliamos a sua situação e orientamos sobre os próximos passos para garantir esse direito.</p>
 `,
   },
 
@@ -731,7 +731,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você trabalha em atividade perigosa e não recebe o adicional, pode cobrar os últimos 5 anos judicialmente. O valor acumulado, somado aos reflexos, costuma ser expressivo.</p>
 
-<p><strong>Trabalha em atividade perigosa e não recebe o adicional?</strong> <a href="/contato">Fale com a nossa equipe</a>. Avaliamos sua atividade, calculamos os valores devidos e orientamos sobre a ação judicial.</p>
+<p><strong>Trabalha em atividade perigosa e não recebe o adicional?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Avaliamos sua atividade, calculamos os valores devidos e orientamos sobre a ação judicial.</p>
 `,
   },
 
@@ -807,7 +807,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você desenvolveu uma doença que acredita estar relacionada ao trabalho, o primeiro passo é buscar um diagnóstico médico detalhado que descreva a relação com a atividade profissional. Com essa documentação, é possível exigir a emissão da CAT e garantir seus direitos.</p>
 
-<p><strong>Acredita que sua doença foi causada pelo trabalho?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu caso, verificamos o nexo causal e orientamos sobre os direitos aplicáveis.</p>
+<p><strong>Acredita que sua doença foi causada pelo trabalho?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu caso, verificamos o nexo causal e orientamos sobre os direitos aplicáveis.</p>
 `,
   },
 
@@ -884,7 +884,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você exerce funções muito além do que foi contratado, sem aumento salarial correspondente, comece a reunir provas: guarde e-mails, anote suas atividades diárias e converse com colegas que possam testemunhar.</p>
 
-<p><strong>Acumula funções sem receber por isso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos a sua situação e verificamos se há direito ao acréscimo salarial.</p>
+<p><strong>Acumula funções sem receber por isso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos a sua situação e verificamos se há direito ao acréscimo salarial.</p>
 `,
   },
 
@@ -963,7 +963,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se a empresa não pagou suas verbas rescisórias ou pagou com atraso, você tem direito à multa e pode cobrar judicialmente. Não deixe o prazo de 2 anos passar.</p>
 
-<p><strong>Não recebeu suas verbas rescisórias?</strong> <a href="/contato">Fale com a nossa equipe</a>. Calculamos tudo o que é devido, incluindo multas, e orientamos sobre a melhor forma de cobrar.</p>
+<p><strong>Não recebeu suas verbas rescisórias?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Calculamos tudo o que é devido, incluindo multas, e orientamos sobre a melhor forma de cobrar.</p>
 `,
   },
 
@@ -1054,7 +1054,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você é autônomo e não contribui ao INSS, está sem nenhuma proteção previdenciária. Um acidente ou doença pode significar meses sem renda e sem benefício. Comece a contribuir o quanto antes — mesmo o plano simplificado de 11% já garante a maioria dos benefícios.</p>
 
-<p><strong>É autônomo e quer se proteger?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre o melhor plano de contribuição, calculamos se vale a pena pagar atrasado e planejamos a sua aposentadoria.</p>
+<p><strong>É autônomo e quer se proteger?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre o melhor plano de contribuição, calculamos se vale a pena pagar atrasado e planejamos a sua aposentadoria.</p>
 `,
   },
 
@@ -1131,7 +1131,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você está perto de se aposentar, verifique a convenção coletiva da sua categoria. Se há previsão de estabilidade e a empresa está ameaçando demissões, reúna provas e procure orientação jurídica imediatamente — antes que a demissão aconteça.</p>
 
-<p><strong>Está perto da aposentadoria e teme ser demitido?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos se há estabilidade na sua convenção coletiva e orientamos sobre como proteger o seu emprego e a sua aposentadoria.</p>
+<p><strong>Está perto da aposentadoria e teme ser demitido?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos se há estabilidade na sua convenção coletiva e orientamos sobre como proteger o seu emprego e a sua aposentadoria.</p>
 `,
   },
 
@@ -1209,7 +1209,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você é aposentado e desconfia que o valor do benefício está errado, ou se tem períodos de contribuição que não foram reconhecidos, vale a pena fazer uma análise. Nem toda revisão gera aumento, mas quando gera, o impacto financeiro pode ser significativo — com diferenças atrasadas de anos.</p>
 
-<p><strong>Quer saber se a sua aposentadoria pode ser revisada?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu CNIS, simulamos o cálculo e informamos se a revisão vale a pena no seu caso.</p>
+<p><strong>Quer saber se a sua aposentadoria pode ser revisada?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu CNIS, simulamos o cálculo e informamos se a revisão vale a pena no seu caso.</p>
 `,
   },
 
@@ -1291,7 +1291,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se o INSS cortou seu benefício, aja rapidamente. Quanto mais cedo você recorrer, maiores as chances de restabelecimento e menores os prejuízos financeiros.</p>
 
-<p><strong>Teve o benefício cortado pelo INSS?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o motivo da cessação e orientamos sobre o melhor caminho para restabelecer o seu direito.</p>
+<p><strong>Teve o benefício cortado pelo INSS?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o motivo da cessação e orientamos sobre o melhor caminho para restabelecer o seu direito.</p>
 `,
   },
 
@@ -1366,7 +1366,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você trabalha no período noturno e não recebe o adicional de 20%, ou se a empresa não calcula corretamente a hora reduzida, está perdendo dinheiro. Verifique seu holerite e compare com os cálculos que apresentamos.</p>
 
-<p><strong>Trabalha à noite e acha que não recebe corretamente?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seus contracheques e calculamos os valores devidos.</p>
+<p><strong>Trabalha à noite e acha que não recebe corretamente?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seus contracheques e calculamos os valores devidos.</p>
 `,
   },
 
@@ -1447,7 +1447,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se suas férias estão vencidas ou se a empresa costuma "pagar" férias sem conceder o descanso, você tem valores a receber. O prazo para cobrar é de 2 anos após o fim do contrato, referente aos últimos 5 anos de trabalho.</p>
 
-<p><strong>Tem férias vencidas ou não concedidas?</strong> <a href="/contato">Fale com a nossa equipe</a>. Calculamos o valor em dobro e orientamos sobre como cobrar esse direito.</p>
+<p><strong>Tem férias vencidas ou não concedidas?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Calculamos o valor em dobro e orientamos sobre como cobrar esse direito.</p>
 `,
   },
 
@@ -1527,7 +1527,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você está sofrendo assédio ou discriminação no trabalho, comece a reunir provas imediatamente. Grave conversas, salve mensagens, anote datas e situações. Quanto mais documentado, mais forte será sua reclamação.</p>
 
-<p><strong>Sofre assédio ou humilhação no trabalho?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos a situação, orientamos sobre a produção de provas e calculamos a indenização devida.</p>
+<p><strong>Sofre assédio ou humilhação no trabalho?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos a situação, orientamos sobre a produção de provas e calculamos a indenização devida.</p>
 `,
   },
 
@@ -1605,7 +1605,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você é MEI, mantenha o DAS em dia e avalie se a complementação de 15% vale a pena para o seu caso. Se já tem tempo de CLT, um planejamento previdenciário pode revelar cenários muito melhores para a sua aposentadoria.</p>
 
-<p><strong>É MEI e quer planejar sua aposentadoria?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico de contribuições, simulamos os cenários e orientamos sobre a melhor estratégia.</p>
+<p><strong>É MEI e quer planejar sua aposentadoria?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico de contribuições, simulamos os cenários e orientamos sobre a melhor estratégia.</p>
 `,
   },
 
@@ -1689,7 +1689,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se a empresa descumpre reiteradamente o contrato de trabalho, você não precisa simplesmente aceitar ou pedir demissão perdendo direitos. A rescisão indireta é a saída legal para essa situação.</p>
 
-<p><strong>A empresa descumpre o contrato de trabalho?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos a situação, verificamos se há base para rescisão indireta e orientamos sobre os próximos passos.</p>
+<p><strong>A empresa descumpre o contrato de trabalho?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos a situação, verificamos se há base para rescisão indireta e orientamos sobre os próximos passos.</p>
 `,
   },
 
@@ -1785,7 +1785,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se o seu seguro-desemprego foi negado, identifique o motivo exato e verifique se há como corrigi-lo. Muitos casos são resolvidos com um simples recurso administrativo.</p>
 
-<p><strong>Teve o seguro-desemprego negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Identificamos o motivo da negativa e orientamos sobre o recurso mais adequado para garantir o seu benefício.</p>
+<p><strong>Teve o seguro-desemprego negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Identificamos o motivo da negativa e orientamos sobre o recurso mais adequado para garantir o seu benefício.</p>
 `,
   },
 
@@ -1877,7 +1877,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você tem períodos sem contribuição ao INSS, não saia pagando em atraso sem antes fazer um cálculo detalhado. Em muitos casos, a contribuição retroativa é um excelente investimento — mas em outros, é desperdício.</p>
 
-<p><strong>Quer saber se vale a pena pagar contribuição em atraso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Fazemos o cálculo completo, considerando custos, impacto no benefício e alternativas.</p>
+<p><strong>Quer saber se vale a pena pagar contribuição em atraso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Fazemos o cálculo completo, considerando custos, impacto no benefício e alternativas.</p>
 `,
   },
 
@@ -1974,7 +1974,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você é pessoa com deficiência e desconhecia esses direitos — ou se a empresa não os cumpre —, saiba que a proteção legal é ampla e efetiva. Desde a reserva de vagas até a aposentadoria com requisitos reduzidos, a legislação oferece ferramentas importantes.</p>
 
-<p><strong>Precisa de orientação sobre direitos do trabalhador com deficiência?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre cotas, adaptações, aposentadoria especial e qualquer situação de discriminação.</p>
+<p><strong>Precisa de orientação sobre direitos do trabalhador com deficiência?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre cotas, adaptações, aposentadoria especial e qualquer situação de discriminação.</p>
 `,
   },
 
@@ -2083,7 +2083,7 @@ export const postsImpactoDireitos: BlogPost[] = [
 
 <p>Se você tem direitos trabalhistas não pagos, a ação trabalhista é o caminho legal para cobrá-los. O processo tem custos controlados, e a maioria dos advogados trabalhistas trabalha em regime de êxito — você só paga se ganhar.</p>
 
-<p><strong>Quer saber se vale a pena entrar com ação trabalhista?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos o seu caso gratuitamente, calculamos os valores envolvidos e orientamos sobre as chances de sucesso e o tempo estimado do processo.</p>
+<p><strong>Quer saber se vale a pena entrar com ação trabalhista?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos o seu caso gratuitamente, calculamos os valores envolvidos e orientamos sobre as chances de sucesso e o tempo estimado do processo.</p>
 `,
   },
 ];

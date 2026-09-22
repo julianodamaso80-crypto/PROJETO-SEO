@@ -88,7 +88,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você foi demitido ou está planejando sair do emprego, faça os cálculos antes de assinar o Termo de Rescisão. Compare os valores com o que a empresa está oferecendo. Se houver diferença ou dúvida, <strong>não assine sem orientação jurídica</strong>.</p>
 
-<p><strong>Precisa de ajuda para conferir sua rescisão?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seus documentos e garantimos que você receba tudo o que tem direito.</p>
+<p><strong>Precisa de ajuda para conferir sua rescisão?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seus documentos e garantimos que você receba tudo o que tem direito.</p>
 `,
   },
 
@@ -183,7 +183,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Não espere chegar no INSS para descobrir que falta um documento. Use este checklist, reúna tudo com antecedência e, se perceber que há períodos sem comprovação, <strong>busque orientação antes de protocolar o pedido</strong>.</p>
 
-<p><strong>Quer garantir que seu pedido será aprovado sem atrasos?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu CNIS, identificamos pendências e preparamos toda a documentação.</p>
+<p><strong>Quer garantir que seu pedido será aprovado sem atrasos?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu CNIS, identificamos pendências e preparamos toda a documentação.</p>
 `,
   },
 
@@ -279,7 +279,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Não deixe de buscar seus direitos por medo do custo. Muitos advogados trabalhistas trabalham com honorários sobre o êxito, o que significa que <strong>você só paga se ganhar</strong>. O primeiro passo é fazer uma consulta para entender suas chances.</p>
 
-<p><strong>Quer saber quanto custaria resolver seu caso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Oferecemos uma avaliação inicial e explicamos todas as opções de honorários de forma transparente.</p>
+<p><strong>Quer saber quanto custaria resolver seu caso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Oferecemos uma avaliação inicial e explicamos todas as opções de honorários de forma transparente.</p>
 `,
   },
 
@@ -375,7 +375,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você está incapacitado para o trabalho, não espere o quadro piorar. Reúna seus documentos médicos, acesse o Meu INSS e dê entrada no pedido. Quanto antes protocolar, antes começa a contar o benefício.</p>
 
-<p><strong>Teve o pedido negado ou não sabe como dar entrada?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos todo o processo e, se necessário, ingressamos com ação judicial.</p>
+<p><strong>Teve o pedido negado ou não sabe como dar entrada?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos todo o processo e, se necessário, ingressamos com ação judicial.</p>
 `,
   },
 
@@ -467,7 +467,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você tem dúvidas sobre um prazo específico ou acha que pode estar perto de perder um direito, <strong>não espere</strong>. A prescrição não perdoa — depois que o prazo passa, não há como recuperar.</p>
 
-<p><strong>Está preocupado com algum prazo?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos sua situação e orientamos sobre os próximos passos antes que seja tarde.</p>
+<p><strong>Está preocupado com algum prazo?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos sua situação e orientamos sobre os próximos passos antes que seja tarde.</p>
 `,
   },
 
@@ -564,7 +564,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Baixe o app FGTS agora mesmo e confira se seus depósitos estão em dia. Se encontrar qualquer irregularidade — meses sem depósito, valores abaixo de 8% do salário ou contas inativas — procure orientação.</p>
 
-<p><strong>Descobriu que a empresa não está depositando seu FGTS?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu extrato e orientamos sobre como recuperar os valores devidos.</p>
+<p><strong>Descobriu que a empresa não está depositando seu FGTS?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu extrato e orientamos sobre como recuperar os valores devidos.</p>
 `,
   },
 
@@ -662,7 +662,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Use o simulador do Meu INSS como ponto de partida, mas <strong>não tome decisões baseadas apenas nele</strong>. Um planejamento previdenciário completo pode revelar períodos não reconhecidos e estratégias que aumentam significativamente seu benefício.</p>
 
-<p><strong>Quer saber qual a melhor regra para o seu caso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Fazemos um planejamento previdenciário completo com análise de todas as regras.</p>
+<p><strong>Quer saber qual a melhor regra para o seu caso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Fazemos um planejamento previdenciário completo com análise de todas as regras.</p>
 `,
   },
 
@@ -758,7 +758,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você foi demitido sem justa causa, confira todos os valores antes de assinar a rescisão. Compare com os cálculos deste guia. Se os números não baterem, <strong>não assine sem orientação</strong>.</p>
 
-<p><strong>Acha que seus valores estão errados?</strong> <a href="/contato">Fale com a nossa equipe</a>. Revisamos sua rescisão gratuitamente e orientamos sobre os próximos passos.</p>
+<p><strong>Acha que seus valores estão errados?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Revisamos sua rescisão gratuitamente e orientamos sobre os próximos passos.</p>
 `,
   },
 
@@ -851,7 +851,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você acredita que teve seus direitos trabalhistas violados, não espere o prazo de prescrição (2 anos) passar. Reúna seus documentos, organize suas provas e procure orientação jurídica.</p>
 
-<p><strong>Quer saber se vale a pena entrar com uma ação?</strong> <a href="/contato">Fale com a nossa equipe</a>. Avaliamos seu caso e explicamos suas chances de forma transparente.</p>
+<p><strong>Quer saber se vale a pena entrar com uma ação?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Avaliamos seu caso e explicamos suas chances de forma transparente.</p>
 `,
   },
 
@@ -962,7 +962,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Verifique se suas contribuições estão em dia acessando o extrato do CNIS pelo Meu INSS. Se há meses sem pagamento, regularize o quanto antes para não perder tempo de contribuição.</p>
 
-<p><strong>Tem dúvidas sobre qual plano escolher ou como regularizar contribuições atrasadas?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos a melhor estratégia para sua situação.</p>
+<p><strong>Tem dúvidas sobre qual plano escolher ou como regularizar contribuições atrasadas?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos a melhor estratégia para sua situação.</p>
 `,
   },
 
@@ -1065,7 +1065,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Consulte seu CNIS pelo Meu INSS e verifique se todos os períodos de trabalho estão registrados. Qualquer tempo faltante pode ser a diferença entre se aposentar agora ou daqui a anos.</p>
 
-<p><strong>Quer um planejamento personalizado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu histórico e indicamos a melhor regra de transição para o seu caso.</p>
+<p><strong>Quer um planejamento personalizado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu histórico e indicamos a melhor regra de transição para o seu caso.</p>
 `,
   },
 
@@ -1187,7 +1187,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você foi demitido sem justa causa, não espere. O prazo máximo é de 120 dias e, quanto antes solicitar, antes começa a receber. Verifique se a empresa entregou o requerimento do seguro-desemprego junto com a rescisão.</p>
 
-<p><strong>A empresa não entregou as guias ou seu pedido foi negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Resolvemos as pendências e garantimos seu acesso ao benefício.</p>
+<p><strong>A empresa não entregou as guias ou seu pedido foi negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Resolvemos as pendências e garantimos seu acesso ao benefício.</p>
 `,
   },
 
@@ -1288,7 +1288,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Pegue seus contracheques dos últimos meses e faça o cálculo usando a fórmula acima. Compare com o que a empresa está pagando. Se houver diferença, pode haver valores a receber.</p>
 
-<p><strong>Acha que suas horas extras estão sendo pagas errado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seus contracheques e calculamos os valores devidos.</p>
+<p><strong>Acha que suas horas extras estão sendo pagas errado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seus contracheques e calculamos os valores devidos.</p>
 `,
   },
 
@@ -1377,7 +1377,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se foi demitido, confira imediatamente seu extrato do FGTS e compare com os depósitos que deveriam ter sido feitos. Se os valores não batem ou a empresa não liberou o saque, busque orientação.</p>
 
-<p><strong>FGTS não liberado ou valores incorretos?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos seu caso e garantimos que você receba tudo que é devido.</p>
+<p><strong>FGTS não liberado ou valores incorretos?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos seu caso e garantimos que você receba tudo que é devido.</p>
 `,
   },
 
@@ -1474,7 +1474,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você precisa agendar uma perícia, reúna toda a documentação médica antes de marcar. Quanto mais completo o material, maiores as chances de um resultado favorável.</p>
 
-<p><strong>Precisa de ajuda para preparar a documentação ou recorrer de uma perícia negada?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos todo o processo e acompanhamos você em cada etapa.</p>
+<p><strong>Precisa de ajuda para preparar a documentação ou recorrer de uma perícia negada?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos todo o processo e acompanhamos você em cada etapa.</p>
 `,
   },
 
@@ -1585,7 +1585,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Conhecer seus direitos é o primeiro passo. Se você suspeita que algum deles está sendo descumprido — seja o pagamento atrasado, falta de registro de horas extras, não depósito do FGTS ou qualquer outra irregularidade — documente tudo e procure orientação.</p>
 
-<p><strong>Acha que seus direitos estão sendo violados?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos sua situação e orientamos os melhores caminhos.</p>
+<p><strong>Acha que seus direitos estão sendo violados?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos sua situação e orientamos os melhores caminhos.</p>
 `,
   },
 
@@ -1701,7 +1701,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Acesse agora o Meu INSS, baixe seu CNIS e compare com seus documentos. Se encontrar qualquer erro, inicie o processo de correção imediatamente.</p>
 
-<p><strong>Precisa de ajuda para corrigir seu CNIS?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu extrato, identificamos todas as pendências e cuidamos das correções.</p>
+<p><strong>Precisa de ajuda para corrigir seu CNIS?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu extrato, identificamos todas as pendências e cuidamos das correções.</p>
 `,
   },
 
@@ -1799,7 +1799,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se seu pedido está parado no INSS há mais de 90 dias, não espere mais. Cada dia de atraso é um dia a menos de benefício que poderia estar recebendo.</p>
 
-<p><strong>INSS atrasado ou pedido negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Agilizamos a análise e, se necessário, ingressamos com ação judicial para garantir seu benefício.</p>
+<p><strong>INSS atrasado ou pedido negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Agilizamos a análise e, se necessário, ingressamos com ação judicial para garantir seu benefício.</p>
 `,
   },
 
@@ -1904,7 +1904,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Faça a conta dos seus pontos e veja se já atingiu ou está próximo de atingir a pontuação. Se faltar pouco, verifique se há períodos não reconhecidos no CNIS que podem aumentar seu tempo.</p>
 
-<p><strong>Quer saber se a regra de pontos é a melhor para você?</strong> <a href="/contato">Fale com a nossa equipe</a>. Comparamos todas as regras e indicamos a mais vantajosa.</p>
+<p><strong>Quer saber se a regra de pontos é a melhor para você?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Comparamos todas as regras e indicamos a mais vantajosa.</p>
 `,
   },
 
@@ -2009,7 +2009,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você trabalhou sem carteira assinada e tem provas da relação de emprego, não deixe o prazo passar. Cada dia que passa pode significar um período a menos de direitos a receber.</p>
 
-<p><strong>Trabalhou sem registro e quer seus direitos?</strong> <a href="/contato">Fale com a nossa equipe</a>. Avaliamos suas provas e orientamos sobre as chances de reconhecimento do vínculo.</p>
+<p><strong>Trabalhou sem registro e quer seus direitos?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Avaliamos suas provas e orientamos sobre as chances de reconhecimento do vínculo.</p>
 `,
   },
 
@@ -2120,7 +2120,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você é empregado doméstico, verifique se sua carteira está assinada, se o eSocial está ativo e se os depósitos do FGTS estão sendo feitos. Se algum direito está sendo descumprido, documente tudo.</p>
 
-<p><strong>Seus direitos como doméstico estão sendo desrespeitados?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos sobre como regularizar a situação e recuperar valores devidos.</p>
+<p><strong>Seus direitos como doméstico estão sendo desrespeitados?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos sobre como regularizar a situação e recuperar valores devidos.</p>
 `,
   },
 
@@ -2231,7 +2231,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você está em alguma das situações de estabilidade e foi demitido ou está sendo ameaçado de demissão, não aceite passivamente. A lei está do seu lado.</p>
 
-<p><strong>Foi demitido durante período de estabilidade?</strong> <a href="/contato">Fale com a nossa equipe</a>. Analisamos seu caso e buscamos a reintegração ou indenização devida.</p>
+<p><strong>Foi demitido durante período de estabilidade?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Analisamos seu caso e buscamos a reintegração ou indenização devida.</p>
 `,
   },
 
@@ -2341,7 +2341,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você está recebendo auxílio-doença e sua condição não melhora, pode ser hora de pedir a conversão em aposentadoria por invalidez. Se já foi aposentado por invalidez e o INSS está convocando para revisão, prepare sua documentação médica atualizada.</p>
 
-<p><strong>Precisa converter auxílio-doença em aposentadoria ou recorrer de uma revisão?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos todo o processo e protegemos seu benefício.</p>
+<p><strong>Precisa converter auxílio-doença em aposentadoria ou recorrer de uma revisão?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos todo o processo e protegemos seu benefício.</p>
 `,
   },
 
@@ -2458,7 +2458,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Se você ou alguém da sua família é idoso (65+) ou pessoa com deficiência e a renda familiar é baixa, verifique se o CadÚnico está atualizado e dê entrada no BPC pelo Meu INSS.</p>
 
-<p><strong>Precisa de ajuda para pedir o BPC ou teve o pedido negado?</strong> <a href="/contato">Fale com a nossa equipe</a>. Orientamos todo o processo e, se necessário, recorremos judicialmente.</p>
+<p><strong>Precisa de ajuda para pedir o BPC ou teve o pedido negado?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Orientamos todo o processo e, se necessário, recorremos judicialmente.</p>
 `,
   },
 
@@ -2578,7 +2578,7 @@ export const postsImpactoGuias: BlogPost[] = [
 
 <p>Identifique o último dígito do seu benefício e consulte o calendário para saber exatamente quando cai seu pagamento. Se houver atraso, entre em contato pelo 135 ou vá à agência do INSS.</p>
 
-<p><strong>Seu benefício está atrasado ou foi suspenso?</strong> <a href="/contato">Fale com a nossa equipe</a>. Verificamos a situação e tomamos as providências para regularizar seu pagamento.</p>
+<p><strong>Seu benefício está atrasado ou foi suspenso?</strong> <a href="https://wa.me/5541998342090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener">Fale com a nossa equipe</a>. Verificamos a situação e tomamos as providências para regularizar seu pagamento.</p>
 `,
   },
 ];
