@@ -85,7 +85,7 @@ export function HeroSection() {
           </div>
 
           {/* Eyebrow — tamanho legível */}
-          <p style={{
+          <p className="hero-eyebrow" style={{
             fontSize: "14px",
             fontWeight: 600,
             letterSpacing: "0.25em",
@@ -188,7 +188,7 @@ export function HeroSection() {
         padding: "24px 32px",
         opacity: 0,
       }}>
-        <div style={{
+        <div className="hero-trust-lista" style={{
           maxWidth: "900px",
           margin: "0 auto",
           display: "flex",

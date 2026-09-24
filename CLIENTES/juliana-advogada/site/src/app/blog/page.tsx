@@ -9,6 +9,9 @@ const categories = ["Todos", ...Array.from(new Set(blogPosts.map((p) => p.catego
 
 export default function BlogPage() {
   const [active, setActive] = useState("Todos");
+  // 393 artigos de uma vez davam 236 telas de rolagem no celular
+  const POR_PAGINA = 12;
+  const [visiveis, setVisiveis] = useState(POR_PAGINA);
   const gridRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
 
@@ -19,6 +22,10 @@ export default function BlogPage() {
     const els = headerRef.current.children;
     gsap.fromTo(els, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, stagger: 0.12, ease: "power3.out" });
   }, []);
+
+  useEffect(() => {
+    setVisiveis(POR_PAGINA);
+  }, [active]);
 
   useEffect(() => {
     if (!gridRef.current) return;
@@ -187,7 +194,7 @@ export default function BlogPage() {
             gridTemplateColumns: "repeat(3, 1fr)",
             gap: "24px",
           }}>
-            {filtered.slice(1).map((post, i) => (
+            {filtered.slice(1, visiveis + 1).map((post, i) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: "none" }}>
                 <article style={{
                   height: "100%",
@@ -263,6 +270,31 @@ export default function BlogPage() {
                 </article>
               </Link>
             ))}
+          </div>
+
+          {/* Carregar mais / atalho para os temas */}
+          <div style={{ textAlign: "center", marginTop: "48px" }}>
+            {visiveis + 1 < filtered.length ? (
+              <>
+                <button
+                  onClick={() => setVisiveis((v) => v + POR_PAGINA)}
+                  className="btn-primary"
+                  style={{ animation: "none" }}
+                >
+                  Carregar mais artigos
+                </button>
+                <p style={{ marginTop: "16px", fontSize: "15px", color: "var(--text-muted)" }}>
+                  Mostrando {Math.min(visiveis + 1, filtered.length)} de {filtered.length} artigos
+                </p>
+              </>
+            ) : (
+              <p style={{ fontSize: "15px", color: "var(--text-muted)" }}>
+                Todos os {filtered.length} artigos estão sendo exibidos.
+              </p>
+            )}
+            <p style={{ marginTop: "20px" }}>
+              <Link href="/temas" className="btn-text">Procurar por tema →</Link>
+            </p>
           </div>
         </div>
       </section>

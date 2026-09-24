@@ -9,6 +9,7 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="WhatsApp"
+      className="whatsapp-flutuante"
       style={{
         position: "fixed",
         bottom: "24px",

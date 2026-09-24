@@ -310,7 +310,38 @@ a { color: inherit; }
    Responsive
 ─────────────────────────── */
 @media (max-width: 768px) {
-  :root { --section-py: 64px; }
+  :root { --section-py: 56px; }
+
+  /* Tipografia: 19px/1.75 é confortável no desktop e desmonta o texto no
+     celular — a linha fica curta demais e o espaço entre linhas domina. */
+  body { font-size: 17px; line-height: 1.6; }
+  h1 { line-height: 1.15 !important; }
+  h2, h3 { line-height: 1.2 !important; }
+
+  /* Parágrafo longo centralizado em tela estreita é o que mais pesa na
+     leitura: cada linha começa num ponto diferente. Títulos seguem centrados. */
+  p, li, blockquote { text-align: left; }
+  .blog-content { text-align: left; }
+  .eyebrow { letter-spacing: 0.12em; }
+
+  /* Alvos de toque: mínimo de 44px recomendado para o dedo */
+  .mobile-toggle { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+  .btn-text { display: inline-block; min-height: 44px; line-height: 44px; }
+  footer a { min-height: 44px; display: flex !important; align-items: center; }
+
+  /* O flutuante do WhatsApp cobria o CTA verde no rodapé das seções */
+  .whatsapp-flutuante { width: 48px !important; height: 48px !important; bottom: 16px !important; right: 16px !important; }
+
+  /* Hero: o logo já aparece no cabeçalho fixo, logo acima — repetir consome
+     meia tela antes de o visitante ler qualquer coisa. */
+  .hero-logo { display: none !important; }
+  .hero-content { padding: 24px 20px 72px !important; }
+  /* 0.25em de espaçamento esticava a linha para 3 no celular */
+  .hero-eyebrow { letter-spacing: 0.1em !important; font-size: 12px !important; margin-bottom: 20px !important; }
+  /* a lista em linha única cortava "Atendemos Todo o Brasil" na borda */
+  .hero-trust-lista { display: grid !important; grid-template-columns: 1fr 1fr; gap: 6px 12px !important; font-size: 11px !important; }
+  .hero-trust-lista span span { display: none; }
+
   .desktop-nav { display: none !important; }
   .mobile-toggle { display: flex !important; }
   .blog-featured { grid-template-columns: 1fr !important; }
